@@ -1,0 +1,362 @@
+"""
+Daily job fetcher.
+
+Pulls listings posted in the last ~24h from job boards, applies cheap keyword
+filters, removes anything already seen, and writes today's new listings to
+data/. Claude picks the file up afterwards for scoring and the digest.
+
+No AI calls happen here. Only secret needed: RAPIDAPI_KEY (Adzuna optional).
+"""
+
+from __future__ import annotations
+
+import html
+import json
+import os
+import re
+import sys
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+
+import requests
+
+import config
+
+BASE_DIR = Path(__file__).parent
+DATA_DIR = BASE_DIR / "data"
+DAILY_DIR = DATA_DIR / "daily"
+SEEN_FILE = DATA_DIR / "seen_jobs.json"
+LATEST_FILE = DATA_DIR / "latest.json"
+
+HEADERS = {"User-Agent": "Mozilla/5.0 (personal job digest; contact via GitHub)"}
+NOW = datetime.now(timezone.utc)
+CUTOFF = NOW - timedelta(hours=config.MAX_AGE_HOURS)
+
+RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY", "").strip()
+ADZUNA_APP_ID = os.environ.get("ADZUNA_APP_ID", "").strip()
+ADZUNA_APP_KEY = os.environ.get("ADZUNA_APP_KEY", "").strip()
+
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+def log(msg: str) -> None:
+    print(f"[fetch] {msg}", flush=True)
+
+
+def clean_text(s: str | None, limit: int = 4000) -> str:
+    if not s:
+        return ""
+    s = html.unescape(re.sub(r"<[^>]+>", " ", s))
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit]
+
+
+def _word_re(words: list[str]) -> re.Pattern:
+    return re.compile(r"\b(" + "|".join(re.escape(w) for w in words) + r")\b", re.I)
+
+
+_TITLE_EXCLUDE_RE = _word_re(config.TITLE_EXCLUDE)
+
+
+def title_ok(title: str) -> bool:
+    t = title.lower()
+    if not any(k in t for k in config.TITLE_INCLUDE):
+        return False
+    return not _TITLE_EXCLUDE_RE.search(title)
+
+
+def location_ok(location: str, is_remote: bool) -> bool:
+    loc = (location or "").lower()
+    if any(k in loc for k in config.GTA_KEYWORDS):
+        return True
+    remote = is_remote or any(k in loc for k in config.REMOTE_KEYWORDS)
+    if not remote:
+        return False
+    return not any(r in loc for r in config.REMOTE_EXCLUDE_REGIONS)
+
+
+def fresh(posted: datetime | None) -> bool:
+    # Unknown dates are kept; the source query is already date-limited.
+    return posted is None or posted >= CUTOFF
+
+
+def parse_dt(value) -> datetime | None:
+    if value in (None, ""):
+        return None
+    try:
+        if isinstance(value, (int, float)):
+            return datetime.fromtimestamp(value, tz=timezone.utc)
+        s = str(value).strip()
+        if s.isdigit():
+            return datetime.fromtimestamp(int(s), tz=timezone.utc)
+        try:
+            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except ValueError:
+            dt = parsedate_to_datetime(s)
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+
+def make_job(*, id, source, title, company, location, url, posted, remote,
+             description="", salary="", publisher="") -> dict:
+    return {
+        "id": id,
+        "source": source,
+        "publisher": publisher or source,
+        "title": (title or "").strip(),
+        "company": (company or "").strip(),
+        "location": (location or "").strip(),
+        "remote": bool(remote),
+        "url": url,
+        "posted": posted.isoformat() if posted else None,
+        "salary": salary,
+        "description": clean_text(description),
+    }
+
+
+def keep(job: dict, posted: datetime | None) -> bool:
+    return (
+        bool(job["title"]) and bool(job["url"])
+        and title_ok(job["title"])
+        and location_ok(job["location"], job["remote"])
+        and fresh(posted)
+    )
+
+
+# ---------------------------------------------------------------------------
+# Sources
+# ---------------------------------------------------------------------------
+def fetch_jsearch() -> list[dict]:
+    if not RAPIDAPI_KEY:
+        log("JSearch skipped: RAPIDAPI_KEY not set")
+        return []
+    out = []
+    for query, country, remote_only in config.JSEARCH_QUERIES:
+        params = {
+            "query": query,
+            "page": "1",
+            "num_pages": str(config.JSEARCH_NUM_PAGES),
+            "country": country,
+            "date_posted": config.JSEARCH_DATE_POSTED,
+            "employment_types": "FULLTIME",
+        }
+        if remote_only:
+            params["work_from_home"] = "true"
+        try:
+            r = requests.get(
+                "https://jsearch.p.rapidapi.com/search",
+                headers={"x-rapidapi-key": RAPIDAPI_KEY,
+                         "x-rapidapi-host": "jsearch.p.rapidapi.com"},
+                params=params, timeout=40,
+            )
+            r.raise_for_status()
+            items = r.json().get("data", []) or []
+        except Exception as e:
+            log(f"JSearch '{query}' ({country}) failed: {e}")
+            continue
+        kept = 0
+        for j in items:
+            loc = j.get("job_location") or ", ".join(
+                p for p in (j.get("job_city"), j.get("job_state"), j.get("job_country")) if p)
+            remote = bool(j.get("job_is_remote"))
+            if remote and "remote" not in loc.lower():
+                loc = f"{loc} (Remote)".strip()
+            posted = parse_dt(j.get("job_posted_at_datetime_utc") or j.get("job_posted_at_timestamp"))
+            sal = ""
+            if j.get("job_min_salary") or j.get("job_max_salary"):
+                sal = f"{j.get('job_min_salary') or '?'}-{j.get('job_max_salary') or '?'} " \
+                      f"{j.get('job_salary_currency') or ''} {j.get('job_salary_period') or ''}".strip()
+            job = make_job(
+                id=f"jsearch:{j.get('job_id')}", source="jsearch",
+                publisher=j.get("job_publisher") or "", title=j.get("job_title"),
+                company=j.get("employer_name"), location=loc,
+                url=j.get("job_apply_link") or j.get("job_google_link"),
+                posted=posted, remote=remote, description=j.get("job_description"),
+                salary=sal,
+            )
+            if keep(job, posted):
+                out.append(job)
+                kept += 1
+        log(f"JSearch '{query}' ({country}): {len(items)} returned, {kept} kept")
+    return out
+
+
+def fetch_remoteok() -> list[dict]:
+    if not config.ENABLE_REMOTEOK:
+        return []
+    try:
+        r = requests.get("https://remoteok.com/api", headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        items = [x for x in r.json() if isinstance(x, dict) and x.get("id")]
+    except Exception as e:
+        log(f"RemoteOK failed: {e}")
+        return []
+    out = []
+    for j in items:
+        posted = parse_dt(j.get("epoch") or j.get("date"))
+        loc = j.get("location") or "Remote"
+        if "remote" not in loc.lower():
+            loc = f"{loc} (Remote)"
+        sal = ""
+        if j.get("salary_min") or j.get("salary_max"):
+            sal = f"{j.get('salary_min') or '?'}-{j.get('salary_max') or '?'} USD year"
+        job = make_job(
+            id=f"remoteok:{j.get('id')}", source="remoteok", title=j.get("position"),
+            company=j.get("company"), location=loc, url=j.get("url") or j.get("apply_url"),
+            posted=posted, remote=True, description=j.get("description"), salary=sal,
+        )
+        if keep(job, posted):
+            out.append(job)
+    log(f"RemoteOK: {len(items)} returned, {len(out)} kept")
+    return out
+
+
+def fetch_wwr() -> list[dict]:
+    if not config.ENABLE_WWR:
+        return []
+    url = "https://weworkremotely.com/categories/remote-product-jobs.rss"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        items = root.findall("./channel/item")
+    except Exception as e:
+        log(f"We Work Remotely failed: {e}")
+        return []
+    out = []
+    for it in items:
+        raw_title = (it.findtext("title") or "").strip()
+        company, _, title = raw_title.partition(":")
+        if not title:
+            company, title = "", raw_title
+        link = (it.findtext("link") or "").strip()
+        region = (it.findtext("region") or "Anywhere").strip()
+        posted = parse_dt(it.findtext("pubDate"))
+        job = make_job(
+            id=f"wwr:{link}", source="weworkremotely", title=title.strip(),
+            company=company.strip(), location=f"{region} (Remote)", url=link,
+            posted=posted, remote=True, description=it.findtext("description"),
+        )
+        if keep(job, posted):
+            out.append(job)
+    log(f"We Work Remotely: {len(items)} returned, {len(out)} kept")
+    return out
+
+
+def fetch_adzuna() -> list[dict]:
+    if not (config.ENABLE_ADZUNA and ADZUNA_APP_ID and ADZUNA_APP_KEY):
+        if config.ENABLE_ADZUNA:
+            log("Adzuna skipped: ADZUNA_APP_ID / ADZUNA_APP_KEY not set")
+        return []
+    out = []
+    for what, where in config.ADZUNA_QUERIES:
+        params = {
+            "app_id": ADZUNA_APP_ID, "app_key": ADZUNA_APP_KEY,
+            "what": what, "where": where, "max_days_old": 2,
+            "results_per_page": 50, "sort_by": "date", "content-type": "application/json",
+        }
+        try:
+            r = requests.get("https://api.adzuna.com/v1/api/jobs/ca/search/1",
+                             params=params, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            items = r.json().get("results", []) or []
+        except Exception as e:
+            log(f"Adzuna '{what}' failed: {e}")
+            continue
+        kept = 0
+        for j in items:
+            posted = parse_dt(j.get("created"))
+            sal = ""
+            if j.get("salary_min") or j.get("salary_max"):
+                sal = f"{j.get('salary_min') or '?'}-{j.get('salary_max') or '?'} CAD year"
+            job = make_job(
+                id=f"adzuna:{j.get('id')}", source="adzuna",
+                title=j.get("title"), company=(j.get("company") or {}).get("display_name"),
+                location=(j.get("location") or {}).get("display_name", ""),
+                url=j.get("redirect_url"), posted=posted, remote=False,
+                description=j.get("description"), salary=sal,
+            )
+            if keep(job, posted):
+                out.append(job)
+                kept += 1
+        log(f"Adzuna '{what}' in {where}: {len(items)} returned, {kept} kept")
+    return out
+
+
+# ---------------------------------------------------------------------------
+# State
+# ---------------------------------------------------------------------------
+def norm_key(job: dict) -> str:
+    """Cross-source key so the same role on LinkedIn and Indeed shows once."""
+    def n(s): return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+    return f"key:{n(job['company'])}|{n(job['title'])}"
+
+
+def load_seen() -> dict[str, str]:
+    if SEEN_FILE.exists():
+        data = json.loads(SEEN_FILE.read_text())
+        return data.get("seen", {}) if isinstance(data.get("seen"), dict) else {}
+    return {}
+
+
+def save_seen(seen: dict[str, str]) -> None:
+    cutoff = (NOW - timedelta(days=config.SEEN_RETENTION_DAYS)).date().isoformat()
+    seen = {k: v for k, v in seen.items() if v >= cutoff}
+    SEEN_FILE.write_text(json.dumps({"seen": dict(sorted(seen.items()))}, indent=1))
+
+
+def main() -> int:
+    DAILY_DIR.mkdir(parents=True, exist_ok=True)
+    seen = load_seen()
+    today = NOW.date().isoformat()
+
+    sources = {
+        "jsearch": fetch_jsearch,
+        "remoteok": fetch_remoteok,
+        "weworkremotely": fetch_wwr,
+        "adzuna": fetch_adzuna,
+    }
+    stats, all_jobs = {}, []
+    for name, fn in sources.items():
+        jobs = fn()
+        stats[name] = len(jobs)
+        all_jobs.extend(jobs)
+
+    new_jobs = []
+    for job in all_jobs:
+        k = norm_key(job)
+        if job["id"] in seen or k in seen:
+            continue
+        seen[job["id"]] = today
+        seen[k] = today
+        new_jobs.append(job)
+
+    # A second run on the same day (e.g. a manual re-run) adds to today's file
+    # instead of overwriting it.
+    daily_file = DAILY_DIR / f"{today}.json"
+    if daily_file.exists():
+        prior = json.loads(daily_file.read_text()).get("jobs", [])
+        ids = {j["id"] for j in new_jobs}
+        new_jobs.extend(j for j in prior if j["id"] not in ids)
+
+    new_jobs.sort(key=lambda j: j["posted"] or "", reverse=True)
+    payload = {
+        "run_at": NOW.isoformat(),
+        "date": today,
+        "source_counts_after_filters": stats,
+        "new_count": len(new_jobs),
+        "jobs": new_jobs,
+    }
+    daily_file.write_text(json.dumps(payload, indent=1))
+    LATEST_FILE.write_text(json.dumps(payload, indent=1))
+    save_seen(seen)
+    log(f"Done: {len(all_jobs)} matched filters, {len(new_jobs)} new -> data/daily/{today}.json")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
