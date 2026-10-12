@@ -34,6 +34,10 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (personal job digest; contact via GitHub)"
 NOW = datetime.now(timezone.utc)
 CUTOFF = NOW - timedelta(hours=config.MAX_AGE_HOURS)
 
+RAW_FILE = DATA_DIR / "raw_jsearch_latest.json"
+REPLAY = "--replay" in sys.argv   # re-filter the last saved JSearch responses; no API calls
+RAW_RESPONSES: dict[str, list] = {}
+
 RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY", "").strip()
 ADZUNA_APP_ID = os.environ.get("ADZUNA_APP_ID", "").strip()
 ADZUNA_APP_KEY = os.environ.get("ADZUNA_APP_KEY", "").strip()
@@ -188,7 +192,10 @@ def _shape(body) -> dict:
 
 
 def fetch_jsearch() -> list[dict]:
-    if not RAPIDAPI_KEY:
+    saved = json.loads(RAW_FILE.read_text()) if REPLAY and RAW_FILE.exists() else {}
+    if REPLAY:
+        log(f"Replay mode: using saved responses from {RAW_FILE.name}")
+    if not REPLAY and not RAPIDAPI_KEY:
         diag("jsearch")["error"] = "skipped: RAPIDAPI_KEY secret not set"
         log("JSearch skipped: RAPIDAPI_KEY not set")
         return []
@@ -196,6 +203,10 @@ def fetch_jsearch() -> list[dict]:
     for query, country, remote_only, pages in config.JSEARCH_QUERIES:
         d = diag(f"jsearch: {query} ({country}{', remote' if remote_only else ''})")
         items, cursor = [], None
+        key = f"{query}|{country}|{remote_only}"
+        if REPLAY:
+            items = saved.get(key, [])
+            pages = 0
         for page in range(pages):
             params = {
                 "query": query,
@@ -221,6 +232,7 @@ def fetch_jsearch() -> list[dict]:
                     d["error"] = f"API status {body.get('status')}: {str(body)[:300]}"
                 batch = _jsearch_items(body)
                 items.extend(batch)
+                RAW_RESPONSES.setdefault(key, []).extend(batch)
                 d["response_shape"] = _shape(body)
                 d.setdefault("pages", []).append(len(batch))
                 data = body.get("data") if isinstance(body, dict) else None
@@ -396,6 +408,9 @@ def main() -> int:
     seen = load_seen()
     today = NOW.date().isoformat()
 
+    if REPLAY:
+        # Free sources are cheap, so re-fetch them; only JSearch is replayed.
+        seen = {}
     sources = {
         "jsearch": fetch_jsearch,
         "remoteok": fetch_remoteok,
@@ -420,6 +435,12 @@ def main() -> int:
     # A second run on the same day (e.g. a manual re-run) adds to today's file
     # instead of overwriting it.
     daily_file = DAILY_DIR / f"{today}.json"
+    if REPLAY:
+        out = DATA_DIR / "replay.json"
+        out.write_text(json.dumps({"diagnostics": DIAG, "jobs": new_jobs}, indent=1))
+        log(f"Replay done: {len(new_jobs)} kept -> {out.relative_to(BASE_DIR)} (seen list untouched)")
+        return 0
+    RAW_FILE.write_text(json.dumps(RAW_RESPONSES))
     if daily_file.exists():
         prior = json.loads(daily_file.read_text()).get("jobs", [])
         ids = {j["id"] for j in new_jobs}

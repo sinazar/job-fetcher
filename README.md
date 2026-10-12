@@ -26,3 +26,12 @@ Quota: 2 broad JSearch queries × 10 pages each. A 2–10 page request counts as
 pip install -r requirements.txt
 RAPIDAPI_KEY=... python fetch_jobs.py
 ```
+
+## Tune filters without spending API credits
+Each run saves the raw JSearch responses to `data/raw_jsearch_latest.json`. After editing `config.py`, run
+
+```
+python fetch_jobs.py --replay
+```
+
+This re-applies the filters to the saved responses with no JSearch calls and writes `data/replay.json`. It doesn't touch the seen-jobs list.
