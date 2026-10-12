@@ -161,11 +161,11 @@ def fetch_jsearch() -> list[dict]:
         log("JSearch skipped: RAPIDAPI_KEY not set")
         return []
     out = []
-    for query, country, remote_only in config.JSEARCH_QUERIES:
+    for query, country, remote_only, num_pages in config.JSEARCH_QUERIES:
         params = {
             "query": query,
             "page": "1",
-            "num_pages": str(config.JSEARCH_NUM_PAGES),
+            "num_pages": str(num_pages),
             "country": country,
             "date_posted": config.JSEARCH_DATE_POSTED,
             "employment_types": "FULLTIME",
@@ -178,7 +178,7 @@ def fetch_jsearch() -> list[dict]:
                 "https://jsearch.p.rapidapi.com/search",
                 headers={"x-rapidapi-key": RAPIDAPI_KEY,
                          "x-rapidapi-host": "jsearch.p.rapidapi.com"},
-                params=params, timeout=40,
+                params=params, timeout=120,
             )
             if r.status_code != 200:
                 raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")

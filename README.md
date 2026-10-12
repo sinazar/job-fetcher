@@ -17,9 +17,9 @@ No AI calls happen in this repo.
 4. **Actions** tab → "Fetch jobs" → **Run workflow** to test. A `data/` commit should appear within a minute or two.
 
 ## Tuning
-Everything is in `config.py`: the JSearch queries (each one uses 1 request per day), title include and exclude words, GTA cities and the remote regions to exclude. Keep the filters loose, since Claude does the real scoring.
+Everything is in `config.py`: the JSearch queries and pages per query, title include and exclude words, GTA cities and the remote regions to exclude. Keep the filters loose, since Claude does the real scoring.
 
-Quota: 4 JSearch queries × 30 days ≈ 120 of the 200 free monthly requests.
+Quota: 2 broad JSearch queries × 10 pages each. A 2–10 page request counts as 2, so that's ~4 requests/day ≈ 120 of the 200 free monthly requests. Remove the US-remote query to halve it.
 
 ## Run locally
 ```

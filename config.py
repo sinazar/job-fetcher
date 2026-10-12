@@ -8,19 +8,24 @@ so prefer letting a borderline role through over filtering it out here.
 
 # ---------------------------------------------------------------------------
 # JSearch (Google for Jobs -> LinkedIn, Indeed, Glassdoor, ZipRecruiter, company sites)
-# Each entry = 1 API request per run (with num_pages=1).
-# Free BASIC tier is 200 requests/month -> 4 queries x 30 days = 120/month.
+#
+# Strategy: a few BROAD queries with many pages, then filter locally.
+# Each page is ~10 listings. Quota cost per query (per JSearch's docs):
+#   num_pages 1      -> 1 request
+#   num_pages 2-10   -> 2 requests
+#   num_pages 11+    -> 3 requests
+# Free BASIC tier = 200 requests/month. Default below ~= 4/day = ~120/month,
+# leaving ~80 for manual re-runs. Check usage on your RapidAPI dashboard.
 # ---------------------------------------------------------------------------
 JSEARCH_DATE_POSTED = "today"   # today | 3days | week | month | all
-JSEARCH_NUM_PAGES = 1           # >1 returns more results but can cost extra quota
 
 JSEARCH_QUERIES = [
-    # (query, country code, remote_only). Keep queries plain; Google for Jobs
-    # handles OR operators poorly.
-    ("senior product manager in Toronto, ON, Canada", "ca", False),
-    ("director of product in Toronto, ON, Canada", "ca", False),
-    ("product manager AI", "ca", True),
-    ("senior product manager", "us", True),
+    # (query, country code, remote_only, num_pages)
+    # Canada-wide: covers GTA on-site/hybrid + Canada remote. Local filters drop
+    # other cities that aren't remote.
+    ("product manager in Canada", "ca", False, 10),
+    # US-remote. Delete this line to halve usage (~60/month).
+    ("product manager", "us", True, 10),
 ]
 
 # ---------------------------------------------------------------------------
