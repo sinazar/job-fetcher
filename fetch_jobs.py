@@ -155,6 +155,30 @@ def keep(job: dict, posted: datetime | None, d: dict | None = None) -> bool:
 # ---------------------------------------------------------------------------
 # Sources
 # ---------------------------------------------------------------------------
+def _jsearch_items(body) -> list[dict]:
+    """v1 returns {"data": [...]}; v2 may nest the list. Find the job list."""
+    if isinstance(body, list):
+        return [x for x in body if isinstance(x, dict)]
+    data = body.get("data", body)
+    if isinstance(data, list):
+        return [x for x in data if isinstance(x, dict)]
+    if isinstance(data, dict):
+        for k in ("jobs", "data", "results", "items"):
+            if isinstance(data.get(k), list):
+                return [x for x in data[k] if isinstance(x, dict)]
+    return []
+
+
+def _shape(body) -> dict:
+    """Record the response layout so field mapping can be checked from the output file."""
+    top = list(body.keys())[:15] if isinstance(body, dict) else type(body).__name__
+    data = body.get("data") if isinstance(body, dict) else None
+    data_keys = list(data.keys())[:15] if isinstance(data, dict) else type(data).__name__
+    items = _jsearch_items(body)
+    return {"top_keys": top, "data_keys": data_keys,
+            "job_keys": list(items[0].keys())[:40] if items else []}
+
+
 def fetch_jsearch() -> list[dict]:
     if not RAPIDAPI_KEY:
         diag("jsearch")["error"] = "skipped: RAPIDAPI_KEY secret not set"
@@ -175,7 +199,7 @@ def fetch_jsearch() -> list[dict]:
         d = diag(f"jsearch: {query} ({country}{', remote' if remote_only else ''})")
         try:
             r = requests.get(
-                "https://jsearch.p.rapidapi.com/search",
+                config.JSEARCH_URL,
                 headers={"x-rapidapi-key": RAPIDAPI_KEY,
                          "x-rapidapi-host": "jsearch.p.rapidapi.com"},
                 params=params, timeout=120,
@@ -185,7 +209,8 @@ def fetch_jsearch() -> list[dict]:
             body = r.json()
             if body.get("status") not in (None, "OK"):
                 d["error"] = f"API status {body.get('status')}: {str(body)[:300]}"
-            items = body.get("data", []) or []
+            items = _jsearch_items(body)
+            d["response_shape"] = _shape(body)
         except Exception as e:
             d["error"] = str(e)[:400]
             log(f"JSearch '{query}' ({country}) failed: {e}")

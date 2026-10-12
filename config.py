@@ -17,6 +17,7 @@ so prefer letting a borderline role through over filtering it out here.
 # Free BASIC tier = 200 requests/month. Default below ~= 4/day = ~120/month,
 # leaving ~80 for manual re-runs. Check usage on your RapidAPI dashboard.
 # ---------------------------------------------------------------------------
+JSEARCH_URL = "https://jsearch.p.rapidapi.com/search-v2"   # v5 of the API
 JSEARCH_DATE_POSTED = "today"   # today | 3days | week | month | all
 
 JSEARCH_QUERIES = [
