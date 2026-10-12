@@ -118,13 +118,38 @@ def make_job(*, id, source, title, company, location, url, posted, remote,
     }
 
 
-def keep(job: dict, posted: datetime | None) -> bool:
-    return (
-        bool(job["title"]) and bool(job["url"])
-        and title_ok(job["title"])
-        and location_ok(job["location"], job["remote"])
-        and fresh(posted)
-    )
+DIAG: dict[str, dict] = {}
+
+
+def diag(name: str) -> dict:
+    return DIAG.setdefault(name, {"returned": 0, "kept": 0, "error": None,
+                                  "rejected_by": {}, "rejected_samples": []})
+
+
+def reject_reason(job: dict, posted: datetime | None) -> str | None:
+    if not job["title"] or not job["url"]:
+        return "missing title/url"
+    if not title_ok(job["title"]):
+        return "title"
+    if not location_ok(job["location"], job["remote"]):
+        return "location"
+    if not fresh(posted):
+        return "too old"
+    return None
+
+
+def keep(job: dict, posted: datetime | None, d: dict | None = None) -> bool:
+    reason = reject_reason(job, posted)
+    if d is not None:
+        d["returned"] += 1
+        if reason is None:
+            d["kept"] += 1
+        else:
+            d["rejected_by"][reason] = d["rejected_by"].get(reason, 0) + 1
+            if len(d["rejected_samples"]) < 8:
+                d["rejected_samples"].append(
+                    f"[{reason}] {job['title']} | {job['company']} | {job['location']} | {job['posted']}")
+    return reason is None
 
 
 # ---------------------------------------------------------------------------
@@ -132,6 +157,7 @@ def keep(job: dict, posted: datetime | None) -> bool:
 # ---------------------------------------------------------------------------
 def fetch_jsearch() -> list[dict]:
     if not RAPIDAPI_KEY:
+        diag("jsearch")["error"] = "skipped: RAPIDAPI_KEY secret not set"
         log("JSearch skipped: RAPIDAPI_KEY not set")
         return []
     out = []
@@ -146,6 +172,7 @@ def fetch_jsearch() -> list[dict]:
         }
         if remote_only:
             params["work_from_home"] = "true"
+        d = diag(f"jsearch: {query} ({country}{', remote' if remote_only else ''})")
         try:
             r = requests.get(
                 "https://jsearch.p.rapidapi.com/search",
@@ -153,9 +180,14 @@ def fetch_jsearch() -> list[dict]:
                          "x-rapidapi-host": "jsearch.p.rapidapi.com"},
                 params=params, timeout=40,
             )
-            r.raise_for_status()
-            items = r.json().get("data", []) or []
+            if r.status_code != 200:
+                raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")
+            body = r.json()
+            if body.get("status") not in (None, "OK"):
+                d["error"] = f"API status {body.get('status')}: {str(body)[:300]}"
+            items = body.get("data", []) or []
         except Exception as e:
+            d["error"] = str(e)[:400]
             log(f"JSearch '{query}' ({country}) failed: {e}")
             continue
         kept = 0
@@ -178,7 +210,7 @@ def fetch_jsearch() -> list[dict]:
                 posted=posted, remote=remote, description=j.get("job_description"),
                 salary=sal,
             )
-            if keep(job, posted):
+            if keep(job, posted, d):
                 out.append(job)
                 kept += 1
         log(f"JSearch '{query}' ({country}): {len(items)} returned, {kept} kept")
@@ -188,11 +220,13 @@ def fetch_jsearch() -> list[dict]:
 def fetch_remoteok() -> list[dict]:
     if not config.ENABLE_REMOTEOK:
         return []
+    d = diag("remoteok")
     try:
         r = requests.get("https://remoteok.com/api", headers=HEADERS, timeout=30)
         r.raise_for_status()
         items = [x for x in r.json() if isinstance(x, dict) and x.get("id")]
     except Exception as e:
+        d["error"] = str(e)[:400]
         log(f"RemoteOK failed: {e}")
         return []
     out = []
@@ -209,7 +243,7 @@ def fetch_remoteok() -> list[dict]:
             company=j.get("company"), location=loc, url=j.get("url") or j.get("apply_url"),
             posted=posted, remote=True, description=j.get("description"), salary=sal,
         )
-        if keep(job, posted):
+        if keep(job, posted, d):
             out.append(job)
     log(f"RemoteOK: {len(items)} returned, {len(out)} kept")
     return out
@@ -219,12 +253,14 @@ def fetch_wwr() -> list[dict]:
     if not config.ENABLE_WWR:
         return []
     url = "https://weworkremotely.com/categories/remote-product-jobs.rss"
+    d = diag("weworkremotely")
     try:
         r = requests.get(url, headers=HEADERS, timeout=30)
         r.raise_for_status()
         root = ET.fromstring(r.content)
         items = root.findall("./channel/item")
     except Exception as e:
+        d["error"] = str(e)[:400]
         log(f"We Work Remotely failed: {e}")
         return []
     out = []
@@ -241,7 +277,7 @@ def fetch_wwr() -> list[dict]:
             company=company.strip(), location=f"{region} (Remote)", url=link,
             posted=posted, remote=True, description=it.findtext("description"),
         )
-        if keep(job, posted):
+        if keep(job, posted, d):
             out.append(job)
     log(f"We Work Remotely: {len(items)} returned, {len(out)} kept")
     return out
@@ -259,12 +295,14 @@ def fetch_adzuna() -> list[dict]:
             "what": what, "where": where, "max_days_old": 2,
             "results_per_page": 50, "sort_by": "date", "content-type": "application/json",
         }
+        d = diag(f"adzuna: {what} ({where})")
         try:
             r = requests.get("https://api.adzuna.com/v1/api/jobs/ca/search/1",
                              params=params, headers=HEADERS, timeout=30)
             r.raise_for_status()
             items = r.json().get("results", []) or []
         except Exception as e:
+            d["error"] = str(e)[:400]
             log(f"Adzuna '{what}' failed: {e}")
             continue
         kept = 0
@@ -280,7 +318,7 @@ def fetch_adzuna() -> list[dict]:
                 url=j.get("redirect_url"), posted=posted, remote=False,
                 description=j.get("description"), salary=sal,
             )
-            if keep(job, posted):
+            if keep(job, posted, d):
                 out.append(job)
                 kept += 1
         log(f"Adzuna '{what}' in {where}: {len(items)} returned, {kept} kept")
@@ -349,6 +387,7 @@ def main() -> int:
         "date": today,
         "source_counts_after_filters": stats,
         "new_count": len(new_jobs),
+        "diagnostics": DIAG,
         "jobs": new_jobs,
     }
     daily_file.write_text(json.dumps(payload, indent=1))

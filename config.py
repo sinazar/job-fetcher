@@ -15,11 +15,12 @@ JSEARCH_DATE_POSTED = "today"   # today | 3days | week | month | all
 JSEARCH_NUM_PAGES = 1           # >1 returns more results but can cost extra quota
 
 JSEARCH_QUERIES = [
-    # (query, country code, remote_only)
-    ("senior product manager in Toronto, Ontario", "ca", False),
-    ("director of product OR head of product OR principal product manager in Toronto, Ontario", "ca", False),
-    ("senior product manager AI", "ca", True),
-    ("principal OR group OR senior product manager AI platform", "us", True),
+    # (query, country code, remote_only). Keep queries plain; Google for Jobs
+    # handles OR operators poorly.
+    ("senior product manager in Toronto, ON, Canada", "ca", False),
+    ("director of product in Toronto, ON, Canada", "ca", False),
+    ("product manager AI", "ca", True),
+    ("senior product manager", "us", True),
 ]
 
 # ---------------------------------------------------------------------------
