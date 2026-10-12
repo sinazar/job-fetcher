@@ -129,6 +129,8 @@ def diag(name: str) -> dict:
 def reject_reason(job: dict, posted: datetime | None) -> str | None:
     if not job["title"] or not job["url"]:
         return "missing title/url"
+    if any(x in job["company"].lower() for x in config.EXCLUDE_COMPANIES):
+        return "aggregator"
     if not title_ok(job["title"]):
         return "title"
     if not location_ok(job["location"], job["remote"]):
@@ -175,7 +177,8 @@ def _shape(body) -> dict:
     data = body.get("data") if isinstance(body, dict) else None
     data_keys = list(data.keys())[:15] if isinstance(data, dict) else type(data).__name__
     items = _jsearch_items(body)
-    return {"top_keys": top, "data_keys": data_keys,
+    params = body.get("parameters") if isinstance(body, dict) else None
+    return {"top_keys": top, "data_keys": data_keys, "parameters": params,
             "job_keys": list(items[0].keys())[:40] if items else []}
 
 
@@ -185,46 +188,54 @@ def fetch_jsearch() -> list[dict]:
         log("JSearch skipped: RAPIDAPI_KEY not set")
         return []
     out = []
-    for query, country, remote_only, num_pages in config.JSEARCH_QUERIES:
-        params = {
-            "query": query,
-            "page": "1",
-            "num_pages": str(num_pages),
-            "country": country,
-            "date_posted": config.JSEARCH_DATE_POSTED,
-            "employment_types": "FULLTIME",
-        }
-        if remote_only:
-            params["work_from_home"] = "true"
+    for query, country, remote_only, pages in config.JSEARCH_QUERIES:
         d = diag(f"jsearch: {query} ({country}{', remote' if remote_only else ''})")
-        try:
-            r = requests.get(
-                config.JSEARCH_URL,
-                headers={"x-rapidapi-key": RAPIDAPI_KEY,
-                         "x-rapidapi-host": "jsearch.p.rapidapi.com"},
-                params=params, timeout=120,
-            )
-            if r.status_code != 200:
-                raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")
-            body = r.json()
-            if body.get("status") not in (None, "OK"):
-                d["error"] = f"API status {body.get('status')}: {str(body)[:300]}"
-            items = _jsearch_items(body)
-            d["response_shape"] = _shape(body)
-        except Exception as e:
-            d["error"] = str(e)[:400]
-            log(f"JSearch '{query}' ({country}) failed: {e}")
-            continue
+        items, cursor = [], None
+        for page in range(pages):
+            params = {
+                "query": query,
+                "country": country,
+                "date_posted": config.JSEARCH_DATE_POSTED,
+                "employment_types": "FULLTIME",
+            }
+            if remote_only:
+                params["work_from_home"] = "true"
+            if cursor:
+                params["cursor"] = cursor
+            try:
+                r = requests.get(
+                    config.JSEARCH_URL,
+                    headers={"x-rapidapi-key": RAPIDAPI_KEY,
+                             "x-rapidapi-host": "jsearch.p.rapidapi.com"},
+                    params=params, timeout=120,
+                )
+                if r.status_code != 200:
+                    raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")
+                body = r.json()
+                if body.get("status") not in (None, "OK"):
+                    d["error"] = f"API status {body.get('status')}: {str(body)[:300]}"
+                batch = _jsearch_items(body)
+                items.extend(batch)
+                d["response_shape"] = _shape(body)
+                d.setdefault("pages", []).append(len(batch))
+                data = body.get("data") if isinstance(body, dict) else None
+                cursor = data.get("cursor") if isinstance(data, dict) else None
+            except Exception as e:
+                d["error"] = str(e)[:400]
+                log(f"JSearch '{query}' ({country}) page {page + 1} failed: {e}")
+                break
+            if not cursor or not batch:
+                break
         kept = 0
         for j in items:
             loc = j.get("job_location") or ", ".join(
                 p for p in (j.get("job_city"), j.get("job_state"), j.get("job_country")) if p)
-            remote = bool(j.get("job_is_remote"))
+            remote = bool(j.get("job_is_remote")) or "remote" in (j.get("job_title") or "").lower()
             if remote and "remote" not in loc.lower():
                 loc = f"{loc} (Remote)".strip()
             posted = parse_dt(j.get("job_posted_at_datetime_utc") or j.get("job_posted_at_timestamp"))
-            sal = ""
-            if j.get("job_min_salary") or j.get("job_max_salary"):
+            sal = j.get("job_salary_string") or ""
+            if not sal and (j.get("job_min_salary") or j.get("job_max_salary")):
                 sal = f"{j.get('job_min_salary') or '?'}-{j.get('job_max_salary') or '?'} " \
                       f"{j.get('job_salary_currency') or ''} {j.get('job_salary_period') or ''}".strip()
             job = make_job(
@@ -404,7 +415,8 @@ def main() -> int:
     if daily_file.exists():
         prior = json.loads(daily_file.read_text()).get("jobs", [])
         ids = {j["id"] for j in new_jobs}
-        new_jobs.extend(j for j in prior if j["id"] not in ids)
+        new_jobs.extend(j for j in prior if j["id"] not in ids
+                        and reject_reason(j, None) is None)
 
     new_jobs.sort(key=lambda j: j["posted"] or "", reverse=True)
     payload = {

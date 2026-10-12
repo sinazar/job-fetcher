@@ -21,12 +21,12 @@ JSEARCH_URL = "https://jsearch.p.rapidapi.com/search-v2"   # v5 of the API
 JSEARCH_DATE_POSTED = "today"   # today | 3days | week | month | all
 
 JSEARCH_QUERIES = [
-    # (query, country code, remote_only, num_pages)
-    # Canada-wide: covers GTA on-site/hybrid + Canada remote. Local filters drop
-    # other cities that aren't remote.
-    ("product manager in Canada", "ca", False, 10),
-    # US-remote. Delete this line to halve usage (~60/month).
-    ("product manager", "us", True, 10),
+    # (query, country code, remote_only, pages)
+    # The v2 endpoint returns ~10-30 listings per call and pages with a cursor.
+    # Each page = 1 request. Default: 4 requests/day = ~120/month.
+    ("product manager in Toronto, ON", "ca", False, 2),   # GTA on-site/hybrid
+    ("product manager", "ca", True, 1),                  # Canada remote
+    ("senior product manager", "us", True, 1),           # US remote (delete to save ~30/month)
 ]
 
 # ---------------------------------------------------------------------------
@@ -43,7 +43,8 @@ ADZUNA_QUERIES = [
 ]
 
 # Only keep listings posted within this many hours (applies to all sources).
-MAX_AGE_HOURS = 30   # a little over 24h so a late GitHub cron run doesn't drop anything
+MAX_AGE_HOURS = 168  # 7 days. JSearch is already limited to "today" by the API; the
+                     # free feeds post a few roles a week, and seen-job tracking stops repeats.
 
 # ---------------------------------------------------------------------------
 # Title filters (case-insensitive substring match)
@@ -86,6 +87,13 @@ REMOTE_EXCLUDE_REGIONS = [
     "netherlands", "poland", "portugal", "ireland", "india", "apac", "asia",
     "australia", "new zealand", "latam", "latin america", "brazil", "mexico",
     "argentina", "philippines", "singapore", "japan", "africa", "israel",
+]
+
+# Reposting/spam aggregators that list themselves as the employer
+# (matched against the company name, case-insensitive substring).
+# Real employers posted *via* job sites (e.g. Palo Alto Networks on Himalayas) are kept.
+EXCLUDE_COMPANIES = [
+    "remote quest jobs", "jzone", "jobshives", "wfhsprint", "remotical", "jobgether",
 ]
 
 # State file pruning: forget job IDs older than this many days.
