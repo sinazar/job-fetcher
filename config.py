@@ -18,15 +18,18 @@ so prefer letting a borderline role through over filtering it out here.
 # leaving ~80 for manual re-runs. Check usage on your RapidAPI dashboard.
 # ---------------------------------------------------------------------------
 JSEARCH_URL = "https://jsearch.p.rapidapi.com/search-v2"   # v5 of the API
-JSEARCH_DATE_POSTED = "today"   # today | 3days | week | month | all
+JSEARCH_DATE_POSTED = "3days"   # today | 3days | week | month | all
+                                # "today" is too strict (1-2 Toronto results). Seen-job
+                                # tracking means a role is only ever reported once.
 
 JSEARCH_QUERIES = [
     # (query, country code, remote_only, pages)
-    # The v2 endpoint returns ~10-30 listings per call and pages with a cursor.
+    # The v2 endpoint returns ~10 listings per call and pages with a cursor.
     # Each page = 1 request. Default: 4 requests/day = ~120/month.
     ("product manager in Toronto, ON", "ca", False, 2),   # GTA on-site/hybrid
-    ("product manager", "ca", True, 1),                  # Canada remote
-    ("senior product manager", "us", True, 1),           # US remote (delete to save ~30/month)
+    ("remote product manager Canada", "ca", False, 1),    # Canada remote (the work_from_home
+                                                          # flag returns worldwide spam)
+    ("senior product manager", "us", True, 1),            # US remote (delete to save ~30/month)
 ]
 
 # ---------------------------------------------------------------------------
@@ -81,12 +84,13 @@ GTA_KEYWORDS = [
 
 REMOTE_KEYWORDS = ["remote", "anywhere", "work from home", "distributed"]
 
-# Remote roles restricted to these regions are dropped.
-REMOTE_EXCLUDE_REGIONS = [
-    "europe", "emea", "uk only", "united kingdom", "germany", "france", "spain",
-    "netherlands", "poland", "portugal", "ireland", "india", "apac", "asia",
-    "australia", "new zealand", "latam", "latin america", "brazil", "mexico",
-    "argentina", "philippines", "singapore", "japan", "africa", "israel",
+# A remote role passes only if its location is one of these (or has no specific
+# country). Anything else - "Nigeria (Remote)", "Europe", "India" - is dropped.
+REMOTE_ALLOWED_REGIONS = [
+    "canada", "united states", "usa", "u.s.", "us", "north america", "americas",
+    "anywhere", "worldwide", "global",
+    "ontario", "quebec", "british columbia", "alberta", "manitoba", "saskatchewan",
+    "nova scotia", "new brunswick",
 ]
 
 # Reposting/spam aggregators that list themselves as the employer
@@ -94,6 +98,7 @@ REMOTE_EXCLUDE_REGIONS = [
 # Real employers posted *via* job sites (e.g. Palo Alto Networks on Himalayas) are kept.
 EXCLUDE_COMPANIES = [
     "remote quest jobs", "jzone", "jobshives", "wfhsprint", "remotical", "jobgether",
+    "remotepromsp",
 ]
 
 # State file pruning: forget job IDs older than this many days.

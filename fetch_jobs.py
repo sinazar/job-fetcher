@@ -75,7 +75,12 @@ def location_ok(location: str, is_remote: bool) -> bool:
     remote = is_remote or any(k in loc for k in config.REMOTE_KEYWORDS)
     if not remote:
         return False
-    return not any(r in loc for r in config.REMOTE_EXCLUDE_REGIONS)
+    # Strip the remote markers; what's left is the region (may be empty).
+    region = re.sub(r"\b(remote|work from home|distributed)\b|[()\[\],;:|/-]", " ", loc)
+    region = re.sub(r"\s+", " ", region).strip()
+    if not region:
+        return True
+    return bool(re.search(r"\b(" + "|".join(re.escape(r) for r in config.REMOTE_ALLOWED_REGIONS) + r")\b", region))
 
 
 def fresh(posted: datetime | None) -> bool:
@@ -231,6 +236,9 @@ def fetch_jsearch() -> list[dict]:
             loc = j.get("job_location") or ", ".join(
                 p for p in (j.get("job_city"), j.get("job_state"), j.get("job_country")) if p)
             remote = bool(j.get("job_is_remote")) or "remote" in (j.get("job_title") or "").lower()
+            country_name = {"CA": "Canada", "US": "United States"}.get((j.get("job_country") or "").upper())
+            if country_name and country_name.lower() not in loc.lower():
+                loc = f"{loc}, {country_name}" if loc else country_name
             if remote and "remote" not in loc.lower():
                 loc = f"{loc} (Remote)".strip()
             posted = parse_dt(j.get("job_posted_at_datetime_utc") or j.get("job_posted_at_timestamp"))
