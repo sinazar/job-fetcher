@@ -10,6 +10,7 @@ No AI calls happen here. Only secret needed: RAPIDAPI_KEY (Adzuna optional).
 
 from __future__ import annotations
 
+import gzip
 import html
 import json
 import os
@@ -27,6 +28,8 @@ import config
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 DAILY_DIR = DATA_DIR / "daily"
+RUNS_DIR = DATA_DIR / "runs"       # one immutable file per run, never overwritten
+RAW_DIR = DATA_DIR / "raw"         # gzipped raw JSearch responses, one per run
 SEEN_FILE = DATA_DIR / "seen_jobs.json"
 LATEST_FILE = DATA_DIR / "latest.json"
 
@@ -432,23 +435,25 @@ def main() -> int:
         seen[k] = today
         new_jobs.append(job)
 
-    # A second run on the same day (e.g. a manual re-run) adds to today's file
-    # instead of overwriting it.
     daily_file = DAILY_DIR / f"{today}.json"
     if REPLAY:
         out = DATA_DIR / "replay.json"
         out.write_text(json.dumps({"diagnostics": DIAG, "jobs": new_jobs}, indent=1))
         log(f"Replay done: {len(new_jobs)} kept -> {out.relative_to(BASE_DIR)} (seen list untouched)")
         return 0
-    RAW_FILE.write_text(json.dumps(RAW_RESPONSES))
-    if daily_file.exists():
-        prior = json.loads(daily_file.read_text()).get("jobs", [])
-        ids = {j["id"] for j in new_jobs}
-        new_jobs.extend(j for j in prior if j["id"] not in ids
-                        and reject_reason(j, None) is None)
+    run_id = NOW.strftime("%Y-%m-%dT%H%M%SZ")
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Raw JSearch responses: latest copy for --replay, plus a gzipped archive per run.
+    RAW_FILE.write_text(json.dumps(RAW_RESPONSES))
+    (RAW_DIR / f"{run_id}.json.gz").write_bytes(
+        gzip.compress(json.dumps(RAW_RESPONSES).encode()))
+
+    # 1) This run's own file. Written once, never overwritten or merged.
     new_jobs.sort(key=lambda j: j["posted"] or "", reverse=True)
-    payload = {
+    run_payload = {
+        "run_id": run_id,
         "run_at": NOW.isoformat(),
         "date": today,
         "source_counts_after_filters": stats,
@@ -456,10 +461,40 @@ def main() -> int:
         "diagnostics": DIAG,
         "jobs": new_jobs,
     }
-    daily_file.write_text(json.dumps(payload, indent=1))
-    LATEST_FILE.write_text(json.dumps(payload, indent=1))
+    run_file = RUNS_DIR / f"{run_id}.json"
+    if run_file.exists():
+        raise SystemExit(f"Refusing to overwrite existing run file {run_file.name}")
+    run_file.write_text(json.dumps(run_payload, indent=1))
+
+    # 2) The day's file = union of every run that day. Earlier jobs are always
+    #    kept as-is (never re-filtered), so nothing already marked seen can vanish.
+    day_jobs, day_runs = {}, []
+    if daily_file.exists():
+        prior = json.loads(daily_file.read_text())
+        day_runs = prior.get("runs") or ([prior["run_at"]] if prior.get("run_at") else [])
+        for j in prior.get("jobs", []):
+            day_jobs[j["id"]] = j
+    for j in new_jobs:
+        day_jobs.setdefault(j["id"], j)
+    day_runs.append(run_id)
+    jobs_sorted = sorted(day_jobs.values(), key=lambda j: j["posted"] or "", reverse=True)
+    daily_payload = {
+        "run_at": NOW.isoformat(),          # time of the most recent run that day
+        "date": today,
+        "runs": day_runs,
+        "source_counts_after_filters": stats,
+        "new_count": len(jobs_sorted),
+        "diagnostics": DIAG,
+        "jobs": jobs_sorted,
+    }
+    daily_file.write_text(json.dumps(daily_payload, indent=1))
+
+    # 3) latest.json = pointer copy of this run only (convenience, not a record).
+    LATEST_FILE.write_text(json.dumps(run_payload, indent=1))
+
     save_seen(seen)
-    log(f"Done: {len(all_jobs)} matched filters, {len(new_jobs)} new -> data/daily/{today}.json")
+    log(f"Done: {len(all_jobs)} matched filters, {len(new_jobs)} new -> "
+        f"data/runs/{run_id}.json (day total {len(jobs_sorted)} in data/daily/{today}.json)")
     return 0
 
 
