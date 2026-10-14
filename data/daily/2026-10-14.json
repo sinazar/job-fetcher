@@ -1,0 +1,308 @@
+{
+ "run_at": "2026-10-14T15:21:41.565439+00:00",
+ "date": "2026-10-14",
+ "source_counts_after_filters": {
+  "jsearch": 11,
+  "remoteok": 1,
+  "weworkremotely": 2,
+  "adzuna": 0
+ },
+ "new_count": 7,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 0,
+   "kept": 0,
+   "error": "HTTP 504: {\"messages\":\"The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider\", \"info\": \"Your Client (working) ---> Gateway (working) ---> API (took too long to respond)\"}",
+   "rejected_by": {},
+   "rejected_samples": []
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 3,
+    "location": 4
+   },
+   "rejected_samples": [
+    "[aggregator] Product Manager- New & Strategic Initiatives | Jobgether | Canada | 2026-10-12T00:00:00+00:00",
+    "[location] Sr. Agentic Product Manager (North America) | Netomi | Canada   (+30 others) | 2026-10-12T00:00:00+00:00",
+    "[location] [Remote] Product Manager, Insurance | HireNode | Argentina (Remote) | 2026-10-11T00:00:00+00:00",
+    "[location] Senior Product Manager, Smart Security (12 month Contract) | Hardware Engineering | United States | 2026-10-14T00:00:00+00:00",
+    "[aggregator] Remote Core Banking Product Manager | Global Travel | Remotical | Sweden (Remote) | 2026-10-12T00:00:00+00:00",
+    "[location] [Remote] Senior Product Manager (Hybrid or Remote) | Confluent | Vietnam (Remote) | 2026-10-11T00:00:00+00:00",
+    "[aggregator] [Remote] Group Product Manager, Platforms | remote quest jobs | South Korea (Remote) | 2026-10-12T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 8,
+   "error": null,
+   "rejected_by": {
+    "title": 1,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Sr. PM; Applications | Vibrant Planet | Anywhere (Remote) | 2026-10-12T00:00:00+00:00",
+    "[aggregator] Senior Product Manager \u2013 Remote, Contract | remote quest jobs | Anywhere (Remote) | 2026-10-11T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 94,
+    "location": 3,
+    "too old": 1
+   },
+   "rejected_samples": [
+    "[title] Client Engagement Representative Work From Home | AO Garcia Agency | Sterling Heights, Michigan (Remote) | 2026-10-13T08:00:04+00:00",
+    "[title] Principal Software Engineer | Vytalize Health | Kansas  (Remote) | 2026-10-13T00:00:18+00:00",
+    "[title] Graphic Designer & Video Editor | BlueTuskr | Remote | 2026-10-13T00:00:06+00:00",
+    "[title] Technical Customer Support | QuickMail | Remote | 2026-10-12T16:20:10+00:00",
+    "[title] Senior Sales Executive Central Region | SimSpace Corporation | Remote | 2026-10-12T00:00:04+00:00",
+    "[title] Product Design Director | Midnite | United Kingdom (Remote) | 2026-10-11T16:00:03+00:00",
+    "[title] Marketing and Sales Administrator | Hunt St | Remote | 2026-10-11T08:00:06+00:00",
+    "[title] Technical Account Manager | DEUNA | Ciudad de M\u00c3\u00a9xico, Mexico (Remote) | 2026-10-11T00:00:05+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 20,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 11,
+    "too old": 7
+   },
+   "rejected_samples": [
+    "[title] GTM Systems Specialist | Tines | Anywhere in the World (Remote) | 2026-10-10T07:31:08+00:00",
+    "[title] Producer, Client Experience & Growth (Contract) | Current | Anywhere in the World (Remote) | 2026-10-07T07:31:04+00:00",
+    "[too old] Product Manager, Detection Pipeline | Expel | Anywhere in the World (Remote) | 2026-10-07T07:31:00+00:00",
+    "[title] Senior Product Engineer | Semaphore | Anywhere in the World (Remote) | 2026-10-06T08:44:40+00:00",
+    "[title] Senior Data Scientist | Wrike | Anywhere in the World (Remote) | 2026-10-06T07:31:05+00:00",
+    "[too old] Group Product Manager [Klaxoon] | Wrike | Anywhere in the World (Remote) | 2026-10-06T07:31:00+00:00",
+    "[too old] Group Product Manager \u2013 Corporate Systems | Smartsheet | Anywhere in the World (Remote) | 2026-10-04T07:31:27+00:00",
+    "[title] Director, Finance Systems & ERP | Smartsheet | Anywhere in the World (Remote) | 2026-10-04T07:31:27+00:00"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/lattice-lead-product-manager",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Lead Product Manager",
+   "company": "Lattice",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/lattice-lead-product-manager",
+   "posted": "2026-10-14T07:30:56+00:00",
+   "salary": "",
+   "description": "Headquarters: Remote - Canada What You Will Do We are looking for a Lead Product Manager to own the future of the Lattice MCP (Model Context Protocol) server and the integrations that power Lattice AI. This is the connective layer that lets customers use Lattice performance data inside the AI tools they already work in (Claude, ChatGPT, Glean, Microsoft Copilot, and Slack), and that brings third-party productivity data (e.g., Jira, GitHub, Linear, Zoom, Asana) into Lattice. As AI becomes the center of gravity for how companies work, this surface is how Lattice stays connected, interoperable, and indispensable. You\u2019ll join a fully staffed engineering team ready to execute, and together you\u2019ll make ecosystem interoperability a reason customers choose and stay with Lattice. If you enjoy solving complex problems, shaping platform strategy, and working with great internal and external partners, you\u2019ll love the impact you can have here. As a Lead Product Manager for MCP & AI Ecosystem, you will: Own the MCP and AI ecosystem strategy. Not only decide what features and integrations to pursue, but what MCP and AI mean to Lattice and our customers. Become a thought leader on how AI should shape HR for the better. Ship integrations that create leverage. Deliver new MCP tools, resources, and third-party connectors that expand what admins, managers, and executives can do with Lattice data in the flow of work. Build durable foundations, like authentication, agentic execution frameworks, and evals that make future integrations faster, more scalable, and easier to adopt and maintain. Be a technical thought partner to Engineering. Help shape technical direction on MCP tool design and third party integration infrastructure, translating complex constraints into clear product decisions. Drive go-to-market with partners. Partner with Partnerships, Product Marketing, to launch integrations that deliver measurable customer and ecosystem impact. Own outcomes. Influence and own key results across integration and MCP adoption, reliability, activation, and ecosystem growth. What You Will Bring to the Table We\u2019re looking for a seasoned product manager with the technical depth and strategic instincts to shape Lattice\u2019s next generation of integrations and APIs. You\u2019ll be a great fit if you have a combination of: 6+ years of product management experience, with meaningful ownership of integrations, platform, or ecosystem surfaces (built end-to-end, not just configured). Direct experience building technical integrations in a multi-party ecosystem \u2014 for example ad technology / marketing technology, marketplaces, developer platforms, payments, data connectivity, or similar \u2014 where partnership strategy shaped what you built. Strong technical fluency: comfortable with third-party integration patterns, data sync and field mapping, webhooks, and auth/OAuth; you can hold a credible architecture conversation with engineers and partner CTOs. A track record of shipping scalable, reliable integrations in partnership with engineering, and of standing up partner or marketplace launches with go-to-market teams. Evidence of turning a platform or ecosystem into a competitive advantage \u2014 a reason customers chose your product, not just a checkbox. Clear, confident communication that brings internal teams and external partners into alignment. A bias for action and the ability to create structure in an ambiguous, fast-moving space. Bonus: Exposure to AI ecosystems, MCP, AI agents, or LLM tooling (helpful, not required). Experience in multi-product B2B SaaS, or with HR/people-data or other sensitive-data workflows. If you have strong experience with integrations, APIs, or platform products, even if you don\u2019t meet every preferred qualification, we encourage you to apply. We\u2019re looking for strong product thinkers with deep technical fluency, not perfect resumes. Location Requirement: This role is open to candidates located in British Columbia or Ontario, Canada. At this time, we ar"
+  },
+  {
+   "id": "jsearch:Si0yZzVkSm5VLW0zODdFakFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVTFNZFZocVNuTmZhRTAzV2xZd2VVUkNSVTFqUm1SWldHeE5SM0pMTUZKbGEwMVFjV1pXUVZVNE56QjBXbWxCY0dOSllVRlBWRXRmY205NWFrbG1lbEZDY0dScFpuVkhjRUl0VjNvMVQwbHFhMUZHTVZoQk4zRkNXVWQxZFhWcVJtNXVTbTA0T0dWeE0ybHdhMTkzTkVSTVRsQlRUelZhWDJSemJTMWZPWFIyTkVOb05qQVNGMWsxTjFCaGJ5MXdSa3hETkRWUFZWQXlXVmQ1T0ZGM0dpSkJSSE55T1daVFdWZGxTbWRZWmkwM1dGRXdia1pNYkRNM1JWRk1ORTVEUzAxMw",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Staff Product Manager, Consumer Growth Loyalty",
+   "company": "Affirm",
+   "location": "Kitchener, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/staff-product-manager-consumer-growth-loyalty-at-affirm-4478424150",
+   "posted": "2026-10-14T07:00:00+00:00",
+   "salary": "",
+   "description": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About The Product Team The Product team listens to our customers\u2019 needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision. About The Role Millions of people use the Affirm Card, but we don\u2019t yet give them a reason to keep coming back beyond the product itself. You\u2019ll build our consumer loyalty program from scratch: what people earn, how they move up, and why Affirm becomes their default way to pay. What You\u2019ll Do \u2022 Own the vision and roadmap for Affirm\u2019s consumer loyalty program, setting the hypotheses, success metrics, and sequencing across multiple quarters \u2022 Launch the first version of rewards and tiers, including earn mechanics, member benefits, redemption, and the surfaces that make the value obvious in app, at checkout, and after a purchase \u2022 Build the engagement loops (progress, milestones, personalized offers) that turn a one-time borrower into someone who reaches for Affirm every week \u2022 Own the program economics: reward liability, funding mix across merchant-funded offers, interchange and network incentives, and the case for incremental GMV against cost per member \u2022 Set up the measurement foundation for loyalty, including holdouts, incrementality testing and long-run LTV, then tune earn and burn rates and tier thresholds off what the data says \u2022 Partner with Risk, Credit, Legal, Compliance, Finance and Marketing to design rewards that are compliant and clearly disclosed, with no hidden fees or fine print that surprises people \u2022 Align senior stakeholders and pull together dependencies across Card, Shopping, Servicing and Marketing, leading embedded engineering and design pods through a lot of ambiguity What We Look For \u2022 8+ years in Product Management, with a track record in consumer mobile apps, fintech, or neobanks \u2022 Built or scaled a loyalty, rewards or engagement program: card rewards, points, tiers, subscription benefits, or something equivalent. You know earn and burn mechanics and what makes a program pay for itself \u2022 History of launching products from scratch, not just optimizing what already exists \u2022 Owned repeat usage, cohort retention or share of wallet as a primary metric, and know which levers actually move them \u2022 Comfortable building the financial model yourself and defending reward cost, funding mix and payback to Finance and leadership \u2022 Strong UX instincts and a high bar for design. You know the difference between a reward that feels good and a badge buried in a settings menu \u2022 Deep fluency in experiment design, incrementality/attribution, and LTV measurement; data chops (SQL/Amplitude-level self-serve) and a bias for shipping, learning and iterating quickly \u2022 Track record shipping consumer financial or regulated products; comfort partnering with Risk/Credit, Legal, and Compliance \u2022 Excellent cross-functional leadership, including experience leading without authority \u2022 AI tools like Claude Code, Cursor, and others to research, analyze and prototype, and help develop better product vision \u2022 Bachelor\u2019s degree in a related field or equivalent practical experience Base Pay Grade - P Equity Grade - 7 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefit"
+  },
+  {
+   "id": "jsearch:NUFva3VscWV0SHNGaVFuLUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVTVpYTBkNFRsUjZjbGx1ZWxJMlNFRjFlVm96ZFRCU1lUaHBYekJ6WkVsdFRXOVZPRzluT0VoT1NuTnVNSGxGUzJ4SE1XcE1kV05LYlRGRFVFbEtVMWxuTXprd1h6TlVRa2Q2Y1VOS1EzVXpibXRtTldkdVpHaE1RVWMxTjAxRGVIZERRV2M0UTBKcldpMHhjV0prYjNORk0zVkZkVTlTWmpscFIxRkZiWGhVY0dWMGVFNFNGMkphTjFCaGNYWTVURFJZU1hBNE5GQnFVRTlTWjBGRkdpSkJSSE55T1daVExTMUZkbEV6YVU5NWVFaHJUbVp2TFVjNFdEZEVRbHBvU0RsQg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager, Financial Data Intelligence",
+   "company": "Dave",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6acef7d049c73d7b997a2d8b-senior-product-manager-financial-data-intelligence",
+   "posted": "2026-10-14T03:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: United States Dave vs. Goliath. We\u2019re Dave. Dave is a financial app on a mission to build products that level the financial playing field. It is redefining the financial landscape by leveraging technology to create an affordable, transparent, and user-centric access to liquidity for millions of Americans. As a leading innovator in the U.S. financial services sector, Dave\u2019s digital financial platform offers products designed to meet the credit needs of those underserved by traditional financial institutions. Dave\u2019s offerings include its flagship ExtraCash product, providing members up to $500 within minutes. The company is on track to launch several new product offerings in 2026, including a Buy Now Pay Later (BNPL) option. Dave is focused on serving Americans who are financially vulnerable or living paycheck to paycheck. Dave is leading the charge in creating a new era of credit products that prioritizes speed, affordability, and accessibility, making it the go-to financial partner for those who need it most. Every credit decision Dave makes starts with data. It includes how much a member earns, when they get paid, and how they spend and repay. Our Financial Data Intelligence team builds and runs the financial data layer behind underwriting, collections, and the member experience across ExtraCash, Flex card, and the credit products we launch next. As our Senior Product Manager, Financial Data Intelligence, you'll own the strategy and roadmap for that platform. You'll turn raw bank transactions, account aggregation, and third-party data into trusted signals that help us say yes to more members and get those decisions right. You'll report to our Director of Product Management and work closely with Engineering, Data Science, Growth/Marketing, and Compliance. What you\u2019ll build and own \u2022 Own the platform roadmap: Define and drive a multi-quarter roadmap for the financial data platform. That covers vendor integration, ingestion, normalization, storage, and access for downstream use cases. \u2022 Unlock smarter decisions: Partner with Data Science and Engineering to build data products and signals, such as income detection, cash-flow features, and repayment indicators, that improve underwriting and repayment prediction. \u2022 Expand our data advantage: Lead discovery and evaluation of new financial data sources, APIs, and partnerships beyond core bank data. Take the best of them from pilot to production. \u2022 Manage key partners: Own relationships with data aggregators and third-party data providers, balancing coverage, cost, and performance. \u2022 Raise the bar on data quality: Set standards and monitoring for data accuracy, coverage, latency, and compliance, so every team that relies on this data can trust it. \u2022 Own the numbers: Define and report on platform KPIs, and tie data improvements directly to business outcomes like approval rates, loss rates, and member retention. \u2022 Shape what's next: Drive opportunities where financial data can unlock new credit products, features, and member experiences. The impact The data you deliver sits underneath every credit decision Dave makes. Better, faster, more reliable financial data means more members get access to money when they need it, and Dave makes smarter decisions with less risk. Your work will directly shape how Dave scales credit access to millions of Americans. What we\u2019re looking for \u2022 5+ years of product management experience, including 2+ years in fintech, lending, or financial data products. \u2022 Strong understanding of financial data systems, such as transaction data, account aggregation, credit bureau data, or payments infrastructure. \u2022 A proven track record of building data platforms, APIs, or decisioning systems in a regulated environment. \u2022 Experience managing external vendors and data partners, from evaluation and contracting input through integration and ongoing performance management. \u2022 Strong analytical skills. You're comfortable using"
+  },
+  {
+   "id": "remoteok:1137510",
+   "source": "remoteok",
+   "publisher": "remoteok",
+   "title": "Principal Product Manager Strategic Initiatives",
+   "company": "Thyme Care",
+   "location": "Remote",
+   "remote": true,
+   "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510",
+   "posted": "2026-10-13T08:00:11+00:00",
+   "salary": "",
+   "description": "OUR MISSION We exist to create a more connected, compassionate, and confident experience for people with cancer and those who care for them. We make it easier to get answers, access high-quality care quickly, and feel supported throughout treatment and beyond. Today, Thyme Care is a market-leading value-based oncology care enabler, partnering with national and regional health plans, providers, and employers to deliver better outcomes and lower costs for thousands of people across the country. Our model combines high-touch human support with powerful technology and AI to bring together everyone involved in a person's cancer journey: caregivers, oncologists, health plans, and employers. As a tech-native organization, we believe technology should strengthen the human connection at the center of care. Through data science, automation, and AI, we simplify complexity, improve collaboration, and help our care team focus on what matters most: supporting people through cancer. Looking ahead, our vision is bold: to become a household name in cancer care, where every person diagnosed asks for Thyme Care by name. If you're inspired to make cancer care more human and to help reimagine what's possible, we'd love to meet you. Together, we can build a future where every person with cancer feels truly cared for, in every moment that matters. WHAT YOU'LL DO We're hiring a Principal Product Manager to set the product direction for new, zero-to-one initiatives focused on applying AI to make better care decisions in oncology \u00e2\u0080\u0094 helping people receive the right, evidence-based treatment at the moment it matters. Working closely with senior clinical, operations, engineering, and business leaders, you will shape the strategy, identify the highest-value opportunities, and lead the most complex and consequential product work needed to build a solution with the potential to become a category-defining platform. This is a hands-on, zero-to-one role for a product leader who can operate at both the strategic and implementation levels \u00e2\u0080\u0094 moving fluidly between learning from users, defining product direction, partnering with engineering and other stakeholders to shape solutions , and driving execution to launch. You will establish the product foundation across workflow tooling, data integrations, and AI systems, while creating patterns that can scale across future products and initiatives. Much of this work sits at the intersection of applied AI, clinical guidelines, and operational workflows in a regulated setting where fidelity, auditability, and trust are non-negotiable. This is an individual contributor role today, with the opportunity to build and lead a product team over time as this business line grows. Additionally, you will: Drive the roadmap for a zero-to-one AI initiative to improve care decisions in oncology Prototype, test, and ship AI powered products with engineering and other teams cross functionally Build the workflow tooling and decision support surfaces clinicians and care teams need to act on AI recommendations Own the evaluations, guardrails, and observability standards to ensure recommendations are accurate, safe, and trusted across, auditable, and defensible to clinical, provider, and health-plan stakeholders Partner with engineering to shape the technical architecture around AI systems, data models, and integrations Communicate tradeoffs and profess clearly to senior clinical, engineering, and business stakeholders Leverage AI to accelerate your own work and help decide how the team uses AI tooling to move faster and prototype more efficiently WHAT YOU'VE DONE 6+ years of product management experience, including leading zero-to-one or early-stage initiatives when the problem, requirements, and path forward were not fully defined You have healthcare experience, ideally building workflow, data, or integration products for enterprise contexts You\u00e2\u0080\u0099re comfortable with ambiguity and defining a path forward for yourself and others You hav"
+  },
+  {
+   "id": "jsearch:TTRRYzBaVEVJdXhTZU05TEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM3BKTURadWJIWjVOM1pVWmpKT01HWkVZbTVFYzFKZlQzcGhhM2RsVTFwSmNrVnhjRFp0Tm1STVZGVTFVVlZETUV0c2VrZEpaV3cwY1hwTmJ6VjRjMFl4V0ZvNFlWbDNjR0pFUVc1dFdsbGhXWE5KTFV4M1NtSlFjMVZ0YTJ3NFMweHdVVlZpY1UwdFNsUnlhbE13ZFZGbmJYZ3lTV3BMZEdsTk5IRkdNSGM0YmtKMFRIZ1NGMkphTjFCaGNYWTVURFJZU1hBNE5GQnFVRTlTWjBGRkdpSkJSSE55T1daUlNrVkVPWEZSTldSdE0wMW5WVEEyTFZVNFExZzRaVlZVYjIxQg",
+   "source": "jsearch",
+   "publisher": "JobMESH",
+   "title": "Senior Product Manager- Walmart +",
+   "company": "KPG99 INC",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobmesh.io/job/7e54c2f1-2881-40d9-9db5-5493629d380c",
+   "posted": "2026-10-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Tittle Senior Product Manager/FX/Fixed Income Job Type- Contract Location- NYC, NY (Remote or One day a week or a few times a quarter) THIS IS A PURE PRODUCT MANAGER POSITION (NOT PROJECT MANAGER OR BUSINESS ANALYST) POSITION. PRODUCT MANAGER CANDIDATES WITH FIXED INCOME EXPERIENCE ARE THE MINIMUM REQUIRMENT WHILE THE IDEAL CANDIDATE IS A PRODUCT MANAGER WITH BUSINESS ANALYST AND MUNICIPAL EXPERIENCE . ***** The ideal candidate will have strong experience working within Municipal Finance , capital markets, or financial services, with a solid understanding of banking products, processes, and technology. Candidates with direct Municipal Finance experience are strongly preferred; however, candidates with substantial Banking or Financial Services domain experience and a strong product management/business analysis background will also be considered. **** CANDIDATES WITH MUNICIPAL FINANCE EXPERIENCE ARE HIGHLY PREFERRED BUT CANDIDATES NEED TO HAVE CAPITAL MARKETS EXPERIENCE AT A MINIMUM. THIS POSITION IS HYBRID IN NYC MAYBE ONE DAY A WEEK OR A FEW TIMES A QUARTER. \u2022 ***CANDIDATES MUST HAVE GOOD TENURE AND/OR LONG PROJECTS. CANDIDATES WITH RECENT LOCAL PROJECTS HIGHLY PREFERRED. \u2013 NO RELOCATION Required Candidate Location: Hybrid/NYC One day a week or a few times a quarter. - NO RELOCATION Video \u2022 ** Municipal Finance \u2013 Huge Plus and candidates will get first priority/ Municipal bonds and fixed-income securities. Translate complex financial and business processes into clear requirements and actionable technology solutions. The ideal candidate will have strong experience working within Municipal Finance , capital markets, or financial services, with a solid understanding of banking products, processes, and technology. Candidates with direct Municipal Finance experience are strongly preferred; however, candidates with substantial Banking or Financial Services domain experience and a strong product management/business analysis background will also be considered. The successful candidate will serve as a bridge between business stakeholders, technology teams, and senior leadership, translating complex business requirements into clear product strategies, functional requirements, and technology solutions. This role will be responsible for defining product roadmaps, gathering and prioritizing requirements, managing stakeholders, and driving initiatives from concept through implementation. Lead product management and business analysis activities for financial services and banking-related products and platforms. Gather, analyze, document, and prioritize functional and non-functional requirements. Translate complex financial and business processes into clear requirements and actionable technology solutions. Work closely with engineering, architecture, QA, data, and UX teams throughout the product development lifecycle. Identify opportunities to improve business processes, operational efficiency, data quality, and customer/user experiences. Manage competing priorities and ensure product initiatives remain aligned with business strategy and regulatory requirements. Conduct gap analysis, impact assessments, and root-cause analysis to support product and technology decisions. Collaborate with stakeholders to define KPIs, success criteria, and product performance metrics. Support UAT planning, test-case development, defect triage, and business sign-off. Present product strategies, requirements, status, risks, and recommendations to senior management. Identify dependencies, risks, and impediments and drive issues through resolution. Support Agile/Scrum ceremonies, including backlog refinement, sprint planning, demonstrations, and retrospectives. Municipal Finance Experience \u2013 Preferred Candidates with experience in Municipal Finance / Public Finance are highly preferred. Municipal bonds and fixed-income securities. Municipal bond trading, sales, or underwriting. Credit analysis and municipal credit products. Primary and secondary municipal market"
+  },
+  {
+   "id": "jsearch:QzI1bERxUEVGOE9QT1doZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTak52YW5Wa2QwdDZSVlZrVkdWU2RsOXdXV0Z5Y2sxUmRURllSekpDTW5SWmVsWnNXVlpTZWtsUFpFUjNWMjR6ZVdkemFXNWZabGN6VkVaQmVWVkdkRVJNY2pVemVtTnhhMDl6YkZKelpXWmxOR0k1YzJZd2VWOXZialpWZW5CSVpsVjJjSEpwV2tGVGMzVjJTa2RaWWpSd1VscFpOa0oyWkhBd05GWkpUbGR2WmxwTlJtRVNGMWsxTjFCaGJ5MXdSa3hETkRWUFZWQXlXVmQ1T0ZGM0dpSkJSSE55T1daUmFqQlFVa1pMUTFCQlNuTnNYMUY1WTBSTVVYQm5MV05mYWxsbg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Product Manager, Cloud Service Provider - Remote",
+   "company": "Lenovo",
+   "location": "Morrisville, NL, Canada (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/ca/job/product-manager-cloud-service-provider-remote--morrisville--ee31eb25025eed7906c00c515cf32415a",
+   "posted": "2026-10-11T00:00:00+00:00",
+   "salary": "",
+   "description": "We are Lenovo. We do what we say. We own what we do. We WOW our customers. Lenovo is a US$83 billion revenue global technology powerhouse, ranked #153 in the Fortune Global 500, and serving millions of customers every day in 180 markets. Focused on a bold vision to deliver Smarter Technology for All, Lenovo has built on its success as the world\u2019s largest PC company with a full-stack portfolio of AI-enabled, AI-ready, and AI-optimized devices (PCs, workstations, smartphones, tablets), infrastructure (server, storage, edge, high performance computing and software defined infrastructure), software, solutions, and services. Lenovo\u2019s continued investment in world-changing innovation is building a more equitable, trustworthy, and smarter future for everyone, everywhere. Lenovo is listed on the Hong Kong stock exchange under Lenovo Group Limited (HKSE: 992) (ADR: LNVGY). This transformation together with Lenovo\u2019s world-changing innovation is building a more inclusive, trustworthy, and smarter future for everyone, everywhere. To find out more visit www.lenovo.com , and read about the latest news via our StoryHub . Description and Requirements About Our Team Lenovo's Cloud Service Provider (CSP) segment is one of the fastest growing businesses in Lenovo's Infrastructure Solutions Group (ISG), with growth outpacing our competition quarter after quarter! Every day, we are focused on moving forward, rejecting traditional limits, and always seeking a better way. Our employees challenge the ordinary and seek to innovate in learning, while also balancing execution. We are growing the team and seeking a CSP Product Manager. This individual will work with our customers to define product features and functions across various products. Location: This position allows for remote work. What You\u2019ll Do \u2022 Ensure that product features and functions meet the current and future requirements of our customers \u2022 Evaluate new technologies and customer requirements to determine business viability \u2022 Provide continuous market analysis to include competitive landscape, market trends, and customer feedback \u2022 Gather specific customer requirements for current opportunities and work across the organization to deliver a customized solutions \u2022 Partner, collaborate and influence key internal stakeholders to ensure successful product strategy, design, delivery and support \u2022 Lead and resolve business issues or problems that have business-wide impact \u2022 Engage with various levels within the customer to effectively deliver key value proposition for Lenovo as well as our products and service Basic Qualifications: \u2022 5+ years of product experience in an IT relevant industry \u2022 Experience working directly with customers and ability to understand technical requirements Preferred Qualifications \u2022 Experience working in the server industry or with cloud customers is a plus \u2022 Excellent communication skills and ability to travel 10-20% to customer sites We are an Equal Opportunity Employer and do not discriminate against any employee or applicant for employment because of race, color, sex, age, religion, sexual orientation, gender identity, national origin, status as a veteran, and basis of disability or any federal, state, or local protected class. Additional Locations: * United States of America PAY TRANSPARENCY The anticipated annual compensation range for this position is132,200\u2013202,745 USD. Final compensation will be based on relevant experience, skills, and business considerations. Individuals may also be considered for bonuses and/or commissions. Lenovo\u2019s various benefits can be found at www.lenovobenefits.com In compliance with Colorado\u2019s Equal Pay for Equal Work Act (EPEWA), the expected application deadline for this position is 10-30-2026. This requirement applies to both internal and external candidates. If you require an accommodation to complete this application, please contact ability@lenovo.com"
+  },
+  {
+   "id": "jsearch:UmI2aW1PRXNQanZZOUh6SkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMDVVWDJjeFlXaEpRMlp5Uld4aFJrMUNNbnBHUW1oR2VtZDJWVGhVVkhkUFNtZE1UMXBWZGpCclJUTjNNbUY2VUVKNGRtRkJSbEZZWjBwR05HNWhTRmxTWjNGeWR6WldOMjB0ZDBjME5WZzFiMHh3T1dOVE5UaEhlSGsxZDJSNlIybE1SMGxrU2xsNmRsWTJXVnByUnpkRE4yaFhaMWhyV1VWck1YSk5TblpwTWpNNGFYY1NGMkphTjFCaGNYWTVURFJZU1hBNE5GQnFVRTlTWjBGRkdpSkJSSE55T1daVU9HMHdlbVZRYVdsT2QyVmpOMmx6WHpKcE1IazVjVkpET1dwQg",
+   "source": "jsearch",
+   "publisher": "Workdock",
+   "title": "[Remote] Senior Product Manager - A2A & Money Movement",
+   "company": "Sendbird",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://workdock.liveblog365.com/job/remote-senior-product-manager-a2a-money-movement",
+   "posted": "2026-10-11T00:00:00+00:00",
+   "salary": "40,583\u201351,048 a year",
+   "description": "Note: The job is a remote job and is open to candidates in USA. NMI is a global leader in payment technologies, and they are seeking a Senior Product Manager for their A2A & Money Movement team. In this role, you will own the product roadmap and execution for A2A payment capabilities, collaborating with various teams to deliver innovative payment solutions that enhance the user experience for partners and merchants. Responsibilities \u2022 Own the roadmap for your product domain within A2A\u2014maintaining a well-prioritized backlog, a clear rationale for every decision, and a delivery plan that the team can execute against \u2022 Define and prioritize features based on partner needs, transaction data, competitive signals, and business impact \u2022 Maintain continuity of existing Dwolla customer commitments while contributing to NMI integration milestones \u2014 balancing BAU stability with forward progress \u2022 Write clear, detailed product requirements and acceptance criteria; run scoping sessions with Engineering that result in shared understanding and no surprises \u2022 Lead product discovery: customer interviews, partner feedback sessions, competitive teardowns, and data analysis\u2014then synthesize findings into a point of view \u2022 Build a deep understanding of the full A2A payment lifecycle\u2014funds flow, return handling, exception processing, reconciliation, Reg-E obligations\u2014and design products that hold up end-to-end \u2022 Partner with Engineering on technical design decisions, flagging tradeoffs and pushing for solutions that are scalable, not just shippable \u2022 Define success metrics for every initiative, track them post-launch, and share what you learned with the team \u2022 Build awareness of A2A capabilities across internal teams, helping Sales and Partner Success understand when and how to position bank-direct payment solutions \u2022 Collaborate with Legal, Compliance, Risk, and Payment Ops to ensure products are compliant and operationally sound before they ship \u2022 Support go-to-market: work with product marketing, sales, and customer success to drive adoption of new capabilities \u2022 Use AI tools actively in your workflow\u2014discovery synthesis, spec drafting, hypothesis generation, competitive research\u2014and bring that velocity to your team \u2022 Represent the product in customer workshops, partner calls, and internal stakeholder reviews with authority and clarity \u2022 Contribute to team OKRs; participate in quarterly planning and own your results Skills \u2022 5+ years in product management with at least 3 years in payments or financial services \u2022 Hands-on experience with A2A payment products\u2014ACH, RTP, FedNow, push-to-card, or open banking. You understand how the rails work, not just what they do \u2022 Demonstrated track record of independently owning and delivering complex payment products from discovery through launch \u2022 Strong commercial instincts\u2014you understand how product decisions affect revenue, partner growth, and merchant volume \u2022 Deep experience working directly with customers and partners to define problems, validate solutions, and build feedback loops \u2022 Experience partnering with Engineering on payment system design: funds flows, ledger logic, settlement, reconciliation, and return handling \u2022 Experience working within or alongside an acquired product team, navigating integration priorities while maintaining existing customer commitments \u2022 Proven use of data-driven insights to prioritize work, measure impact, and course-correct quickly \u2022 Exceptional execution skills with a bias toward action and comfort operating in ambiguity \u2022 Fluent with AI tools for product work\u2014you use them to go faster and produce better output \u2022 Excellent communicator: you write clearly, run tight meetings, and can explain technical payment concepts to non-technical stakeholders \u2022 Experience with open banking platforms (Plaid, MX, Finicity, or similar) \u2022 Knowledge of ACH operating rules, Reg-E requirements, or Nacha compliance \u2022 Experience with disbursements, earned wage access, insurance payouts, or ot"
+  }
+ ]
+}
