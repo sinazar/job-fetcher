@@ -2,9 +2,12 @@ name: Fetch jobs
 
 on:
   schedule:
-    # 10:30 UTC = 6:30 AM Toronto (EDT) / 5:30 AM (EST).
-    # GitHub cron can run up to ~1h late; Claude picks the file up at 8:00 AM.
-    - cron: "30 10 * * *"
+    # 07:17 UTC = 3:17 AM Toronto (EDT) / 2:17 AM (EST).
+    # GitHub delays scheduled runs under load (we've seen 5-9h late at :30), so
+    # run early and off the :00/:30 peak. The Claude digest (9:13 AM Toronto)
+    # reads every data/daily file from the last 3 days, so a late run is picked
+    # up the next morning instead of being lost.
+    - cron: "17 7 * * *"
   workflow_dispatch: {}   # "Run workflow" button in the Actions tab
 
 permissions:

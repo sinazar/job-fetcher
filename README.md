@@ -3,10 +3,10 @@
 Daily fetcher for the Claude "Job Hunter" digest.
 
 **How it works**
-1. GitHub Actions runs `fetch_jobs.py` every morning (6:30 AM Toronto).
-2. It pulls roles posted in the last ~24h from JSearch (LinkedIn, Indeed, Glassdoor and company sites via Google for Jobs), RemoteOK, We Work Remotely and, optionally, Adzuna.
+1. GitHub Actions runs `fetch_jobs.py` every night at 07:17 UTC (3:17 AM Toronto in summer, 2:17 AM in winter). GitHub often starts scheduled runs late, sometimes by hours, so the schedule leaves a wide buffer.
+2. It pulls recently posted roles from JSearch (LinkedIn, Indeed, Glassdoor and company sites via Google for Jobs), RemoteOK, We Work Remotely and, optionally, Adzuna.
 3. It applies cheap keyword filters (title, seniority, GTA or remote), skips anything it has already seen, and commits the results to `data/daily/YYYY-MM-DD.json` and `data/latest.json`.
-4. At 8:00 AM a Claude scheduled task reads `data/latest.json`, scores each role against the master resume, adds them to the Google Sheet tracker and emails the digest.
+4. At 9:13 AM Toronto a Claude scheduled task reads every `data/daily/YYYY-MM-DD.json` from the last 3 days (not just `latest.json`), skips job IDs already in the Google Sheet tracker, scores the rest against the master resume, adds them to the tracker and emails the digest. A fetch that lands after the digest is picked up the next morning.
 
 No AI calls happen in this repo.
 
