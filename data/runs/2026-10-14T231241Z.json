@@ -1,0 +1,433 @@
+{
+ "run_id": "2026-10-14T231241Z",
+ "run_at": "2026-10-14T23:12:41.962855+00:00",
+ "date": "2026-10-14",
+ "source_counts_after_filters": {
+  "jsearch": 24,
+  "remoteok": 1,
+  "weworkremotely": 2,
+  "adzuna": 0
+ },
+ "new_count": 11,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 17,
+   "kept": 14,
+   "error": null,
+   "rejected_by": {
+    "title": 2,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Manager, Product Owner | Scotiabank | Toronto, ON, Canada | 2026-10-12T00:00:00+00:00",
+    "[aggregator] Lead Product Manager Remote Canada | Jobgether SRL | Toronto, ON, Canada (Remote) | 2026-10-11T00:00:00+00:00",
+    "[title] Senior Product Owner, Global Wealth Management | Scotiabank | Toronto, ON, Canada | 2026-10-14T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "cursor": "EvcGCrcGQUppVDR0SVl2a2VYZVFPUFd5dTlJamIzdDBsOHE5SjdicGlSaHRYREFrcnNiY3VFa0hsY3Q3eWx6YkdZeEs1dmhWemJPSjV1QkQtbS12ZjhIYVFtOTVRS216WDBDWTRPTVNHSnBkUEYtLXhEWnN1emVrMzBqaThtZmpwM0x4XzktNk9Yb1ZFQ05rMjUybHhfN0RNVFhDeTFqdVlkRlB4eEp4blIyM2pUMm94YXRCSkdWTzM4WC1hYnBDUE9UYjNhMEpFUWd3RDJWVFlxMWYwdm9DdFN5Nkt0aF9BRkZkUWVoZ2R4Z2xkSGxRb3NXQURESm1oQU5tS2Q2Y2NZVUNyM2xxSFkxSzhnZjQ1TjlXTWlFcmRhSy02dGtuVWlSelpyOW1rWHBpek9xLWo3S0xpdXJ4ckhUalU3Q0l5dmpWOWdyTjJkaGY1UEFYQWtLYzRSbjUxbDVYMnFKUGhDanhjMUY1WWFFTTBpWTdGeEpKM3JlU0dYZTg5aV9kZXY0aTVjU0xCUGxXaWI2OUpjWmlRellMX0RvRWpDOUhvVEJpM3A1UVhyREdRSU16eEhQNHFoM29VbnJaM2xDV3JCY1VZWjJCcU5jSm1KeXlqcjBTTGM0UV9IZ1NVOU5rd3dfdFBsZkp4RUxTMGhMMTJjZGQ1QXZHYUQwQW02UENKVmpTdDRxT3E0YlU5ZDdZR0Zvakc5WXVLUllWVngzVmJyUjI2TUF2amZTamw1ZnlLVE1ad256SEo0TF9yQXNqenplRlBDaUEtcngtenVhQ29OZk9yYUlBeHNtOUhMaTJrdlhLaXRyNHhfYVZ3UE1ZVzZ6al9lNDJ3MjdpazJrT1pfUHdoVlZYaVg4STBBSWFVRDMzdzZJLXBjcGg0QTJGTmxUX0ZSLXV1em1PbUZVLVJVcEZ4UXJ5SS1ZQkpmX1JHbG5EV2UxV21Vel8xQ3lhTnhDdUI5V2JuelN3X1Y1MVgtaTZEa25wS2dfUEFrRVVIQklSdHc0ZlFBOWJIdEF1ZnVlUVA2WThKNlRMcTlOVWJVYzdoWERjcnRzMllvc1dMZWo2MWRHeEpZeVYwbzFZemlITXJHVXNJUG0ydxIXYWd6UWF2T0tIUFh6N004UDNkZkYyUW8aIkFEc3I5ZlQtODhQQkc5cHh5Q09KU241QzN1dVBZTEZmX1E",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10,
+    7
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 9,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "location": 5,
+    "aggregator": 1,
+    "title": 1
+   },
+   "rejected_samples": [
+    "[location] Product Manager | Takeaway.com | Canada   (+30 others) | 2026-10-14T17:00:00+00:00",
+    "[aggregator] Product Manager- New & Strategic Initiatives | Jobgether | Canada | 2026-10-12T00:00:00+00:00",
+    "[location] Sr. Agentic Product Manager (North America) | Netomi | Canada   (+30 others) | 2026-10-12T00:00:00+00:00",
+    "[location] Principal Product Manager - Omni Space and Draw Group at reputed company - E-commerce and Retail Innovation | RemoteHive | Nigeria | 2026-10-12T00:00:00+00:00",
+    "[location] Senior Product Manager, Smart Security (12 month Contract) | Hardware Engineering | United States | 2026-10-14T00:00:00+00:00",
+    "[location] [Remote] Senior Product Manager (Hybrid or Remote) | Confluent | Vietnam (Remote) | 2026-10-11T00:00:00+00:00",
+    "[title] NPI Program Manager | Inpho | Canada | 2026-10-13T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    9
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 8,
+   "error": null,
+   "rejected_by": {
+    "title": 1,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Sr. PM; Applications | Vibrant Planet | Anywhere (Remote) | 2026-10-12T00:00:00+00:00",
+    "[aggregator] Senior Product Manager \u2013 Remote, Contract | remote quest jobs | Anywhere (Remote) | 2026-10-11T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 94,
+    "location": 3,
+    "too old": 1
+   },
+   "rejected_samples": [
+    "[title] Client Engagement Representative Work From Home | AO Garcia Agency | Sterling Heights, Michigan (Remote) | 2026-10-13T08:00:04+00:00",
+    "[title] Principal Software Engineer | Vytalize Health | Kansas  (Remote) | 2026-10-13T00:00:18+00:00",
+    "[title] Graphic Designer & Video Editor | BlueTuskr | Remote | 2026-10-13T00:00:06+00:00",
+    "[title] Technical Customer Support | QuickMail | Remote | 2026-10-12T16:20:10+00:00",
+    "[title] Senior Sales Executive Central Region | SimSpace Corporation | Remote | 2026-10-12T00:00:04+00:00",
+    "[title] Product Design Director | Midnite | United Kingdom (Remote) | 2026-10-11T16:00:03+00:00",
+    "[title] Marketing and Sales Administrator | Hunt St | Remote | 2026-10-11T08:00:06+00:00",
+    "[title] Technical Account Manager | DEUNA | Ciudad de M\u00c3\u00a9xico, Mexico (Remote) | 2026-10-11T00:00:05+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 20,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 11,
+    "too old": 7
+   },
+   "rejected_samples": [
+    "[title] GTM Systems Specialist | Tines | Anywhere in the World (Remote) | 2026-10-10T07:31:08+00:00",
+    "[title] Producer, Client Experience & Growth (Contract) | Current | Anywhere in the World (Remote) | 2026-10-07T07:31:04+00:00",
+    "[too old] Product Manager, Detection Pipeline | Expel | Anywhere in the World (Remote) | 2026-10-07T07:31:00+00:00",
+    "[title] Senior Product Engineer | Semaphore | Anywhere in the World (Remote) | 2026-10-06T08:44:40+00:00",
+    "[title] Senior Data Scientist | Wrike | Anywhere in the World (Remote) | 2026-10-06T07:31:05+00:00",
+    "[too old] Group Product Manager [Klaxoon] | Wrike | Anywhere in the World (Remote) | 2026-10-06T07:31:00+00:00",
+    "[too old] Group Product Manager \u2013 Corporate Systems | Smartsheet | Anywhere in the World (Remote) | 2026-10-04T07:31:27+00:00",
+    "[title] Director, Finance Systems & ERP | Smartsheet | Anywhere in the World (Remote) | 2026-10-04T07:31:27+00:00"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:alNaX1FJN2xKYV8yTmRKNEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMUpNUjBOYVdETTVZak5oYzJGWVNIWjZlbEp0ZUdSbU9HdElWRTkzT0VFeWVsQndSMGcxYVRRMFNFeG1PSGcyUW5WMmFGRndjVGRUYVVWSFFURjBTRmRsVkZsdGVtWlFNa3BHTUcxc2VVVTJkbGd6UkVKbFVUaE9XbGRxU0VoMlUyTkRTVEIxYmpRMFp6VnVaVGRGT0doRVgwSm9NMDh3V2kwMVNXdEhSWEZRWVV3NVIwWVNGMkZuZWxGaGRrOUxTRkJZZWpkTk9GQXpaR1pHTWxGdkdpSkJSSE55T1daUlJYZE5aMlpHUkc4NFdtUm1hVnAwYXpoVFVWbFFkekpPWVVsMw",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "B2b Product Manager (H/F)",
+   "company": "Statflo",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=641604535350595468",
+   "posted": "2026-10-14T00:00:00+00:00",
+   "salary": "",
+   "description": "Compensation: $90,000\u2013$120,000 per year (In addition to base salary, this role may be eligible for an annual discretionary bonus) Statflo provides a leading sales acceleration platform for retailers, currently deployed in thousands of locations across North America. Our proprietary platform enables an organization to directly increase conversation workflow, build more authentic relationships, increase in-store appointments, and increase sales and ROI. company committed to investing in great people who believe in meaningful connections, great products, and the future of customer engagement! As a Product Manager at Statflo, you\u2019ll be a key member of the Product team, working closely with Engineering, Design, and your Product peers to understand problems, define clear outcomes, shape the roadmap, and ship features that help frontline reps have better 1:1 conversations with their customers. Partner with Engineering, Design, and QA to define scope, break down work, and deliver high-quality features. Empathize with customers to understand problems they face, turning them into clear product opportunities. Collaborate with stakeholders across Sales and CS to understand impact, manage expectations, and refine new feature ideas. Use data and customer feedback to measure success, monitor core KPIs, and decide what to iterate on next. Work with Product Marketing on GTM plans and launch assets to drive adoption of your features You have 4+ years of product management experience working in a SaaS environment - bonus if it was in telecom, retail, or financial services. You focus on continuous improvement - you look for ways to improve our product and how we work, and you\u2019re open to giving and receiving constructive feedback. You\u2019re comfortable with ambiguity and use a mix of research, data, intuition, and empathy to move work forward. You\u2019re analytical and have used tools like FullStory, and have basic SQL knowledge. You have experience working in Agile/Scrum teams. Bonus Points Healthcare Spending Account (HSA) and Medical & Dental Work two days a week from our downtown Toronto office, located by Union Station. Work on a proprietary platform trusted by industry giants that directly powers millions of meaningful customer interactions. Your ideas move the needle here, not corporate red tape. Tackle complex engineering, product, and go-to-market challenges in a collaborative, fast-paced environment where you own your results. Flexible Work Environment: Enjoy the energy of a top-tier Toronto tech company with supportive remote and hybrid options designed for life balance. Initial Phone screen with our Recruiter Panel & Cross Functional Chats expression, age, marital status, family status, disability,or any other characteristic protected by the Ontario Human Rights Code. Statflo is committed to providing accommodations throughout the recruitment process in accordance with the Accessibility for Ontarians with Disabilities Act (AODA). If you require accommodation at any stage of"
+  },
+  {
+   "id": "jsearch:Y1N4Tm1xdjZwS3YyOW1XVkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURVptTTNRMldXbzRVbGd5ZUdwclZ6TlJaVXRFWlRKT2JVcEJORWMxZDJaNFkxcHVaakp6YjJaNlFsZGtabmhmYmxOTVVqUldjRVpwY2sxRVRsWnllV2xsUVY4NFJsOUJPRlprYTNONGJsaGlTMUZOY25KRFZUaE1jakkwYUdWRWNuSmtVVEV5Ym5sM1pXWk5OVVJLVEVOUU5EaFdZMWQ2YjFCeldEWm9la1YwUjBwRVJqWVNGMkZuZWxGaGRrOUxTRkJZZWpkTk9GQXpaR1pHTWxGdkdpSkJSSE55T1daVFUzSk5aa0ZCVjJKQ1FqbGlVVTl4TUVaVlVIQnFaVVJUVDNsQg",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Digital Platform Product Manager",
+   "company": "Meridian Credit Union",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=641605383468811046",
+   "posted": "2026-10-14T00:00:00+00:00",
+   "salary": "",
+   "description": "At Meridian our aspiration is to integrate our purpose into everything we do for people, the planet, and communities. Reporting to the Senior Manager, Product Operations, this role is responsible for enabling reliable, transparent delivery of the Digital Banking roadmap and major initiatives. The position focuses on bringing clarity to complex delivery environments by aligning priorities, resources, and cross\u00e2functional partners through strong planning, coordination, and agile ways of working. The role emphasizes delivery through influence, continuous improvement, and clear communication to ensure stakeholders have confidence in timelines, progress, and outcomes. Ultimately, it supports on\u00e2time delivery of high\u00e2value digital initiatives and a more effective, transparent way of working across Digital Banking. Own the end\u00e2to\u00e2end delivery of the Digital Banking roadmap and major initiatives, ensuring the highest priority work is delivered on time with clear visibility across the organization. Lead delivery of digital initiatives through influence rather than authority, building strong working relationships with cross\u00e2functional delivery partners including Business Analysts, Quality Assurance, and Developers to drive alignment, resolve dependencies, and maintain momentum across initiative Lead delivery and project planning across the Digital Banking roadmap to ensure alignment to business priorities, OKRs, and resource capacity. proactively manage dependencies, risks, and mitigation strategies. Draft and maintain integrated project plans (timelines, dependencies, resources) and ensure alignment across MS Project, Productboard, Azure DevOps, and resource planning tools. Ensure all work items, tickets, and technical plans are accurately mapped to releases and coordinated with Release Management Team. Call out release timelines that must be met and drive course corrections or pivots to protect delivery of the highest value work. Evolve how Digital Banking works by increasing transparency, improving flow, and enabling teams and stakeholders through tools, data, and shared processes. Own and maintain the Productboard ecosystem by keeping boards and integrations current, while managing the insights pipeline and closing the feedback loop to show delivered value. Drive adoption and effective use of Azure DevOps as the primary platform for work tracking, delivery visibility, and shared documentation across digital initiatives. Continuously experiment with approaches that improve transparency and clarity in how digital work is planned, tracked, and communicated. Support Digital Banking OKR planning and tracking, ensuring roadmap delivery aligns to agreed outcomes and priorities. Support the rollout of future delivery resource assignment models, contributing to improved planning efficiency and reduced delivery volatility. Agile Leadership, Coaching & Continuous Improvement Strengthen delivery maturity by embedding agile principles, enabling teams, and continuously improving how work is done. Lead and facilitate Scrum\u00e2based delivery using two-week sprints, including Sprint Planning, Daily Scrums, Sprint Reviews, Retrospectives, and Backlog Refinement. Be a servant leader to teams and delivery partners on agile principles and effective execution. Facilitate project level ceremonies (ie. Drive continuous improvement through experimentation informed by sprint retrospectives, data, and outcomes. Share learnings and best practices across the Digital Delivery community to support broader agile transformation. Proven experience managing projects or initiatives, balancing multiple priorities with attention to detail. ~ Certified ScrumMaster designation or strong working knowledge of Agile practices (preferred). ~ Comfort learning and adopting new digital tools, with an openness to using AI\u00e2enabled technology to enhance productivity, accuracy, and the Member experience. Salary Range: $68,800.00to $103,200.00 CAD Compensation for this role is based on "
+  },
+  {
+   "id": "jsearch:bks2WGZjTFd1ODh0WGprZUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbFpRVmpKSWEwYzFheTFZYkRkTlVVbEphMUJXVm5sZlVFMVdjM1pVVHpFeVlsaHJYM28zTFRWUVh6ZEJaWFo1VTFSTmFuTkpNbFY2WWpSVVRISktUamgwYXpKbFZDMWliM2xKVjFwU1ptSmFibW90UjBOdFVXdG9VV0ZFTVVaNGIxQkVRMjlzU0UxV1drdEdOMnh4TFdFM1ZqTkZXSFpxU0VZMWVsQkhUR015Y1VOSlltRVNGMkZuZWxGaGRrOUxTRkJZZWpkTk9GQXpaR1pHTWxGdkdpSkJSSE55T1daU1FXTXlWMnRqVG5aRFRtRm9iMlJSY0RoVVYwaHFaR0pWWVhsQg",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Staff Product Manager, Growth Alliance (All Genders)",
+   "company": "Hellofresh",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=641604521638104972",
+   "posted": "2026-10-14T00:00:00+00:00",
+   "salary": "",
+   "description": "The role HelloFresh's Onboarding squad owns the highest-leverage window in the customer lifecycle: from the moment a prospect converts to the moment they become a settled, loyal customer. Onboarding is the connective tissue that links the conversion funnel to long-term customer value. We are hiring a Staff Product Manager to lead the Onboarding squad and define the product vision for how HelloFresh guides new customers from their first delivery into habitual, high-value subscription. You will own the end-to-end early customer experience across web and app \u2014 spanning post-checkout confirmation, subscription management, digital engagement, and the critical Box 1\u21922\u21923 progression \u2014 across all HelloFresh Group brands, including Factor. The defining product challenge ahead is building and scaling the Next Best Action (NBA) framework: an ML-powered, segment-aware system that identifies the right action for each customer at each moment in their early lifecycle and delivers it seamlessly across web and app surfaces. This is a genuine 0-to-1 build \u2014 one that requires both strategic vision and hands-on execution. This role demands a PM who is obsessed with solving customer pain points and equally obsessed with the cross-squad collaboration required to do it at scale. Onboarding does not sit inside a single product surface \u2014 it spans the activation funnel, CRM and lifecycle communications, app and engagement experiences, and Data Science. The PM leading this squad must be a hyper-collaborator: capable of aligning diverse stakeholders across squads and tribes and bringing coherence to an experience that crosses many surfaces and teams. What you'll do \u2022 Own the product vision and strategy for the end-to-end Onboarding experience across all HelloFresh Group brands \u2014 from post-checkout confirmation to Settled Conversion (3 boxes in 4 weeks). \u2022 Lead the build and scaling of the Next Best Action (NBA) framework: a segment-aware, state-aware personalisation system that dynamically surfaces the right customer action at the right moment across web and app. \u2022 Drive measurable improvement in Settled Conversion rate through a high-velocity experimentation roadmap. \u2022 Own the full-surface onboarding experience \u2014 welcome dashboard, subscription management, meal selection flows, app onboarding layer, and CRM-triggered touchpoints \u2014 ensuring coherence and quality across every channel and surface. \u2022 Partner with Data Science and Engineering to define the data and ML foundations that power personalised, segment-aware onboarding at scale. \u2022 Act as the connective tissue between squads and tribes: align the Activation funnel squad, CRM and Communications tribe, and App and Engagement team around a unified onboarding strategy and shared north-star metrics. \u2022 Build deep consumer empathy through qualitative research, quantitative funnel analysis, and direct customer engagement \u2014 and bring the early customer voice into every product decision. \u2022 Define and own success metrics for Onboarding \u2014 Settled Conversion rate, Box 1\u21922 and 2\u21923 conversion, app adoption rate, and unwanted box rate \u2014 and hold yourself and the squad accountable to them. \u2022 Own BAU operations: triage funnel issues rapidly, maintain onboarding health monitoring, and serve as the escalation point for anything threatening early retention performance. \u2022 Drive cross-functional alignment as a single-threaded leader across global tribes and alliances \u2014 creating clarity and shared direction needed for the squad to ship at velocity. What you'll bring \u2022 Customer Lifecycle & Early Retention Expertise: A deep understanding of subscription customer lifecycle dynamics \u2014 churn triggers, early retention levers, and the interplay between product experience and commercial outcomes. You think in journeys, not screens, and you can translate moments of friction or delight into business impact across the Box 0\u21923 window. \u2022 Cross-Surface Product Leadership: Proven experience owning end-to-end product experiences that span"
+  },
+  {
+   "id": "jsearch:SEFYZGgxTHVQVVdlUTM2NEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUREF0V2xsRmFYQnRUMjlIWlhkVVJERkZlWHBxUTJZME1GTlpaWEpaV0daamRIVlVhRmQ0ZEhGaFIydEtRbmcxUzIxRE5tZzBVVXBmVjNKa1duaE1UR1JVYTNsRmNrSkxSbFZIYm1GeFNuZEVPVGhFT0daM1dUaEJhRmRoU0VSS01sOUxlbXBtZUdkbU5YRXlYMHhhYjI5NGIxOTBjM1p6Ylc5MmEyWmtjelkzTVhCdVoyOFNGMngzZWxGaGNpMXVUbVJRVlRWT2IxQTBXakpoYjBGVkdpSkJSSE55T1daUlpqazRkVXhOWkc1UGF6TndNV1YxUkVoc1pFNUpTV1F5UTI1Mw",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Product Manager",
+   "company": "Humana Inc",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/us/job/senior-product-manager--dover--e55d15b6a5243e5b0a08b4d2e0adac877",
+   "posted": "2026-10-14T00:00:00+00:00",
+   "salary": "104K\u2013143K a year",
+   "description": "Become a part of our caring community This is a remote position. As a Senior Product Manager, you will lead cross-functional product initiatives aligned with enterprise strategy and operational goals. You will oversee enhancements and integrations that advance clinical care management and enterprise technology solutions. You will translate business needs into scalable solutions and collaborate across clinical platforms, telephony, data systems, and enterprise architecture. Acting as a liaison between business and technology teams, you will support transformation efforts, improve operational reliability, and partner with Agile teams to deliver enhancements and continuous improvement. You will report to an Associate Director. Responsibilities \u2022 Plan and manage product enhancements that support clinical care management and business operations. \u2022 Partner with business leaders and delivery teams to define priorities, requirements, and implementation plans. \u2022 Coordinate activities across multiple workstreams, ensuring milestones, timelines, and deliverables remain on track. \u2022 Monitor project progress, identify risks, and communicate recommendations that support informed business decisions. \u2022 Prepare clear project updates, status reports, and communications for leadership and stakeholders. \u2022 Evaluate business needs and recommend process improvements that improve efficiency and the customer experience. \u2022 Collaborate with technology partners to support product enhancements, system updates, and issue resolution. \u2022 Assist with planning for new products, business initiatives, and operational improvements. \u2022 Support product adoption by documenting requirements, coordinating testing, and validating business outcomes. \u2022 Promote consistent processes and continuous improvement across product initiatives. Use your skills to make an impact Required Qualifications \u2022 Bachelor's degree with 1+ year in clinical management systems, or 5+ years in Product Management \u2022 1+ year with Jira Align, Azure DevOps, or equivalent tools to manage features, stories, and decisions \u2022 Proven ability to convey complex technical concepts to 3+ audiences (executive, technical, business) through written and verbal updates on a weekly or sprint-based cadence \u2022 Record of leading 2+ cross-functional initiatives spanning technology and business domains, coordinating teams to deliver measurable outcomes \u2022 Experience facilitating cross-functional meetings, PI planning events, and formal presentations for 10 to 100+ stakeholders Preferred Qualifications \u2022 Master's degree in business or healthcare \u2022 1-2 years supporting Medicare and/or Medicaid programs (Special Needs Plans and state Medicaid Care Management), documenting requirements across system build, configuration, or enhancement projects \u2022 Active Epic certification(s) or hands- on Epic experience \u2022 Certified Product Manager (CPM), SAFe Product Owner/Product Manager (POPM), or equivalent certification \u2022 Demonstrated success balancing strategic vision with operational execution in growth-oriented environments Additional Information: This role is not eligible for work visa sponsorship. \u2022 Travel: Willingness to travel up to 25% (annually) for partner engagement and product projects. \u2022 Typical Workdays/Hours: Monday \u2013 Friday, 8:00 am \u2013 5:00 pm EST or CST with some weekend hours required Work at Home Requirements: To ensure Home or Hybrid Home/Office employees\u2019 ability to work effectively, the self-provided internet service of Home or Hybrid Home/Office employees must meet the following criteria: At minimum, a download speed of 25 Mbps and an upload speed of 10 Mbps is required; wireless, wired cable or DSL connection is suggested. In certain roles, the minimum recommended internet speed required by Humana may not be sufficient for business needs. Humana reserves the right to require associates to upgrade their internet service if necessary. Work from a dedicated space lacking ongoing interruptions to protect member PHI / HIPAA"
+  },
+  {
+   "id": "jsearch:N3dKTF9XMFE0cmZkcURQVEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVkpaVnpWc1NHTnpVaTFWZVhnNU9IbzBSV296T1VSMFFtVnRWRlJzYTI1b2NXcExWRkJ4WDJrNVRUUmtOVGwyWW14bGVFVlpVSE40WVZwa1EydEVOa2d0VWxGYVMya3pPV0ZwY1dSYVVFVnNiVkU0UmtKaVFtaGpiMTlWY2pCWE9WUnBUa2d4U1Zsbk5VSkljR2t5TjJkalQweHhRazk1TlVaeVMxQldTM2s1VFRaZlRYUVNGMkZuZWxGaGRrOUxTRkJZZWpkTk9GQXpaR1pHTWxGdkdpSkJSSE55T1daUlVIVkJXSHBVWVVvdGFFSkxhbWxHTTNKUE0ySm5UMHhJZUc1bg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Lead Product Manager, Templates & Hierarchy",
+   "company": "MaintainX",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/lead-product-manager-templates-hierarchy-at-maintainx-4478136124",
+   "posted": "2026-10-13T00:00:00+00:00",
+   "salary": "",
+   "description": "MaintainX is a leading mobile-first work execution platform for industrial and frontline teams. More than 13,000 customers, including Duracell, McDonald's, Shell, DHL and Volvo, use MaintainX to cut unplanned downtime and run better operations, across 13.9 million managed assets and 79.5 million completed work orders. In August 2026 MaintainX became part of Autodesk, joining Autodesk Operations Solutions, the organization unifying Autodesk's operations platform alongside Tandem, FlexSim and Fusion Operations. Autodesk's strategy is to converge design, make and operate into one continuous lifecycle: design an asset, build it, run it, then feed what you learn running it back into the next design. Autodesk had design and make. Operate is the phase that tells you what actually happened, and it is ours. We're growing fast and hiring the Product talent to match. We are seeking a Lead Product Manager to join our Core Division. This role sits in the Enterprise Knowledge pillar, the team responsible for how large, multi-site customers define and govern their operational data. The pillar is building the Templating Service: the layer that lets an enterprise define a procedure, asset, work order or part once and cascade it to every site, with versioning, update policies and controlled publishing. What You'll Do You'll own the Templating Service end to end, and as it matures, the redesign of the location and asset hierarchy underneath it. \u2022 Own strategy, roadmap and execution for templates across assets, procedures, work orders and parts, taking the current design-partner alpha to GA adoption across multi-site enterprise accounts \u2022 Consolidate three overlapping configuration systems into one registry, with a migration path and deprecation sequence that strands no customer mid-move \u2022 Resolve the semantics this space is full of \u2014 update policies, publish and conflict flows, versioning, promoting existing records into templates \u2014 so teams building on top have settled rules \u2022 Run the design-partner program yourself: recurring customer sessions and prototype-driven discovery, converted into roadmap \u2022 Take the hierarchy redesign from spec to validated model \u2014 typed locations, N-level depth, functional positions that keep PM schedules alive through asset swaps \u2014 additive and non-breaking for customers on today's two-level structure About You \u2022 10+ years in product management, including 5+ years of platform or core-product work at an enterprise SaaS company \u2014 entity models, permissioning, configuration frameworks, the foundations other products are built on, not the features on top \u2022 Deep systems thinking: you can hold a cascade/override policy or a hierarchy schema in your head, reason about cardinality and migration states, and argue the trade-offs with staff engineers as a peer \u2022 A real discovery motion \u2014 you run design-partner sessions yourself and let evidence overrule opinion \u2022 A track record sequencing multi-year foundational work while shipping customer-visible value every quarter Nice To Have \u2022 CMMS, EAM or industrial operations background \u2022 Experience migrating customers off SAP PM or Maximo-class systems Our mission is to keep the physical world running. Factories, fleets, hospitals and campuses stay up because the people who maintain them have tools worth using. That is what we build. Compensation and benefits. Base pay is one part of the package. Depending on the role, compensation may also include commission, an annual bonus and equity. Benefits differ by country. For roles in the United States, Autodesk\u2019s benefits are described at benefits.autodesk.com. For roles in Canada and other countries, the plan differs on health coverage, retirement and leave, and your recruiter will walk you through it. Belonging. We take pride in a culture where everyone can thrive. More at autodesk.com/company/global-belonging. More on where this is going: Autodesk CEO Andrew Anagnost on building the future of connected operations, and AOS SVP Stephen Hoo"
+  },
+  {
+   "id": "jsearch:ZDQtQ0VfSzVrbGQ2MXh0QUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURk5hWTJwMWIyWnBXRkZZUXpobGRtMTNOSGw0TjA1cE9HRTRVWFF4YjNGVGFuZEtabTV3YzJkM00xUnhaamczVTFaS1dGcHNVMHBFWVdoQmQwbzRaR3REWWxONVYwbHRaVWxMT1hacFJuZFFSMUpYWkV4YVpsODVaa3BvWmtOcWNqWmphREJDWVU4eGJGSnpSMFpqTUZCRFNqSktURkY0VjJST1lUZzNTR2N5TW5CdVgzY1NGMkZuZWxGaGRrOUxTRkJZZWpkTk9GQXpaR1pHTWxGdkdpSkJSSE55T1daU1NXOTBjWGRhYkc1ZmIyWTRRekpHTFdkUlVtTTBjbUo0YUZKbg",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Senior Product Manager - Loyalty Programs, Rewards Strategy & Digital Integrations",
+   "company": "Recrute Action Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=e9206ee463e6dde0",
+   "posted": "2026-10-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Senior Product Manager - Loyalty Programs, Rewards Strategy & Digital Integrations This role will own the end-to-end rewards and loyalty strategy for Manulife members, from business case development and program design through execution, measurement, and optimization. The successful candidate will lead the delivery of member rewards initiatives while partnering closely with third-party vendors and internal teams to ensure seamless digital integrations, customer experiences, and business outcomes. What is in it for you: \u2022 Salaried: $50-60 per hour. \u2022 Incorporated Business Rate: $60-70 per hour. \u2022 12-month contract. \u2022 Full-time position: 37.50 hours per week. \u2022 Hybrid work, with 3 days per week in the office. Responsibilities: \u2022 Own the end-to-end loyalty and rewards strategy, including program design, budget management, member engagement objectives, reward eligibility, and value proposition development. \u2022 Lead the full rewards lifecycle from business case and requirements gathering through configuration, launch, measurement, optimization, and ongoing enhancements. \u2022 Partner with internal stakeholders and third-party vendors to translate rewards strategies into scalable solutions and successful member experiences. \u2022 Define reward performance metrics and KPIs, monitor program effectiveness, and continuously improve member engagement, adoption, and business outcomes. \u2022 Manage relationships with external vendors, ensuring quality delivery, execution excellence, adherence to timelines, and successful implementation of rewards initiatives. \u2022 Lead roadmap planning and prioritization across rewards, member experience, and integration initiatives while balancing business goals, customer needs, and technical constraints. \u2022 Drive ecosystem integrations with internal and external platforms, including customer-facing authentication, SSO capabilities, and vendor connectivity solutions. \u2022 Collaborate with Product, Engineering, Security, Architecture, Marketing, Operations, and Finance teams to ensure alignment throughout the delivery lifecycle. \u2022 Support the development and evolution of integration patterns, APIs, authentication methods, and vendor connectivity frameworks to support a growing digital ecosystem. \u2022 Present recommendations, business cases, program results, and strategic trade-offs to senior leadership in a clear and compelling manner. What you will need to succeed: \u2022 Minimum 5 years of Digital Product Management experience with responsibility for end-to-end product or program delivery. \u2022 Strong experience designing, launching, managing, or optimizing loyalty, rewards, member engagement, or customer incentive programs. \u2022 Proven track record delivering initiatives from strategy through execution and measurable business outcomes. \u2022 Experience managing third-party vendors, external partners, and cross-functional stakeholders in complex environments. \u2022 Knowledge of digital integrations, APIs, customer authentication, SSO, identity federation, or related technologies. \u2022 Experience working across Product, Engineering, Business, Marketing, Operations, and Technology teams. \u2022 Strong business acumen, including budgeting, ROI analysis, business case development, and performance measurement. \u2022 Excellent executive communication and stakeholder management skills. \u2022 Ability to simplify complex business and technical concepts and translate them into actionable recommendations. \u2022 Strong organizational skills with the ability to manage multiple priorities and deliver results in fast-paced environments. \u2022 University degree in Business, Technology, Engineering, Computer Science, or a related field. \u2022 Experience in insurance, benefits, healthcare, financial services, or highly regulated industries is considered a strong asset. Why Recruit Action? Recruit Action (agency permit: AP-2504511) provides recruitment services through quality support and a personalized approach. As part of the screening process, some applications may be reviewed using artific"
+  },
+  {
+   "id": "jsearch:QV9LT1BkYTRyZ2t2UmxHb0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVmRwVjBGUE1GYzNVSFJzTFZocFZrSjRVUzFMWkVSSFdFeGlNVkk1T1hGck9VTTVhVmx4UjBGcFdYbENRM281U0UxU09FRkhZMGxyUkVkcFVFRkZhRU0wYTFCRE1DMWFhMEpPV0hCTFIzSXlVa1UxZDNGVmFXNHphRmRDT1dkNGRIWTFRMUZuUXpGa1ZXMXBNR2hMY2xsbWVHSjRkV2hLVXpKUFZrdDZielJFVldKYVdVRVNGMk5SZWxGaGNEWXhSalJwYURWT2IxQTVka2hKTUVGckdpSkJSSE55T1daUlRVaHBWRjlvTVZWR1NHOUdVV042Tm5KdFEycFZSVXhKVTNSMw",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Head of Domestic Payments, Senior Product Manager",
+   "company": "Citi Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/head-of-domestic-payments-senior-product-manager-311513aaaab5c5c3e52f99c68bf6e941",
+   "posted": "2026-10-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Citi is looking for a senior payments leader to take full ownership of Canada's domestic payment product portfolio \u2014 spanning real-time, batch, and legacy rails \u2014 and define the next chapter of how Citi serves the country's largest corporates and financial institutions. Sitting within Citi's Services organization and reporting to the Canada Payments Head, this role combines strategic product leadership with direct team management, making it one of the most high-impact positions in Canadian transaction banking. The person in this role will set the product vision, manage P&L, and represent Citi at the industry level \u2014 shaping the future of domestic payment infrastructure in Canada. Responsibilities 1. Strategic Product Management & Commercial Growth \u2022 Product Roadmap & Vision: Formulate and execute the 3\u20135 year strategic roadmap for Canadian domestic payment products, balancing innovation with the resilience of established rails \u2022 P&L & Revenue Management: Take full ownership of the domestic payment product revenue, pricing strategies, transaction volume growth, unit economics, and margin expansion. \u2022 Market Commercialization: Collaborate closely with Sales, Corporate Banking, and Implementation teams to position product capabilities, respond to high-value RFPs, and drive client adoption across Tier-1 corporates and financial institutions. \u2022 Competitive & Market Intelligence: Continuously assess fintech innovations, open banking developments, and competitor offerings to ensure best-in-class product propositions. 2. People Leadership & Agile Delivery \u2022 Team Leadership & Development: Lead, mentor, and foster the professional growth of a dedicated team of Product Managers and Product Analysts. \u2022 Culture & Performance: Drive an inclusive, high-performance culture emphasizing deep domain expertise, accountability, customer-centricity, and continuous learning. \u2022 Cross-Functional Squad Leadership: Act as Product Owner / Business Lead across cross-functional squads comprising Technology, Operations, Risk, Compliance, Legal, and Client Services. 3. Rail-Specific Modernization & Lifecycle Management \u2022 Real-Time Rail (RTR) Execution: Spearhead organizational readiness, technical integration, and commercial launch for Canada\u2019s Real-Time Rail, leveraging ISO 20022 rich data for corporate use cases \u2022 ACSS & Batch Optimization: Spearhead modernization of ACSS and continuously enhance EFT capabilities, optimize clearing windows, reduce settlement risk, and ensure high Straight-Through-Processing (STP) rates. \u2022 Interac Solutions: Expand corporate adoption of Interac e-Transfer to replace traditional manual/paper disbursement workflows. \u2022 Paper Rationalization & Digital Migration: Manage legacy cheque clearing and image rule frameworks while actively executing client migration programs to electronic and instant rails. 4. Industry Advocacy & Regulatory Governance \u2022 Industry Bodies & Representation: Represent the bank on Payments Canada Committees, Interac working groups, and Canadian Bankers Association (CBA) payment task forces. \u2022 Regulatory Compliance: Ensure strict adherence to Payments Canada By-laws and Rules, Bank of Canada oversight standards and FINTRAC/AML requirements. 5. Risk, Controls & Operational Resilience \u2022 Risk Governance: Maintain active risk management over product operations, fraud prevention (Positive Pay, verification services), cyber resilience, and compliance frameworks. \u2022 Incident & Continuity Management: Lead business incident management during clearing disruptions and ensure 24/7/365 business continuity and disaster recovery readiness. Required Qualifications & Skills \u2022 15 or more years of experience in financial services or fintech, with at least 10 years focused on transaction banking product management or commercialization. \u2022 At least 5 years of direct people leadership, including managing and developing product teams within complex, matrixed organizations. \u2022 In-depth knowledge of Canada's clearing and settlement ecos"
+  },
+  {
+   "id": "jsearch:YTg0RjRNbjdtTW5CaXU4MEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXN3VVV0a2JreEJRbUUwTTNwV1pEZDJObWRPV2s1VVYzaFhkbk53UjA5Q1VVSmFNVFZzUkVKM05GWjRhM0JHTWtSS1NHeFBhamRNTUdOeU5sVnhibW94U1c5T1gzcHNOR3hYUmtSSWRFVTVSa05CYkZsdVEyaEtSRFpHTVROMWJXOXhTVTgyZFRKR1dXVTRXV2Q0WmxnM2RFWjZjMEZPYm01VlVYaEdhemhFY1hOT2IyWVNGMk5SZWxGaGNEWXhSalJwYURWT2IxQTVka2hKTUVGckdpSkJSSE55T1daUk9FVnVaMWRrTjBoWFpXUkdObUpDVTJvNUxVRTRNVTQ1VTNSUg",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Director, Product Management",
+   "company": "OpenText",
+   "location": "Mississauga, ON, Canada",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/director-product-management-87dd12775cd3c9aecb8c6fb96d9f9486",
+   "posted": "2026-10-13T00:00:00+00:00",
+   "salary": "",
+   "description": "OPENTEXT - the information company OpenText is a global leader in information management, where innovation, creativity, and collaboration are the key components of our corporate culture. As a member of our team, you will have the opportunity to partner with the most highly regarded companies in the world, tackle complex issues, and contribute to projects that shape the future of digital transformation. AI-First. Future-Driven. Human-Centered. At OpenText, AI is at the heart of everything we do\\u2014powering innovation, transforming work, and empowering digital knowledge workers. We are hiring talent AI can't replace to help us shape the future of information management. Join us. OpenText is seeking a Director of Product Management to lead the strategy, growth, and evolution of OpenText Communications, our enterprise customer communications management portfolio. This leader will own the product direction across deployment models, including off-cloud, single-tenant private cloud, and multi-tenant SaaS. This role will help clients modernize mission-critical communications operations while advancing our leadership in cloud, AI, intelligent design, orchestration, and omnichannel client engagement. The portfolio strategy emphasizes deployment choice, migration and modernization, AI-enabled productivity, enterprise integrations, regulatory compliance, and the evolution from static communications toward more dynamic and conversational engagement. Your Impact: You will define and lead the overall product strategy for OpenText Communications and translate that strategy into clear investment priorities, roadmaps, growth plans, and measurable client outcomes. You will lead a global team of product management professionals responsible for product strategy, design and authoring, orchestration, AI, integrations, cloud delivery, client adoption, and portfolio operations. You will partner closely with Development, Product Marketing, Sales, Client Success, Professional Services, Support, Cloud Operations, and other OpenText product groups. What the Role Offers: \u2022 Own the vision, strategy, roadmap, and business outcomes for the OpenText Communications portfolio. \u2022 Lead, coach, and develop a global product management team with clear ownership and accountability. \u2022 Establish investment priorities across client innovation, cloud modernization, AI, platform capabilities, technical currency, security, and product maintenance. \u2022 Drive the transition to cloud through compelling migration paths, deployment flexibility, simplified operations, and reduced barriers to adoption. \u2022 Advance the portfolio's AI strategy, including assistance and agents that help clients design, create, migrate, govern, and manage communications. \u2022 Align the single-tenant and multi-tenant product strategies while maintaining clear market positioning, target use cases, and economic models for each. \u2022 Define measurable client and business outcomes for major roadmap investments. \u2022 Guide product packaging, pricing, licensing, and monetization in partnership with finance, pricing, and go-to-market teams. \u2022 Build strong relationships with strategic clients, advisory boards, industry analysts, partners, and field teams. \u2022 Represent the portfolio in executive reviews, client engagements, analyst briefings, roadmap presentations, and major industry events. \u2022 Partner with Development leadership to balance innovation, client commitments, architectural modernization, quality, scalability, and operational readiness. \u2022 Strengthen integrations with enterprise ecosystems such as SAP, Salesforce, Guidewire, messaging, journey, content, and digital experience applications. \u2022 Create clear positioning against major competitors and translate market insight into differentiated product investments. \u2022 Lead portfolio planning, release governance, client commitment management, and cross-functional execution. \u2022 Develop business cases and recommendations for investment, consolidation, modernization, or ret"
+  },
+  {
+   "id": "jsearch:Sm53b0p6OE1rcDZ0bGZYWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTeTFFYTJWRU56aGFMVk5EVDNVeExXVlBOak5LVnpKWVFsWjRhWGRtVFhOTU9HYzJNVkJ2TkZaTU5WZGlhR1oyYjI0elUyUXdOV2h0Vm1wSVNGcHlhSEE1TlZCNmJVNXdkWGxLUWtSZlRpMTFVRmg0ZUZsYWJrSm1NREJMTFVoSWJHaDZVakJVVDB3MmVrNXFTblpWVjBWTldWVkJWV2hGYVZvMVZuZHBZelJaVmpBdGNuTVNGMkZuZWxGaGRrOUxTRkJZZWpkTk9GQXpaR1pHTWxGdkdpSkJSSE55T1daVWRWUnZkR1F5TVdsRWRVeFNRMVZ6Y2tOalRqUk5Ta2x6Um5GUg",
+   "source": "jsearch",
+   "publisher": "Citi Careers",
+   "title": "Head of Domestic Payments, Senior Product Manager \u2013 Canada",
+   "company": "Executive",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://jobs.citi.com/job/toronto/head-of-domestic-payments-senior-product-manager-canada/287/101328063088",
+   "posted": "2026-10-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Citi is looking for a senior payments leader to take full ownership of Canada's domestic payment product portfolio \u2014 spanning real-time, batch, and legacy rails \u2014 and define the next chapter of how Citi serves the country's largest corporates and financial institutions. Sitting within Citi's Services organization and reporting to the Canada Payments Head, this role combines strategic product leadership with direct team management, making it one of the most high-impact positions in Canadian transaction banking. The person in this role will set the product vision, manage P&L, and represent Citi at the industry level \u2014 shaping the future of domestic payment infrastructure in Canada. Responsibilities 1. Strategic Product Management & Commercial Growth \u2022 Product Roadmap & Vision: Formulate and execute the 3\u20135 year strategic roadmap for Canadian domestic payment products, balancing innovation with the resilience of established rails \u2022 P&L & Revenue Management: Take full ownership of the domestic payment product revenue, pricing strategies, transaction volume growth, unit economics, and margin expansion. \u2022 Market Commercialization: Collaborate closely with Sales, Corporate Banking, and Implementation teams to position product capabilities, respond to high-value RFPs, and drive client adoption across Tier-1 corporates and financial institutions. \u2022 Competitive & Market Intelligence: Continuously assess fintech innovations, open banking developments, and competitor offerings to ensure best-in-class product propositions. 2. People Leadership & Agile Delivery \u2022 Team Leadership & Development: Lead, mentor, and foster the professional growth of a dedicated team of Product Managers and Product Analysts. \u2022 Culture & Performance: Drive an inclusive, high-performance culture emphasizing deep domain expertise, accountability, customer-centricity, and continuous learning. \u2022 Cross-Functional Squad Leadership: Act as Product Owner / Business Lead across cross-functional squads comprising Technology, Operations, Risk, Compliance, Legal, and Client Services. 3. Rail-Specific Modernization & Lifecycle Management \u2022 Real-Time Rail (RTR) Execution: Spearhead organizational readiness, technical integration, and commercial launch for Canada\u2019s Real-Time Rail, leveraging ISO 20022 rich data for corporate use cases \u2022 ACSS & Batch Optimization: Spearhead modernization of ACSS and continuously enhance EFT capabilities, optimize clearing windows, reduce settlement risk, and ensure high Straight-Through-Processing (STP) rates. \u2022 Interac Solutions: Expand corporate adoption of Interac e-Transfer to replace traditional manual/paper disbursement workflows. \u2022 Paper Rationalization & Digital Migration: Manage legacy cheque clearing and image rule frameworks while actively executing client migration programs to electronic and instant rails. 4. Industry Advocacy & Regulatory Governance \u2022 Industry Bodies & Representation: Represent the bank on Payments Canada Committees, Interac working groups, and Canadian Bankers Association (CBA) payment task forces. \u2022 Regulatory Compliance: Ensure strict adherence to Payments Canada By-laws and Rules, Bank of Canada oversight standards and FINTRAC/AML requirements. 5. Risk, Controls & Operational Resilience \u2022 Risk Governance: Maintain active risk management over product operations, fraud prevention (Positive Pay, verification services), cyber resilience, and compliance frameworks. \u2022 Incident & Continuity Management: Lead business incident management during clearing disruptions and ensure 24/7/365 business continuity and disaster recovery readiness. Required Qualifications & Skills \u2022 15 or more years of experience in financial services or fintech, with at least 10 years focused on transaction banking product management or commercialization. \u2022 At least 5 years of direct people leadership, including managing and developing product teams within complex, matrixed organizations. \u2022 In-depth knowledge of Canada's clearing and settlement ecos"
+  },
+  {
+   "id": "jsearch:d08yWHpzeTVjNDdEb3JKaEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGhpZEdaNUxXVktVMmhIYjBrMkxXMVNVRFpoV2xGamIwaFBRbFZXTm5neVdVZGlVR2xaYkVwdWRraHVRazlMY2t3Mk4zTlpNbEJNVjAxVFdTMW1ja1JwYVVFeGJGbEJiMU5pV0RGRFJFNXNOVmhhZW10d09Fc3lkRzVZVW10VmVWWTFURGwxTm5vdFNrRkJWMGh0WmxOb05rTTNTSEZpVFhSSlNYaDNUalJRVFRaMFgwRVNGMk5SZWxGaGNEWXhSalJwYURWT2IxQTVka2hKTUVGckdpSkJSSE55T1daVU9WOWFZMWhwZUVNemExZHZSRVJmWmpSTkxXZ3dRMkp2UnpoQg",
+   "source": "jsearch",
+   "publisher": "RBC Careers",
+   "title": "Senior Director, AI Product Management",
+   "company": "Royal Bank of Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://jobs.rbc.com/ca/en/job/RBCAA0088R0000182550EXTERNALENCA/Senior-Director-AI-Product-Management",
+   "posted": "2026-10-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description Senior Director, AI Product Management What's the opportunity? We're looking for a product leader who can turn a strategic product vision into shipped reality at scale. As Senior Director, AI Product Management, you will own user-focused product success for RBC's internal Agentic AI platform, defining the product vision and translating it into a tangible roadmap, community, and ecosystem. You will build discipline around ensuring relentless customer focus and a business-strategy lens on what we build and why. You will lead a team of Product Managers and own Voice of the Customer, feature prioritization, adoption and community building around the product across RBC. You will be expected to set the operating rhythm, make the hard tradeoff and resourcing calls, and hold a quality bar \u2014 bringing the credibility that comes from having built and shipped AI products at scale, not just managed roadmaps. Your responsibilities will include: \u2022 Team leadership: Leading and developing Director-level leads (across Product Strategy & Roadmap, Community & Adoption, Ecosystem & Partnerships) and the teams beneath them, with clear career paths and succession \u2022 Integrated delivery: Owning a single execution plan that aligns roadmap delivery, community programs, and partnership milestones to one cadence \u2022 Operating cadence: Establishing and running sprint reviews, quarterly planning, and OKR setting and tracking \u2022 Tradeoff and escalation ownership: Serving as the primary escalation point for cross-pillar dependencies, tradeoffs, and resourcing decisions \u2022 Product quality: Maintaining acceptance criteria, release gates, and documentation standards across the squad \u2022 Adoption and outcomes: Using analytics, telemetry, and adoption measurement to drive decisions and report progress, risks, and resource needs \u2022 Ecosystem health: Ensuring the community and partnership programs sustain engagement and healthy adoption across the RBC user base You're our ideal candidate if you: \u2022 Have 10+ years of product management experience, including 3+ years leading multi-team product organizations as a manager of managers \u2022 Have a track record of customer discovery and translating user needs into product strategy and prioritization \u2022 Have hands-on experience delivering end-user facing AI products \u2014 ideally generative or agentic AI \u2014 at production scale \u2022 Have run large-scale internal or enterprise product launches with measurable adoption outcomes \u2022 Bring strong operational discipline: agile delivery, OKR frameworks, and release management \u2022 Are data-driven, comfortable with analytics, telemetry, and adoption metrics as the basis for product decisions \u2022 Have financial services experience, or the ability to rapidly develop it - understanding how banking employees work and the regulatory constraints on internal tooling \u2022 Have a working knowledge of LLM evaluation, prompt engineering, or RAG architecture \u2014 sufficient to shape product decisions and engage technical teams Nice to have: \u2022 MBA or Master's in a technical or business discipline \u2022 Product management certification (CSPO, SAFe, AIPM, or Pragmatic Institute) \u2022 Background in platform engineering or developer experience teams \u2022 Experience in a major bank's technology or digital transformation function What's in it for you: \u2022 Drive AI transformation at one of Canada's largest and most respected financial institutions, with exposure to senior leadership across RBC \u2022 Be part of a newly formed, high-impact function within RBC's AI Group alongside experienced transformation leaders \u2022 A comprehensive Total Rewards Program including bonuses and flexible benefits, competitive compensation, commissions, and stock options where applicable \u2022 Leaders who support your development through coaching and managing opportunities \u2022 Ability to make a difference and lasting impact from a local-to-global scale About the AI Group: RBC's AI Group is the AI accelerator for RBC, with a focus on driving the shift from early-s"
+  },
+  {
+   "id": "jsearch:SzFvTVkwQzNMVWpyZlJNQUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMFV0TmprdGJIVTVNM04wVXpBd1RqVktXVkp1TXpNd2JGZ3RNMUZ5UmswNU4xZDBWbVJIUjBNelREUlZibXROTjBwYVNGUklhRGw1VURWVVVXWXhSVXhSWDJaMWFEaHBkVTgyYW1Ga05tRk5NVUZ2UlhFMFFrNVFSSEZuT0hwSVJHeGFlWEptV1ZsSWRqTlJSek00TWt4MVlYWXlVbTFhY0dzMmJVUm1SbHAwTW01WE4zZ1NGMk5SZWxGaGNEWXhSalJwYURWT2IxQTVka2hKTUVGckdpSkJSSE55T1daUlZtTlNaM1oxZEdKUU5rMHdVMUZsY1ZZdFFUVlBNRVJ5VG1Sbg",
+   "source": "jsearch",
+   "publisher": "Manulife Careers",
+   "title": "Global Digital Product Manager",
+   "company": "Manulife",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://careers.manulife.com/cn/zh/job/JR26050947/Global-Digital-Product-Manager",
+   "posted": "2026-10-12T00:00:00+00:00",
+   "salary": "",
+   "description": "The Global Digital Product Manager is responsible for the execution on product strategy/roadmap for our Global Corporate website, and the Adobe Experience Manager components that act as the foundation for all Manulife Investment Management\u2019s digital properties. The Manager will work with business partners & internal/external design & development teams to implement and iterate them. This role will initiate and prioritize projects that drive excellent customer experience, and generate business value! Position Responsibilities: \u2022 Lead the redesign of Manulife Investment Management\u2019s global corporate website, and continue to evolve it to ensure it has clear objective, and delivers value as part of the overall Manulife digital ecosystem \u2022 Drive the strategy and the execution of Manulife Investment Management\u2019s Adobe Experience Manager components, the foundation of our digital experience. You will work with stakeholders and partners to implement AEM components that elevates our client experience, and drive customer engagement with our digital offerings \u2022 Lead the strategy of global shared digital platforms, identify areas of opportunity to leverage platforms across regions to improve digital experience, and drive efficiency \u2022 Clearly present product concepts, roadmap, and delivery timeline to business stakeholders \u2022 Take product enhancements and new product launches from start to finish thinking through each detail and delivering solid results, collaborating with cross functional teams for every stage of product development \u2022 Manage Program Backlog and other means to achieve and maintain targeted business objectives. \u2022 Champion user-centric design, leveraging user feedback from various channels, competitive analysis, and technology trends to facilitate building advisor-centric products \u2022 Work with stakeholders on responding to bugs and critical customer facing issues. \u2022 Managing and updating the team backlog with quality grooming. \u2022 Act as a Business Process owner within the Agile development process. \u2022 Work with internal teams on performing analysis and generating requirements, evaluate the feasibility and technical alternatives, prioritize and generate a deliverable \u2022 Proven ability to understand customers' operations and business drivers and translate them into product requirements. \u2022 Always work with the teams to ensure value delivery, and ensure an adoption strategy is in place. \u2022 Responsible to identify and carefully consider which activities will produce the most business value \u2022 Overall experience of 6-8 years with 4+ years of web content management system \u2022 Knowledge in AEM foundational concept \u2022 Knowledge on latest AEM features \u2022 Vendor relationship management Required Qualifications: \u2022 Bachelors Degree \u2022 10+ years experience \u2022 Working knowledge of financial services products, sales cycle and market \u2022 Ability to manage key performance indicators (KPI\u2019s) and leverage reporting data to provide insight to the business and make strategic business recommendations \u2022 Exceptional communication and presentation skills \u2022 Ability to conduct user/design research or work closely with design researchers \u2022 Ability to understand and navigate the challenges inherent in a larger organization while staying productive, creative, and engaged When you join our team \u2022 We\u2019ll empower you to learn and grow the career you want. \u2022 We\u2019ll recognize and support you in a flexible environment where well-being and inclusion are more than just words. \u2022 As part of our global team, we\u2019ll support you in shaping the future you want to see If you are applying to this role in Massachusetts, please note the salary range is $128,550 - $222,820 USD. Additionally, employees also have the opportunity to participate in incentive programs and earn incentive compensation tied to business and individual performance. #LI-Hybrid The role being advertised is an existing vacancy. \u5b8f\u5229\u91d1\u878d\u6709\u9650\u516c\u53f8\u662f\u5168\u7403\u9886\u5148\u7684\u91d1\u878d\u670d\u52a1\u63d0\u4f9b\u5546\uff0c\u81f4\u529b\u4e8e\u5e2e\u52a9\u5927\u4f17\u8f7b\u677e\u4f5c\u51fa\u660e\u667a\u6289\u62e9\uff0c\u5b9e\u73b0\u7cbe\u5f69\u4eba\u751f\u3002\u5982\u6b32\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u6211\u4eec\u7684\u4fe1\u606f\uff0c\u8bf7\u8bbf\u95ee\u4eba\u5bff\u4fdd\u9669-\u517b\u8001\u4fdd\u9669-\u5065\u5eb7\u4fdd\u9669-\u4e2d\u5b8f\u4fdd\u9669\u5b98\u7f51 (manulife-sin"
+  }
+ ]
+}
