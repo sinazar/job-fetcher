@@ -1,0 +1,407 @@
+{
+ "run_id": "2026-10-17T113516Z",
+ "run_at": "2026-10-17T11:35:16.389130+00:00",
+ "date": "2026-10-17",
+ "source_counts_after_filters": {
+  "jsearch": 19,
+  "remoteok": 1,
+  "weworkremotely": 3,
+  "adzuna": 0
+ },
+ "new_count": 9,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 16,
+   "kept": 9,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Senior Product Marketing Manager/Gestionnaire principal(e) du marketing produit | Unity Technologies SF | Toronto, ON, Canada | 2026-10-15T00:00:00+00:00",
+    "[title] Analytics & ML Product Associate - Remote, Mentorship | Switch Growth Inc. | Toronto, ON, Canada (Remote) | 2026-10-15T00:00:00+00:00",
+    "[title] Junior Product Manager - Digital Credentials - MSON #19 | Compu-Vision Consulting Inc. | Ontario   (+7 others), Canada | 2026-10-15T00:00:00+00:00",
+    "[title] Brand and Product Marketing Manager | UNIQLO | Toronto, ON, Canada | 2026-10-15T00:00:00+00:00",
+    "[title] Senior Manager, HPIbet Product Operations, Platform & Compliance Etobicoke, Ontario | Full time | Woodbine Entertainment Group | Toronto, ON, Canada | 2026-10-16T00:00:00+00:00",
+    "[title] Product Intern, Money Movement | Interac Corp. | Toronto, ON, Canada | 2026-10-15T00:00:00+00:00",
+    "[title] Product Marketing Manager, Cataract \u2014 Hybrid Canadian Role | Johnson & Johnson MedTech | Markham, ON, Canada | 2026-10-15T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "cursor": "EvcGCrcGQUppVDR0SjRac1JtVzRGdU1ycTd1NC10UjFJSXRWXzdYeWxIeFgyYUFCY1pmT3VCa0JvM0pIb2hocGpZdHFnXzZYVUplcHhLZld5bjd5Q25FVE9CTmxyQTBJRjNkVFJGRklJRFdDelhTaklvTjdtclppdk1MZURIWWZhVGMyVW1Wc1A1UVg0LVd2UlJlYW1NejBWUF9BeG5jWUFmb1otM0dHbjItOEh4aF9NWXV6aEExRGVjLXFRalQzSk9BZGxPMGNhZkdtX09nUzNOWHZycEFUTmdZd2VjMmF6MlNzRnFkUERrZ0NEWkVvUHY2Y3pUNlJMS0dvN2xHV2JCYnpVTjgtVUc2TS1YcEU3WDl5c0h0ald5eXJkcDVMcWxPeXNhTHE3RHNTVlRhQUdDelVDVzE3YXVfY3pIbld6Uy1pbEJ6Rm8xVGlTdm0yZi1KTWdxRXQ3dW4zYWFWcG1Uam44cTgxT1FnQm0xTkU3WVBBWUhNVk1VOUFtNUQzTzRoMDUwQ0pybDhZQjloTVZqQjJNOWxZRlBTZC1JdFBhLU1EZlBCWDNseVo0aUkyeDBWbGNyMFZ2ck5tcTdFLXJlTmZyOG5jVDVWQ1NyUFJyRjVrZ3hMN0s5WVh2N3JNeUtmZFRVZEhNUm9iUWNNOEZTUk1NSDdaT2g1bTRGbjVfTGR6WHdQeUhHTjBDaTJDUnRYc1Z5MUxxWmpqbEpOX1Y3bjZVUFNtRmxmYmMzaEV3b2d3cDIyYjNfcC1wZDhmbldrblk0VThTWVROQ0l6MzM2czYyNEg4ODk1Vjd1cWE3SldKWTFxZF9FOEFERW0xbDdFRVFlUFh0UlJEWDlIR2ZHRnhtZUM4bXVDYUxMUkVCNmNEeXd1YUdMWHd2RldtZkdqZml4NzFKdnRJWFVqanZCekFZa3RmZTBXV1R3ZnlPX3N3emhFZU5LWk1DdDAwWWlnTXdCdXRHQkFZa01Zam5aNXhyYk45NkVCWkF1NUloTVQ5dmNJSWY5NG5PQklra1VnWEZldk9uWGIzMXdKb0pudm9WaWJ2TWplcmw1VFRZNGZSRy1uaEVLOWF2Q0xsMXhmeVU5YzdfX0R2ZxIXZFYzVGF0SHdEcnJuaS1nUDV2dWFxUVkaIkFEc3I5ZlFVZk9UTjZ6V2JCUU5USnpLYnB4YTdSenczY0E",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10,
+    6
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "location": 7,
+    "title": 2
+   },
+   "rejected_samples": [
+    "[location] Founding Product Manager | Clera Inc. | Canada   (+30 others) | 2026-10-16T00:00:00+00:00",
+    "[location] Senior Product Manager | Takeaway.com | Canada   (+30 others) | 2026-10-15T00:00:00+00:00",
+    "[location] Growth Product Manager | Time Doctor | Montreal, Quebec, Canada | 2026-10-15T00:00:00+00:00",
+    "[location] Senior Product Manager, Credit & Pricing | Affirm | Hamilton, ON, Canada | 2026-10-16T00:00:00+00:00",
+    "[location] Sr Lead Product Manager-Canada | RELQ TECHNOLOGIES | Canada | 2026-10-15T00:00:00+00:00",
+    "[location] Sr. Principal Product Manager, AI Agents | ABC Fitness | Canada   (+30 others) | 2026-10-15T00:00:00+00:00",
+    "[location] Senior Product Manager, Loyalty & Rewards (Fintech) | Affirm | Saskatoon, SK, Canada | 2026-10-15T00:00:00+00:00",
+    "[title] Product AI & Automation Lead | Kinaxis | Qu\u00e9bec City, Quebec, Canada | 2026-10-15T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 9,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[aggregator] [Remote] Senior Product Manager TMON and Storage | remote quest jobs | Anywhere (Remote) | 2026-10-16T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 95,
+    "location": 3
+   },
+   "rejected_samples": [
+    "[title] Associate Data Scientist | AlgaeCal | Vancouver (Remote) | 2026-10-16T00:00:56+00:00",
+    "[title] Director of IT and Workplace | Hippocratic AI | Menlo Park (Remote) | 2026-10-16T00:00:50+00:00",
+    "[title] Customer Success Associate | Voltus | Remote | 2026-10-16T00:00:43+00:00",
+    "[title] Account Manager Mid Market | Allego | Waltham (Remote) | 2026-10-15T16:00:21+00:00",
+    "[title] Senior Software Engineer II Applied AI | Wrapbook | Remote | 2026-10-15T16:00:03+00:00",
+    "[title] Director US Tax & Accounting #35344 | Manila Recruitment | Remote | 2026-10-15T08:00:17+00:00",
+    "[title] Project and Quality Administrator Work From Home Dayshift | Twoconnect | Remote | 2026-10-15T08:00:11+00:00",
+    "[title] Sr REACT NATIVE | Somnio Software | Remote | 2026-10-15T00:00:19+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 23,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 13,
+    "too old": 7
+   },
+   "rejected_samples": [
+    "[title] Global Controller | Customer.io | Anywhere in the World (Remote) | 2026-10-17T07:30:55+00:00",
+    "[title] Senior Solutions Consultant | PagerDuty | Anywhere in the World (Remote) | 2026-10-16T07:31:07+00:00",
+    "[title] [Talent pool] Key Account Managment Specialist | EBANX | Anywhere in the World (Remote) | 2026-10-16T07:30:50+00:00",
+    "[title] Enterprise Sales Director | Fivetran | Anywhere in the World (Remote) | 2026-10-16T07:30:46+00:00",
+    "[title] GTM Systems Specialist | Tines | Anywhere in the World (Remote) | 2026-10-10T07:31:08+00:00",
+    "[too old] Product Manager, Detection Pipeline | Expel | Anywhere in the World (Remote) | 2026-10-07T07:31:00+00:00",
+    "[title] Senior Product Engineer | Semaphore | Anywhere in the World (Remote) | 2026-10-06T08:44:40+00:00",
+    "[title] Senior Data Scientist | Wrike | Anywhere in the World (Remote) | 2026-10-06T07:31:05+00:00"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/legion-principal-product-manager-agentic-ai",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Principal Product Manager, Agentic AI",
+   "company": "Legion",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/legion-principal-product-manager-agentic-ai",
+   "posted": "2026-10-17T07:31:02+00:00",
+   "salary": "",
+   "description": "Headquarters: Remote, United States Principal Product Manager, Agentic AI REMOTE, United States JOB OVERVIEW Legion is building AI agents that carry out workforce management work, not agents that describe it. Much of what is presented as AI in workforce management today is a conversational layer over an existing scheduling screen. The more substantial problem \u2014 software that reasons over demand, labor regulation, and employee preferences, then acts, with a person in the loop wherever the stakes require one \u2014 remains unsolved across the category. Legion intends to solve it, and this role leads the product work to get there. You will take an agent surface from operational research through specification, prototype, evaluation, and enterprise deployment, working hands-on throughout. You will work closely with Legion's AI Lab engineers and with our CEO, who is engaged in this work daily. RESPONSIBILITIES AND DUTIES Agent definition. Determine what an agent is responsible for, which tools it may call, what it must escalate, what it must never do, and what a manager sees when it acts. These decisions affect employee pay and legal compliance. Much of this work is pre-launch, so you will shape the direction rather than inherit it. Problem selection. The hardest judgment in agentic product work is identifying which workflows suit an agent and which do not. You will spend substantial time inside customer operations \u2014 district managers, store managers, labor operations, frontline employees \u2014 and return with a ranked, defensible view of where an agent creates measurable value and where it does not. The human-in-the-loop contract. Scheduling decisions affect income, childcare arrangements, and legal protections. For each agent action you will define where autonomy is appropriate, the escalation thresholds, how a manager overrides the system, what is logged, and how a compliance team audits the outcome. Legion treats this as a first-class design problem. Build quality. You are accountable for what ships, not for what was specified. That means staying engaged through implementation: reviewing the build against the specification as it comes together, using the product yourself before anyone else is asked to, joining bug triage and design review, catching drift from intent while it is still cheap to correct, and holding a release when the quality is not there. Our customers experience the build, not the document. A well-written specification that produced a product managers do not trust is failed product work, and we assess it that way. Evaluation. Build and maintain the evaluation sets that determine whether an agent is ready to ship and whether it is degrading in production \u2014 writing the cases, reviewing failure traces, setting the pass criteria. You will be the person who holds a release when the demonstration is persuasive and the evaluation is not. Specifications. Legion uses Functional Requirements Documents as its ground-truth specification layer; release notes, enablement material, and sales content are generated from maintained specifications rather than reconstructed from code or institutional memory. Write FRDs that meet that standard and keep them accurate after release. A specification is where the work begins, not where your responsibility ends. Commercialization. Partner with go-to-market on packaging, metering, pricing inputs, and field readiness. Agentic products raise difficult commercial questions \u2014 what unit to meter, what a customer is paying for when software performs work a person previously did \u2014 and you will be expected to hold a considered position on them. Design-partner delivery. Lead agent deployments with large enterprise design partners: scoping the pilot, establishing success criteria before it begins, joining failure reviews, and determining what becomes generally available and what remains bespoke. TECHNICAL EXPECTATIONS Legion is looking for a product manager who builds, rather than one who directs others who "
+  },
+  {
+   "id": "jsearch:WERTd0hRZ1NiTDBBNjUzMEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVEZNWmtNd2FuSTFMVGRhTm14RFEwbGZWbWxoWTNSWU9WVkZjVll0VTBGWlQxVkRNSEZWZEUxcFVUQjZZbmQyTVVzMU0wMWpNRUV3UmtOMFIybHRiV3hOTVhOSFFUQndjVk5vWmpOT2VqWXRNRGwyUTJVd1JYWlpPSEJZVm00eVdGQjZZemN4U1VOdlJUVkdRMnRrWkhkMFZGVmlNVzVGYW0weFRHNXRlbFIzWWxrNVZVTVNGMlJXTTFSaGRFaDNSSEp5Ym1rdFoxQTFkblZoY1ZGWkdpSkJSSE55T1daU1VIZzJSMmxsTVROMFFVSmlhREZmWDNNdGJubGlSRlZUTmt0Qg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Data Product Manager",
+   "company": "Mondel\u0113z International",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/data-product-manager-at-mondel%C4%93z-international-4480579008",
+   "posted": "2026-10-16T23:00:00+00:00",
+   "salary": "",
+   "description": "Job Description Are You Ready to Make It Happen at Mondel\u0113z International? Join our Mission to Lead the Future of Snacking. Make It With Pride. Together with analytics team leaders you will support our business with excellent data models to uncover trends that can drive long-term business results. How You Will Contribute You will: \u2022 Work in close partnership with the business leadership team to execute the analytics agenda \u2022 Identify and incubate best-in-class external partners to drive delivery on strategic projects \u2022 Develop custom models/algorithms to uncover signals/patterns and trends to drive long-term business performance \u2022 Execute the business analytics program agenda using a methodical approach that conveys to stakeholders what business analytics will deliver What You Will Bring A desire to drive your future and accelerate your career and the following experience and knowledge: \u2022 Using data analysis to make recommendations to senior leaders \u2022 Technical experience in roles in best-in-class analytics practices \u2022 Experience deploying new analytical approaches in a complex and highly matrixed organization \u2022 Savvy in usage of the analytics techniques to create business impacts More About This Role IN THIS ROLE you will lead end-to-end lifecycle ownership of one or more Data Products on Mondel\u0113z's DBx-based enterprise data platform. Accountable for requirements, roadmap, design governance, delivery quality, operational oversight, and retirement execution. Combines strategic product ownership with hands-on analytical execution. WHAT THIS TEAM AND ROLE DOES : Part of the MDS Data Products team driving AI-native transformation. Global data product strategy, delivery, and governance across the full lifecycle (demand intake \u2192 discovery \u2192 design \u2192 build \u2192 test \u2192 deploy \u2192 operate \u2192 retire). Works at the intersection of business strategy, data governance, and technical delivery. WHAT YOU WILL BRING : Experience bridging business and technical teams in data product delivery; passion for data governance and quality; strong stakeholder management across various stakeholders. JOB REQUIREMENTS: \u2022 Own and maintain the data product roadmap \u2022 Facilitate data contracts with stakeholders \u2022 Engage with cross functional teams on demand prioritization and enterprise-level decisions \u2022 Lead requirements gathering, functional analysis, fit-gap assessments and scoping \u2022 Oversee design fitment, source discovery, and Source-to-Target Mapping (STTM) \u2022 Approve initial designs, HLD, DIF documentation \u2022 Execute STTM mapping and document gap findings \u2022 Approve DQ validation, KPI acceptance, and release documentation \u2022 Prepare test cases, execute test scripts, and produce test evidence documentation \u2022 Coordinate UAT logistics - liaise with business stakeholders and document outcomes \u2022 Own UAT sign-off and Data Product assessments \u2022 Drive and own the Data Product Certification process \u2022 Prepare certification artefacts and supporting documentation \u2022 Own data product release and CAB documentation SPECIFIC SKILLS AND EXPERIENCES: \u2022 Bachelor\u2019s degree in computer science, Information Systems, Business Analytics, or related field \u2022 5+ years in data product management, data analytics, or data engineering roles \u2022 Strong understanding of data lifecycle management (ingestion through retirement) \u2022 Experience with cloud data platforms (GCP/BigQuery preferred) \u2022 Hands-on experience with STTM mapping, DQ validation, and data quality frameworks \u2022 Familiarity with data governance frameworks, metadata management, and data contracts \u2022 Experience working in Agile/Scrum delivery environments \u2022 Strong stakeholder management and communication skills GOOD TO HAVE SKILLS AND EXPERIENCES: \u2022 Experience with DBT, Airflow/Composer, or similar data pipeline tools \u2022 Knowledge of FAIR data principles and data certification frameworks \u2022 Background in FMCG/CPG industry data environments \u2022 Familiarity with data catalog tools (Collibra, Alation, Dataplex) \u2022 Understanding of canonical data mo"
+  },
+  {
+   "id": "jsearch:ZXlxY1FFcnlydmhzR2ZQRkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWFZhYm5FdFppMTFNREJxV1VaeVkyZEJNa0poYzJSVFdFeEVWMGMyTFVZMlUwbDFRblJvUkZkS1VqVllORk5CWjFGYU5IUmxMVEJXUW5WcGVqaDJhbmhxVjJSZlQxaFJkWE5qTTA0dExUbHlObEZrT0hkaWNYWnllVVpsVFdaMlIzSlJWbXd4TFhsM2QySmphbUZKWW10WlJ6Qm1PV3N0UnkxbFZWcEtUekJRYm5OelprY1NGMlJXTTFSaGRFaDNSSEp5Ym1rdFoxQTFkblZoY1ZGWkdpSkJSSE55T1daVFJGUnRWakYxVjFwQ1UwZEtja1kyVUdaS1lWQkhRWFpGUnpabg",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Digital Product Manager (18 Month Contract)",
+   "company": "Meridian Credit Union",
+   "location": "Ontario, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=ec01035533406b5b",
+   "posted": "2026-10-16T20:00:00+00:00",
+   "salary": "",
+   "description": "Why Meridian? At Meridian our aspiration is to integrate our purpose into everything we do for people, the planet, and communities. We believe that our greatest opportunity is to create opportunity and meet people where they are. Factor us into your next career opportunity. We want you to grow with us and have an experience that\u2019s different. This is a place where you can expect the unexpected. Find our story here: About Meridian (https://www.meridiancu.ca/About-Meridian.aspx) The role: *Please note - this is an 18-month maternity leave contract opportunity* We are currently looking for a Digital Product Manager to join our team! Reporting to the Director, Digital Banking, the Digital Product Manager will support a key set of journeys and experiences for retail members, with an initial focus on digital lending initiatives and member borrowing journeys. Our ideal candidate can effectively navigate technical and business boundaries to build digital experiences that will delight our members. You will work closely with our stakeholders to understand their objectives, contribute to product roadmaps, define vision and build new features alongside our design and technology teams. You\u2019ll have the opportunity to own the end-to-end product lifecycle, from generating use cases, to planning, launch and evaluation. Key Responsibilities: \u2022 Work closely with strategic partners to understand business objectives, define scope for new features and enhancements, and manage a prioritized product backlog \u2022 Own the end-to-end product lifecycle from conception to launch to evaluation, ensuring team delivery commitments are successfully met at each stage along the way and the features are delivering on the key results \u2022 Work with our designers, technology teams and stakeholders across risk, operations, contact centre and branch to ensure products built to deliver the right outcomes for members and the business \u2022 Lead user story development and product discovery sessions in a cross-functional setting \u2022 Perform user acceptance testing on products and new features, working with technology teams to troubleshoot and resolve identified issues \u2022 Support product launch and rollout activities (marketing, internal communications, operational readiness) \u2022 Perform research and analysis on competitive and industry issues, trends and capabilities to drive innovative service and product enhancements in addition to validating stakeholder needs \u2022 Gather and analyze feedback in support of continuous improvement to our member experience \u2022 Ensure effective internal and external communication with all stakeholders regarding product development process \u2022 Manage and support special projects that arise What you can bring to Meridian: \u2022 Expert in digital technologies and user experience best practices \u2022 Able to communicate effectively across technical and business boundaries \u2022 Able to maintain momentum, sets the pace to ensure teams are working towards commitments \u2022 Strong strategic, conceptual thinking and problem-solving skills \u2022 Detail oriented, with strong planning and organizational skills \u2022 Creative thinker who embraces change and is focused on continual improvement \u2022 Strong analytical skills with the ability to process complex concepts and communicate them effectively, as well as comfortable with data and KPI\u2019s \u2022 Strong written and verbal communication and presentation skills \u2022 Strong collaborator; you welcome feedback and team problem-solving \u2022 Comfort learning and adopting new digital tools, with an openness to using AI\u2011enabled technology to enhance productivity, accuracy, and the Member experience. Education, Designations & Experience: \u2022 A Bachelor\u2019s Degree in Business, Finance, Engineering, or a related field \u2022 Minimum 2-3 years of relevant experience in business analysis and strategy, product management, or management consulting \u2022 Strong technical foundation including experience in financial services and/or technology; lending experience considered an asset \u2022 Prev"
+  },
+  {
+   "id": "jsearch:ZXF2RjhVaHZRUnY1eVpYWUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR2xKUmxCQlkwOWpUV0ppVld4RmRXRTJOMEk1ZUVwMGVrUm1iMGhNVVhaTFRFbDZTemxKV1dGQmVtRkJSRTFxTFRKUWVHSkJhSHBzTWxCcU16ZHBVVWhvV1ZneE9GSTFVVzU0U210RE9HTlFXbkEwZG5ORFdtSnRTRkYwVWt4b2MzSnRaMHhEVUVsRlMwUkZPVEJWZUd0R1F6bHBObXh3Vm5Ob2FWQjBja293VDNKaVQzVVNGMlJXTTFSaGRFaDNSSEp5Ym1rdFoxQTFkblZoY1ZGWkdpSkJSSE55T1daU2VUQk1lakpYWlhodkxXbDJiblpGV1ZoaU9XRTFXR2RxY0Vkbg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Product Manager, FinTech & Customer Experience",
+   "company": "Capital One Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/product-manager-fintech-customer-experience--toronto--e2baea3d914f59322fe43aa1649f4b95d",
+   "posted": "2026-10-15T00:00:00+00:00",
+   "salary": "",
+   "description": "Capital One Canada is seeking a Principal Associate, Product Management to lead software product initiatives, drive roadmap prioritization, and own customer outcomes. The role emphasizes data-driven decision making, collaboration with tech leadership, and a focus on delivering secure, scalable digital experiences. The team operates in a hybrid model with three days in the office per week, offering a comprehensive benefits package including tuition subsidies, mental health coverage, and a Work"
+  },
+  {
+   "id": "jsearch:dEM5Mi0ya011TEFGWl95M0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbTlPTWxkbVdWQmFORUUxTjNkcmNVMUtlbUpFZWpRM1FraGpNM1JUU25ZdGFXMTNSMGhzU1Y5VWRGUTRWR2hZYmtsTE0yMXBOMmd5VWtKQk9WSjViakpuY1VSSFFXWTJZa3MwYmpOeWRUWXpNVUUwZUVWTldWSXhhVnBRYUU0eFRWUmtjVFpSTTJ0eGJGY3lTWFF3UkRaYVJHMVpSSFJxUm14V1lreGpjSHBuZHpWaGVHb1NGMlZXTTFSaGNtMXlTMWxEUmpsMU9GQXhOVTgyY1ZGUkdpSkJSSE55T1daVVgyVTNRMFp0U0Vob1VsZ3laVlkxUjJsb1MxSnhiVE50VWxwMw",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Platform Product Lead: Video, APIs & Content",
+   "company": "Bally's Interactive",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/senior-platform-product-lead-video-apis-content--toronto--e3f83fda0bb791c916f4a87f62814a739",
+   "posted": "2026-10-15T00:00:00+00:00",
+   "salary": "",
+   "description": "Bally\u2019s Interactive is seeking a Senior Platform Product Manager to drive the evolution of backend video and content delivery systems and to ensure our platform aligns with the consumer roadmap. This role will shape how Bally\u2019s apps integrate with the Bally ecosystem across platforms to deliver a unified experience. You will own the strategy and execution for foundational systems powering Bally Sports Live and Stadium, including video pipeline, CMS, APIs, and service integrations, enabling rapid"
+  },
+  {
+   "id": "jsearch:WGdNbDFzWjBYa2g5cUw3SkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWHBsYlVWak5XbHBNM1p5ZW1Sb1VWQmZSRTVhVGt0dVgyTnBSVXB1YzFBeldXTnJlV1EwVEZWbVh6QTJjVGszVGxab2VYQXRWM0J6WVVkTGNtMHhTalpOTWpsNmJXcHZWM1J6WDE5Q2NYaGFTVmRETlc4MlZGOVJaV1V5TlMxdlluZHlkbTVWZEZka1pXbDRaMmRNTFZWUmVIZGhWMWx2TkVSQ2VtUTNPRXBxWTAxU01WQVNGMmxHTTFSaGIxZFZSVmxYV210UVNWQnFPV2xOYTBGRkdpSkJSSE55T1daUlZqVk9ha0ZuUkRGUmVqUkZTMU5uVG10eGJFVndiMmxCUkVaQg",
+   "source": "jsearch",
+   "publisher": "DailyRemote",
+   "title": "Senior Product Manager, Audience Measurement & Media Data",
+   "company": "The Nielsen Company",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://dailyremote.com/remote-job/senior-product-manager-audience-measurement-media-data-5776326",
+   "posted": "2026-10-15T00:00:00+00:00",
+   "salary": "",
+   "description": "Company Description At Nielsen, we are passionate about our work to power a better media future for all people by providing powerful insights that drive client decisions and deliver extraordinary results. Our talented, global workforce is dedicated to capturing audience engagement with content - wherever and whenever it\u2019s consumed. Together, we are proudly rooted in our deep legacy as we stand at the forefront of the media revolution. When you join Nielsen, you will join a dynamic team committed to excellence, perseverance, and the ambition to make an impact together. We champion you, because when you succeed, we do too. We enable your best to power our future. Job Description The Senior Product Manager, Audience Measurement & Media Data will lead a critical area of measurement innovation across streaming, broadcast, and cable television. This role will shape the products, platforms, and data capabilities that help media companies understand who is watching, what they are watching, and how audiences move across screens and platforms. The role brings together audience measurement, advanced analytics, third-party signals, data science, engineering, and product strategy. You will lead the development of scalable measurement capabilities that combine viewing behavior with high-quality external signals to produce richer, more accurate, and more actionable insights. Your work will directly support the needs of publishers, broadcasters, streaming platforms, advertisers, agencies, media buyers, and other industry stakeholders. You will help them make better decisions about content, programming, advertising, audience development, and media investment. This is a highly visible leadership role for an independent thinker who can set direction in a complex and evolving market. You will own a meaningful part of the audience measurement ecosystem, make decisions across product and technology trade-offs, and partner with a broad set of technical, analytical, commercial, and operational teams to deliver measurable customer value. Responsibilities \u2022 Own the product strategy, vision, and roadmap for audience measurement and media data solutions across streaming, broadcast, and cable. \u2022 Lead the full product lifecycle, from identifying customer needs and defining requirements through delivery, adoption, and improvement. \u2022 Partner with engineering, data science, research, and analytics teams to develop scalable measurement solutions. \u2022 Drive innovation by combining viewing data and third-party signals to improve audience insights and measurement accuracy. \u2022 Define product priorities, performance metrics, and success measures while balancing business needs and technical requirements. \u2022 Ensure data quality, reliability, privacy, and measurement integrity through continuous improvement. \u2022 Collaborate with customers and internal stakeholders to identify opportunities, solve problems, and improve products. \u2022 Lead cross-functional initiatives, manage priorities, and communicate product progress and results to leadership. \u2022 Manage, mentor, and develop product team members, supporting performance, accountability, and career growth. Qualifications \u2022 Bachelor's degree in a related field or equivalent experience. \u2022 7+ years of relevant experience in product management, data products, analytics, technology, or related fields. \u2022 Previous experience directly managing and developing employees. \u2022 Experience owning data-driven products and managing the full product lifecycle. \u2022 Ability to work with engineering, data science, and other technical teams. \u2022 Strong communication, decision-making, and stakeholder management skills. Preferred Qualifications \u2022 Experience in television, streaming, advertising, or audience measurement. \u2022 Knowledge of cross-platform measurement, third-party data, and audience enrichment. \u2022 Familiarity with data quality, APIs, cloud platforms, and modern data architectures. \u2022 Understanding of statistical modeling or machine learning. \u2022 Experi"
+  },
+  {
+   "id": "jsearch:X1d6dGFDR2pVbzdteS1rUEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVVZzUjJveU9YVjJSSE5yZEY5SFdscHBWMEpJYnprdGMxbEpNR2RKZDJaSVZXOWhRa2hxVTNOak5WVTBaVWxoZW1OZmRtSldhbEowU2tka2FraFliVVJFYlMwMWRXbzFZVFJOUW1wemFpMXliV2xUV25Gd2RYcG9hbkoxWjBvemJqWm9PVEpQZVRsNVJGbERWbGhLTUdGMGFYVlRjMTlXZHpJemNYbFplSGN6WkV4ZldGVVNGMmxHTTFSaGIxZFZSVmxYV210UVNWQnFPV2xOYTBGRkdpSkJSSE55T1daVGFFMUpSRVUxVURsVVowcG5aMmhRVUdkcExWRlVTRlJGZEhsbg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Product Manager, Insurance - Remote Growth Leader",
+   "company": "Marketplace Operations Inc.",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/us/job/senior-product-manager-insurance-remote-growth-leader--wilmington--e2714f64982eee45dd56c3ba6cf486a7c",
+   "posted": "2026-10-15T00:00:00+00:00",
+   "salary": "110K\u2013150K a year",
+   "description": "Marketplace Operations Inc. in Wilmington, DE, is seeking a Senior Product Manager for Insurance to own end-to-end consumer propositions. This remote role collaborates with Engineering, Design, Data and Commercial teams, plus third-party partners, to translate business models into a roadmap that delivers customer value and grows the product's impact. You will balance customer needs with partner economics, manage the backlog, and measure funnel performance."
+  },
+  {
+   "id": "jsearch:SnZDUzVQWXBwYmQ3eThMRkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVmgxZVhKRWJVcHdSbXRRZGxGMlJ5MVRUR3BFTVdod2FWSkdOVEZITlRCb1Nsa3piV1JsTmxKWVZWWm5SSEJpVTJwR1VsRkpUM0ZWUVZadVEySXhWR2h2T1ZSSGRFaEhiekpuVEhKb2NsZHphM295YzBkd05FbG9lVVpSZVhOcFZERlhObXhFY21oTFVFUkZSVlZPUlhRMk9ETnpaakp0Vlc5dGNsSjFaSEJxVTJjMWVEY1NGMlJXTTFSaGRFaDNSSEp5Ym1rdFoxQTFkblZoY1ZGWkdpSkJSSE55T1daVWJUbHplR05JTURsMExVNTFZbGhCYkhnNVdXVlBkRjluWW5KMw",
+   "source": "jsearch",
+   "publisher": "Eluta.ca",
+   "title": "Vice President, AI Strategy Product Management",
+   "company": "BMO Financial Group",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.eluta.ca/spl/vice-president-ai-strategy-product-management-ce7b67b8ab922b6dbc0b1c799e24849a",
+   "posted": "2026-10-14T00:00:00+00:00",
+   "salary": "",
+   "description": "Date limite pour pr\u00e9senter sa candidature : 11/29/2026 Adresse : 100 King Street West Groupe de famille d'emploi : Ventes et service, March\u00e9s des capitaux BMO Capital Markets is a leading, full-service North American-based financial services provider, with over 2,700 professionals in 30 locations around the world, including 20 offices in North America, offering corporate, institutional and government clients access to a complete range of investment and corporate banking products and services. BMO Capital Markets is a member of BMO Financial Group (NYSE, TSX: BMO), one of the largest diversified financial services providers in North America with US$1.0 trillion total assets and approximately 54,000 employees as of January 31, 2025. What is the opportunity? The Data Cognition Team (DCT) is BMO Capital Markets\u2019 AI engineering and enablement team, with nearly a decade of experience building and deploying AI solutions in complex, regulated financial services environments. As Vice President, AI Strategy & Product Management, you will operate at the intersection of business strategy, product management, and AI. You will own the vision, strategy, roadmap, delivery, and adoption of high-value AI and data products, working closely with front-office users, senior leaders, engineers, data scientists, UX, risk, and compliance partners. The successful candidate will bring the judgment, influence, and hands-on product leadership required to scale trusted AI and data products and capabilities in a highly regulated Capital Markets environment. What will you do? \u2022 Own the vision, strategy, roadmap, investment priorities, and business outcomes for one or more AI-enabled products or capabilities supporting Capital Markets users and workflows. \u2022 Develop a deep understanding of front-office and business needs; translate strategic pain points into clear product opportunities. \u2022 Lead product discovery, experimentation, and investment decisions, including prototypes, proofs of concept, and minimum viable products, to validate assumptions before scaling. \u2022 Align senior business, technology, data, and control-function stakeholders around product priorities, trade-offs, risks, and expected outcomes. \u2022 Establish product goals and success measures, monitor adoption and performance, and use quantitative and qualitative insights to improve products and demonstrate business impact. \u2022 Present product recommendations, performance, risks, and strategic choices to senior leadership and governance forums. \u2022 Apply Responsible AI, data governance, privacy, security, model risk, and regulatory considerations throughout the product lifecycle in partnership with control functions. What do you need to succeed? \u2022 Bachelor\u2019s degree in a related field; an advanced degree or relevant professional designation is an asset. \u2022 6+ years of relevant experience in product management, strategy, digital transformation, or technology delivery, ideally within Capital Markets or financial services; familiarity with AI and data product management is an asset. \u2022 Ability to understand complex Capital Markets workflows and translate between business users and technical teams; direct experience with sales, trading, research, banking, or client-coverage workflows is an asset. \u2022 Hands-on familiarity with AI and LLM-enabled products, including retrieval-augmented generation, evaluation, and production deployment considerations. \u2022 Strong written and verbal communication, analytical judgment, structured problem-solving, and stakeholder-management skills. \u2022 Ability to develop informed perspectives on the evolving AI landscape, including emerging technologies, industry trends, and market practices, and translate relevant developments into strategic implications and opportunities for BMO Capital Markets. Salary: $120,000-$150,000 CAD (subject to negotiation and subject to the candidate meeting the specific skills, experience, education, and qualification requirements) Salaire : Type de r\u00e9mun\u00e9ration"
+  },
+  {
+   "id": "jsearch:ZHkzUjZWYWpZVmQwNjdpREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTazgzU3pOdlUzWjJaSFI2ZVZoNlRYRkliRTlCYWpOWU5uTjJjMlpNVFVablJXaFpPR3R6TnpSTGVsOTVabkZLVjJrM1lrUlRSbkprVjBwMmVuQlFUMDVGY2tvMVRtdERjWEV3V0VaR1RVTmlkVFY0V0hGMGExbzFUVWxuZEVkWmN6TlRNbkV5V1ZKRFJETktkbFpxVUhneVVXUlBiMVJ1UTJSNFEzTndiWHBVVVdOVVZYSVNGMmxHTTFSaGIxZFZSVmxYV210UVNWQnFPV2xOYTBGRkdpSkJSSE55T1daVFNVOXBka2w2YTJGUExVVmhNM0pvZFRGblIyRkdTR1pPY0Vsbg",
+   "source": "jsearch",
+   "publisher": "Working Nomads",
+   "title": "Sr. Product Manager, Ads Quality Delivery",
+   "company": "Pinterest",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.workingnomads.com/jobs/sr-product-manager-ads-quality-delivery-pinterest",
+   "posted": "2026-10-14T00:00:00+00:00",
+   "salary": "139,764\u2013287,749 a year",
+   "description": "About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we\u2019re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product. Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other\u2019s unique experiences and embrace the flexibility to do your best work. Creating a career you love? It\u2019s Possible. At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we\u2019re looking for candidates who are excited to be a part of that. To get a complete picture of your experience and abilities, we\u2019ll explore your foundational skills and how you collaborate with AI. Through our interview process, what matters most is that you can always explain your approach, showing us not just what you know, but how you think. You can read more about our AI interview philosophy and how we use AI in our recruiting process here. The Ads Quality team helps Pinners move from inspiration to action by showing the right ad at the right time. We are at the core of the entire ads system optimizing for Pinner, Advertiser, and Pinterest value. The output of this work will both be highly impactful (driving measurable value for Pinners and Advertisers) and highly visible (your launches will change the way the app looks and feels), and will critically contribute to our mission of helping hundreds of millions of people find the inspiration to create a life they love. The ideal candidate has a passion for delighting our Pinners and strong intuition about what matters most to their experience. In addition, they must possess a deep understanding of the back-end systems, have worked cross functionally with engineering, data teams, and PMM and understand the interaction effects of introducing qualitatively different content onto the page, and tradeoff dynamics of the ads marketplace. What you\u2019ll do: \u2022 Own a vision for new and existing capabilities that help match the right ad to the right Pinner at the right time, and translate problem statements into clear business and technical requirements through focused business requirements documents (BRDs) and product requirement documents (PRDs), including epics, user stories, and acceptance criteria, for your area. Create and maintain a clear, prioritized roadmap and requirements backlog, track requirement status from discovery through GA, and ensure traceability from business goals to shipped features. Plan and deliver a sequenced roadmap, aligning with partner teams on architecture, guardrails, and experimentation so launches drive measurable advertiser and Pinner outcomes. Coordinate changes to well-defined components within back-end ads delivery systems (e.g., parts of retrieval, ranking, pacing/budgeting, auction/bidding, quality/diversity guardrails, conversion visibility, forecasting, modeling, or measurement) to meet product requirements. \u2022 Partner day-to-day with engineering, ML, data science/analytics, design, and research to deliver high-quality features; collaborate with PMM, sales, and policy/integrity as needed for launches. Work closely with PM peers across Ads Quality (e.g., retrieval, ranking, pacing/budgeting, measurement/incrementality, integrity) and with PMs on front-end presentation/components (e.g., modules, formats, surfaces) to manage dependencies, define APIs/contracts for your area, align on experiment design and guardrails, and coordinate GTM and feedback loops. Facilitate roadmap and requirements reviews, keep shared artifacts (roadmap, PRDs, dependency trackers) up to date, and proactively surface risks, decisions, and changes. \u2022 Build features within our ads bidding and optimization solutions that help advertisers clearly express objectives and align budgets to their business needs,"
+  }
+ ]
+}
