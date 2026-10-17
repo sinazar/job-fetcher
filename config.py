@@ -43,10 +43,10 @@ ENABLE_BUILTIN = True      # Built In Toronto search pages (page 1 only; robots.
 # (url, default location label). daysSinceUpdated=1 keeps each search to one page
 # when run daily. Never add &page= - Built In's robots.txt disallows it.
 BUILTIN_SEARCHES = [
+    # Sina's search: Toronto, hybrid + in-office, product leadership.
+    # daysSinceUpdated=1 (not 3) so a daily run fits on page 1.
     ("https://builtintoronto.com/jobs/hybrid/office/product-management/product-leadership"
      "?daysSinceUpdated=1&city=Toronto&state=Ontario&country=CAN&allLocations=true", "Toronto, ON"),
-    ("https://builtintoronto.com/jobs/remote/product-management/product-leadership"
-     "?daysSinceUpdated=1&country=CAN&allLocations=true", "Canada (Remote)"),
 ]
 BUILTIN_MAX_JOB_PAGES = 25   # job detail pages fetched per run (1s apart)       # only runs if ADZUNA_APP_ID / ADZUNA_APP_KEY secrets exist
 
