@@ -21,6 +21,8 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
+import time
+
 import requests
 
 import config
@@ -384,6 +386,129 @@ def fetch_adzuna() -> list[dict]:
     return out
 
 
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml",
+    "Accept-Language": "en-CA,en;q=0.9",
+}
+RAW_BUILTIN_DIR = DATA_DIR / "raw_builtin"
+
+
+def _meta(html_text: str, prop: str) -> str:
+    m = re.search(r'<meta[^>]+(?:property|name)="' + re.escape(prop) + r'"[^>]+content="([^"]*)"', html_text, re.I) \
+        or re.search(r'<meta[^>]+content="([^"]*)"[^>]+(?:property|name)="' + re.escape(prop) + r'"', html_text, re.I)
+    return html.unescape(m.group(1)).strip() if m else ""
+
+
+def _jsonld_jobposting(html_text: str) -> dict:
+    for block in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', html_text, re.S | re.I):
+        try:
+            data = json.loads(block.strip())
+        except Exception:
+            continue
+        for obj in (data if isinstance(data, list) else data.get("@graph", [data]) if isinstance(data, dict) else []):
+            if isinstance(obj, dict) and obj.get("@type") == "JobPosting":
+                return obj
+    return {}
+
+
+def _parse_builtin_job(html_text: str) -> dict:
+    """Best-effort: JSON-LD if present, else page title / meta tags / visible text."""
+    jp = _jsonld_jobposting(html_text)
+    if jp:
+        org = jp.get("hiringOrganization") or {}
+        loc = jp.get("jobLocation") or {}
+        if isinstance(loc, list):
+            loc = loc[0] if loc else {}
+        addr = (loc.get("address") or {}) if isinstance(loc, dict) else {}
+        return {
+            "title": jp.get("title", ""),
+            "company": org.get("name", "") if isinstance(org, dict) else str(org),
+            "location": ", ".join(x for x in (addr.get("addressLocality"), addr.get("addressRegion")) if x),
+            "remote": "TELECOMMUTE" in str(jp.get("jobLocationType", "")).upper(),
+            "posted": parse_dt(jp.get("datePosted")),
+            "description": jp.get("description", ""),
+        }
+    page_title = html.unescape((re.search(r"<title[^>]*>(.*?)</title>", html_text, re.S | re.I) or [None, ""])[1]).strip()
+    og = _meta(html_text, "og:title") or page_title
+    title, company = og, ""
+    # Typical patterns: "Title - Company | Built In Toronto", "Title at Company | Built In"
+    core = re.split(r"\s*\|\s*Built\s*In", og, flags=re.I)[0]
+    m = re.match(r"(.+?)\s+(?:-|–|—|at)\s+(.+)$", core)
+    if m:
+        title, company = m.group(1).strip(), m.group(2).strip()
+    body = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ", html_text, flags=re.S | re.I)
+    return {"title": title, "company": company, "location": "", "remote": False, "posted": None,
+            "description": clean_text(body), "meta_description": _meta(html_text, "description")}
+
+
+def fetch_builtin() -> list[dict]:
+    if not config.ENABLE_BUILTIN:
+        return []
+    RAW_BUILTIN_DIR.mkdir(parents=True, exist_ok=True)
+    out, job_links = [], {}
+    for i, (url, default_loc) in enumerate(config.BUILTIN_SEARCHES):
+        d = diag(f"builtin search {i + 1}")
+        try:
+            r = requests.get(url, headers=BROWSER_HEADERS, timeout=40)
+            d["http_status"] = r.status_code
+            if r.status_code != 200:
+                raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
+            page = r.text
+            (RAW_BUILTIN_DIR / f"search_{i + 1}.html").write_text(page)
+        except Exception as e:
+            d["error"] = str(e)[:400]
+            log(f"Built In search {i + 1} failed: {e}")
+            continue
+        links = re.findall(r'href="(?:https://builtintoronto\.com)?(/job/[^"/?#]+/(\d+))[^"]*"[^>]*>(.*?)</a>', page, re.S)
+        for path, jid, anchor in links:
+            text = clean_text(anchor, 200)
+            if jid not in job_links or (text and not job_links[jid][1]):
+                job_links[jid] = (path, text, default_loc, "remote" in url)
+        if re.search(r"[?&]page=2\b", page):
+            d["error"] = "more than one page of results; only page 1 read (robots.txt)"
+        d["links_found"] = len({j for _, j, _ in links})
+        log(f"Built In search {i + 1}: {d['links_found']} job links")
+
+    d = diag("builtin job pages")
+    for n, (jid, (path, anchor_title, default_loc, is_remote)) in enumerate(job_links.items()):
+        if n >= config.BUILTIN_MAX_JOB_PAGES:
+            break
+        # Cheap pre-filter on the card title before fetching the detail page.
+        if anchor_title and not title_ok(anchor_title):
+            d["returned"] += 1
+            d["rejected_by"]["title"] = d["rejected_by"].get("title", 0) + 1
+            if len(d["rejected_samples"]) < 8:
+                d["rejected_samples"].append(f"[title] {anchor_title}")
+            continue
+        time.sleep(1)
+        job_url = f"https://builtintoronto.com{path}"
+        try:
+            r = requests.get(job_url, headers=BROWSER_HEADERS, timeout=40)
+            if r.status_code != 200:
+                raise RuntimeError(f"HTTP {r.status_code}")
+            if n < 2:
+                (RAW_BUILTIN_DIR / f"job_{jid}.html").write_text(r.text)
+            info = _parse_builtin_job(r.text)
+        except Exception as e:
+            d["error"] = f"{job_url}: {str(e)[:200]}"
+            info = {"title": anchor_title, "company": "", "location": "", "remote": False,
+                    "posted": None, "description": ""}
+        title = info["title"] or anchor_title
+        loc = info["location"] or default_loc
+        remote = info["remote"] or is_remote
+        if remote and "remote" not in loc.lower():
+            loc = f"{loc} (Remote)"
+        job = make_job(id=f"builtin:{jid}", source="builtin", publisher="Built In",
+                       title=title, company=info["company"], location=loc, url=job_url,
+                       posted=info["posted"], remote=remote, description=info["description"])
+        if keep(job, info["posted"], d):
+            out.append(job)
+    log(f"Built In: {len(job_links)} links, {len(out)} kept")
+    return out
+
+
 # ---------------------------------------------------------------------------
 # State
 # ---------------------------------------------------------------------------
@@ -419,6 +544,7 @@ def main() -> int:
         "remoteok": fetch_remoteok,
         "weworkremotely": fetch_wwr,
         "adzuna": fetch_adzuna,
+        "builtin": fetch_builtin,
     }
     stats, all_jobs = {}, []
     for name, fn in sources.items():

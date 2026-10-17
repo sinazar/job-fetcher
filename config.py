@@ -37,7 +37,18 @@ JSEARCH_QUERIES = [
 # ---------------------------------------------------------------------------
 ENABLE_REMOTEOK = True
 ENABLE_WWR = True          # We Work Remotely - product category RSS
-ENABLE_ADZUNA = True       # only runs if ADZUNA_APP_ID / ADZUNA_APP_KEY secrets exist
+ENABLE_ADZUNA = True
+ENABLE_BUILTIN = True      # Built In Toronto search pages (page 1 only; robots.txt blocks ?page=)
+
+# (url, default location label). daysSinceUpdated=1 keeps each search to one page
+# when run daily. Never add &page= - Built In's robots.txt disallows it.
+BUILTIN_SEARCHES = [
+    ("https://builtintoronto.com/jobs/hybrid/office/product-management/product-leadership"
+     "?daysSinceUpdated=1&city=Toronto&state=Ontario&country=CAN&allLocations=true", "Toronto, ON"),
+    ("https://builtintoronto.com/jobs/remote/product-management/product-leadership"
+     "?daysSinceUpdated=1&country=CAN&allLocations=true", "Canada (Remote)"),
+]
+BUILTIN_MAX_JOB_PAGES = 25   # job detail pages fetched per run (1s apart)       # only runs if ADZUNA_APP_ID / ADZUNA_APP_KEY secrets exist
 
 ADZUNA_QUERIES = [
     # (what, where) - Canada endpoint
