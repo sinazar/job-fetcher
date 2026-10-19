@@ -2,14 +2,15 @@ name: Fetch jobs
 
 on:
   schedule:
-    # GitHub cron is UTC-only and ignores daylight saving.
-    # 05:01 UTC = 12:01 AM Toronto in winter (EST) / 1:01 AM in summer (EDT).
-    # GitHub often starts scheduled runs hours late, so the backup slots below
-    # catch the day if the first one is delayed. Only the first scheduled run
-    # of the day does any work; the rest exit in seconds (guard in main()).
+    # Target: 1:01 AM Toronto every day. GitHub cron is UTC-only and ignores
+    # daylight saving, so both 05:01 and 06:01 UTC are listed; the script skips
+    # whichever lands before 1:00 AM Toronto (05:01 in winter = 12:01 AM EST).
+    # Later slots are backups because GitHub often starts scheduled runs hours
+    # late; only the first run of the day does any work (guard in main()).
     # The Claude digest (9:13 AM Toronto) reads the last 3 days of data/daily
     # files, so even a very late run is picked up the next morning.
     - cron: "1 5 * * *"
+    - cron: "1 6 * * *"
     - cron: "17 7 * * *"
     - cron: "23 9 * * *"
     - cron: "41 11 * * *"

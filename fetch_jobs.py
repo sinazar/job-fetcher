@@ -540,10 +540,18 @@ def main() -> int:
     # scheduled runs hours late. Only the first scheduled run of the day does
     # anything; later ones exit here, so JSearch credits are spent once a day.
     # Manual "Run workflow" runs always go ahead.
-    if (not REPLAY and os.environ.get("GITHUB_EVENT_NAME") == "schedule"
-            and (DAILY_DIR / f"{today}.json").exists()):
-        log(f"Already fetched today ({today}); backup slot exiting without API calls.")
-        return 0
+    if not REPLAY and os.environ.get("GITHUB_EVENT_NAME") == "schedule":
+        # Cron is UTC-only. The workflow fires at 05:01 and 06:01 UTC; whichever
+        # one is before 1:00 AM Toronto time (the 05:01 slot in winter) exits,
+        # so the day's fetch starts at 1:01 AM Toronto year-round.
+        from zoneinfo import ZoneInfo
+        local = NOW.astimezone(ZoneInfo("America/Toronto"))
+        if local.hour < 1:
+            log(f"{local:%H:%M} Toronto is before 1:00 AM; waiting for the next slot.")
+            return 0
+        if (DAILY_DIR / f"{today}.json").exists():
+            log(f"Already fetched today ({today}); backup slot exiting without API calls.")
+            return 0
 
     if REPLAY:
         # Free sources are cheap, so re-fetch them; only JSearch is replayed.
