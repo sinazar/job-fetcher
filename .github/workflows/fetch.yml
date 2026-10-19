@@ -2,16 +2,16 @@ name: Fetch jobs
 
 on:
   schedule:
-    # 07:17 UTC = 3:17 AM Toronto (EDT) / 2:17 AM (EST).
-    # GitHub delays scheduled runs under load (we've seen 5-9h late at :30), so
-    # run early and off the :00/:30 peak. The Claude digest (9:13 AM Toronto)
-    # reads every data/daily file from the last 3 days, so a late run is picked
-    # up the next morning instead of being lost.
+    # GitHub cron is UTC-only and ignores daylight saving.
+    # 05:01 UTC = 12:01 AM Toronto in winter (EST) / 1:01 AM in summer (EDT).
+    # GitHub often starts scheduled runs hours late, so the backup slots below
+    # catch the day if the first one is delayed. Only the first scheduled run
+    # of the day does any work; the rest exit in seconds (guard in main()).
+    # The Claude digest (9:13 AM Toronto) reads the last 3 days of data/daily
+    # files, so even a very late run is picked up the next morning.
+    - cron: "1 5 * * *"
     - cron: "17 7 * * *"
-    # Backup slots: if an earlier slot already ran today, these exit in seconds
-    # without calling any API (see the guard at the top of main()).
-    - cron: "47 8 * * *"
-    - cron: "23 10 * * *"
+    - cron: "23 9 * * *"
     - cron: "41 11 * * *"
   workflow_dispatch: {}   # "Run workflow" button in the Actions tab
 
