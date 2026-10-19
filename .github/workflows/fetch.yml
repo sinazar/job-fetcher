@@ -8,6 +8,11 @@ on:
     # reads every data/daily file from the last 3 days, so a late run is picked
     # up the next morning instead of being lost.
     - cron: "17 7 * * *"
+    # Backup slots: if an earlier slot already ran today, these exit in seconds
+    # without calling any API (see the guard at the top of main()).
+    - cron: "47 8 * * *"
+    - cron: "23 10 * * *"
+    - cron: "41 11 * * *"
   workflow_dispatch: {}   # "Run workflow" button in the Actions tab
 
 permissions:
