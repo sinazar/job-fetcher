@@ -1,0 +1,381 @@
+{
+ "run_id": "2026-10-19T143903Z",
+ "run_at": "2026-10-19T14:39:03.676500+00:00",
+ "date": "2026-10-19",
+ "source_counts_after_filters": {
+  "jsearch": 12,
+  "remoteok": 2,
+  "weworkremotely": 3,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 6,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 7,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 3
+   },
+   "rejected_samples": [
+    "[title] Senior Advisor, Product Marketing | HollisWealth | Toronto, ON, Canada | 2026-10-16T00:00:00+00:00",
+    "[title] Private Label Product Development Manager | METRO | Toronto, ON, Canada | 2026-10-16T00:00:00+00:00",
+    "[title] Product Owner (Technology Operations & Transformation Lead) | Match Point Solutions | Toronto, ON, Canada | 2026-10-16T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    7
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 7,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 1,
+    "location": 3,
+    "title": 1
+   },
+   "rejected_samples": [
+    "[aggregator] Senior Product Manager, Payroll | Jobgether |  | 2026-10-16T00:00:00+00:00",
+    "[location] Senior Staff Product Manager, Atlas Infinite \u2013 Cloud Database Platform | MongoDB | Canada | 2026-10-17T00:00:00+00:00",
+    "[location] Founding Product Manager | WFPro | Portugal | 2026-10-16T00:00:00+00:00",
+    "[location] Senior Product Manager, Ting Consumer Products | WFPro | Thailand | 2026-10-16T00:00:00+00:00",
+    "[title] Sr. Product Marketing Manager, Smart Cameras | FlexBoard | Brazil | 2026-10-16T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    7
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "title": 1,
+    "aggregator": 3
+   },
+   "rejected_samples": [
+    "[title] Senior Product Owner - Full-time | Humana | Anywhere (Remote) | 2026-10-16T00:00:00+00:00",
+    "[aggregator] Senior Product Manager, Payroll | Jobgether | Anywhere (Remote) | 2026-10-16T00:00:00+00:00",
+    "[aggregator] Senior Product Management Consultant | remote quest jobs | Anywhere (Remote) | 2026-10-16T00:00:00+00:00",
+    "[aggregator] [Remote] Product Manager/Sr. Product Manager (Telephony & Voice) - Remote (26-20) | remote quest jobs | Anywhere (Remote) | 2026-10-16T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 94,
+    "location": 3
+   },
+   "rejected_samples": [
+    "[title] Graduate Transport Planner | Curtins | Remote | 2026-10-17T08:00:50+00:00",
+    "[title] Key Account Manager Danish Market Native Speaker Copenhagen | Packmatic GmbH | Copenhagen (Remote) | 2026-10-17T08:00:42+00:00",
+    "[title] Technical Account Manager | Yuno | Brazil (Remote) | 2026-10-17T08:00:32+00:00",
+    "[title] Commercial Account Manager LATAM | Apryse | Remote | 2026-10-17T08:00:25+00:00",
+    "[title] Software Engineer AI Coding Tasks | Askable | Remote | 2026-10-17T01:09:20+00:00",
+    "[title] Head of Technology | Sanctuary Computer | Remote | 2026-10-16T17:55:35+00:00",
+    "[title] SAP RE FX Consultant | Yopeso Romania SRL | Remote | 2026-10-16T16:00:33+00:00",
+    "[title] APAC Python | Kodland | Remote | 2026-10-16T16:00:26+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 24,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 14,
+    "too old": 7
+   },
+   "rejected_samples": [
+    "[title] Data Analyst, Clinical Data Effectiveness | Clover Health | Anywhere in the World (Remote) | 2026-10-19T07:31:04+00:00",
+    "[title] Global Controller | Customer.io | Anywhere in the World (Remote) | 2026-10-17T07:30:55+00:00",
+    "[title] Senior Solutions Consultant | PagerDuty | Anywhere in the World (Remote) | 2026-10-16T07:31:07+00:00",
+    "[title] [Talent pool] Key Account Managment Specialist | EBANX | Anywhere in the World (Remote) | 2026-10-16T07:30:50+00:00",
+    "[title] Enterprise Sales Director | Fivetran | Anywhere in the World (Remote) | 2026-10-16T07:30:46+00:00",
+    "[title] GTM Systems Specialist | Tines | Anywhere in the World (Remote) | 2026-10-10T07:31:08+00:00",
+    "[too old] Product Manager, Detection Pipeline | Expel | Anywhere in the World (Remote) | 2026-10-07T07:31:00+00:00",
+    "[title] Senior Product Engineer | Semaphore | Anywhere in the World (Remote) | 2026-10-06T08:44:40+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 0
+  },
+  "builtin job pages": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": []
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:U3JDYkU5clRWcjZRSk1fV0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTV0UxVmkxTVpHbEViRWx1VTJZeWFrbERXVWRoYkdsQ2VsUkVTak5tVVdFM1ZUbFJVRmQyYXpKUU0zQnhhV3N5TkhkVWRtUmlhVFJNYkd0elFUUlJTWFZCVG5rdE0wUllOMU5RYldnd2NETlVkR295UkRjMFlVazBhV1ZXTTJ0NU1YRjRUV2RXWlhwWlZXNVJhWFZXYVRocWNqQmZTVE10TW1Zd1dFSjNOekE1U1Y4d0xWRVNGbWxEZGxkaGNubGhRbkJIZERGUlIyWnNPVWhuUTBFYUlrRkVjM0k1WmxKVFRIbG5kMVJJZDBkdE1EaE9VQzFHZEVwb1draHlUVlp3YUVF",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Product Manager \u2013 CA",
+   "company": "CDW",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=3150936ddf3c306f",
+   "posted": "2026-10-16T00:00:00+00:00",
+   "salary": "",
+   "description": "Description Business Transformation is a strategic group focused on evolving the way we support our sellers and coworkers on our process, policy and technology transformation efforts. This group partners with stakeholders across the enterprise to develop strategies, build plans, prioritize efforts, implement changes and measure outcomes. The Product Management Team falls under the Business Transformation group and focuses on defining the long-term product strategy for our digital seller team. The Product Manager \u2013 Hardware & Software role will be responsible for driving the strategic direction of our products, from conception to execution, working closely with cross-functional teams to define product vision, roadmap, and objectives, ensuring alignment with business goals and customer needs. The ideal candidate is a strategic thinker with excellent communication skills and a passion for delivering innovative solutions. A successful candidate will need to be comfortable synthesizing a clear, logical, data driven narrative out of confusing, ambiguous and at times conflicting information. Key Areas of Responsibility \u2022 Build strong relationships with both technical and non-technical teams such as Product Managers, Product Owners, Developers, Digital Engagement Managers, and Product Marketing. \u2022 Build strong relationships with product end users such as Sales, Integrated Tech Services (Now known as Solutions and Services or S&S), Operations, Product & Purchase Management (PPM), and Finance teams. \u2022 Comfortable speaking, presenting, and demoing capabilities at all levels of an organization up to C-suite \u2022 Define and track key performance indicators (KPI\u2019s) to measure the success of product initiatives against business objectives \u2022 Comfortable with hypothesis-driven feature development \u2022 Develop and articulate a clear product roadmap that aligns with company objectives and market trends \u2022 Translate roadmap into actionable strategies to drive product growth and innovation \u2022 Define and maintain journey maps to understand user journeys by persona \u2022 Own and prioritize product backlog, ensuring alignment between stakeholders and technology \u2022 Conduct market research and user interviews to identify customer requirements and validate product hypotheses \u2022 Lead feature prioritization and coordination with agile teams to plan and execute Program Increments (PI\u2019s) \u2022 Create and maintain Program Increment artifacts such as feature backlogs, WSJF\u2019s, Sprint Plans, and Release Notes \u2022 Collaborate with architects, designers, and product owners to develop innovative and scalable solutions that meet customer needs and technical requirements The information in this position description is intended to convey information about the key responsibilities and requirements of the position. It is not an exhaustive list of the skills, efforts, duties, responsibilities or working conditions associated with the opportunity. Position Descriptions are subject to change. Qualifications Education and/or Experience Qualifications \u2022 \u2022 Bachelor\u2019s degree or equivalent experience required \u2022 5+ years of Product Management, Professional Services or Technology experience \u2022 \u2022 Proven track record of successfully managing products from concept to launch in a fast-paced environment \u2022 Strong analytical and problem-solving skills, with the ability to prioritize and execute tasks effectively \u2022 Excellent communication and presentation skills, with the ability to influence cross-functional teams and senior stakeholders \u2022 Experience with Agile methodologies, including SAFe, Scrum, and Kanban Experience with subscriptions, annuities, and or contracts that can be renewed and require lifecycle management is required Other Required Qualifications \u2022 \u2022 Strong verbal and written communication skills with the ability to effectively interact with internal and external stakeholders \u2022 Capable of taking granular level detail and communicating information at a high level \u2022 Excellent analytical skills "
+  },
+  {
+   "id": "jsearch:Ny1wckJvekdZT243cV9pX0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTV1pFWmtkYWJHUktjbkpwZFdSVVpFZ3dUbTV2VXprM1NYTTNNMmRUVVVGblUyUkVUbTlQY0Mxak9XbGFOekZaVDJZelVtVXhkMDluTVZKemRYbFBTbTl3UVRBNWMwcENVRlJRZWxCVlNFOXllRTF4WjJKc1NUaFFjMFJ2WmtkTGEyeFlYMUpyY2tveFVXaFRNRE42TjFsUE9HTklRalJOUnpkMGRVTnJkWFJ5WDB0aGExb1NGbWxEZGxkaGNubGhRbkJIZERGUlIyWnNPVWhuUTBFYUlrRkVjM0k1WmxSSmRubEhZa3Q0VjBjNU5YZHNkRlZyVXkxTlZFWm9SRGhWYjJj",
+   "source": "jsearch",
+   "publisher": "Careers At Mastercard",
+   "title": "Manager, Product Management, Identity Solutions",
+   "company": "Mastercard",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://careers.mastercard.com/us/en/job/R-293096/Manager-Product-Management-Identity-Solutions",
+   "posted": "2026-10-16T00:00:00+00:00",
+   "salary": "",
+   "description": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we\u2019re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Manager, Product Management, Identity Solutions Overview: The Identity Solutions team leads the development and delivery of innovative products that help partners identify their customers and enable simple and secure digital experiences for consumers in payments and beyond. Our token intelligence team focuses on preventing fraudulent tokens from being created and protecting the emerging token ecosystem. As digital interactions and transactions become increasingly tokenized, the team develops risk intelligence and network signals that help customers establish trust at token creation and throughout the customer journey. By connecting fraud, identity, and token intelligence across the ecosystem, the team is defining how trust is established and maintained in the next generation of digital commerce. We are seeking a Manager of Product Management who will lead efforts to prevent fraud across emerging network token ecosystems by: \u2022 Understanding customer needs, emerging fraud trends, and the growing token ecosystems to identify new fraud and identity use cases \u2022 Collaborating with cross-functional partners in data science, engineering and digital product to transform customer needs into easy-to-understand products and features \u2022 Working with marketing and sales to define positioning, value, and sales enablement materials \u2022 Prioritizing the roadmap using product metrics across adoption and performance, while helping customers balance fraud prevention, cardholder friction, and approval rates. \u2022 Partnering with data science teams to analyze product and model performance, investigate root causes, and identify opportunities for improvement. All About You \u2022 Demonstrated product management experience with a strong track record of delivering customer-focused solutions. Experience working in payments, fraud, risk, identity, authentication, or related domains. \u2022 Strong understanding of fraud threats across digital payments, including account takeover, synthetic identity fraud, testing attacks, social engineering, and other emerging attack vectors. \u2022 Exceptional analytical skills with the ability to break down complex problems, identify root causes, and make data-driven product decisions. \u2022 A bias for action and a track record of driving products from concept through commercialization in fast-moving environments. \u2022 Comfortable operating in ambiguous environments and building alignment across cross-functional stakeholders to prioritize investments and drive execution. \u2022 Excellent written and verbal communication skills, with the ability to articulate complex fraud, identity, and technical concepts to both technical and non-technical audiences Mastercard is a merit-based, inclusive, equal opportunity employer that considers applicants without regard to gender, gender identity, sexual orientation, race, ethnicity, disabled or veteran status, or any other characteristic protected by law. We hire the most qualified candidate for the role. In the US or Canada, if you require accommodations or assistance to complete the online application process or during the recruitment process, please contact reasonable_accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly. Corporate Security Responsibility All activities involving access to Mastercard assets, informat"
+  },
+  {
+   "id": "jsearch:YzhmNkxxRVlHckQwbFZjTkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGhFU0RNd05VcHlWRnBpUTNSdlJYUXpXR051TWpSVFEycGxhems1Y1RaRmNqZzJOMkV0VnpoemNERkdVekpPWWxSc1EwVTBSVkJ3V2t4WFJXdzFOa1Y2VWtscVoxUnFOM0o0UWxab01scDRhR1E1YVZab1RXbDRORzFvYnpCbFIzaEtTbmR5VTFveVFqQTFkbkZJVjBsMFUyVkhWSE5SWWtaalVHNXhhVXR5TURsSk1HWVNGMnA1ZGxkaGN6WjVSRm96ZG5KMVJWQXhMV1ZxTUZGckdpSkJSSE55T1daU1lWOUtaVnBOZEV0Tk0wczNTMnhzVlhSMVlreDRURW94Y1U1Qg",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Digital Product Manager (Security Platforms)",
+   "company": "Allstate",
+   "location": "Ontario, Canada",
+   "remote": false,
+   "url": "https://emplois.ca.indeed.com/viewjob?jk=6740964d7b078d4e",
+   "posted": "2026-10-16T00:00:00+00:00",
+   "salary": "",
+   "description": "At Allstate, great things happen when our people work together to protect families and their belongings from life\u2019s uncertainties. And for more than 90 years, our innovative drive has kept us a step ahead of our customers\u2019 evolving needs. From advocating for seat belts, air bags and graduated driving laws, to being an industry leader in pricing sophistication, telematics, and, more recently, device and identity protection. Job Description Who is Allstate: Allstate Insurance Company of Canada is a leading home and auto insurer focused on providing its customers prevention and protection products and services for every stage of life. Serving Canadians since 1953, Allstate strives to reassure both customers and employees with its \u201cYou\u2019re in Good Hands\u00ae\u201d promise and is proud to have been named a Best Employer in Canada for nine consecutive years. Allstate is committed to making a positive difference in the communities in which it operates through partnerships with charitable organizations, employee giving and volunteerism. To learn more, visit www.allstate.ca. For safety tips and advice, visit www.goodhandsadvice.ca. Through our Employee Value Proposition, we have worked hard to develop and nurture a culture where employees feel valued, experience personal growth, have career options and truly enjoy the work they do. Role Designation: Remote Benefits to joining Allstate \u2022 Flexible Work Arrangements. \u2022 Employee discounts (15% on auto and property insurance, plus many other products and services). \u2022 Good Office program (receive up to $400 back after purchasing office equipment). \u2022 Student Loan Payment Matching Program for Government Student loans. \u2022 Comprehensive Retirement Savings Program with employer matched contributions. \u2022 Annual Wellness allowance to support employees with improving health and wellbeing. \u2022 Personal days. \u2022 Tuition Reimbursement. \u2022 Working within the community and giving back. Job description: We are seeking an experienced Digital Product Manager to lead the strategy, roadmap, and delivery of security-focused products that protect enterprise assets and enable secure-by-default development practices for the Product Security team. This role will own the lifecycle of critical security tools and platforms, utilized by the enterprise. The ideal candidate combines strong product management expertise with a deep understanding of security principles, DevSecOps practices, and modern engineering workflows. Additionally, the candidate will leverage AI-driven capabilities to optimize workflows, automate repetitive tasks, and enhance efficiency across security operations and product management processes. This role requires forward-thinking and strategic planning to anticipate future security needs, define measurable outcomes, and ensure products deliver long-term value. Success will be measured by risk reduction, improved developer experience, and compliance adherence. Accountabilities: \u2022 Define Product Strategy & Vision: Establish and communicate the vision, roadmap, and success metrics for security products aligned to enterprise risk posture and compliance requirements. \u2022 Set Clear Outcomes: Define what success looks like for each product, including measurable KPIs. \u2022 Plan for Scalability & Future Needs: Anticipate evolving security threats and compliance requirements. Design products that scale and adapt to future enterprise needs. \u2022 Incorporate AI for Efficiency: Identify opportunities to integrate AI into daily workflows to automate repetitive tasks, improve decision-making, and maximize efficiency. \u2022 Manage Product Development: Collaborate with engineering and security teams to design and deliver secure-by-default capabilities integrated into developer workflows (IDE, CI/CD pipelines). Maintain backlog, write and groom user stories, and drive iterative releases using Agile methodologies. \u2022 Enable Data-Driven Decisions: Define and monitor KPIs for success. Use analytics and risk reporting to validate assumptions and op"
+  },
+  {
+   "id": "jsearch:UGN0bkkyWHZGNm0tS0szd0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUREp5T0ZKWlZFaG5kRzE0Y2xGdGJ6Um5YMHMyTFRsRFFuQnJjVFJXWm5kVVFWbDVPV1o2U1V0U01WOTBURlkxVEd3MlpWRTRaMm96UlZadlMzaFJkWE4zVUVaeVdFSjBhVVEwYmw4NVJUWnZjR1Z4YlRGYWFsZDBlbVpQVTJaRU1UTnBia1ZWVDFWU01FdFVTa3R3TldkQ2RrSlJNVzVSUlY5UVdHNTFRV2gyTmtaUVgxZ1NGMnRwZGxkaGNuSjNURkJUWVRRdFJWQTFUME5VYVZGWkdpSkJSSE55T1daVFduVnhOMVZCYkV0T1JIaDFiRVkwTms1elRESlliQzFuWmpKQg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Sr Global Product Manager - Single-use Mixing Solutions",
+   "company": "Integrated DNA Technologies",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6ad297b049c73d7b998a90d6-sr-global-product-manager---single-use-mixing-solutions",
+   "posted": "2026-10-16T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: United States Bring more to life. Are you ready to accelerate your potential and make a real difference within life sciences, diagnostics and biotechnology? At Cytiva, one of Danaher\u2019s 15+ operating companies, our work saves lives\u2014and we\u2019re all united by a shared commitment to innovate for tangible impact. You\u2019ll thrive in a culture of belonging where you and your unique viewpoint matter. And by harnessing Danaher\u2019s system of continuous improvement, you help turn ideas into impact \u2013 innovating at the speed of life. Working at Cytiva means being at the forefront of providing new solutions to transform human health. Our incredible customers undertake life-saving activities ranging from fundamental biological research to developing innovative vaccines, new medicines, and cell and gene therapies. At Cytiva you will be able to continuously improve yourself and us \u2013 working on challenges that truly matter with people that care for each other, our customers, and their patients. Take your next step to an altogether life-changing career. Learn about the Danaher Business System which makes everything possible. The Senior Global Product Manager \u2013 Single-use Mixing Solutions will guide product strategy for our Single-use mixing portfolio. The position requires interaction with multiple functions and stakeholders to support marketing campaign development, and drive new product introduction, track revenue, pricing and margins across the single-use mixer portfolio. The Sr Global Product Manager is considered the global expert for business development and strategic directions for the single-use mixing business. The incumbent will collect Voice of Customer (VOC) to drive new product development and portfolio strategy. This role is cross-functional and will require you to work closely with Product Management leadership, Global & Regional Marketing, Product Marketing, Program Management, R&D, Applications, Service, Sales and other technical teams to develop, validate and communicate the product strategy. This position reports to the Director Product Management \u2013 Single-use Mixing Solutions and is part of the Hardware Solutions, Upstream and Fluid Management (U&FM) Product Management organization with primary location at MA US and other locations within Europe or Asia. What you will do: \u2022 Develop Product Strategies for single-use mixing solutions - Identify market opportunities, assess competition, write business cases and establish the product strategies and roadmaps. \u2022 Create, maintain and manage the business portfolio plan and roadmap for single-use mixing solutions - Prioritizing and mapping global customer segments, working with Field Marketing on demand creation activities to achieve NPI and business objectives. \u2022 Oversight of product strategy - Providing input to business cases for products/upgrades that are at concept stage, work with Global Product Marketing to develop, test and prototype new product ideas. \u2022 Integral through all stages of product lifecycle - Sets annual direction for pricing, promotion, quality and business improvements, and provides direction to Product Marketing team for integrating key growth strategies into campaigns for the single-use mixing portfolio. Plans and manages portfolio rationalization. \u2022 Operational involvement by actively tracking and analyzing global sales growth, gross margins, supply issues, quality issues, etc. and understand customer needs through face-to-face interaction, research and market data analysis. Who you are: \u2022 Bachelor\u2019s Degree in Bioscience, Engineering, Marketing, Business or related life science discipline \u2022 Bio-pharmaceutical development/R&D experience in Biopharmaceutical industry. \u2022 8+ years\u2019 experience in product management, product marketing, product development or related field \u2022 Deep Product Management/Marketing expertise, including market trends/analysis, NPI process, product roadmap development, product life-cycle manageme"
+  },
+  {
+   "id": "jsearch:b0lGTWY5eGItWjJfYUowYUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzF4T0hnNGRIaE1UWHBFT1VSMlVVOVBjV1pMTW5KRVVqTTVObXgzZW14RFYwMXpSek5DVTE5clltRXlkRmhTUmkxME1uaHRURlY2TVVGNFZIZzRXRU0yUjJWeU0xbE9lVVZJWWtkMWIwNXRRMGxpWkMxM09GcHhMVVZNVG5nMVVsZzJSVmc0UjE4MmQwMUtjek4zWkhkQmRpMXBaRE5hV0ZaYWIwZEpNbXRVVFd0eE5UUVNGMnRwZGxkaGNuSjNURkJUWVRRdFJWQTFUME5VYVZGWkdpSkJSSE55T1daU2JIWkhaRFpGYlVnNU1tSmhhRTB4VjBweGNtdEtSbGhDZFVsMw",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager - Trust & Safety (AI Platforms)",
+   "company": "Salve.Inno Consulting",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6ad2b3cc49c73d7b998af689-senior-product-manager---trust-safety-ai-platforms",
+   "posted": "2026-10-16T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: Europe, European Union, Middle East, EMEA, Cyprus, Greece, Poland About the Role We are looking for an experienced Senior Product Manager - Trust & Safety to join a rapidly growing international AI technology company with more than 50 million users worldwide. The company develops AI-powered consumer experiences that allow users to interact with AI characters through conversations, voice, image generation and video. This is a newly created, high-impact role focused on taking full product ownership of trust, safety and compliance capabilities across a large-scale consumer platform. You will be responsible for defining and delivering safety-related product features, including AI content moderation, age verification, detection systems and red-teaming initiatives. Working directly with engineers, you will translate complex safety and regulatory challenges into practical product solutions. You will collaborate closely with the CTO, Legal & Safety Lead and Product Lead, making important decisions that balance user protection, regulatory obligations and the overall product experience. This is a hands-on product management role, not a policy, legal or trust and safety operations position. The successful candidate must demonstrate genuine ownership of product decisions, technical delivery and measurable outcomes. Key Responsibilities \u2022 Take end-to-end ownership of trust, safety and compliance features across a large-scale AI consumer platform. \u2022 Define, prioritise and execute the product roadmap for safety-related capabilities. \u2022 Work directly with engineering teams to design, develop, implement and improve safety features. \u2022 Lead product initiatives involving AI content moderation, age verification and red-teaming capabilities. \u2022 Translate safety requirements and regulatory considerations into functional product specifications and deliverable solutions. \u2022 Make independent product decisions balancing user safety, regulatory compliance and commercial or user experience impact. \u2022 Define and optimise content detection thresholds and moderation decision criteria. \u2022 Evaluate and manage false positives and false negatives within automated safety systems. \u2022 Design and improve human review workflows and escalation mechanisms. \u2022 Collaborate with technical teams to assess moderation effectiveness and identify opportunities for improvement. \u2022 Evaluate the operational and product implications of different safety controls. \u2022 Partner closely with the CTO, Legal & Safety Lead and Product Lead on safety priorities and regulatory challenges. \u2022 Assess risks associated with AI-generated content and emerging platform safety issues. \u2022 Review sensitive user reports and safety incidents when necessary to inform product decisions. \u2022 Take accountability for feature delivery, implementation quality and measurable safety outcomes. \u2022 Continuously improve safety systems as the platform scales and regulatory requirements evolve. Requirements \u2022 Minimum 5 years of professional Product Management experience, including substantial ownership of product decisions, delivery and outcomes. \u2022 Proven experience independently owning and delivering product features rather than exclusively coordinating teams or documenting requirements. \u2022 Strong understanding of trust and safety, platform safety or regulatory challenges within digital products. \u2022 Demonstrated ability to make practical safety and regulatory trade-offs, with concrete examples of decisions taken and their impact. \u2022 Solid technical understanding of safety systems, including detection thresholds, false positives, false negatives and human review processes. \u2022 Ability to work directly with engineers to design and deliver technically complex product features. \u2022 Strong product judgment and ability to balance regulatory obligations, user protection and product performance. \u2022 Experience translating complex safety or compliance requirements into actionable product developm"
+  },
+  {
+   "id": "jsearch:VFFmMWNZZFREUzk5WXQzWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSFpOWmpCTGQxaEZSbEZQZDNwTWNXTkhUMjEzUjFSMGJUZFNOakI1Y1RkaU1rbDVkSFYxWWtoaVVYZzNhMFZFY0ZCNmVucEVaRU5JVlRGTlNXZERVVnBJY1ZCMlkzUmpVRFprY210SlZtdHNVRzVrTTFnMFdFUmlOSGhMZWxWTE1XdHpNazF3VUVsTllsUlBXVlpUYkdNeFRVRkxXa2w2UjJWWFMwUjZRa2N3T0RKNWVHWVNGMnRwZGxkaGNuSjNURkJUWVRRdFJWQTFUME5VYVZGWkdpSkJSSE55T1daVVpsVldkVVI0Y0VzM1V6TlVORkZ0VjFnM05EbGxTR2xzTkc5Mw",
+   "source": "jsearch",
+   "publisher": "RemoteHive",
+   "title": "Sr. Product Manager, Business Prime",
+   "company": "RemoteHive",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://frontendnode-25b1.onrender.com/job/sr-product-manager-business-prime-1",
+   "posted": "2026-10-16T00:00:00+00:00",
+   "salary": "",
+   "description": "Job title: Sr. Product Manager, Business Prime in Austin, TX at reputed company Company: reputed company Job description: DESCRIPTIONCome be a part of a rapidly expanding $35 billion dollar global business. At reputed company Business, a fast-growing startup passionate about building solutions, we set out reputed company day to innovate and reputed company the status quo. We stand at the intersection of tech & retail in the B2B space developing innovative purchasing and procurement solutions to help businesses and organizations thrive. At reputed company Business, we strive to be the most recognized and preferred strategic partner for smart business buying. Bring your insight, imagination and a healthy disregard for the impossible. Join us in building and celebrating the value of reputed company Business to buyers and sellers of all sizes and industries. reputed company your career potential.The Business Prime team is looking for a Senior Product Manager to own growth initiatives for the reputed company worldwide. Business Prime serves over 1M B2B customers and continues to grow rapidly. This role is responsible for driving growth from the top of the funnel (including brand awareness) through the full acquisition experience. This role offers candidates with a strong background in business or product management an opportunity to leverage that deep knowledge to drive impact for the reputed company worldwide.Key job responsibilities - Brand and Top of Funnel ownership: Work with internal and external marketing teams to drive brand and traffic strategy for member growth worldwide. Identify reputed company and cross-segment best practices for existing initiatives and develop novel engagement mechanisms from a deep understanding of customer needs. - Develop new channels: Identify new member acquisition channels and define the acquisition and management experience for each channel. Identify reputed company drivers with internal reputed company and 3P services and accelerate membership growth through win-win partnerships with best-in-reputed company B2B service providers. - Strategic growth initiatives: Develop offers or plans for specific customer segments. Ensure membership continues to be a key driver of reputed company Business growth. - Engineering Requirements: Create clear engineering-ready documents, in partnership with User Experience Design, to build new user experiences. Ensure the product discovery experience is optimized for each customer's eligibility and needs.About the team reputed company Business (www.reputed company/business) is an online store that combines the selection, convenience and value customers have come to know and love from reputed company, with new features and unique benefits tailored to the needs of businesses. reputed company Business provides easy access to hundreds of millions of products - everything from IT and lab equipment to education and food-service supplies. reputed company Business customers also enjoy a variety of benefits, including business-only pricing and selection, a multi-seller marketplace, single- or multi-user business accounts, approval workflow, purchasing system integrations, payment solutions, tax exemptions, dedicated customer support, Business Prime and more.Business Prime is a paid subscription service for verified business, charity or government organizations that provides the familiar Prime shopping experience end users love at home, with pricing plans and benefits that are suited for work. Business Prime now serves over a million employees in organizations throughout the world. Our customers range from government entities with tens of thousands of users to sole proprietors.BASIC QUALIFICATIONS- 5+ years of product or reputed company management, product marketing, reputed company or technology experience - Bachelor's degree or equivalent - Experience with feature delivery and tradeoffs of a product - Experience owning/driving roadmap strategy and definition - Experience "
+  }
+ ]
+}
