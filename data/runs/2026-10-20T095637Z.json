@@ -1,0 +1,355 @@
+{
+ "run_id": "2026-10-20T095637Z",
+ "run_at": "2026-10-20T09:56:37.570320+00:00",
+ "date": "2026-10-20",
+ "source_counts_after_filters": {
+  "jsearch": 4,
+  "remoteok": 1,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 4,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 3,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Manager, Digital Product - Marketing Experience | Air Canada | Toronto, ON, Canada | 2026-10-19T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    3
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 6,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 2,
+    "location": 1,
+    "title": 1
+   },
+   "rejected_samples": [
+    "[aggregator] AI Agent Product Manager \u2014 Remote, Growth & Activation | Jobgether SRL | (Remote) | 2026-10-17T00:00:00+00:00",
+    "[location] [Remote] Product Manager II - Financials, Access & Integrations | RemoteHive | Nigeria (Remote) | 2026-10-18T00:00:00+00:00",
+    "[title] Sr. Product Marketing Manager, Smart Cameras | FlexBoard | Brazil | 2026-10-18T00:00:00+00:00",
+    "[aggregator] Director, Product Strategy and Operations  -India | WFHSprint | Canada | 2026-10-18T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    6
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 6,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 5,
+    "title": 1
+   },
+   "rejected_samples": [
+    "[aggregator] Remote Product Manager Jobs Worldwide | JobsHives | Anywhere (Remote) | 2026-10-18T00:00:00+00:00",
+    "[aggregator] Sr Product Manager | remote quest jobs | Anywhere (Remote) | 2026-10-18T00:00:00+00:00",
+    "[aggregator] [Remote] Product Manager/Sr. Product Manager (Telephony & Voice) - Remote (26-20) | remote quest jobs | Anywhere (Remote) | 2026-10-18T00:00:00+00:00",
+    "[aggregator] Remote Senior Product Manager \u2013 Next-Gen Cloud Infrastructure & GPU Platforms | remote quest jobs | Anywhere (Remote) | 2026-10-18T00:00:00+00:00",
+    "[aggregator] Senior Product Analytics | remote quest jobs | Anywhere (Remote) | 2026-10-18T00:00:00+00:00",
+    "[title] Service Cloud Product Owner (PO) | Rootshell Enterprise Technologies, Inc. | Anywhere (Remote) | 2026-10-19T23:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    6
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "title": 94,
+    "too old": 1,
+    "location": 3
+   },
+   "rejected_samples": [
+    "[title] Senior Software Engineer | Sotheby\u00e2\u0080\u0099s | Remote | 2026-10-18T19:00:02+00:00",
+    "[title] Senior Backend Engineer | Rain | Remote | 2026-10-18T18:00:01+00:00",
+    "[title] Graduate Transport Planner | Curtins | Remote | 2026-10-17T08:00:50+00:00",
+    "[title] Key Account Manager Danish Market Native Speaker Copenhagen | Packmatic GmbH | Copenhagen (Remote) | 2026-10-17T08:00:42+00:00",
+    "[title] Technical Account Manager | Yuno | Brazil (Remote) | 2026-10-17T08:00:32+00:00",
+    "[title] Commercial Account Manager LATAM | Apryse | Remote | 2026-10-17T08:00:25+00:00",
+    "[title] Software Engineer AI Coding Tasks | Askable | Remote | 2026-10-17T01:09:20+00:00",
+    "[title] Head of Technology | Sanctuary Computer | Remote | 2026-10-16T17:55:35+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 26,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 16,
+    "too old": 8
+   },
+   "rejected_samples": [
+    "[title] Manager II, Developer Advocacy | Datadog | Anywhere in the World (Remote) | 2026-10-20T07:31:19+00:00",
+    "[title] Senior Customer Engineer - Collibra Public Sector | Collibra | Anywhere in the World (Remote) | 2026-10-20T07:31:00+00:00",
+    "[title] Data Analyst, Clinical Data Effectiveness | Clover Health | Anywhere in the World (Remote) | 2026-10-19T07:31:04+00:00",
+    "[title] Global Controller | Customer.io | Anywhere in the World (Remote) | 2026-10-17T07:30:55+00:00",
+    "[title] Senior Solutions Consultant | PagerDuty | Anywhere in the World (Remote) | 2026-10-16T07:31:07+00:00",
+    "[title] [Talent pool] Key Account Managment Specialist | EBANX | Anywhere in the World (Remote) | 2026-10-16T07:30:50+00:00",
+    "[title] Enterprise Sales Director | Fivetran | Anywhere in the World (Remote) | 2026-10-16T07:30:46+00:00",
+    "[too old] Principal Product Manager, Savings (R13997) | Oportun | Anywhere in the World (Remote) | 2026-10-13T07:31:00+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 0
+  },
+  "builtin job pages": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": []
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:eE1xRzRKZ1BVU3FKYmYzRkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV2g1VlRrMWJ6aFBkblpyVDJoRVlrTmpTbGs0VTNFNGEwbE5OalpSVUVOWldFNVBkRU42U1hOdFJWSjBkMVJOYVZoRGJUZFZSWFY0U1VkVmIzSmFZemt5VjBkMFMxaG1PVmxwTjFKMldVUlFTVU5yY25oZmFsUlJjUzB0WW1kQmQzUTBRbkYzUVhKUFJXRldaRTlIZDBjM1YyWm5jMEYxWTJaWFRGOUxOa2RuYW1sWFYyTVNGekZVY2xoaGNrOXdUM1pRVUd0UVNWQjFVRzFsY1VGakdpSkJSSE55T1daU1ZUazRVRUpNV2pkTFVuZGtPVlZVU210bFNVeExVako1WjJaMw",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Gestionnaire senior de produit | Senior Product Manager",
+   "company": "Grass-Valley",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/info_technology/5552077916/e/",
+   "posted": "2026-10-18T00:00:00+00:00",
+   "salary": "",
+   "description": "Gestionnaire senior de produit | Senior Product Manager Pourquoi joindre les rangs de Grass Valley? Chez Grass Valley, nous donnons vie aux moments qui rassemblent le monde. Des plus grands \u00e9v\u00e9nements sportifs en direct aux derni\u00e8res nouvelles de l\u2019actualit\u00e9, en passant par les productions de divertissement haut de gamme, notre technologie et nos \u00e9quipes sont au c\u0153ur des environnements m\u00e9diatiques les plus exigeants de la plan\u00e8te. Nous sommes l\u2019\u00c9quipe GV : une \u00e9quipe mondiale d\u2019innovateurs, d\u2019op\u00e9rateurs, d\u2019architectes, d' b\u00e2tisseurs, de r\u00e9solveurs de probl\u00e8mes et d\u2019agents du changement \u0153uvrant dans les domaines de l\u2019ing\u00e9nierie, de la fabrication, de la cha\u00eene d\u2019approvisionnement, du succ\u00e8s client, des activit\u00e9s commerciales et des fonctions corporatives. Ensemble, nous fa\u00e7onnons l\u2019avenir des technologies m\u00e9diatiques. Avec plus de 65 ans d\u2019histoire, Grass Valley allie une expertise reconnue en mat\u00e9riel de haute performance \u00e0 un \u00e9cosyst\u00e8me infonuagique natif ax\u00e9 sur les logiciels en pleine expansion, gr\u00e2ce \u00e0 l'Univers m\u00e9diatique de Grass Valley (GVMU). Nous croyons que l\u2019avenir ne repose pas sur un choix entre l\u2019un ou l\u2019autre, mais plut\u00f4t sur l\u2019int\u00e9gration intelligente de mat\u00e9riel con\u00e7u sur mesure et de plateformes logicielles modernes. Cette approche permet \u00e0 nos clients de b\u00e9n\u00e9ficier de la flexibilit\u00e9, de l\u2019\u00e9volutivit\u00e9 et de la performance dont ils ont besoin pour r\u00e9ussir. Notre culture repose sur cinq valeurs fondamentales : l'\u00e9quipe avant tout, l\u2019engagement envers nos clients, la volont\u00e9 de gagner, grandir avec un but, et l\u2019int\u00e9grit\u00e9 en tout temps. Nous visons l\u2019excellence, assumons nos r\u00e9sultats et nous nous soutenons mutuellement afin d'avoir un impact \u00e0 l\u2019\u00e9chelle mondiale. Si vous souhaitez accomplir un travail porteur de sens, faire progresser votre carri\u00e8re et contribuer \u00e0 fa\u00e7onner l\u2019avenir des m\u00e9dias, il y a une place pour vous chez Grass Valley. En rejoignant l\u2019\u00e9quipe GV, vous ne ferez pas simplement partie d\u2019une entreprise : vous contribuerez \u00e0 b\u00e2tir l\u2019avenir. Grass Valley transforme l\u2019avenir de la production m\u00e9diatique gr\u00e2ce \u00e0 sa plateforme agile de traitement des m\u00e9dias (AMPP), le principal \u00e9cosyst\u00e8me de production m\u00e9diatique natif de l\u2019infonuagique de l\u2019industrie. Le ou la gestionnaire senior de produit \u2013 Plateforme AMPP et E/S est responsable de d\u00e9finir, piloter et faire \u00e9voluer les services fondamentaux qui soutiennent l\u2019\u00e9cosyst\u00e8me AMPP \u00e0 l\u2019\u00e9chelle mondiale. Cela comprend l\u2019ingestion et l\u2019exportation des m\u00e9dias, les services de transport, la connectivit\u00e9 infonuagique, les services d\u2019infrastructure, les interfaces de programmation d\u2019applications, l\u2019interop\u00e9rabilit\u00e9, la performance et la fiabilit\u00e9. Ce poste offre une occasion unique de fa\u00e7onner la plateforme technologique utilis\u00e9e par des diffuseurs, des organisations sportives, des entreprises m\u00e9diatiques et des cr\u00e9ateurs de contenu partout dans le monde. La personne retenue pourra provenir d\u2019un parcours en gestion de produits, architecture de syst\u00e8mes, architecture de solutions ou d\u2019un autre r\u00f4le de leadership technique. Elle travaillera en \u00e9troite collaboration avec les clients, les \u00e9quipes d\u2019ing\u00e9nierie, les ventes, le marketing et les partenaires strat\u00e9giques afin de d\u00e9finir l\u2019avenir des technologies m\u00e9diatiques infonuagiques. Votre r\u00f4le Strat \u00e9gie produit et leadership sur le march \u00e9 \u2022 D\u00e9finir et communiquer la vision, la strat\u00e9gie et la feuille de route des services de la plateforme AMPP et des services d\u2019E/S ; \u2022 Identifier les opportunit\u00e9s de march\u00e9 et les priorit\u00e9s d\u2019investissement en fonction des besoins des clients, des tendances technologiques et des objectifs d\u2019affaires ; \u2022 Agir \u00e0 titre d\u2019expert(e) en la mati\u00e8re pour les capacit\u00e9s de la plateforme AMPP, tant \u00e0 l\u2019interne qu\u2019\u00e0 l\u2019externe ; \u2022 Interagir directement avec les clients,\u2026"
+  },
+  {
+   "id": "jsearch:VllxN3huV1JhSEZCRmxza0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMUV6TVRaRVowMXhOa2d0VjJOSFEzbFBkbWRxWDNoUE5DMUdZbkY1ZWtWU2QxbEZObkZaYkhoTlUxTnBiVUZvWnpKWUxVOWlXbUpVV0hKMVdHTkVNbTFOZW1oMlFtRlVUREZMTTJkbmNDMHdkVEJtZVhCalNXWXdURmRKYnpWclZHWkxhVXBYWjIxemJESldjMmR4UW5sSFdWbExMWGMxUmpKd05IcHRabWd0YmpkdlEyOFNGekZVY2xoaGNrOXdUM1pRVUd0UVNWQjFVRzFsY1VGakdpSkJSSE55T1daU2F6SnVURVJvY25ONldsUjRVbXh0U0ZaM2JHUTBRbDlwUWtSQg",
+   "source": "jsearch",
+   "publisher": "JobMESH",
+   "title": "Senior Product Manager for Public Sector & Enterprise PM",
+   "company": "S M Software Solutions Inc",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://jobmesh.io/job/c9b5b03a-f852-4cdc-ade8-e2454dbe836a",
+   "posted": "2026-10-18T00:00:00+00:00",
+   "salary": "",
+   "description": "SM Software Solutions Inc. seeks a Senior Product Manager to lead product planning and lifecycle execution for enterprise projects in a public-sector context. You will shape product visions, manage multi-year initiatives, and collaborate with I&IT teams to meet strategic objectives. Responsibilities include roadmap development, prioritizing requirements, and coordinating with engineering for fast, resource-efficient releases."
+  },
+  {
+   "id": "jsearch:a1pJOFdxTFlNOERaT2VubEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzgzTlhJMWVXaHZSMnd6TlU0MmNVZENTWGM1UzFkRFQwZFdWelEyTkdwZlkyeEllRU5sTlc5QlozTTFjV3RsVWtkM1FUWkZSRFY0UW5NMWNYZGtTR05ITUVWc05XaHlYMUpWT0RkcGJERkhRWFZ4V1dkU1dGcElRekJZWm5GUWJtNVZWa2xFWlMxemNFTTJhMmgzYVhKUGNsQnFWbU4xYjJKS1QzUmxTbFpOZW0xMVdFd1NGekY2Y2xoaGMyMXFTbkZRV210UVNWQXpiMmxNTmtGM0dpSkJSSE55T1daVWIwdHZWbE5RVUZCeGJXUnlVMFkwTW1OVlJuVlBXR2xhU0ZGQg",
+   "source": "jsearch",
+   "publisher": "RemoteHive",
+   "title": "Contract role: Healthcare Data Product Manager at Secaucus, NJ (Remote)",
+   "company": "RemoteHive",
+   "location": "Canada (Remote)",
+   "remote": true,
+   "url": "https://frontendnode-25b1.onrender.com/job/contract-role-healthcare-data-product-manager-at-secaucus-nj-remote",
+   "posted": "2026-10-18T00:00:00+00:00",
+   "salary": "",
+   "description": "Data Product Manager Secaucus, NJ (Remote) Long Term Contract Job Description (Summary )The Data Product Manager owns enterprise data products from end to end and plays an active role in Data Governance. This role is responsible for defining, shaping, and managing curated datasets so they are trusted, well governed, and easy to consume. Acting as both a data product owner and a governance partner, the Data Product Manager ensures data products meet enterprise standards, regulatory requirements, and customer needs . Qualificatio \u2022 nsBachelor\u2019s degree or equivalent experienc \u2022 e.Experience working with clinical laboratory data, diagnostics, or healthcare data products in regulated environmen \u2022 tsExperience working in regulated environments with sensitive dat \u2022 a.5+ years of experience in data management, analytics, informatics, or data product role s.Knowled \u2022 geData Product Management, Data Governance, Data Contracts, Metadata, Data Quality, Privacy and Compliance, Modern Data Platform \u2022 s.Understanding of clinical laboratory data, diagnostics workflows, and related analytics or reporting use case s.Skil \u2022 lsStrong analytical and problem solving skill \u2022 s.Clear communication with technical and non-technical audience \u2022 s.Strong collaboration and influence skill \u2022 s.Ability to manage priorities independentl y. Apply tot his job Apply To this Job"
+  },
+  {
+   "id": "jsearch:Y1NISjZYTGhnaHBjVGVDMkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSEpLYWpsa1VXOWhieTFNZVhWNVRUUkNia2R6WlVSTFZGUTVTVFZtVm0xeVJDMUlSSFpUVEhoRFIyNDFiR000VWpaWWJGbGpjMk5vVkRKTVJqQlJjMUpOY1hoblFqUk1UMnR6UlY5aVpWTTJhWFIzYmtGUVRFSnZkMG8xVmtGUFMyTnFlbVZoTldSUWNGaDVlbXBhWTNSUGRIWmplRXB0YzJOcFgwZHRhRGRoZW1oSWFHZ1NGekY2Y2xoaGMyMXFTbkZRV210UVNWQXpiMmxNTmtGM0dpSkJSSE55T1daVGJFZGFVVEEwU1Y5elUxSlVUemRrWldodk9UZHFhR1J1YkRaMw",
+   "source": "jsearch",
+   "publisher": "JobMESH",
+   "title": "Remote Product Manager in Fintech",
+   "company": "takeaway",
+   "location": "(Remote)",
+   "remote": true,
+   "url": "https://jobmesh.io/job/c4121b47-bf0d-47eb-b030-7a781501252f",
+   "posted": "2026-10-17T00:00:00+00:00",
+   "salary": "",
+   "description": "Join Just Eat Takeaway.com as a Remote Product Manager in the Fintech pillar. Take ownership of product features and collaborate with engineering and analytics on impactful solutions. In this role, you will manage the product roadmap and backlog, translating business goals into prioritized tasks. Your focus will be on cross-functional collaboration, utilizing Agile methodologies, and defining key performance metrics to track product success. Key Responsibilities: \u2022 Own end-to-end feature delivery with product leads \u2022 Collaborate with engineering on Agile ceremony execution \u2022 Define key performance metrics for product areas \u2022 Manage stakeholder relationships across various teams \u2022 Conduct user research to identify process efficiencies Requirements: \u2022 Proven experience (2-4 years) as Product Manager \u2022 Strong analytical skills for data-informed decision-making \u2022 Comfort with Agile/Scrum methodologies \u2022 Excellent communication skills for stakeholder engagement \u2022 Ability to solve complex problems autonomously Bring your product management expertise to Just Eat Takeaway.com's innovative Fintech solutions."
+  }
+ ]
+}
