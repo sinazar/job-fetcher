@@ -1,0 +1,383 @@
+{
+ "run_at": "2026-10-26T10:57:35.707116+00:00",
+ "date": "2026-10-26",
+ "runs": [
+  "2026-10-26T105735Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 16,
+  "remoteok": 0,
+  "weworkremotely": 3,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 9,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 5,
+   "error": null,
+   "rejected_by": {
+    "title": 5
+   },
+   "rejected_samples": [
+    "[title] Manager, Product Operations | The Logic, Inc. | Toronto, ON, Canada | 2026-10-24T00:00:00+00:00",
+    "[title] Manager, Product Design - Okta Research & Development | Okta | Toronto, ON, Canada | 2026-10-24T00:00:00+00:00",
+    "[title] Gestionnaire de produit \u2013 SC | Staples Canada | Richmond Hill, ON, Canada | 2026-10-24T00:00:00+00:00",
+    "[title] Product Design Manager: Identity & Security UX | Okta | Toronto, ON, Canada | 2026-10-24T00:00:00+00:00",
+    "[title] Product Owner / Business Analyst -KYC | Talenzaa | Mississauga, ON, Canada | 2026-10-23T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "cursor": "EvcGCrcGQUppVDR0SklxNm1NRVV5RDhGMUt0emV2dzZ3YVpXTVdwajVWaDVya09LbkFHdmdKUkNUd2RNcE8zMUx6b0c2NGdBdTM2cnNBcDZid0VqSDZMUVVwN0JZcjJNVGlnSWFYcTg3OUZ3ajBNZWYyc2hqN0hnUmI4dlFYZ0lqX25VRl9sLThYVE02alY2OHJ3ZDFITDBmak8yblBOMDU5clFpREVhdE9IVDFBY2J5TzY1UXI3UVBfdjBJc013RXNkWXZScWtmTDktUER2ZEl1bURfN2ViOTJqQklfTFRKTUNsQmlBbzNhWEJNY3lSSllHMG5TU1kyRWxfWkJmZTVUeGo2aHFmQi1lV2FqODFnbVFHX0kxeFFZUmdTSm0tamh6VmI4MUxRWmdBN2lRbGE2Ylk5X2hNSUVmSDFYYTY5U0Z6LTY4WXFwMVE1dkZMZlBnZ1A5TnJWSkhPLW5UWUxESjY2NjZmQlM5WjcyS3htbEZJWlhpQWJnWDc5NjFnOXUya293U1hCY1d1T0lVYW0wVkxEbDNvSUZxc1hTaHkxcXNuMVNwbUh4cW5kaFBGdE1pZ1UyZ1ZoS3Nua0tWaXBIaVRGcGJFVERDQlZLMzRuMDUtVnZWMTI2dGE5VGN4cEtGTE1uem1OYm85ZlFvakZTN2l0NzBsdl9mQloxQ2w4VzNFejlZNHVwSDd3czRyY1JYcFE4ekpHVVJSaHM5REhqVFZ0Q2hNeVVVUDV1Z2UzWXhaS051YjVnSVpEazE1TXplekJPSzZlZDRBdTd5V0txMG1Eakl6TjYxWTZHalZSYXU2emx2R0U1aF9paXVxWDNjNzQtN0VsaVFFVms4c3FRQklHSWJ4VmQ5cVNXOGl4a3MtRHFzT3RoY0c3WEduLTdLQ0s0WmVXTlZiSW5TWWl1eWl3d1dPM2VRekFaNTFJNWgwTm03RTZBMllacTlMM0dZMFZfMS1RMDk4ZG5DWDl0RzYtR1IxMHJPU3ViT19EVzlDaXpuY1ZTYkhJZGVOMVFVVGNTQU8tRXVNZDJSaEZLY0JpYm1lbmZOWVcwUVpITk53NzR5UHc0ZjFkQ0RJakhiNGFXQ1pJZ1VRZxIXSlRMZmFxV2JEWUxzNU5vUGxJU2k2UW8aIkFEc3I5ZlR5cnd4VlM2eVNfc19qYWZYQzdVSlZEMGExbWc",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": []
+   },
+   "pages": [
+    10,
+    0
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 4,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "location": 1,
+    "title": 1
+   },
+   "rejected_samples": [
+    "[location] Group Product Management Manager | Affirm | Winnipeg, MB, Canada | 2026-10-24T00:00:00+00:00",
+    "[title] AI Best Practices Demand & Community Manager - Remote | McFadyen Digital | Toronto, ON, Canada (Remote) | 2026-10-23T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    4
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 9,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Senior Product Marketing Manager | AMSOIL | Anywhere (Remote) | 2026-10-23T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 94,
+    "too old": 2,
+    "location": 3
+   },
+   "rejected_samples": [
+    "[title] Field Phlebotomy Supervisor Northern California | Getlabs | Remote | 2026-10-24T16:00:04+00:00",
+    "[title] Solutions Engineer | Onebrief | Remote | 2026-10-24T00:00:02+00:00",
+    "[title] Sales Development Representative German Speaking | Huzzle | Remote | 2026-10-23T16:00:18+00:00",
+    "[title] Senior Frontend Engineer | B2spin | Remote | 2026-10-23T16:00:12+00:00",
+    "[title] Accounting and Implementation Manager | Aprio | Remote | 2026-10-23T08:00:05+00:00",
+    "[title] Travel Support Specialist | Aisles &amp; Abroad | Seattle, Washington (Remote) | 2026-10-23T00:00:05+00:00",
+    "[title] Senior DevOps Engineer | Lemon.io | Remote | 2026-10-22T12:58:28+00:00",
+    "[title] Senior Finance Manager Management Accountant | D2B | Remote | 2026-10-22T08:00:04+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 29,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 19,
+    "too old": 7
+   },
+   "rejected_samples": [
+    "[title] Engineering Manager, Knowledge Graph Platform | Reddit | Anywhere in the World (Remote) | 2026-10-26T07:31:18+00:00",
+    "[title] Payment Operations Analyst | Gusto, Inc. | Anywhere in the World (Remote) | 2026-10-24T07:31:03+00:00",
+    "[title] Director PM, Payments & Client Success | Maven Clinic | Anywhere in the World (Remote) | 2026-10-22T07:30:54+00:00",
+    "[title] Manager II, Developer Advocacy | Datadog | Anywhere in the World (Remote) | 2026-10-20T07:31:19+00:00",
+    "[title] Senior Customer Engineer - Collibra Public Sector | Collibra | Anywhere in the World (Remote) | 2026-10-20T07:31:00+00:00",
+    "[title] Data Analyst, Clinical Data Effectiveness | Clover Health | Anywhere in the World (Remote) | 2026-10-19T07:31:04+00:00",
+    "[too old] Principal Product Manager, Agentic AI | Legion | Anywhere in the World (Remote) | 2026-10-17T07:31:02+00:00",
+    "[title] Global Controller | Customer.io | Anywhere in the World (Remote) | 2026-10-17T07:30:55+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 0
+  },
+  "builtin job pages": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": []
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:RmJpU1pHV3lhZ0RHN2dGUkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa1pZUzNCR2Ewb3hhRmR0YUVGUU1tcEpNRk5rWlV3dFIyNTNVVlpqVWtsd01XWlVVR3BaYTBwQlNrYzFjbU5VYTFaQmJtd3lTRE0xYjFwYVltWlNOSE5JT0hOQ1gxQk9ZMUJIVjJvemNsOXhRa0pWU0dGbWNWRklNWHBzZEhOQ2VqTldUVFZTUkhSa1R6ZGhRbkJ3T0VsblNIVkJUVUZpWDNGTllVUnRTMlYxYUdOSFFURVNGMHBVVEdaaGNWZGlSRmxNY3pWT2IxQnNTVk5wTmxGdkdpSkJSSE55T1daU2RXUk1iR3RZTTFwM1drUmZNWEJ3VmtGRU5WYzBPSEpaVVVSMw",
+   "source": "jsearch",
+   "publisher": "Sercanto",
+   "title": "Senior Platform Product Manager \u2013 IAM & Compliance",
+   "company": "Gtmnow",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://fr.ca.sercanto.com/detail/a/senior-platform-product-manager-iam-compliance_toronto_196302888",
+   "posted": "2026-10-25T23:00:00+00:00",
+   "salary": "",
+   "description": "CaptivateIQ in Canada is seeking a Staff Product Manager \u2013 Platform to own Identity & Access Management and Compliance capabilities, defining the strategy, roadmap, and execution for secure, scalable platform features. You will partner with Engineering, Design, Product, Customer Success, and Go-To-Market teams to build foundational platform capabilities and deliver meaningful business impact for enterprise customers, while balancing risk, usability, and extensibility. J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:MDdCVzlFblZRa0V2bDQ3ZUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVmhJU2xSVk1WZDVZVGw2UkRSc1JFMHhVbWxuTmpkdFdscGFhMWh5UzB4alYzZzVSR2cxYzJKU2JIZHlNMDlFWTNoSmFXUnFlR0l0TlhwSmFIbGhaMUJ5VW1wTVptTlNhRGxvVjNOSmVHRjVYMVZXYlVSb01saFVVRkJuWlZVMGJuWXlaM1JhZFdkbmFETmhhRTVVV2xGclZDMVZSMncwTUU5TWRDMU9PR2R4ZUVORVZFRVNGMHQ2VEdaaGNHcHRSV1JUVERkT1dWQm9aVWhKWjFGckdpSkJSSE55T1daVVptbFpURGxZYWpkWVNYWnhPRFZOU1dRelUxWk9RMW80WkVWMw",
+   "source": "jsearch",
+   "publisher": "Up2staff",
+   "title": "Sr. Product Manager (Flagship Generalist) &#8211; US (Remote) &#8211; United States",
+   "company": "Luxury Presence",
+   "location": "(Remote)",
+   "remote": true,
+   "url": "https://up2staff.com/united-states-product-manager-flagship-at-luxury-presence",
+   "posted": "2026-10-25T00:00:00+00:00",
+   "salary": "",
+   "description": "Luxury Presence is the leading digital platform revolutionizing the real estate industry for agents, teams, and brokerages. Our award-winning websites, cutting-edge marketing solutions, and AI-powered mobile platform empower real estate professionals to grow their business, operate more efficiently, and deliver exceptional service to their clients. Trusted by over 80,000 real estate professionals, including 31 of the nation\u2019s 100 top-performing agents as published in the Wall Street Journal, Luxury Presence continues to set the standard for innovation and excellence in real estate technology. Why this role This role will lead product for a new team inside our Flagship Group to accelerate Luxury Presence\u2019s shift to an AI-powered platform for real estate growth. Flagship owns the technology at the core of our business: stunning real estate websites and the foundational elements of Presence, our platform that enables clients and internal teams to create websites, integrate with CRMs, create beautiful presentations for home buyers and sellers, and much more. As a Senior Product Manager, you\u2019ll own strategy, roadmap, execution, and rollout high-impact, high-complexity projects, including new offerings and strengthening our existing solutions. Working in a fast-paced environment with a skilled designer and team of fully AI-equipped engineers, you\u2019ll shape the core product that our customers and internal teams rely on every day \u2014 and see your work unlock momentum across the company. If you want to build high-value, intuitive, beautiful products at an AI-forward start-up \u2014 this is your role. What You\u2019ll Do \u2022 Own a roadmap that increases customer value, raises quality, and removes friction across Presence. \u2022 Turn ambiguous problems into a sharp plans with clear value, scope, milestones, and metrics \u2022 Run discovery with customers and internal teams. Validate problems, test solutions, and de-risk early. \u2022 Write crisp PRDs, roadmaps, and decision docs that drive clarity and align stakeholders \u2022 Sequence work for iterative delivery and fast learning \u2022 Collaborate with Design and Engineering to ship reliable, intuitive, and delightful experiences. \u2022 Define and analyze success metrics to understand if your bets are paying off and guide future work What We\u2019re Looking For \u2022 5+ years in product management, including 2\u20133 years leading large, complex 0\u21921 or major revamp initiatives \u2022 Startup mindset \u2014 you thrive in ambiguity, are a master at finding the MVP, and balance speed with quality \u2022 Exceptional communicator & collaborator \u2014 you drive clarity and gain trust and buy-in within your team and across the business \u2022 Technical product track record \u2014 you\u2019re experienced building technical products such as integrations and APIs \u2022 Passion for quality \u2014 you care deeply about building exceptional user experiences and nailing the details \u2022 Fluent in AI tools \u2014 you\u2019re an expert at leveraging AI tools to multiply your impact Nice to Haves \u2022 Experience with B2B integration platforms \u2022 Experience with real estate CRMs such as FollowUp Boss \u2022 Experience building AI-powered products \u2013 agentic workflows, LLM selection, prompt creation, and evaluation suites \u2022 Familiarity with the real estate industry Why You\u2019ll Love It Here \u2022 \ud83d\ude80 Join a product-led, design- and AI-forward company with real traction and a clear growth strategy \u2022 \ud83c\udfaf Drive innovation on core functionality and greenfield bets \u2022 \ud83d\udca1 Work with a talented, humble, and highly collaborative team \u2022 \ud83c\udf0d Thrive in a remote-first, async-friendly environment \u2022 \ud83c\udf31 Grow into leadership as we expand the platform and team $150,000 \u2013 $190,000 a year Join us in shaping the future of real estate The real estate industry is in the midst of a seismic shift, and the future belongs to those who break new ground. As one of the fastest-growing companies in the proptech and marketing sectors, Luxury Presence challenges the status quo of what technology can do for real estate agents, leaders, and brokerages. We\u2019re a team of agile"
+  },
+  {
+   "id": "jsearch:d0pHZVVSVzg4NExxMVAtZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVXBPT1ZodmRGRlRlVVJPUWtwSFZqWk5UbFIxYkVwV1pERlVTbXN6WDFZNWRVaG5TSG8zTUZGTVUwaG9ObnBXZDJSSk1HVjJiRFZKTWpkRE4wWjBORlJ5T0VOd05FSjVaVU5sWXpjMWNuRlhWVTFPUVVwUmVGWTVVRUl5Ym5wNGRYUXhPRE5HVWpOYVIxcFliVmwxV21OdGRGTkpTblpWY0Rsa2JtdFNXVzVVVnpVeE1rd1NGMHhxVEdaaGRtcEJTVTltVlhoak9GQTNjVlIxTmxFNEdpSkJSSE55T1daUlFWYzNlVVoyV1VGeU0wMWpiM2s1VlRSU2RUQndOazlWU2t0Qg",
+   "source": "jsearch",
+   "publisher": "Himalayas",
+   "title": "Senior Growth Product Manager \u2014 Remote PLG & Revenue",
+   "company": "Tithely",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://himalayas.app/companies/tithely/jobs/senior-growth-product-manager-remote-plg-revenue",
+   "posted": "2026-10-25T00:00:00+00:00",
+   "salary": "",
+   "description": "Tithely is seeking a Senior Growth Product Manager to drive \u2022 revenue, \u2022 user acquisition, \u2022 activation, and \u2022 market expansion for our church-focused tools. This fully remote role requires crafting \u2022 growth roadmaps, \u2022 leading experiments, and \u2022 partnering across teams. You will own the growth lifecycle from acquisition to monetization, and translate customer insights into measurable product strategies. Join a distributed team dedicated to mission-driven software. J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:a2VHODRwT3FtVUJRbmxQd0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVFp3VERGcU0zSkJVRU5ZZEU1UWNIUkNSelJtTTJKQ1ZVZDBMVE5mWVVaNFRHSk5OamhZU0RneVZqZGlUbGxGTjFOQ05IZENiSE01VTFwS1NXOW1aa2RVTjFabGNGTjRjbXh6U1U1c1NFWmtXbWxRV1ZCWmJtMU9Va2RwZG1kdWVVdzRlVUpzWWs5a2RFWlZkRXROYWxsQk1rOVBSakY2TTNGWWFHaDFTMGt3UWpJeWNTMFNGMHhxVEdaaGRtcEJTVTltVlhoak9GQTNjVlIxTmxFNEdpSkJSSE55T1daUmVubDZiMDQ1WkZoNE16RTNNbEZmVDFobGRXbHJlVXBNWWkxMw",
+   "source": "jsearch",
+   "publisher": "Ladders",
+   "title": "Product Management Senior Advisor",
+   "company": "Cigna",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.theladders.com/job/product-management-senior-advisor-cigna-virtual-travel_89530287",
+   "posted": "2026-10-25T00:00:00+00:00",
+   "salary": "113K\u2013189K a year",
+   "description": "The Senior Product Manager Advisor, Agent Experience helps plan and build tools for customer service teams. These tools help agents and operations teams work faster and provide better service. You will work with Engineering, Design, Data Science, Customer Operations, and business partners. Together, you will build tools that are easy to use and can grow with the business. You should understand product management, agent work, and how to solve hard business problems. Responsibilities: Product Strategy and Vision \u2022 Work with leaders to set the long-term plan for Agent Experience products. \u2022 Find ways to help agents work better, feel supported, and provide quality service. \u2022 Turn company and team goals into clear product results. \u2022 Build business cases and choose work based on customer needs, business value, and company goals. Learning About Customer Needs \u2022 Talk with agents, team leads, managers, and customers to learn what they need. \u2022 Review work steps, service paths, and results to find ways to improve. \u2022 Use feedback and data to test ideas and make choices. \u2022 Keep up with trends in artificial intelligence (AI) and customer service tools. Building and Launching Products \u2022 Lead teams as they research, plan, build, launch, and improve products. \u2022 Write clear product needs, user stories, goals, and rules for when work is complete. \u2022 Work with Design to make tools simple, useful, and easy to access. \u2022 Work with Engineering to make sure products can be built, can grow, and stay on schedule. \u2022 Plan product launches and help teams learn and use new tools. AI and Automation Experience \u2022 Plan and build AI tools that help agents do their work. These may include agent copilots, suggested answers, case summaries, smart routing, and automatic work steps. \u2022 Make sure AI tools improve work while staying clear, trusted, and accurate. \u2022 Use feedback and testing to improve how the AI tools work. Data and Results \u2022 Set clear goals and measures for agent work, service quality, and team results. \u2022 Track how products work and test changes to make them better. \u2022 Build dashboards and reports that show business results. \u2022 Use data to choose updates and confirm that changes work. Working with Partners \u2022 Build good working relationships with Operations, Customer Experience, Engineering, Design, Analytics, and leaders. \u2022 Clearly share the product plan, progress, risks, and new ideas. \u2022 Use facts and data to help leaders set company goals. Qualifications: Required \u2022 At least 5 years of product management experience. \u2022 2 Years of leading complex internal platforms, enterprise products or operational tooling. \u2022 Experience with internal systems, business products, or tools used by operations teams. \u2022 Ability to take a product from an idea to launch and then improve it. \u2022 Experience in customer support, a contact center, service operations, or workforce management. \u2022 Ability to use data to make product choices. \u2022 Clear speaking, writing, planning, and partner management skills. \u2022 Experience working on an agile product team. \u2022 Bachelor's degree or equal hands-on experience. Preferred \u2022 Experience building products that use AI, machine learning, or generative AI. \u2022 Experience with customer relationship management systems, ticketing tools, or customer service platforms. \u2022 Knowledge of agent work measures, operations goals, and service steps. \u2022 Experience testing product ideas and using product data tools. \u2022 Master's degree in business or a related field. If you will be working at home occasionally or permanently, the internet connection must be obtained through a cable broadband or fiber optic internet service provider with speeds of at least 10Mbps download/5Mbps upload. For this position, we anticipate offering an annual salary of 113,200 - 188,600 USD / yearly, depending on relevant factors, including experience and geographic location. This role is also anticipated to be eligible to participate in an annual bonus plan. At The Cigna Group, you'll enjoy a comp"
+  },
+  {
+   "id": "jsearch:aXFLYnJQS3l5ZDdqRGc0dEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV2QxY0dKVlpYVnVNamw0YjFkT01sVTVXblJzVmt4VlNsaHBORVZrWVVSaVl6VlNVRGQ2UjB4U1MxVllPR2h1UWs1alpYTmZiV2RCZEZOSFNpMHlSVlZFZG13MFRpMXBOWEE1ZUVzekxVaHNRakpNVDI5d1JFZEVTV2RyVjBjeWVWWk5TR1JYYVd0bVZHNWhTM053VWtOWVMyWmFibmRmZDFCdE5FcEtUMDB6T1dJeVYzRVNGMHBVVEdaaGNWZGlSRmxNY3pWT2IxQnNTVk5wTmxGdkdpSkJSSE55T1daVFJXTnNjR296ZW1WNmNFODRWMVZ0VGs0M2FqWXpjbGh5Y2t0Mw",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Lead Product Manager for Canadian Solutions",
+   "company": "Caseware",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=635939626768795527",
+   "posted": "2026-10-24T00:00:00+00:00",
+   "salary": "",
+   "description": "Elevate your career as the Lead Product Manager for Canadian Solutions at Caseware, where you will shape the future of audit technology. This hybrid role is ideal for a CPA keen on driving product success. Caseware, an influential player in the Fintech industry, is seeking a Lead Product Manager for its Canadian Solutions team. You will drive the vision and roadmap for audit and assurance products tailored to the Canadian market. Your role involves managing a talented team of product managers while making strategic decisions that align with CPA Canada standards and addressing market needs. Frequent collaboration with customers and industry professionals will ensure that our products meet compliance and quality expectations. Key Responsibilities: \u2022 Lead product vision and execution for the Canadian market \u2022 Define customer needs and prioritize product features \u2022 Collaborate with stakeholders to align on standards \u2022 Report on product performance metrics \u2022 Foster relationships within the accounting profession Requirements: \u2022 CPA (Canada) in good standing \u2022 Over 10 years in public accounting or related fields \u2022 Experience in leading product teams \u2022 Strong understanding of Canadian standards \u2022 Ability to communicate strategy effectively Drive impactful product changes at Caseware by leveraging your accounting expertise and leadership skills. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:cWpXSThzbVI1OHA2R3ZNVUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURXAyWW5kT1JEUnFiSEZ4ZDJodGJrMVFaMGhDWW5WM2RVdFFVWGQwUVdSMmRFVTFURmxwTUdGUWNFeHBaR3hHTURFd1dGZEpablY1UlVoWk4xWnZRbEJ5ZW5KUlNHZHFMVGxIZW01WU5YUnNiRU5NTlhRNU4zRjFUVGR6VTJ0clJXdFJaSEZxUnpjd2EzSk1aMHAwVVhOQmRtVjVjRXB2WTBFMVlXbFdkbGx1UlZSVVdWY1NGMHhxVEdaaGRtcEJTVTltVlhoak9GQTNjVlIxTmxFNEdpSkJSSE55T1daVU1XMXZkbEJUTldobWRsUXpiVVpFYVhGUlVWRjFXVll6TUhsbg",
+   "source": "jsearch",
+   "publisher": "JobQuick",
+   "title": "Senior Product Manager (Remote From Anywhere in CO)",
+   "company": "JobQuick",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobquick.h4n.loveslife.biz/remote-jobs/senior-product-manager-remote-from-anywhere-in-co-d75edd05",
+   "posted": "2026-10-24T00:00:00+00:00",
+   "salary": "",
+   "description": "Department Information Together, we innovate for a stronger Colorado The work of employees at the Governor's Office of Information Technology (OIT) is challenging and diverse because the needs of agencies, customers and Coloradans constantly evolve. But our focus never changes improve the lives of all Coloradans through innovation and collaboration. We're building one of the nation's leading government IT organizations by reimagining how we support agencies, building first-of-their-kind applications, and creating an inclusive, collaborative culture, together. Join us in the important work of providing equitable access to services. Watch this video to learn more about how we're Serving People. Serving Colorado. Description of Job IMPORTANT NOTE Please review your application to ensure completion. For the most equitable applicant experience, OIT\u2019s hiring team considers only the contents of your application to review your qualifications. Please do not include any attachments (such as resume or cover letter) with your application as these items are not used by OIT\u2019s hiring team. We are looking for an innovative and experienced technical Senior Product Manager to join our team at OIT. In this pivotal role as our new Senior Product Manager, you will contribute to the development and delivery of technology solutions that drive business success. You will serve as a vital liaison between stakeholders, service management, and the development team, ensuring that product requirements for the Salesforce and other SaaS based platforms are clearly defined, prioritized, and delivered on schedule. As a Senior Product Manager, you will play a crucial role in shaping our Platform Services product strategy and ensuring that our solutions not only meet, but exceed customer expectations. Your influence will drive outcomes that align with our strategic goals while promoting a highly tactical approach in a collaborative and supportive environment. We're looking for an individual who wants to do the best work of their career in service of the public to design, deliver, and continuously improve services that work for Coloradans. Essential Functions Write and maintain a well-groomed backlog using user stories that are outcome-oriented, appropriately sized, and grounded in real constituent needs; Draft initial product backlogs for RFPs, translating problem spaces into indicative user stories that structure procurement without locking the pod into fixed, rigid scope. Apply frameworks such as Value vs. Effort or \"Now/Next/Later\" to make and defend prioritization decisions. Proactively manage scope by saying \"no\" clearly and constructively to work that does not serve the current priority. Run essential agile planning cycles, including sprint planning, refinement, reviews, and retrospectives. Conduct quarterly roadmap conversations with stakeholders to align long-term goals with delivery capacity. Regularly update the Director of Platform Services, IT Director, and program staff about status in terms of outcomes (mission impact) rather than just progress (activity). Partner with Service Designers to understand, apply, and interpret journey maps, blueprints, and problem frames, translating these artifacts into actionable backlog inputs.to understand Define and track objectives and key results (OKRs) and success metrics; evaluate and communicate when shipped features fail to deliver expected outcomes. Build the product ownership capacity of agency staff over time, ensuring the agency becomes a stronger partner rather than a dependent. Manage the product's lifecycle from discovery through to ongoing continuous improvement. Collaborate deeply with engineering to validate technical architecture decisions. Collaborate with the Delivery Engineer on build/buy/SaaS evaluations, contributing backlog context, mission-impact perspective, and constituent needs to inform the technical decision. What you bring Knowledge of product management fundamentals, including backlog"
+  },
+  {
+   "id": "jsearch:UWtDNGxiN1lESmNyMXlBWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM0p3Uld0WmVWVTVRa0ZDUW1Kc2NsbFJjalZHVWxaZmIyOXZjekI1T1VSVVdFazBMWFp0VEZRemVIWnBiVFZmVWxSaWRVWjFSbTVKVUVscU1XZHdhMjB3V1hjMVltdGhaVTFxYjNwMVNYaENVRkE0ZEVGV2JHbzBOa3BRVm5Rd2NEY3hWMmR4UVRsUVEwZEdkVzlxYWs0dFZHTkZNVmRJT1ZaSlpYaFFhVTB0VEd3dFJUQVNGMHhxVEdaaGRtcEJTVTltVlhoak9GQTNjVlIxTmxFNEdpSkJSSE55T1daUlMwbE5abDkxTTJWdE4wNUNTalpzU0ROc1ptazBjbmhUWjB4bg",
+   "source": "jsearch",
+   "publisher": "Adzuna",
+   "title": "On-Call Lead Product Manager with Security Clearance",
+   "company": "ICF Consulting Group, Inc.",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.adzuna.com/details/5940767912",
+   "posted": "2026-10-24T00:00:00+00:00",
+   "salary": "",
+   "description": "Description We are currently hiring an experienced On-Call Lead Product Manager to serve as a senior engagement leader in support of our federal government clients. Our Team Join a team of senior consultants and problem-solvers working to champion product thinking in federal IT delivery. Product Managers @ ICF Next are difference-makers. They understand and connect with the client mission and act as the curators and stewards of the product vision throughout Agile IT Modernizations. This is a dynamic and visible senior consultant position, capable of wearing different hats and communication styles in different settings to depending on the day and context: teammate or leader, collaborator or visionary, listener or coach, business development or delivery. ICF is a purpose-driven company with a strong culture and underlying values that prize diversity, opportunity, equality, and respect. Our core values include embracing differences, and we seek candidates who are passionate about building a culture that encourages, embraces, and hires dimensions of differences. Our Work A Lead Product Manager in our practice: * Serves as a leader on federal client engagements, shapes the Agile team and processes for success and drives the backlog of work in the right direction \u2022 Is a consultant first; able to effectively represent our practice's product management playbook and the services we sell in the way they do their work, while also tailoring their approach on a project-by-project basis to deliver value to their teams and customers \u2022 Uncovers and articulates the needs and goals of the client organization as they relate to the contract and product; Loves to dig in and make sense of things, can quickly get smart on a new program or subject matter \u2022 Collaborates with a variety of internal and external experts, facilitates conversations and workshops to brainstorm and get buy-in for decisions \u2022 Generates clear and compelling artifacts to explain the product vision, strategy, process, target outcomes, progress toward those outcomes, and high-level requirements to a variety of audiences \u2022 Brings a minimum viable product (MVP) mindset to everything they do, keeps the team focused on what matters in different phases and minimizing risks, while also creating time, space, and confidence amongst our teams to innovate and deliver the best results long-term \u2022 Manages and plans Agile work across multiple workstreams, can effectively balance and steer discovery and delivery tasks to drive the backlog and deliver value to users continuously \u2022 Is a team player with excellent problem-solving and consensus-building skills; fosters a culture of creativity, collaboration, innovation, honesty, and best ideas forward \u2022 Is an active member of our product practice; contributes to our community by building relationships across the company, mentoring others, creating and collecting best practices, supporting proposal writing, other internal initiatives that help us grow and thrive ***As an on-call with our team, you might work zero to 30 hours per week, depending on our workload. Required Qualifications: * Bachelor's degree or equivalent experience \u2022 5+ years of professional experience in a digital product delivery role \u2022 3+ years direct product management or product strategy experience on an Agile team (e.g. as a product owner or product manager) \u2022 2+ years experience in a professional consulting role \u2022 1+ years experience leading virtual workshops that employ human-centered design, design thinking, or generative brainstorming techniques \u2022 Ability to obtain a Public Trust Clearance, must reside in the United States Professional Skills * Strong understanding of Agile methodologies, professional experience on integrated cross-functional Agile teams that include discovery functions such as user research and UX design SMEs \u2022 Excellent verbal and written communication skills \u2022 Proficient with product management and collaboration tools such as JIRA, Confluence, and Mural "
+  },
+  {
+   "id": "jsearch:TGtnUEJ6UFQ0WHJZRWhka0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTaTFyTWxkU05HbEpRMGsxVUUwemNVNURUa3A1ZWpkQ1VFSnRXVlpOWjBaSGJ6QkdUV3RTTTNSa1dGSnlXRkpmTW1OblZqaDJSMHBhWjNBeFpWTlRZVE54U1ZwUWNqYzNObU5QYVdOb1UxcENiaTAyTW1wdVRHUlFaMU00ZEVFMExWVkhNMkUwWWxWWlRYaHVja1JXYUV4aFYxOXNPSGR3T1ZRNFRrUnZSMDFOYjJoNVNrY1NGMHhxVEdaaGRtcEJTVTltVlhoak9GQTNjVlIxTmxFNEdpSkJSSE55T1daVWNYWktNVTlyWld0V09ISnBSVXhHZVVsMVRuUmpURmROWVZkQg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Senior Director, Product Management \u2013 Unified Communications",
+   "company": "Vonage",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.linkedin.com/jobs/view/senior-director-product-management-%E2%80%93-unified-communications-at-vonage-4483130844",
+   "posted": "2026-10-23T00:00:00+00:00",
+   "salary": "",
+   "description": "Join Vonage and help us innovate cloud communications for businesses worldwide! Why this role matters: The UC product organization is at the heart of Vonage's Applications business. As Senior Director of Product Management for Unified Communications, you will have full ownership of execution across the UCaaS portfolio, turning product direction into clear plans, coordinated delivery and measurable business outcomes. Reporting to the GM of UC/CC, you will lead a team of Directors and Senior Product Managers and partner closely with the Head of Strategy to define and maintain the complete product roadmap. Your leadership will ensure priorities are translated into high-quality releases and market impact at scale. Your key responsibilities: \u2022 Own end-to-end execution of the Unified Communications product roadmap, translating agreed strategic direction into sequenced priorities, delivery plans and measurable outcomes \u2022 Lead, mentor and develop a high-performing team of Directors and Senior Product Managers, setting clear accountability and maintaining a strong operating cadence across the portfolio \u2022 Partner with the Head of Strategy to define and maintain the complete multi-year roadmap, combining market direction and company priorities with delivery capacity, dependencies and customer commitments \u2022 Coordinate Engineering, Design, Sales, Marketing, Customer Success and Finance to convert roadmap priorities into executable plans, resolve dependencies, and deliver compelling products on time \u2022 Establish portfolio governance and decision-making mechanisms that keep teams focused, surface trade-offs early, and ensure resources remain aligned to the highest-impact work \u2022 Own product execution KPIs and business outcomes, including delivery predictability, adoption, quality and commercial impact; report progress, risks and corrective actions to the GM of UC/CC and senior leadership \u2022 Drive launch readiness and go-to-market execution with Product Marketing and commercial teams, ensuring positioning, pricing, enablement and customer rollout plans are complete and coordinated. What you'll bring: Required: \u2022 12+ years of product management experience, with at least 4 years in a senior leadership role managing managers and driving execution across complex, cross-functional portfolios \u2022 Demonstrated success delivering and scaling UCaaS, CCaaS or cloud communications products in a B2B or enterprise SaaS environment \u2022 Deep domain expertise in unified communications, including voice/telephony, video, messaging, mobility and collaboration \u2022 Proven ability to translate portfolio strategy into an executable roadmap, operating plan and reliable delivery across multiple product teams \u2022 Exceptional stakeholder management and communication skills, with the ability to drive decisions, manage trade-offs and provide clear delivery accountability to C-suite and Executive Leadership \u2022 Experience leading execution in a global, cross-functional environment with distributed engineering and go-to-market teams \u2022 Bachelor's degree in Computer Science, Engineering, Business or a related field. Experience we consider a plus: \u2022 Experience with AI-driven product features in a communications or collaboration context (e.g. transcription, virtual agents, intelligent routing) \u2022 Familiarity with channel and partner go-to-market models in UC/CCaaS \u2022 MBA or advanced degree in a relevant discipline \u2022 Prior experience at a Tier 1 cloud communications or UCaaS provider. How you'll benefit: \u2022 Medical, Dental & Vision Insurance \u2022 401(k) \u2022 Leave of Absence \u2022 Employment Verification \u2022 Workers Compensation \u2022 Ericsson Care Line \u2022 Discretionary Time Off (DTO) \u2022 Volunteer Time (VTO) \u2022 Additional benefits and perks will be shared and discussed with you by the recruiter during the interview process. US Pay Transparency: $221,000 USD - $290,000 USD There\u2019s no perfect candidate. You don't need all the preferred qualifications to make a valuable impact on our team. Our employees and custome"
+  },
+  {
+   "id": "jsearch:RVVqcFFfWGtXWGFUX0hVRUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVVZsZUVoaWVGRndTM3BqZFc4elJtWm9ORXhIZW1wdFQzTjRVWFJDVERWR1IzaHhURXBoVm1SNlltRTVXRzFWYzJkSmREVk1NMXAwWlhsWlVtbFliMDVIV25Rd1dWb3haMkpXZVY5VVdITk9ZbVZVUXpVd2VGSTBNWGRvY1RaSk1VOWtSMHQ2ZFZWd01GSkdlRE0wUVcxc2RYRnZNbVV0TFhreVFWOVpXazVKZDBZeFZXb1NGMHhxVEdaaGRtcEJTVTltVlhoak9GQTNjVlIxTmxFNEdpSkJSSE55T1daVE9ISmZWMjV4YW5wblptWXlVemhrUjFWNGMzVkJNRFJCVkZSMw",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager - German Public Sector & Defence (f/m/d)",
+   "company": "Wire",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6adb6fe422c2644c03e3c1fe-senior-product-manager---german-public-sector-defence-f-m-d",
+   "posted": "2026-10-23T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: Europe, European Union, EMEA, Germany WER WIR SIND Wir bei Wire bieten sichere Kommunikation f\u00fcr Regierungen, Verteidigungsorganisationen und regulierte Unternehmen in ganz Europa. Die Entwicklung von Messaging Layer Security (MLS) haben wir mitgepr\u00e4gt und geh\u00f6ren heute zu den Vorreitern beim produktiven Einsatz im gro\u00dfen Ma\u00dfstab, mit Ende-zu-Ende-verschl\u00fcsselten Nachrichten, Anrufen und Dateifreigaben. Unsere Government Edition verf\u00fcgt \u00fcber eine BSI-Zulassung f\u00fcr die Kommunikation auf VS-NfD-Niveau im Rahmen des zugelassenen Einsatzbereichs. ALLGEMEINE INFORMATIONEN Anstellungsart: Festanstellung Berufserfahrung: Umfangreiche Erfahrung im Produktmanagement im B2B- oder Enterprise-Technologieumfeld Arbeitszeit: 40 Std./Woche Arbeitsort: Berlin / remote in Deutschland Berichtet an: Director of Product Sprachen: Deutsch und Englisch auf mindestens C1-Niveau, in Wort und Schrift Wunsch-Startdatum: Schnellstm\u00f6glich DEINE CHALLENGE BEI WIRE Als Senior Product Manager, German Public Sector & Defence sorgst du daf\u00fcr, dass Wire das richtige Produkt f\u00fcr einen seiner strategisch wichtigsten M\u00e4rkte entwickelt. Du verbindest Kunden- und Marktarbeit mit Produktf\u00fchrung \u00fcber einen oder mehrere unserer Value Streams, etwa Messaging, Calling, File Sharing und Core-Plattform-Funktionen. Dabei entwickelst du ein tiefes Verst\u00e4ndnis f\u00fcr Kunden aus dem deutschen \u00f6ffentlichen Sektor und der Verteidigung und bringst diesen Kontext in unsere Produktorganisation ein. Dies ist keine Rolle im operativen Delivery Management. Scope Teams und Engineering Teams verantworten Backlogs, agile Prozesse und Delivery. Deine Aufgabe ist es, sicherzustellen, dass unsere Teams die richtigen Probleme aus den richtigen Gr\u00fcnden l\u00f6sen und dass Produktinvestitionen an Kundenbedarf, Commercial Opportunity und der Strategie von Wire ausgerichtet bleiben. Kunden, Markt und Commercial \u2022 Du baust vertrauensvolle Beziehungen zu Kunden, Interessenten und Partnern auf und vertrittst die Produktorganisation von Wire in Produktgespr\u00e4chen auf Senior-Ebene. \u2022 Gemeinsam mit Sales und Partnerships arbeitest du an gro\u00dfen Vertriebschancen, RFPs und Ausschreibungen, bringst glaubw\u00fcrdige Produktexpertise ein und bewertest Kundenanforderungen. \u2022 Du hast die Commercial Pipeline, strategische Kundenzusagen und neue Marktchancen im Blick. Produktausrichtung und Value Streams \u2022 Du stimmst mit einem oder mehreren Value Streams klare Ziele, angestrebte Ergebnisse und Priorit\u00e4ten ab, im Einklang mit der Produktstrategie von Wire. \u2022 Du \u00fcbersetzt Kunden- und Marktbedarfe in klar formulierte Produktprobleme und Chancen f\u00fcr Scope Teams und Engineering Teams. \u2022 Du bringst Kunden-, Commercial- und Gesch\u00e4ftskontext in wichtige Produkt- und Priorisierungsentscheidungen ein, damit die Teams die Gr\u00fcnde hinter den Priorit\u00e4ten verstehen. \u2022 Du erkennst Abh\u00e4ngigkeiten \u00fcber Value Streams hinweg und koordinierst die Produktausrichtung, wenn Kundenbedarfe mehrere Teile der Wire-Plattform betreffen. Bereichs\u00fcbergreifende Zusammenarbeit \u2022 Du arbeitest eng mit Information Security zusammen, wenn Kundenanforderungen Security, Assurance, Akkreditierung oder Regulierung betreffen, bei klarer Trennung der Verantwortlichkeiten zwischen Product und Security. \u2022 Gemeinsam mit Product Marketing und dem Commercial-Team stellst du sicher, dass F\u00e4higkeiten und Ausrichtung des Produkts im Markt korrekt dargestellt werden. Deine Ziele im ersten Jahr \u2022 Du baust vertrauensvolle Arbeitsbeziehungen zu wichtigen Kunden, Interessenten und Commercial-Stakeholdern aus Regierung und Verteidigung in Deutschland auf. \u2022 Du stimmst klare Ziele f\u00fcr die Value Streams ab, die du betreust, und gibst eine klare Produktrichtung f\u00fcr die wertvollsten produkt\u00fcbergreifenden Chancen vor. DEIN PROFIL Was du mitbringst \u2022 Nachweisliche Erfahrung in der direkten Zusammenarbeit mit hochrangigen Kunden und Commercial-Stakeholdern und darin, deren Bedarfe in eine Produktrichtung zu \u00fcbersetzen. \u2022 Ausgepr\u00e4gtes "
+  }
+ ]
+}
