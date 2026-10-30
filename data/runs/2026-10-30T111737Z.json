@@ -1,0 +1,535 @@
+{
+ "run_id": "2026-10-30T111737Z",
+ "run_at": "2026-10-30T11:17:37.883538+00:00",
+ "date": "2026-10-30",
+ "source_counts_after_filters": {
+  "jsearch": 17,
+  "remoteok": 0,
+  "weworkremotely": 2,
+  "adzuna": 0,
+  "builtin": 3
+ },
+ "new_count": 18,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 10,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "title": 4
+   },
+   "rejected_samples": [
+    "[title] Senior Product Proposition Manager | Global Payments Inc. | Markham, ON, Canada | 2026-10-27T00:00:00+00:00",
+    "[title] Casino Product and Commercial Lead | Van Kaizen | Toronto, ON, Canada | 2026-10-27T00:00:00+00:00",
+    "[title] Senior PM, Mid\u2010Market Integrations \u2014 Accounting | liv | Toronto, ON, Canada | 2026-10-27T00:00:00+00:00",
+    "[title] Senior Process Journey Owner | HollisWealth | Toronto, ON, Canada | 2026-10-28T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 3,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Remote Senior Manager, Canada | Nanit | West Vancouver, BC  (+1 other), Canada (Remote) | 2026-10-28T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    3
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 9,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Sr. Director Marketing Product & Program Strategy | Horizontal Talent | Anywhere (Remote) | 2026-10-27T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 94,
+    "too old": 2,
+    "location": 3
+   },
+   "rejected_samples": [
+    "[title] Front End Developer | Edconic | Remote | 2026-10-28T21:53:15+00:00",
+    "[title] z | y | r (Remote) | 2026-10-28T15:49:49+00:00",
+    "[title] z | y | r (Remote) | 2026-10-28T15:49:45+00:00",
+    "[title] z | y | r (Remote) | 2026-10-28T15:49:33+00:00",
+    "[title] Account Executive | Huzzle | Remote | 2026-10-26T08:00:12+00:00",
+    "[title] Senior Software Engineer LATAM | Wagmo | Remote | 2026-10-26T08:00:06+00:00",
+    "[title] Senior Software Engineer | Klardaten | Remote | 2026-10-25T12:34:21+00:00",
+    "[title] Field Phlebotomy Supervisor Northern California | Getlabs | Remote | 2026-10-24T16:00:04+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 28,
+   "kept": 2,
+   "error": null,
+   "rejected_by": {
+    "title": 18,
+    "too old": 8
+   },
+   "rejected_samples": [
+    "[title] Senior AI Engineer - EU | Typeform | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Senior AI Engineer - US | Typeform | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Principal Applied AI Engineer - Entity Agents | ZoomInfo Technologies LLC | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Senior Database Reliability Engineer I - Germany/Austria/UK | Storyblok | Anywhere in the World (Remote) | 2026-10-28T07:31:13+00:00",
+    "[title] Product Design Lead | Carrot | Anywhere in the World (Remote) | 2026-10-28T07:31:07+00:00",
+    "[title] Manager, Professional Services Federal | Collibra | Anywhere in the World (Remote) | 2026-10-28T07:30:57+00:00",
+    "[title] Engineering Manager, Knowledge Graph Platform | Reddit | Anywhere in the World (Remote) | 2026-10-26T07:31:18+00:00",
+    "[title] Payment Operations Analyst | Gusto, Inc. | Anywhere in the World (Remote) | 2026-10-24T07:31:03+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 6
+  },
+  "builtin job pages": {
+   "returned": 6,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "title": 3
+   },
+   "rejected_samples": [
+    "[title] RQ11741 | Product Manager - Senior - Maarut Inc. | Toronto, ON | None",
+    "[title] Vice President, Client Experience Platform (Hedge Funds)",
+    "[title] Senior Manager, Sales Product Technology"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:cmEwdFZtaHA4MGs2ZE50V0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXV1pDWVcxUWVqbE9NMVF3Wm10clJrbGlTMDAxUmtsamMxTjZjRFY1ZUdOT1RXbGFValUzWmpKSU5sOVBXbTV5U2xwdlJGWmlZalJ5YWxSa2NFUlhUVVpDTmpaWVlWOUdiRlJNWjNoclFrWmFValZXV2taSlZEbHpiRzVoTUhReFVGQTFPVmN6Y2toWWVuUmxhMHBUYkdGVGVGZEtSRTlDZFZNelVuaERVVlZRTm1GbFIySVNGekF6ZW10aGNpMWpTaTEyYURKeWIxQTVOVmRmYVZGakdpSkJTRTR3UlRkR1dXZ3pOVkF3TWpoS1ltMTZNM3BKVFY5elZqUlpUMjVGTTJWQg",
+   "source": "jsearch",
+   "publisher": "RBC Careers",
+   "title": "Senior Director, DevOps Product Management and Strategy",
+   "company": "Royal Bank of Canada",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://jobs.rbc.com/ca/en/job/RBCAA0088R0000191118EXTERNALENCA/Senior-Director-DevOps-Product-Management-and-Strategy",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description What is the Opportunity? The Senior Director of DevOps Product Management and Strategy is a transformation-focused strategic leadership role that will shape RBC's future as a technology-led financial services leader. This position uniquely combines strategic vision, product management discipline, and organizational change leadership to drive the adoption of AI-enabled DevOps practices across our enterprise. You will lead the multi-year transformation of how RBC develops and delivers technology, focusing on AI-integrated SDLC frameworks, harness engineering practices, and developer productivity optimization. This role requires both strategic thinking\u2014setting 3-5 year vision and making critical technology investment decisions\u2014and execution excellence, delivering innovative DevOps products and platforms that enable thousands of developers. This is an opportunity to influence technology strategy at the highest levels while building and scaling proven approaches from pilot programs to enterprise-wide adoption, fundamentally changing how RBC builds software. What will you do? Strategic Leadership \u2022 Develop and own the 3-5 year DevOps transformation strategy aligned with enterprise technology and business objectives \u2022 Define the strategic vision for AI-enabled SDLC practices, determining which technologies, frameworks, and approaches RBC will standardize on, including harness engineering and specification-driven development \u2022 Lead strategic planning cycles including portfolio prioritization, investment allocation, and build-vs-buy decisions for DevOps capabilities \u2022 Conduct market intelligence and competitive analysis to position RBC as a technology leader and inform strategic technology choices \u2022 Partner with enterprise architecture and technology strategy teams to ensure DevOps strategy supports long-term business goals and enables business outcomes \u2022 Drive innovation strategy by establishing experimentation frameworks, pilot-to-scale pathways, and balancing innovation with operational excellence \u2022 Develop strategic partnerships with technology vendors, industry groups, and external advisors to accelerate capability development Product Management & Execution \u2022 Define and execute the product strategy and roadmap for DevOps platforms, tools, and services across the T&O organization \u2022 Lead cross-functional teams to deliver innovative DevOps products that enhance developer productivity and operational efficiency \u2022 Champion the integration of AI and automation technologies into DevOps and SDLC workflows to optimize processes and reduce manual effort \u2022 Collaborate with engineering, operations, and business stakeholders to gather requirements and prioritize product features \u2022 Manage product lifecycle from conception through delivery, ensuring alignment with business objectives and customer needs \u2022 Build and maintain relationships with internal customers, gathering feedback to continuously improve product offerings \u2022 Develop business cases and ROI models for DevOps investments, demonstrating value delivery to executive leadership Leadership & Culture \u2022 Foster a culture of continuous improvement and innovation within the DevOps product organization \u2022 Stay current with DevOps industry trends, emerging technologies, and best practices to inform product strategy \u2022 Oversee budget and resource prioritization for DevOps product initiatives What do you need to succeed? Must Have \u2022 10+ years of product management or related leadership experience with 5+ years managing product teams and driving cross-functional initiatives \u2022 Proven experience leading enterprise transformation in complex organizations and developing multi-year technology strategies \u2022 Exceptional executive communication skills with ability to influence senior technology leaders and translate technical complexity into business value \u2022 Strong track record building strategic relationships with technology clients and presenting to executive audiences \u2022 Deep knowledge of De"
+  },
+  {
+   "id": "jsearch:cXV1MXJNU0tqWlBjdHFfcEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZUzA1TTNKRE5ITmlXakpxVG1OWVRGVkxZamxQTWpsTllYUlFRekpqTjBFNWVDMU1PVmN4VGs5dlpuWlZSMk5DZFVVMFRDMTNhV3hETFV0d1YyNU1hMlZCUWpCYU5WbG5ZVzlJVlVOU2IwTkhhVGRNYWt4NGF6Sk5jR3g1VUMxMGNtWXpNRkpmTUdKM1oyYzJWemxIUlVjMVlsaFdUakpyUnpCU1RrNWpRWG81U1Voa1F6TVNGekF6ZW10aGNpMWpTaTEyYURKeWIxQTVOVmRmYVZGakdpSkJTRTR3UlRkSWRFbGhUR2RaTFc1VlZVeHdUMDVWZVRJd2FWWjJZVWN5YjBKQg",
+   "source": "jsearch",
+   "publisher": "Ladders",
+   "title": "Associate - Commercial Card - Product Manager - Transaction Banking Product",
+   "company": "TD Bank",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.theladders.com/job/associate-commercial-card-product-manager-transaction-banking-product-tdbank-toronto-on_89553620",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "",
+   "description": "Work Location: Toronto, Ontario, Canada Hours: 37.5 Line of Business: TD Securities Pay Details: $90,000 - $125,000 CAD This role is eligible for a discretionary variable compensation award that considers business and individual performance. TD is committed to providing fair and equitable compensation opportunities to all colleagues. Growth opportunities and skill development are defining features of the colleague experience at TD. Our compensation policies and practices have been designed to allow colleagues to progress through the salary range over time as they progress in their role. The base pay actually offered may vary based upon the candidate's skills and experience, job-related knowledge, geographic location, and other specific business and organizational needs. As a candidate, you are encouraged to ask compensation related questions and have an open dialogue with your recruiter who can provide you more specific details for this role. Job Description: The Commercial Card Associate Product Manager supports the development, delivery, and ongoing management of Commercial Card products and capabilities. Working under the direction of more senior product leaders, this role contributes to product planning, market and client research, requirements development, implementation, performance reporting, and continuous improvement. The Associate Product Manager partners with Sales, Technology, Risk, Operations, Marketing, and other stakeholders to help deliver competitive, reliable, and client-focused Commercial Card solutions. The successful candidate brings foundational Commercial Card and payments experience, strong analytical and organizational skills, and the ability to manage defined workstreams with appropriate guidance. This role is expected to build deeper product expertise, develop sound business judgment, and progressively assume greater ownership within the product portfolio. Job Description \u2022 Support the execution of the Commercial Card product strategy and roadmap by managing assigned deliverables, product components, or defined workstreams. \u2022 Assist with product lifecycle activities, including discovery, requirements gathering, business case support, testing, launch readiness, implementation, performance monitoring, and product enhancements. \u2022 Conduct market, competitor, client, and industry research to identify trends, client needs, product gaps, and potential improvement opportunities. \u2022 Gather, document, and help prioritize business and product requirements in partnership with clients, internal stakeholders, and more senior product managers. \u2022 Coordinate with Sales, Technology, Risk, Operations, Marketing, Finance, Legal, Compliance, and external providers to support timely delivery of product initiatives. \u2022 Participate in client and partner discussions to gather feedback, clarify needs, and translate insights into recommended product or process improvements. \u2022 Develop and maintain product documentation, sales materials, implementation resources, training content, and internal communications. \u2022 Track key product measures, including card usage, transaction volume, revenue, profitability, client adoption, and customer experience; identify trends and escalate material findings. \u2022 Support product risk and control activities by documenting issues, monitoring action plans, and helping ensure alignment with regulatory, operational, credit, and payment requirements. \u2022 Assist in improving end-to-end product processes, including development, implementation, usage, reporting, feedback, and ongoing governance. \u2022 Coordinate meetings, decisions, dependencies, risks, and action items across assigned initiatives, escalating barriers when appropriate. \u2022 Prepare analyses, product updates, presentation materials, and recommendations for product leaders and cross-functional stakeholders. \u2022 Maintain current knowledge of Commercial Card, payments, digital tools, regulatory developments, and competitor activity, and apply that knowledge"
+  },
+  {
+   "id": "jsearch:enN6bHNrQ09IZmh4VE54SkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXblpOWTNWblpXaGFWMUpwZW1SVFJGUldZbVYwUkcxSU1WZENhMFp1WWpNeFJGSjZlSFJQU0ZRMFVUZERjRkpUTUhKYVRWTXROV3BDWXpaNFpIVktOSGM0YmpJeWJtUm1UelJhVkUxcWRuRkZUSGRaVTFWZmVIWm5SRkpqUWpreGVXOHpaak0xYTFGQmFVSnhObmxsYUd0VWF6RmxNa0pmZDFSek1WTTFaREp0Tm10RmNtZ1NGekF6ZW10aGNpMWpTaTEyYURKeWIxQTVOVmRmYVZGakdpSkJTRTR3UlRkSVIzcHdka0ZKTURsTlpuQm5hREJ6Um5GcE9EZENUMkYzTFhkQg",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Expert Product Manager - Auditor",
+   "company": "Netwrix",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/info_technology/5562457734/e/",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "",
+   "description": "Position: Expert Product Manager - Netwrix Auditor About Us At Netwrix, our mission is to revolutionize data security by placing identity at the core - providing unparalleled visibility and control. Engineered and supported by over 900 highly talented, motivated employees and hundreds of trusted partners in nearly every geography, Netwrix solutions are relied upon daily by security professionals across more than 13,500 organizations in over 100 countries around the world. Over the past two decades, Netwrix has expanded its market presence through innovation, organic growth, and strategic acquisitions, and are proud to be backed by renowned private equity firms, TA Associates and Centerbridge Partners. Netwrix maintains a global presence, fostering a remote-first work environment while encouraging and facilitating frequent face-to-face interaction with colleagues, customers, and partners. Role Overview We are seeking an accomplished, seasoned Lead Product Manager to define and drive the strategy for Netwrix Auditor - the compliance audit and security-investigation backbone of Netwrix Security. In this role, you will own the product vision, roadmap, and go-to-market execution for the highest CSAT rated product in the company's portfolio, and its migration to a true multi-tenant SaaS offering. The ideal candidate combines deep product management expertise with strong knowledge of data security posture management, compliance auditing and regulatory frameworks (HIPAA, PCI-DSS, GDPR, CMMC, SOC 2), plus fluency in the SIEM, SOAR, and SOC technologies (Splunk, Microsoft Sentinel, IBM QRadar, Service Now, and similar) that security operations and compliance teams rely on every day. You will act as the voice of the customer, ensuring Netwrix Auditor delivers curated, audit-ready evidence for compliance teams and near real-time alerting with rapid, interactive forensic investigation for Sec Ops analysts \u2014 activity, access, and configuration-change auditing across Active Directory, Entra , Microsoft 365, file servers, databases, and cloud infrastructure, with advance DSPM capabilities in support of that mission. Key Responsibilities Strategy & Roadmap \u2022 Define the vision and long-term strategy for Netwrix Auditor, aligned with company priorities and the compliance-audit and security-operations market. \u2022 Own the product roadmap, including backlog prioritization and release planning, closing on-premises-to-SaaS parity gaps that unlock migration of the Auditor installed base. Market & Customer Insights \u2022 Own the Auditor\u2019s GTM strategy and partnership strategy with the Data Security solution suite, driving Auditor attach on cross-portfolio opportunities, and brief industry analysts (Gartner, Forrester) to sharpen Auditor\u2019s competitive and category positioning. \u2022 Conduct ongoing discovery with internal auditors, compliance officers, and Sec Ops/SOC analysts to identify requirements for audit evidence, framework mapping, and investigation workflows. \u2022 Track the competitive and analyst landscape (Gartner, Forrester, and others) across compliance auditing and SIEM/SOAR-adjacent categories to inform positioning. Product Execution \u2022 Partner with engineering to deliver curated, audit-ready compliance capabilities mapped to frameworks such as HIPAA, PCI\u2011DSS, GDPR, CMMC, and SOC 2, alongside real-time alerting, rapid forensic investigation, behavioral analytics (UEBA), and AI\u2011driven threat detection and response capabilities. \u2022 Ensure deep integration with SIEM, SOAR, and SOC ecosystems (Splunk, Microsoft Sentinel, IBM QRadar, Service Now) for alert export, extended schema, and workflow/action orchestration. Cross\u2011Functional Collaboration \u2022 Work closely with Sales and Customer Success on the Auditor\u2011to\u20111 Secure SaaS migration motion, protecting and growing the largest single renewal base\u2026"
+  },
+  {
+   "id": "jsearch:bkpKUlpaZUpVcGhsQm85U0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbTgzYjJ4cWFsQmhOMDFOZUVVd1lqSm1WVkJwZWs1VVQwMXVTekV0Tkcwd1EwTkJObTlvV0VwTmFraHBjMnRCUzBkVGRsOHdibkEzTW5aeloxVTRiekJUUlVaNVpqUkRia2RPWTNwVFpHOUdRM054V0RkNFVrWTFTR0p1ZGtsYWRHaFlRbkphVm1RelJHeDFkR3RvVWxKcmRGUTJiREpKVmt0ZlRFZDBjM05wWjJWSVFVUVNGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkSU4xbHdSWFJ6WVZsSE1WTmxWM2xvV0daR1VFTmxialozV1Uxbg",
+   "source": "jsearch",
+   "publisher": "Built In Los Angeles",
+   "title": "Sr. Product Manager, Enterprise AI Solutions",
+   "company": "NBCUniversal",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.builtinla.com/job/sr-product-manager-enterprise-ai-solutions/11930124",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "130K\u2013170K a year",
+   "description": "Company Description NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. Job Description We're looking for a product manager who embeds directly with engineering, product, and business teams to build and ship AI products that directly serve our NBCUniversal businesses. You'll work side-by-side with Enterprise Business Solutions Product and Program teams to identify high-value problems, rapidly prototype and deploy production agentic solutions to drive business impact. As a Senior Product Manager in the Enterprise Business Solutions AI Product team, you will own the full lifecycle of agent products - from discovery through deployment and ongoing iteration. You'll build intelligent workflows that automate program operations, surface insights from complex data, and enable teams across NBCUniversal to work with agentic solutions. Your work will have a direct, measurable business impact on our employees' experience and effectiveness in their work outputs. This role is a blend of technical, design, education, and product thinking. You will understand business needs deeply, identify where AI creates leverage, write code, and ship solutions that will drive real business impact. Key Responsibilities \u2022 Work directly with Enterprise Business Solutions program and product teams to identify highest-value use cases for agentic solutions, deployment, tool adoption, and infrastructure architecture \u2022 Partner with client-facing teams to understand customer use cases, ensuring conversational agents meet the needs of both end users and stakeholders. \u2022 Assist in the building of end-to-end agentic products and solutions (including multi-agent orchestration, tool use, and structured reasoning), from concept and design through implementation, ensuring scalability, adaptability, and alignment with business objectives. \u2022 Co-develop agentic solutions with business teams - enabling them to customize, maintain, and operate agents after initial deployment. \u2022 Translate ambiguous business problems into well-scoped agentic product and solution requirements with clear success metrics. \u2022 Leverage data insights to continuously optimize AI products and business outcomes - measuring adoption, output quality, user journeys, time-to-insight, and other KPIs. \u2022 Own agent quality by implementing evaluation frameworks, monitoring production accuracy, and driving prompt iteration cycles based on eval results. \u2022 Create and present documentation to business partners, execute product demos and walk-throughs, and deliver AI-driven analytics capabilities that enable real-time, data-informed decision-"
+  },
+  {
+   "id": "jsearch:Y3BYeGdaZFVJb3VjTmZIbEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVEpXVG14aWNVVmtOSGhoYVdWWmVFNVRZMlZoWWtaSFZXVTRYM2RyV210SlMyeHNOa1JOWVRBeE9VNUpRMDFYZWtGelIwZHpOV1pGU1ZSeFIyazFOekU0ZGtKbVYxSkZRM2RyZEVONFVuaEVZMEp1ZGpWTVdsQnlXbDl5YW5GMFdVRm5TWE5VT1dRM1dESXhZVjlLVlZGcWVIZFpZMkl3VTFkbmRFZFhibTFYZW1kZk5GRVNGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkR1FXaHRXRFZNZUVadGFqUllWWFI2WVVkSFRtMHlVRGN0UlZSQg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "AI Product Lead (Senior Product Manager)",
+   "company": "EverQuote",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6ae15e7f22c2644c03fe915f-ai-product-lead-senior-product-manager",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "175K\u2013206K a year",
+   "description": "This a Full Remote job, the offer is available from: United States Location Remote About Us EverQuote is a leading AI-powered growth solutions partner for regulated property and casualty insurance entities, enabling the largest insurance carriers and thousands of agents to maximize customer acquisition across digital channels. Fueled by our proprietary data assets and our AI traffic engine, EverQuote is transforming the way providers attract and engage consumers to grow market share. Joining our team puts you at the forefront of this transformation. You will collaborate with a group of builders to solve complex problems and reshape a massive industry. If you want to drive real-world impact and do the best work of your career, you\u2019ve found your home. We move fast, follow the data, and hold ourselves to high standards. If that's how you work too, this is the role for you. About the Role As the AI Product Lead you will own a product unlike anything we have built: an insurance marketplace that AI agents use to shop on a person\u2019s behalf. When an AI agent shops for insurance, you will make the AI- insurance shopping experience the one it trusts and can buy through. You will help shape what agentic insurance shopping looks like before the market arrives. You own the agent-facing product: the data an agent sends and gets back, the recommendation and reasoning we return, the MCP server and skill that let AI platforms connect to us, and the trust signals that make an agent willing to rely on us. You own the roadmap, the testing of how well the agent performs, and the relationships with the AI platforms whose agents call us. Often your customer is another AI agent rather than a person, and the product has to earn that agent\u2019s trust What You\u2019ll Do \u2022 Define and own the product roadmap for the marketplace, balancing what agents need, what the architecture allows, and where the business is going. \u2022 Own testing and quality: build and maintain the eval sets, name the ways the agent can go wrong, and decide what counts as a good agent interaction. \u2022 Track how the agent is doing: completion, accuracy, speed, and how often a handoff is followed through. \u2022 Build quick prototypes while the problem is still fuzzy: stand up agent flows and put them in front of real and test agents to learn before engineering commits. \u2022 Take what we learn about how agents shop and turn it into real changes in the data model, the reasoning we expose, and the architecture. \u2022 Work with the AI technical lead and engineers on architecture trade-offs, cost, and speed, and keep the shopper\u2019s and the calling agent\u2019s interests in every decision. \u2022 Build relationships with AI platforms to learn how they find and route to agents, and bring that back into our design. \u2022 Work in the open. Help publish our mission, experiments, and findings. \u2022 Give leadership clear, regular visibility into progress, what we are learning, and risks. What You Bring to the Team (Qualifications) \u2022 Experience building and shipping real AI products, ideally from an AI lab, an AI-native company, or a team that has put LLM or agent products into production. You have done this, not just studied it. \u2022 Comfort with testing AI: you can take a fuzzy goal and walk through how you would test it, where it would fail, and when you would roll it back, before reaching for a model. \u2022 A working understanding of agent systems: LLMs, how agents are put together, retrieval, orchestration, guardrails, and the cost and speed trade-offs that come with them. You do not need to build the models, but you need to talk about them with engineers. \u2022 Enough technical depth to hold your own in an architecture or code review and ask a sharp question. Comfort with light Python or SQL to look at data and prototype. \u2022 Strong product instincts and comfort with ambiguity. You can make progress on loosely defined problems. \u2022 Clear communication with both technical and non-technical people, and the habit of leading with data. \u2022 A continuous l"
+  },
+  {
+   "id": "jsearch:WnFvZUxraDlSQ0U4Um9ZWEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV2REYldrMlJ5MWZVSE5uYkdKQk5ERlFOVU40VlhOcWEwRndhR1pvVFY5c1ptRTJMVGhRWjFkMVpsRjJRbFZqYXpKM2NteHFYM0JKY3pGM00wcFBTazVOT0daRWJYQkxhRzlrZDFCb1MwbHdVVGxOYkZoT1QwODRSa1JDU2xOSWFuUnhVR2xIVERKMGRra3RSMmRZVnpjMlVEQkhjV0pmV0ZvMmJubEJhbFpIY2tNdGFIb1NGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkRmFEQlVRa1I0T1dNMVMwSjFTalp1UWxGMVUwNUpibHBSY2xwbg",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Senior Product Manager \u2013 Competitive Intelligence",
+   "company": "ClearDemand",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.linkedin.com/jobs/view/senior-product-manager-%E2%80%93-competitive-intelligence-at-cleardemand-4483850646",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "",
+   "description": "Role Overview ClearDemand is seeking an experienced, results-driven Senior Product Manager to lead our Competitive Intelligence product suite. This role requires a strong combination of product management expertise, retail domain knowledge, and a deep understanding of competitive data collection, product matching, and Data-as-a-Service (DaaS) intelligence solutions. The ideal candidate can translate complex data capabilities into differentiated, scalable products that deliver actionable competitive insights to retailers in a fast-paced SaaS environment. Key Responsibilities \u2022 Own the product strategy, roadmap, and end-to-end delivery of Competitive Intelligence capabilities, including competitive price collection, product matching, data enrichment, and intelligence delivery. \u2022 Drive product requirements for web scraping, automated data acquisition, data normalization, and scalable competitive data pipelines. \u2022 Define and enhance product matching capabilities, including attribute-based, fuzzy, semantic, and AI/ML-driven matching, with a focus on accuracy, coverage, and explainability. \u2022 Develop scalable Data-as-a-Service (DaaS) offerings that enable customers to access reliable, timely, and actionable competitive intelligence through APIs, data feeds, and analytics. \u2022 Partner closely with Engineering, Data Science, UX, and customer-facing teams to drive product discovery, prioritization, and execution. \u2022 Establish success metrics around data coverage, freshness, matching accuracy, data quality, customer adoption, and commercial value. \u2022 Balance strategic product investments with customer commitments, operational scalability, and speed to market. Required Experience & Skills \u2022 7+ years of Product Management experience, preferably in B2B SaaS, retail technology, competitive intelligence, or data-driven products. \u2022 Strong understanding of web scraping and data acquisition, including collection methodologies, data quality, scalability, and operational challenges. \u2022 Experience with product matching and entity resolution, including product attributes, taxonomy, fuzzy matching, and machine learning-based approaches. \u2022 Knowledge of Data-as-a-Service (DaaS) business models, data commercialization, APIs, and subscription-based intelligence products. \u2022 Strong understanding of retail pricing, competitive benchmarking, assortment intelligence, and retailer competitive positioning. \u2022 Experience managing data-intensive products involving large-scale processing, automation, analytics, and AI/ML capabilities. \u2022 Strong product discovery, requirements definition, roadmap prioritization, stakeholder management, and agile execution skills. \u2022 Ability to work effectively with Engineering and Data Science teams, translating complex technical capabilities into measurable customer outcomes. \u2022 Comfortable operating in fast-paced, ambiguous environments, demonstrating ownership, adaptability, sound judgment, and a bias for action. Ideal Candidate A hands-on, commercially minded Product Manager who understands the end-to-end competitive intelligence value chain \u2014 from data acquisition and product matching to delivering trusted, actionable intelligence. Someone who can bridge retail business needs with advanced data and AI capabilities, drive product differentiation, and scale data products that create measurable customer value."
+  },
+  {
+   "id": "jsearch:OEdlSmM1SDBReW1FcHI1ZkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVU4yUkdSdVpWRk1NVVJ4ZEc4MGJVTlNURnB2WDFWb1NVbDVSRmh5T1dWU1pYSmhjVEEyYldka1ZsRm1NalUwYlRsSlJqTm9NbGRyUlU5clUyOWFSMDFDTUVZek4yVjRSVXhxZGxWbU9UZHROR2RpWlY5SWFGbFNVekpuYldsNWNsUkNjVmhLYlVJMGFrUkZUa2RhYWxSRk1VVkpRemswYTBWVFIzRTRiblJRYW1VMmVIUVNGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkR1l6Vm5XVEZJV1hOV2NWQTFha2hhYmtKS2FtVmpVR3QzYjFsbg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager \u2013 Retail Media Data, Measurement & Auction Strategy (m/f/d)",
+   "company": "SHOP APOTHEKE EUROPE",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6ae188b222c2644c03ff87fa-senior-product-manager---retail-media-data-measurement-auction-strategy-m-f-d",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: Europe, European Union, EMEA, Germany Company Description About Redcare Pharmacy: As Europe\u2019s No.1 e-pharmacy Redcare Pharmacy is powered by passionate teams and cutting-edge innovation. We strive to create a healthy collaborative work environment where every employee feels valued and inspired to contribute to our vision \u201cUntil every human has their health\u201d. If you\u2019re seeking a career that offers purpose and aligns with your values join us and start your #Redcareer today. About the role: We are looking for a Senior Product Manager to help shape the data, measurement and auction strategy supporting Redcare Pharmacy\u2019s Retail Media business. As our Retail Media business grows, we are investing in scalable capabilities that improve how campaigns are delivered, measured and optimised. This includes evolving our auction strategy, strengthening advertising data flows, and developing reliable reporting and attribution. With our Retail Media data being consolidated into our Unified Data Platform, the next step is to turn this foundation into trusted measurement, reporting and decision-making products. You\u2019ll play a key role in defining and delivering these products, working closely with Data Scientists, Data Engineers, Analysts, software engineers and commercial stakeholders. This is an opportunity to join a small, growing team, take ownership from an early stage and help build products that directly contribute to Redcare\u2019s commercial growth. Job Description About your tasks: \u2022 Own and develop the product strategy and roadmap for Retail Media auction performance, data, measurement and reporting. \u2022 Shape our auction strategy by defining requirements and identifying opportunities to improve bidding, ranking, relevance and commercial performance. \u2022 Define advertising tracking requirements, event taxonomies and data contracts across campaign management, ad serving, customer interactions, attribution and reporting. \u2022 Ensure advertising data is reliably ingested into the Unified Data Platform and made available for internal reporting, advertiser reporting, measurement and optimisation. \u2022 Develop measurement and reporting capabilities that help advertisers understand campaign effectiveness, incremental sales, reach and return on advertising investment. \u2022 Partner with Data Science, Data Engineering, Analytics and software engineering to translate business needs into scalable solutions. \u2022 Drive product discovery, prioritisation and delivery, balancing business priorities, technical dependencies and stakeholder requirements. Qualifications About you: \u2022 You bring approximately 5-7 years of product management experience, ideally within data products, analytics, AdTech, marketing technology or e-commerce. \u2022 You have experience owning products end to end, from discovery and roadmap definition through delivery, adoption and continuous improvement. \u2022 You have a strong understanding of data products, analytics and measurement, with the ability to translate complex data into meaningful business outcomes. \u2022 You are technically fluent enough to collaborate effectively with Data Engineers, Data Scientists, Analysts and software engineers while understanding and challenging technical requirements. \u2022 You have a working understanding of SQL, data modelling, reporting or BI tools. Hands-on expertise is beneficial but not essential. \u2022 You demonstrate strong stakeholder management and can confidently navigate competing priorities across technical and commercial teams. \u2022 You understand advertising performance and commercial measurement, and you are focused on delivering measurable value rather than simply shipping features. Nice to Have: \u2022 Previous experience as a Data Analyst, Data Scientist or Analytics Engineer. \u2022 Familiarity with digital advertising and auction mechanics. \u2022 Exposure to Retail Media, AdTech or marketing analytics. \u2022 Experience building data products or platforms from 0 to 1. Additional Infor"
+  },
+  {
+   "id": "jsearch:Si1kNW9OSnU2STFBWERTTkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbEZDWDJsSE4xQnhWbGxRU1hsVFRtcFljRkp2Y1dwNFlsVjFNVWx0TkVoR1JHNW1VbGt3Wmpka2MxOUNjMnR5UWtWTGNGaFZaRmhTVTE5SWRtYzNSRFJWYkcxcE5ESnBkbVZHVlVaNWFVWlJhMkl5UVV4S2NqUXhaVzlwTm10V1MxQkpSRFEyZURWT09EUXhTelJmTUdOSWJYUlFTWFp1VW1keFMzVlJTRkpDYkZvdGNHVVNGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkRk1TMUtlRWRZTVhwME1rcDFlRXhxT1ZkM1NVdzFjVlExZGtkUg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager - Inference Platform",
+   "company": "Nebius Group",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6ae15e7f22c2644c03fe9183-senior-product-manager---inference-platform",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "228K\u2013285K a year",
+   "description": "This a Full Remote job, the offer is available from: United States About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure. Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI. Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&D. The role We\u2019re building Nebius Token Factory, an AI inference platform for high-performance, cost-efficient workloads at scale, serving both developers and managed enterprise customers. As a Senior/Principal Product Manager, Inference Platform, you\u2019ll join a team of PMs under the Inference Platform lead and own a core platform stream end to end, from strategy and roadmap to launch and adoption. The scope evolves quickly with the market (new models, modalities, hardware and customer needs), with a strong emphasis on scalability and reliability. You are welcome to work remotely from the US. Your responsibilities will include: \u2022 Own the roadmap and outcomes for a part of the inference platform, aligning several cross-functional engineering teams across public API, routing, performance, reliability and enterprise enablement features. \u2022 Work with engineering and research to make inference more scalable, reliable and cost-efficient, and turn that into capabilities customers can depend on. \u2022 Stay close to customers through research, interviews and hands-on PoCs, especially in managed enterprise. \u2022 Track the market: open-source models, inference economics, and how businesses actually apply AI. Turn what you see into product bets. We expect you to have: \u2022 Experience shipping technical platform products, with the seniority to lead work across multiple engineering teams. \u2022 Real technical depth in how AI inference works, including model serving, distributed systems and production infrastructure. You think problems through yourself rather than relying on engineers to define them. \u2022 Strong communication and expectations management across engineering, research, sales, support and leadership. You write crisp PRDs, RFCs and release notes. \u2022 B2B/enterprise experience with technical buyers. \u2022 Comfort with ambiguity and shifting scope It will be an added bonus if you have: \u2022 Post-training experience, including training draft models. \u2022 Experience with third-party technical partnerships. Key employee benefits in the US: \u2022 Health insurance: 100% company-paid medical, dental, and vision coverage for employees and families. \u2022 401(k) plan: Up to 4% company match with immediate vesting. \u2022 Parental leave: 20 weeks paid for primary caregivers, 12 weeks for secondary caregivers. \u2022 Remote work reimbursement: Up to $85/month for mobile and internet. \u2022 Disability & life insurance: Company-paid short-term, long-term and life insurance coverage. Pay Transparency We offer competitive compensation and benefits packages. Actual compensation will be determined based on job-related factors, including experience, skills, qualifications, the level at which the candidate is hired, and geographic location, consistent with applicable law. Base Compensation Range$228,000\u2014$285,000 USDBenefits & Perks: \u2022 Competitive compensation \u2022 Career growth and learning opportunities \u2022 Flexibility and ownership \u2022 Collaborative and innovative culture \u2022 Opportunity to work on impactful AI projects \u2022 International environment and talented teams What's it like to work at Nebius: Fast moving - Bold thinking - Constant growth - Meaningful impact - Trust and real ownership - Opportunity to"
+  },
+  {
+   "id": "jsearch:UEM4TzZReXpHUm9OZG1lR0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXa3d0VFRkcU56UjVSMFZ4U1drNWJFZE5hSEkzYW1OT1dHdFJUbFJqYkdSSlExaFpSVzFVYkU1M1NUTkZkR2RpU1RSR2RFOUNaM2xuYVY5UmVVRXlUVTl5Y0VVMWIyaHdjell4WVZaTVRHaGlNbUY1VVdkdVozWXdUMVYwVVhobmRreDNkV3hCUWxFMmFFazJRMDVwYjBrMVEzTTNNbEpmVjJoVVJHc3dSRUZWYldSd2NuSVNGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkRk9YaGZZbWxCYzJSaFNGbHZOWGhNTjFWV1lYVkhOWGRFWVdWQg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager,  Value realization",
+   "company": "Humana",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6ae196b722c2644c03ffc97d-senior-product-manager-value-realization",
+   "posted": "2026-10-28T00:00:00+00:00",
+   "salary": "104K\u2013143K a year",
+   "description": "This a Full Remote job, the offer is available from: United States Become a part of our caring community Join a world-class marketing organization creating the best possible engagement experience for millions of members. Humana is a $100+ billion, Fortune 50, healthcare leader dedicated to improving the health and well-being of some of the most vulnerable populations in the United States\u2014seniors, people with disabilities, and lower-income Americans. Humana is uniquely positioned to transform healthcare delivery by making high-quality care more affordable, accessible, and secure through integrated healthcare services, innovative technology, and data-driven solutions. To help deliver on this mission, we are seeking a Senior Product Manager to drive the delivery of new reporting requirements for Next Best Action (NBA) and to assist with measurement tracking across the program. This is a hands-on execution role that turns the measurement strategy into shipped, trusted reporting by partnering closely with development, data science, and analytics teams. Reporting to and in partnership with the Lead Product Manager, NBA Measurement & Reporting, you will translate measurement and reporting needs into well-defined requirements, manage the backlog with the development teams, and help track NBA measurement across business outcomes, model performance, and operational metrics. You will focus on delivery execution\u2014ensuring requirements are clear, dependencies are managed, and reporting is validated\u2014while building proficiency in developing and executing product strategy. Role Responsibilities Requirements & Delivery Execution \u2022 Translate measurement and reporting needs into well-defined requirements, writing clear epics, features, user stories, and acceptance criteria for the development teams. \u2022 Drive delivery of new reporting requirements with the development teams, serving as the day-to-day product point of contact throughout the build cycle. \u2022 Manage and prioritize the reporting backlog, ensuring the most valuable items are ready for development and sequenced by business impact and dependency. \u2022 Participate in agile ceremonies\u2014 sprint planning, backlog refinement, reviews, demos, and retrospectives\u2014clarifying requirements and unblocking issues as they arise. \u2022 Manage dependencies and risks, tracking progress, adjusting plans as needed, and escalating when timelines or scope are at risk. Measurement Tracking & Reporting Support \u2022 Assist with measurement tracking across NBA, helping monitor business KPIs / NBA effectiveness, model performance, and operational metrics. \u2022 Support the KPI and metric framework by ensuring metrics are captured accurately and consistently and are clearly defined for each audience. \u2022 Validate reporting and dashboards against acceptance criteria before release, confirming data is accurate, consistent, and decision-ready. \u2022 Generate and maintain regular reports and dashboards to track progress and surface actionable insights for the LPM and stakeholders. \u2022 Help maintain documentation of metric definitions, reporting logic, and processes to support knowledge transfer and consistent measurement. Stakeholder & Cross-functional Collaboration \u2022 Partner with development, data science, and analytics teams to align on requirements, evaluation approaches, and how outputs roll up into reporting. \u2022 Gather requirements from business stakeholders and upstream teams, accurately representing their needs in backlog items and delivery plans. \u2022 Provide regular progress updates, demoing features, gathering feedback, and managing expectations to keep stakeholders aligned. \u2022 Build and maintain relationships across Marketing, Digital, call center (CCC), and IT partners to support smooth delivery of reporting capabilities. Insights & Continuous Improvement \u2022 Use a data-informed approach to identify what is and isn\u2019t working in reporting and recommend improvements. \u2022 Critically evaluate information to identify flawed or misleading data an"
+  },
+  {
+   "id": "jsearch:c2M1Zk81YWNxaGJPaExLVEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVmw0TVRZM2IxQXhlRlpsUW5Ca0xYSkdXbVZHYUVkSFZscGFWVjh6UjI1NFRIcGlTWGx5UVZOdFdGWTJVbTEwTVV4TGVqUktaa3hYVDA1SlJtaEpjbVV3UjFrNFF6ZDZPUzFtZFU1QmNrTjJMVVZyVjFoV1dtSjFRMVpCWWpSaE5HRXdTbXBMVDFRdGEwbHJZM1JEZVUxWE5uaDRhVWhFZGtkNFdWaEhYMEk0U2pBd2VtUVNGekF6ZW10aGNpMWpTaTEyYURKeWIxQTVOVmRmYVZGakdpSkJTRTR3UlRkSVZsZFpSV3BJVkRsRGRGY3dWSGhVYzFCa1NVdHVWMjlHU0V4Qg",
+   "source": "jsearch",
+   "publisher": "SimplyHired",
+   "title": "\"PRODUCT MANAGER\"",
+   "company": "APPTOZA INC.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.simplyhired.ca/job/L6-ACne-u3LAdCaTLY_H6yujXgmemyegZ7us1Nx6qnNsj4bYlSARcg",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description: Product Manager Toronto, ON - Hybrid (2 Days minimum WFO) 6-12 months WHAT IS THE OPPORTUNITY? The Product Management function includes the following responsibilities: \u00b7 Develops, manages, and owns products and programs that support corporate defined strategies and initiatives and contribute to the bank's competitive edge in the marketplace. \u00b7 Creates new products to increase market share. \u00b7 Develops and enhances strategic products to meet the bank's profitability goals. \u00b7 Provides direction and support relative to product design, enhancement, research, pricing/fees/profitability, implementation, analysis, reporting and performance. Product Management is an ongoing cycle. It begins with analysis of needs and opportunities, leading to product development. Once the product is developed, colleagues must be trained, policies and procedures developed, pricing and positioning established, and marketing materials created. Subsequently, product tracking occurs, followed by analysis and recommendations to enhance the product to provide better service to clients or to be more competitive in the marketplace. Product Management coordinates and manages the formulation and implementation of all activities for a specific product or product line from conception to marketplace; performs economic and market research and analysis; provides product documentation and training; and serves as technical advisor on matters concerning the designated product and/or product line. WHAT WILL YOU DO? \u00b7 Manage assigned products/product lines. \u00b7 Identify, evaluate and implement measures to improve product performance, profitability, competitiveness and accountability. \u00b7 Identify, evaluate and implement opportunities/needs for product enhancement and development. These opportunities may be identified through: regular market and competitor analysis performed by the product group; solutions developed as the result of client needs; suggestions from the line or Product Review Committee (PRC) or that meet a specific bank initiative or new client niche. \u00b7 Prepares reports and analyses on assigned products/product lines and presents to Bank Management (PRC, ALCO, etc.) on a regular basis. Focus of reports/analyses may be market or competitive issues, special economic and risk factors, pricing, product strategy, profitability, etc. \u00b7 Keep up to date on competition, regulation, marketplace, and internal and external issues related to assigned products. \u00b7 Develops information materials on product features, benefits, requirements, pricing and services, and prepares and executes training seminars as needed. (Includes Marketing One-Sheets and annual fee increase training.) \u00b7 Review product pricing on an annual basis for all assigned products. Make recommendations and implement including disclosure, training, and colleague communication. \u00b7 Monitors development activities relating to meeting product objectives, budget, quality standards and schedule. \u00b7 Recommends and implements programs to minimize costs, ensure optimum output and maintain quality. Advises on the solution of technical problems, priorities, and methods. \u00b7 Participates in product evaluation; provides recommendations for changes and revisions as required. \u00b7 Serves as product expert for a variety of issues \u2013 advice/guidance on sales, \u201cHow to position and sell product\u201d, operational support for technical product issues, etc. \u00b7 Manage Product Management portion of acquisition conversions -- product mapping; check orders, product analysis/comparisons, \u201cWelcome to CNB\u201d package support, IRG support, etc. \u00b7 Represents the Bank by actively participating in outside civic and community affairs, business and industry-related organizations, and other professional activities as appropriate. \u00b7 Fosters and maintains good relationships with colleagues to ensure that processes are integrated to support expected customer service levels. Acts as business partner by managing expectations and providing guidance and "
+  },
+  {
+   "id": "jsearch:RC1kd2tYM01DXzV3UDNyY0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZa2RSUmpWalNFOUxhRWxKU1VWaVVsVnhjM1ppZERselV5MDJSM1k0VkVvMk4zcDRZa1V3U0V0SFRISlZPWGRNZUZsSlVVVktXVXRuVlVSRVdtWjNXbUZXUkVKSE1qWTRPSFpZT1ROSlVVeEdPRGd5YUhGTk16TlRkME5uTkZZeE5rSXllSFV3VTBjNFRuQktMV1pqV1hsTk5FMDFSME54VEZWWldqQm1SV2h4VTNGWkxVNFNGekF6ZW10aGNpMWpTaTEyYURKeWIxQTVOVmRmYVZGakdpSkJTRTR3UlRkRllVRTBaVGxQWkV4RFZsSmtXVTl1VlVSMllWRlZPVWxHZG14Mw",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Senior Product Manager, Corporate and Structured Lending",
+   "company": "Bank of China (Canada)",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/senior-product-manager-corporate-and-structured-lending-at-bank-of-china-canada-4483685707",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Title: Senior Product Manager, Corporate & Structured Lending Location: Toronto, Ontario Job Type: Full-time Permanent We are seeking an experienced Senior Product Manager, Corporate & Structured Lending to lead the development, management, and governance of the Bank\u2019s corporate lending products within our Commercial and Corporate Banking Services team. The role is responsible for driving product strategy, commercial growth, risk management, and operational effectiveness across a range of financing solutions, including bilateral lending, syndicated loans, project finance, and acquisition financing. The successful candidate will bring strong expertise in corporate lending, structured finance, product management, and financial risk assessment, working closely with Relationship Managers, Credit Risk, Financial Markets, and other internal stakeholders to develop competitive financing solutions. This role plays a key part in supporting complex transactions, optimizing product performance and profitability, and ensuring lending products remain aligned with the Bank\u2019s business objectives, risk appetite, and regulatory requirements. What You Will Do \u2022 Lead the development and execution of corporate lending product strategies and roadmaps, ensuring alignment with business objectives and the Bank\u2019s risk appetite. \u2022 Identify opportunities across bilateral lending, syndicated financing, project finance, and acquisition financing to support asset growth and fee-based revenue generation. \u2022 Partner with Relationship Managers and Financial Markets to develop integrated financial solutions across lending, deposits, FX, and capital markets. \u2022 Monitor market trends, competitor offerings, and pricing benchmarks to maintain product competitiveness. \u2022 Own the product governance lifecycle, including Product Risk Assessments, product approval documentation, policy updates, and periodic product reviews. \u2022 Collaborate with Credit Risk, Compliance, AML, Legal, Financial Management, and Operations to establish product standards, eligibility criteria, risk parameters, and execution requirements. \u2022 Provide technical expertise and deal structuring support for complex corporate financing transactions, including syndicated loans, project finance, M&A-related financing, and other structured lending solutions. \u2022 Support the development of term sheets, product guidelines, and pricing frameworks in collaboration with Credit Risk and Financial Management. \u2022 Coordinate with internal stakeholders to resolve transaction execution challenges involving client onboarding, documentation, operational setup, and post-funding activities. \u2022 Lead cross-functional product working groups, prepare product proposals, risk memoranda, and performance updates, and coordinate governance approvals and escalations. \u2022 Monitor product performance and portfolio metrics, including growth, profitability, utilization, client penetration, portfolio concentration, and risk exposure. \u2022 Analyze risk-adjusted return on capital (RAROC), pricing discipline, capital usage, and portfolio composition to support management decisions. \u2022 Prepare management reporting and portfolio insights, and coordinate the resolution of product-related audit findings, control deficiencies, and regulatory issues. \u2022 Drive process improvements across credit intake, documentation, onboarding, and post-funding management to enhance efficiency and control effectiveness. \u2022 Develop product playbooks, training materials, and Relationship Manager toolkits to strengthen frontline product knowledge and execution. \u2022 Support system enhancements, workflow automation, and digital initiatives related to lending product management and operational processes. What You Bring to the Table \u2022 Bachelor\u2019s or Master\u2019s degree in Finance, Business, Economics, or a related field. \u2022 Minimum 8 years of experience in corporate banking, product structuring, transaction banking, or sales solutions within a financial institution. \u2022 Experience working"
+  },
+  {
+   "id": "jsearch:NFZUQXYyTFdFZTlLSmZFbUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZV1pLVVhJMlZVSlJaRkJ6ZGxsR2NtOXpSR05VYkc5TFNVVmxkMk5WUXpOVk9YUnhZazFtYjBaclVGOUZaRXR3V21Ga1QyVm1WWEJXYjFGWldYSldWWGxuVEZwRWRYcFVXazQzYlVsNmIybFZjMVZ3VFdOT2FYSjZhUzFCVVZoUVIyUnhjV1Y2U3kxNlMwczBPRkpmZW1OR1dFcHRhVTh3VWxZeVVXOVFPRkJrV2kxYVJFd1NGekZ1ZW10aGNuSlZSUzExY0RKeWIxQm9jak5ETmtGSkdpSkJTRTR3UlRkSFgxUmxiMVJzYkVFMmNXNVVjMWxTUTJ0T01sVldOWFJPZURsUg",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Principal Product Manager - Billing & Platform",
+   "company": "Constant Contact",
+   "location": "Waterloo, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=d4f7503b4cf7ea75",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "At Constant Contact, we are seriously awesome people who take ownership and make an impact by operating with the mindset, integrity and courage of a small business owner. There's something so profoundly rewarding about knowing that your work is empowering people everywhere to pursue their dreams. Here, we all play an integral part in helping business owners, entrepreneurs, non-profits and individuals to succeed by giving them all the help and tools they need to grow online. We're energized by new challenges and new possibilities-and we're just getting started! We have an opening for a Principal Product Manager to own billing and platform at Constant Contact. This is a rare chance to shape one of the most connected systems in the company. Almost every team has a stake in billing, and you will be the person who brings their needs together into one clear strategy and a medium- to long-term roadmap. Success in this role comes from smart decisions, a smooth move to Stripe, and a billing platform the business trusts and can evolve quickly. Billing is how every Constant Contact product turns into revenue, and hundreds of thousands of small businesses count on it. We are moving our billing from an in-house system to Stripe. At the same time, we are modernizing the platform every customer touches: how they sign in, what their plan lets them do, and the internal tools Finance and Support use to run the business. You'll partner with our Billing Infrastructure and Growth & Enablement engineering teams, and work closely with Finance, FP&A, RevOps, Support, Sales and our Growth PMs. The ideal candidate knows how money moves through a subscription business, is technical enough to shape engineering decisions, and is strategic enough to guide stakeholders and set direction. What You'll Do \u2022 Own Billing & Payments Strategy: Set the vision and multi-year roadmap for subscriptions, plans and pricing, invoicing, payment methods, payment recovery, refunds and account changes. Decide what we build, in what order, and why. \u2022 Lead the Move to Stripe: Own our migration from an in-house billing system to Stripe Billing, including phasing, success metrics, testing, cutover and sign-off. Deliver a seamless experience for every customer. \u2022 Make Pricing Changes Simple and Fast: Make price changes, new plans and add-ons quick and easy to launch. Keep what a customer pays for in step with what the product lets them do. \u2022 Own Identity & Authentication: Partner with Engineering and Security on sign-in, single sign-on (SSO), account access and the identity platform behind them. \u2022 Modernize Internal Applications: Own the tools Finance, Support and Operations use to adjust bills, issue refunds and migrate accounts. Bring automation to the work these teams do every day. \u2022 Lead Across Stakeholders: Be the product lead for Finance, FP&A, RevOps, Support and Sales. Set priorities across them, explain trade-offs clearly and build alignment around the plan. \u2022 Make Billing Data Trustworthy: Define how billing works across our systems so reporting and revenue always line up. Support revenue recognition, audits and access controls. \u2022 Raise the Bar: Mentor other product managers and help set how product works across billing and platform teams. Who You Are \u2022 An Experienced Platform Product Leader: You have 8+ years of Product Management experience in SaaS, with at least 4 years owning billing, payments, subscription commerce or a core platform. \u2022 Fluent in Billing & Payments: You know subscriptions, trials, upgrades and downgrades, proration, payment recovery, refunds, chargebacks, multi-currency and tax. You have worked with Stripe or a comparable platform such as Zuora, Chargebee, Recurly or Adyen. You understand how these platforms work under the hood. \u2022 Technically Credible: You can read an API spec and follow data across systems. You ask sharp questions about webhooks, retries, source of truth and rollback plans. You can write SQL to check a number yourself. Engineers v"
+  },
+  {
+   "id": "jsearch:c0tINE0tVEw4eUlTa0djYkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbWxsT1ZNdFh6TndPSGhVU1RkNFVITm9OMGhQY25OclQwYzRUbEYyYlRkT1UySnJhVUYxT1ZNMGJGZ3RkRlpEUlRoNWRsTklWMnRST0hoeFVqa3lXRTloWlV0U1dGQTJhVXRzV0c1V2RETXlSSHBsYUhOUVoxUXpUV0ZLY25jd05uSllhRzQyUkZnM1RscHdaMWxMZW1SdVJrZDZZVlpmTjIwMmRUSTFSMWxSUjAxMVZIVVNGekZ1ZW10aGNuSlZSUzExY0RKeWIxQm9jak5ETmtGSkdpSkJTRTR3UlRkR2VVRkxibTkxWDFKM1RVYzRaMGhpZFcxSU0yNDFXa2gwU1Y5Mw",
+   "source": "jsearch",
+   "publisher": "Up2staff",
+   "title": "Product Manager AI desktop app &#8211; 100% remote",
+   "company": "M3 Software Solutions",
+   "location": "(Remote)",
+   "remote": true,
+   "url": "https://up2staff.com/product-manager-desktop-app-at-software-solutions",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "Want to build an AI app that proactively helps people as they work\u2014spotting what\u2019s on their desktop and nudging \u201chey, want me to handle this?\u201d Instead of waiting for prompts, our AI offers help first. We\u2019re a very early startup, funded by two SaaS founders with a profitable business doing $20M+ ARR. We\u2019ve got an experienced tech lead on board; now we\u2019re hiring our first product person. That\u2019s you. What you\u2019ll do \u2022 Own product from 0\u21921: problem discovery, scoping, fast experiments. \u2022 Work across everything (because it\u2019s early stage): user research, design, QA, marketing You might be a fit if you\u2019ve\u2026 \u2022 Shipped product before (PM or founder/early operator). \u2022 Started your own thing or were early at a startup\u2014tell us what you built and what you learned. \u2022 A bias to ship weekly, talk to users, and cut scope without cutting quality. The deal Upside: When we raise, we\u2019ll level comp to market. Remote: Work from anywhere (async-friendly). How to apply Send a short note on why this is your thing + links to shipped work and what you owned. Examples of how you use AI in your daily work We\u2019re building a transformational AI company, come and be part of it!"
+  },
+  {
+   "id": "jsearch:N0JGVXNQSUY2MnlJQldRMEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXamQ1UlhBMVV6WjRZMlJxVkdoalNFNXdhRFZ6YldrMFIwTXlZazF2TTBKMVZUaFNNR05uUnpsTWNuZzVPR1pHUXpZeVkwSTNORkphVFd4bVlWODFlRGRWWlc5TVR6VlBNbUZhTlZCVlNXNWhZbVJwT1dGNk0wZ3RRa2MzVHpsUmFVeHdhbE52YUVFNFRGVkdOV3hhTVRGU1V6bE9UR1pmTWtSVGRsWmlkR1ZZVmpCTlJrY1NGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkSFJ5MUZSMnhDVVZsU1YxSlJjVUUwY0VZNVpsaHJkRGg1UWpobg",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager \u2013 Retail Media Advertising Experience (m//f/d)",
+   "company": "SHOP APOTHEKE EUROPE",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6ae0dfdd22c2644c03fbd472-senior-product-manager---retail-media-advertising-experience-m-f-d",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: Europe, European Union, EMEA, Netherlands, Germany Company Description About Redcare Pharmacy: As Europe\u2019s No.1 e-pharmacy Redcare Pharmacy is powered by passionate teams and cutting-edge innovation. We strive to create a healthy collaborative work environment where every employee feels valued and inspired to contribute to our vision \u201cUntil every human has their health\u201d. If you\u2019re seeking a career that offers purpose and aligns with your values join us and start your #Redcareer today. About the role: We are looking for a Senior Product Manager to help build and scale the advertiser and customer-facing experiences within Redcare Pharmacy\u2019s Retail Media business. Our Retail Media business is growing rapidly, and we are investing in new advertising capabilities that connect brands, advertisers and agencies with customers across our digital platforms. You\u2019ll focus on creating intuitive and scalable products, from our advertiser self-service and campaign management platform to Sponsored Products and the placement of relevant advertising throughout the customer journey. Working closely with Engineering, Design, Retail Media and commercial teams, you\u2019ll shape how advertisers use our platform while ensuring that advertising remains relevant and valuable for our customers. This is an opportunity to join a small, growing team and build products from an early stage, with significant ownership and direct commercial impact. Job Description About your tasks: \u2022 Shape the advertiser self-service experience, enabling brands, agencies and marketplace partners to create, manage and optimise campaigns more easily. \u2022 Define how and where advertising is integrated into the customer journey, including Sponsored Product placements across search, category and product detail pages. \u2022 Develop new advertising formats and propositions across Redcare\u2019s onsite and offsite channels. \u2022 Improve advertiser workflows and user journeys, working with Design to create intuitive, efficient and scalable experiences. \u2022 Drive product discovery and experimentation, using advertiser feedback, customer behaviour and performance data to improve the product. \u2022 Partner with Engineering and other product teams to translate business needs into scalable capabilities and manage technical dependencies. \u2022 Manage the roadmap and prioritisation, measuring success through advertiser adoption, usability, campaign performance, customer engagement and advertising revenue. Qualifications About you: \u2022 You bring approximately 5-7 years of product management experience, ideally within Retail Media, AdTech, marketing technology, e-commerce or B2B digital platforms. \u2022 You have experience owning customer-facing or B2B products end to end, from discovery and roadmap development through launch and optimisation. \u2022 You understand how to design and improve complex workflows and create intuitive experiences for business users or consumers. \u2022 You have a good understanding of digital advertising, marketing or e-commerce, including campaign management and advertising performance. \u2022 You are comfortable working closely with Engineering and Design, understanding technical dependencies and making informed product trade-offs. \u2022 You demonstrate strong stakeholder management and can confidently navigate competing priorities across technical and commercial teams. \u2022 You are commercially minded, comfortable working with ambiguity and use data and customer insights to prioritise opportunities and measure success. Nice to Have: \u2022 Experience with Sponsored Products, Retail Media networks or advertiser self-service platforms. \u2022 Experience designing products for advertisers, merchants, sellers or agencies. \u2022 Exposure to search, recommendations, personalisation or e-commerce monetisation. \u2022 Experience building digital products or platforms from 0 to 1. Additional Information Why Join Us? You\u2019ll have the opportunity to help establish the data and intelligence capabil"
+  },
+  {
+   "id": "jsearch:a082VzNVQzFqSzBPbmd1Y0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZak50YlhoMVgzRkJjRGxIVFdNMWFTMXFiVXBOVFhaak9VRlZkVWM1YjFCcGNXVXlhbXRoYTBseFFXeEpRVXhHYUhNNVUzcExNVlJCVkdkdllreHFiVjlIVkdGMWFsZERTRkpNWlhOaFFqbE5aM1pNUjFOMk5GbGxkRkpKUkc5RmJFMTFZWFJLTFZGM2RUZE5VV1JPYjJGUFdWbHBabFpFV0VsZlRuaDBWbmxTY1c1RExWSVNGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkRmVWWm5UbUpKT1RaNE9GRjZZV05NVnpJdGQxTXdaazVETlhKUg",
+   "source": "jsearch",
+   "publisher": "CryptoJobs AI",
+   "title": "Senior Product Manager, Data Products",
+   "company": "Mural",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://cryptojobs.ai/jobs/senior-product-manager-data-products",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "ABOUT THE TEAM When the world\u2019s largest organizations bet on Mural, Govern & Trust is the team that earns that trust at scale. We build the experiences that help enterprises roll out Mural with confidence, keep it secure, and see the impact it has on how their people work. Data sits at the center of it all. Admins are Mural\u2019s most demanding data consumers: they need to prove ROI to their leadership, guide adoption across thousands of people, and account for every action. If data products can meet their bar, they\u2019ll work for everyone. Mural has a modern data platform, strong data engineering and analytics teams, and a wealth of data on how teams collaborate. The next step is treating that data as a product in its own right, with a dedicated owner for what it means and how it\u2019s used. YOUR MISSION As a Senior Product Manager you\u2019ll define the metrics that describe how Mural creates value, and make them the shared foundation for everything built on top. The same definitions will power internal product decisions, the Insights experience Admins use in the product, and the reporting API and MCP server that customers and AI agents query. This role starts upstream. You\u2019ll work from raw product events to decide what each metric should measure, how it\u2019s calculated, and what the data needs to look like for customers and internal teams to rely on it. Then you\u2019ll turn those metrics into experiences that help organizations understand and grow their use of Mural. WHAT YOU\u2019LL DO \u2022 The evolution of data products. Shape how Mural\u2019s data products move from reporting on what happened to guiding what happens next. Work across the Govern & Trust portfolio to define how insights become part of how organizations run Mural. \u2022 The metric layer. Define Mural\u2019s shared, cross-product metrics, like activity, collaboration, and adoption. Set the standards that let product teams define and publish their own metrics consistently. Data Engineering builds and runs the layer; you shape what goes in it and how it evolves. \u2022 Internal product analytics. Be a thought partner to domain PMs as they set their north-star metrics, and make product data easy for them to explore on their own. Work with Business Analytics to keep product-facing and business-facing reporting working together. \u2022 Customer-facing data products. Own the strategy and roadmap for Insights: in-product reporting and dashboards, exports and APIs, audit logs, and the methodology behind every number customers see. \u2022 AI and agent access. Package and launch Mural\u2019s customer-facing reporting MCP server: which data it exposes, which plans get it, and what guardrails apply. Define how natural-language and agent-driven analysis extends Insights. \u2022 Instrumentation. R&D teams own emitting events. Your job is to raise the bar on what they emit. Set per-product requirements for granularity and retention, which differ for audit logs, activity data, and product analytics. Partner with Data Engineering on event standards so metrics start from good data. WHAT YOU\u2019LL BRING \u2022 5+ years of product management experience, including shipping at least one analytics or reporting product used by paying business customers. You defined the metrics behind it, not just the UI. \u2022 A track record of making messy or conflicting data trustworthy: reconciling competing definitions, writing metric specs engineers could build from, and getting instrumentation changed upstream. \u2022 Experience building both platform products, where your customers are internal teams or developers, and end-user-facing data products like analytics, reporting, or insights. You understand how the two have to work together. \u2022 Working knowledge of modern data stacks: event pipelines, warehouses and lakehouses, dbt-style modeling, and semantic layers. You can write SQL and pull data yourself. \u2022 The ability to get agreement on definitions across teams you don\u2019t manage, including PMs, data engineering, analytics, finance, and go-to-market. \u2022 Experience with enterprise "
+  },
+  {
+   "id": "jsearch:UTRNZmk3ZGlaSkpQSF92N0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVUpFWlRFemFGSk5ZbUp2YW5KbGNsTkNZV1ozWDFwb2FWOVBMV2h4YXpkVkxUaFdNelppYzFsSU5EbE1SSGhJV21sM2JsYzFjbFp0TlcwNFJqUnVXbGhGV21JelRIVmpZakJUTkMxSU9UZzFTMk5XYm10WWJUaHJVVlJRU2xaU2EwSk5TbkZTTkRSVk5taG9iWEpCWDNKRFptVjVlV1V5T0d0TGJtcHRWMVpSY0ZBM2RVMFNGekpJZW10aGNqSnlUbDh6WmpKeWIxQmZUVU5XYVVGckdpSkJTRTR3UlRkR01WbzBNVkJMZURSVGFVcHViVkp6Y0dwek9FTXdielJZTVZSbg",
+   "source": "jsearch",
+   "publisher": "JobMESH",
+   "title": "Senior Product Manager - Personalization & Omni-Channel Experience",
+   "company": "eTeam",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobmesh.io/job/9a6174dc-3ff8-4e5d-a887-72d05c1e88bd",
+   "posted": "2026-10-27T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Title: Senior Product Manager Location: Remote Duration: 12 Months Position Overview: We are seeking an experienced Senior Product Manager to lead our personalization strategy across multiple customer touchpoints. This role will drive the development and optimization of personalized experiences that seamlessly connect web, mobile, email, and call center interactions (and more) to deliver cohesive, relevant customer journeys at scale. Key Responsibilities: Strategic Leadership \u2022 Define and execute the product vision for personalization across omni-channel experiences, ensuring consistent messaging and experience delivery regardless of customer touchpoint \u2022 Develop comprehensive personalization roadmaps that align with business objectives and customer needs \u2022 Partner with leadership to establish personalization KPIs and success metrics that drive measurable business impact Cross-Channel Experience Design \u2022 Lead the design of unified customer experiences that leverage behavioral data, preferences, and context across web, mobile app, email campaigns, and call center interactions \u2022 Ensure personalization engines deliver relevant content, product recommendations, and messaging that adapts based on customer journey stage and channel preferences \u2022 Collaborate with UX/UI teams to create intuitive, personalized interfaces that enhance customer engagement and conversion rates Product Development & Management \u2022 Own the product lifecycle for personalization platforms, machine learning algorithms, and customer data integration systems \u2022 Work closely with engineering teams to implement scalable personalization solutions that can handle enterprise-level traffic and data volumes \u2022 Manage technical requirements for real-time personalization engines, A/B testing frameworks, and customer segmentation tools Data-Driven Decision Making \u2022 Analyze customer behavior patterns, engagement metrics, and conversion data to identify personalization opportunities and measure success \u2022 Establish testing methodologies to continuously optimize personalized experiences and validate new features \u2022 Partner with data science teams to enhance machine learning models that power recommendation engines and predictive analytics Stakeholder Collaboration \u2022 Work closely with marketing, sales, customer service, and IT teams to ensure personalization initiatives align with broader customer experience strategies \u2022 Coordinate with call center operations to ensure agents have access to customer personalization insights for enhanced service delivery \u2022 Collaborate with legal and compliance teams to ensure all personalization efforts meet privacy regulations and data protection standards Required Qualifications: \u2022 Bachelor's degree in Business, Marketing, Computer Science, or related field; MBA preferred \u2022 8+ years of product management experience with at least 3 years focused on personalization, customer experience, or digital marketing technologies \u2022 Proven track record of successfully launching and scaling personalization products across multiple channels \u2022 Deep understanding of customer data platforms, marketing automation tools, and personalization technologies \u2022 Experience with A/B testing methodologies, analytics platforms, and performance measurement frameworks \u2022 Strong technical acumen with ability to work effectively with engineering and data science teams \u2022 Understanding of business value related to features and functions \u2022 Outstanding communication, presentation, and leadership skills \u2022 Sharp analytical and problem-solving skills to overcome obstacles and challenges \u2022 Ability to effectively manage conflicting needs of stakeholders \u2022 High accountability to ensure the product is delivered flawlessly Preferred Qualifications: \u2022 Experience in financial services, retail, or other customer-centric industries \u2022 Knowledge of machine learning applications in personalization and recommendation systems \u2022 Familiarity with privacy regulations such as GDPR, CCPA, and their impa"
+  },
+  {
+   "id": "builtin:11979980",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Principal Product Manager, AI-Powered Security Operations",
+   "company": "Motorola Solutions, Inc.",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/principal-product-manager-ai-powered-security-operations/11979980",
+   "posted": null,
+   "salary": "",
+   "description": "Principal Product Manager, AI-Powered Security Operations - Motorola Solutions, Inc. | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Motorola Solutions, Inc. Jobs Principal Product Manager, AI-Powered Security Operations Motorola Solutions, Inc. Principal Product Manager, AI-Powered Security Operations Posted 7 Hours Ago Be an Early Applicant In-Office or Remote Hiring Remotely in Toronto, ON, CAN Senior level In-Office or Remote Hiring Remotely in Toronto, ON, CAN Senior level Own the strategy and roadmap for a cloud-native, AI-powered security operations platform. Lead the full product lifecycle, conduct customer and market research, prioritize requirements, define features, and collaborate with engineering, AI, UX, sales, customer success, and services teams. The role focuses on agentic AI, visual AI, workflow automation, and simplifying complex B2B security operations experiences for high-tempo operations centers. The summary above was generated by AI Company Overview At Motorola Solutions, we believe that everything starts with our people. We\u2019re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration that\u2019s critical for safer communities, safer schools, safer hospitals, safer businesses, and ultimately, safer nations. Connect with a career that matters, and help us build a safer future. Aper\u00e7u de l\u2019entreprise Chez Motorola Solutions, nous pensons que tout commence par nos employ\u00e9s. Nous sommes une communaut\u00e9 mondiale soud\u00e9e, unie par la volont\u00e9 incessante de contribuer \u00e0 la s\u00e9curit\u00e9 des personnes partout dans le monde. Nous concevons et connectons des technologies qui contribuent \u00e0 prot\u00e9ger les personnes, les biens et les infrastructures. Nos solutions favorisent la collaboration essentielle pour am\u00e9liorer la s\u00e9curit\u00e9 des populations, des \u00e9coles, des h\u00f4pitaux, des entreprises et, finalement, des nations. Connectez-vous \u00e0 une carri\u00e8re qui compte et aidez-nous \u00e0 b\u00e2tir un avenir plus s\u00fbr. Department Overview Motorola Solutions is a recognized global leader in Enterprise Security & Resilience software, offering a next-generation cloud platform that empowers organizations to navigate risks, disruptions, and crises with confidence. Our technology unifies critical functions \u2014 risk intelligence, security operations, crisis & emergency management, and business continuity \u2014 into a single, powerful platform. We are building the \"digital brain\" of the modern Security Operations Center (SOC). While competitors focus on better detection, our platform automates the decision loop. We are seeking a product leader to define the future of Agentic AI in physical security\u2014moving the industry from reactive monitoring to proactive, automated resilience. You will own the roadmap for a new cloud-native intelligence platform that unifies video, access control, and critical communications. As well as automating detection and verification, its agents augment SOC teams through proactive coordination of security incident responses, orchestrating devices and inputs at scale whilst collaborating with human operators. Job Description In this role, you\u2019ll take ownership across the full product lifecycle \u2014 shaping strategy, engaging with customers, driving execution, and delivering product features that lead the market. You\u2019ll collaborate clos"
+  },
+  {
+   "id": "builtin:11966559",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Director of Product & Strategy, CXM Flex",
+   "company": "Quadient",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/director-product-strategy-cxm-flex/11966559",
+   "posted": null,
+   "salary": "",
+   "description": "Director of Product & Strategy, CXM Flex - Quadient | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job Quadient Jobs Director of Product & Strategy, CXM Flex Quadient Director of Product & Strategy, CXM Flex Posted Yesterday Be an Early Applicant Hybrid Toronto, ON, CAN Expert/Leader Hybrid Toronto, ON, CAN Expert/Leader Own the strategy, roadmap, product outcomes, and P&L for Quadient\u2019s on-premise CXM Flex portfolio. Lead product management, platform modernization, AI enablement, enterprise customer migration to SaaS, long-term support, and compliance capabilities. Partner with R&D, Sales, Customer Success, and Services to protect and grow renewals, ARR, and NRR while supporting regulated customers with security, sovereignty, and hybrid deployment needs. The summary above was generated by AI Company Description At Quadient , we support businesses of all sizes in their digital transformation and growth journey, unlocking operational efficiency with reliable, secure, and sustainable automation processes. Our success in delivering innovation and business growth is inspired by the connections our diverse teams create every day, with our clients and each other. It\u2019s these connections that make Quadient such an exceptional place to grow your career, develop your skills and make a real impact \u2013 help our future-focused business lead the way in powering secure and sustainable business connections through digital and physical channels. Quadient Digital powers mission\u2011critical customer communications for some of the world\u2019s largest enterprises. Our Inspire suite of products helps organizations design, orchestrate, and deliver personalized, compliant communications across digital and physical channels. Trusted by global banks, insurers, healthcare providers, and public institutions, Quadient enables companies to transform complex regulatory communications into meaningful customer experiences. Our on\u2011premise Inspire deployment (CXM Flex) continues to serve a strategic base of enterprise customers with demanding security, sovereignty, and operational requirements. Job Description The Director of Product & Strategy, CXM Flex will own the strategy, roadmap, and product outcomes for Quadient\u2019s on\u2011premise, self\u2011hosted, and managed service Inspire portfolio (CXM Flex). Reporting to the SVP of Product, this leader is accountable for sustaining and modernizing a strategically important install base of enterprise customers \u2014 banks, insurers, healthcare providers, and public sector institutions \u2014 with demanding security, sovereignty, and operational requirements. This is a high\u2011impact role at the intersection of mature platform stewardship and modernization. This leader will lead a small, focused Product Management team, partner closely with R&D, Customer Success, Professional Services, and Sales, and play a central role in shaping cloud migration paths, hybrid deployment models, and AI\u2011enabled capabilities for customers who run Inspire in their own data centers. Strategic Responsibilities Define and communicate the long\u2011term product vision for Quadient\u2019s on\u2011premise and customer\u2011hosted Inspire portfolio. Own a clear multi\u2011year strategy that balances investment between sustaining the current install base, modernizing the platform, and enabling well\u2011defined migration paths to CXM SaaS (Evolve). Translate enterprise customer requirements \u2014 security, data sovereignty, regulatory residency, air\u2011gapped en"
+  }
+ ]
+}
