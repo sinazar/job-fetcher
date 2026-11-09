@@ -1,0 +1,517 @@
+{
+ "run_id": "2026-11-09T134627Z",
+ "run_at": "2026-11-09T13:46:27.494068+00:00",
+ "date": "2026-11-09",
+ "source_counts_after_filters": {
+  "jsearch": 25,
+  "remoteok": 0,
+  "weworkremotely": 3,
+  "adzuna": 0,
+  "builtin": 1
+ },
+ "new_count": 16,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 20,
+   "kept": 13,
+   "error": null,
+   "rejected_by": {
+    "title": 5,
+    "location": 2
+   },
+   "rejected_samples": [
+    "[title] Senior PM, Retail Product & Operating Model Transformation | Aquent | Toronto, ON, Canada | 2026-11-08T23:00:00+00:00",
+    "[title] Product Marketing Manager, Financial Services | Clio | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[title] Manager, Product Portfolio | Chartered Professional Accountants of Canada (CPA Canada) | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00",
+    "[location] Senior Product Manager, Echo MS | Danaher | Concord, ON, Canada | 2026-11-07T00:00:00+00:00",
+    "[title] Product Finance Manager Toronto Headquarters | Techtronic Industries | Toronto, ON  (+1 other) | 2026-11-06T00:00:00+00:00",
+    "[location] Senior Product Manager, Echo MS | Danaher | Concord, ON, Canada | 2026-11-08T23:00:00+00:00",
+    "[title] Chef de Produit D\u00e9veloppement Senior (H/F) | Grass Valley | Toronto, ON, Canada | 2026-11-06T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "cursor": "EvQGCrcGQUREYldlYnJFS1hka2h6V1p3MnpkZm82TXdhMW1zSUxPaWlVX3Y4UzdtWmhjRDQ0cGEwOElWYk9YR0hKa09XS2dfTG9sWDBycHVvWEtiT1Ntajk3Qmx4ZTZaRWNhYXkzcFJHVm5SUjhKRExUcEhKUldvcVpLV0dTRngxMDc1SERiOEJtazlGaEswczNWYnRHM0Q5VHBiUjhyYjRlNGtyX1VlRmtrSmN2WFlNcjlRYTd1M2ZWci0tODVPemc0UkcySFdsb0dKM1JXcnd2SjVneFZwZUVmZGZBTTdoMTZLbjZSaHQ4X2lYemIwS20wZTJ3Qm82RWMxZlFnUEVhN1p1LW9KdVUzOFdTcjh6eGpfSmFDSmpFWjBnNU5DSlhiOVNERzdPUlhtQ0cxR1ZYd2NiLVJjbTNkOURsRkh3ZXJnOGxZQ0FkeWpjZ0xBWDNTU3hidmRBVWtJVGg5YklyTkhfTTNUUERGVUtsbEFyYlZLa0t0LXN6Q0dVcFFUTWN3bkZlemFEQnJjaDF2alk1QVpNQUJLM1RvN3VRMmRHc3VSbnlrZGRrN1V2ZnZwTVlrR0E1LVBmSlIycnFwUkhrZ1FsU3ZlakNFTDBicFFVM3R5YXFqYzIzcFJNb2pkLVhLdXhTM21tUHJmbHRweTRjY19uQkJhNUtMNjcyeU5Dbld6QnowRkVDYUlaODNPYWdsNWhCb05ILWw1NVVLLVNoSWNfb3NMNmp0cVFvZTdkWFpwVkNDaV9fWVhNUkN1QlRqZ2dzTTNRSVNxMXJ6d0NlVzloX3pRSlYwREFPNk1lOEFqN0RJb0RJYmJaVFhHMzU2VnBjVEtpY0RuSGNua1FMYmk0aENDMW11bEt3NHVXMVBwRGJZRUJCRndWUXVTdm9fclJBc3NfYXludThTTFY3LUQ5Wnl0X09xWDJqRzN0R2RNWVNIeUJXSDJtUmlzenEtd0JYVW9YbkVjLVhXR29tWjZ2VTd6TWhVRV9TaW1JaFU0TjZ6OHp6OGpJSllZdGlhX3Ztck9hRWd5UGJ4LUVpLXB3VXM0MDJ5M2ZhUWthbk5xdVNzNEZNdkRucldJYmEzR09FVWRPT0I4bxIUdE03eGF0WmkzT3pWN3ctZGdicEEaIkFITjBFN0VPc0ZSMng0bkJ1ajE2VlV6X3J5RDg5SkhGZWc",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10,
+    10
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "location": 5,
+    "title": 2
+   },
+   "rejected_samples": [
+    "[location] MR Product Manager, Canada | GE HEALTHCARE | Manitoba   (+5 others), Canada | 2026-11-07T00:00:00+00:00",
+    "[title] Senior Platform PM, Frontend Foundations & AI Tools | Jane App | Canada | 2026-11-06T00:00:00+00:00",
+    "[location] Product Manager High-Tech | Enza Zaden | Essex County, ON, Canada | 2026-11-06T00:00:00+00:00",
+    "[title] Remote Senior Programmatic Manager (Remote Canada) | Directive Corporation | Edmonton, AB  (+1 other), Canada (Remote) | 2026-11-07T00:00:00+00:00",
+    "[location] Product Manager, B2B SaaS \u2014 Canada | Cardata | Canada | 2026-11-06T00:00:00+00:00",
+    "[location] Product Manager (eCommerce &#8211; Shopify) | Homera Health |  | 2026-11-07T00:00:00+00:00",
+    "[location] [Remote] Product Manager - Digital Experience | WfhAlert | Kenya (Remote) | 2026-11-07T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 9,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[aggregator] Senior Product Manager \u2013 Customer Service & Experience \u2013 Remote (Global) | remote quest jobs | Anywhere (Remote) | 2026-11-08T23:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 99,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 94,
+    "too old": 2,
+    "location": 3
+   },
+   "rejected_samples": [
+    "[title] Account Executive Enterprise | Harvey | Remote | 2026-11-08T00:00:03+00:00",
+    "[title] AI Developer | Salvo Software | Remote | 2026-11-07T00:00:02+00:00",
+    "[title] Junior Market Analyst | MEYA HOLDINGS | Remote | 2026-11-06T13:47:40+00:00",
+    "[title] Registered Nurse | Caringhand Home Health Solutions, Inc. | Remote | 2026-11-06T08:00:05+00:00",
+    "[title] Accountant | Serve Robotics | los angeles (Remote) | 2026-11-06T00:00:11+00:00",
+    "[title] Agile Program Manager | Toptal | Anywhere in the World (Remote) | 2026-11-05T22:37:39+00:00",
+    "[title] Feltsense AI Engineer | Silver.dev | Remote | 2026-11-05T16:00:07+00:00",
+    "[title] Operations Expert with Python for AI Supply Chain Task Design | Toptal | Anywhere in the World (Remote) | 2026-11-05T15:01:09+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 29,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "location": 1,
+    "title": 17,
+    "too old": 8
+   },
+   "rejected_samples": [
+    "[location] Senior Product Manager | Patchstack | Europe Only (Remote) | 2026-11-09T01:53:21+00:00",
+    "[title] Product Owner | Zanda Health | Anywhere in the World (Remote) | 2026-11-04T12:59:25+00:00",
+    "[title] Senior Solution Architect | Otter.ai | Anywhere in the World (Remote) | 2026-11-02T07:31:12+00:00",
+    "[too old] Lead Editor Product Manager | Descript | Anywhere in the World (Remote) | 2026-11-02T07:31:04+00:00",
+    "[too old] Principal Product Manager - Identity | ZoomInfo Technologies LLC | Anywhere in the World (Remote) | 2026-11-01T07:31:04+00:00",
+    "[title] Senior AI Engineer - EU | Typeform | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Senior AI Engineer - US | Typeform | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Principal Applied AI Engineer - Entity Agents | ZoomInfo Technologies LLC | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 1
+  },
+  "builtin job pages": {
+   "returned": 1,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": []
+  }
+ },
+ "jobs": [
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/proarch-ba-technical-product-manager",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "BA/Technical Product Manager",
+   "company": "ProArch",
+   "location": "USA Only (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/proarch-ba-technical-product-manager",
+   "posted": "2026-11-09T09:06:54+00:00",
+   "salary": "",
+   "description": "Headquarters: United States URL: https://jobs.workable.com/company/u8TybTAE2YbYgRVFYov9t4/jobs-at-proarch Partner Discovery & Requirements Analysis Lead and document working sessions with clinical, finance, operations, product, and technical stakeholders to understand existing workflows, business rules, data requirements, and operational processes. Translate manual and system-supported workflows into structured business and functional requirements. Produce gap-analysis documentation mapping current-state processes and partner requirements to existing platform capabilities. Classify requirements based on appropriate disposition, such as existing functionality, configuration, new development, acceptable operational workaround, shared platform enhancement, or out of scope. Maintain a consistent backlog structure across implementations so requirements remain comparable, traceable, and reusable. System Reconciliation & Technical Analysis Analyze application logic, SQL, stored procedures, configuration parameters, integrations, and data flows to understand existing system behavior. Determine whether business requirements can be satisfied through configuration, existing functionality, process changes, or new development. Validate assumptions about platform behavior against available technical evidence and distinguish confirmed system behavior from inferred behavior. Identify discrepancies between documented behavior, stakeholder expectations, system configuration, and implemented logic. Trace business rules to underlying parameters, data elements, calculations, integrations, and system components. Identify where behaviors are configurable versus hardcoded and assess the impact on future implementations. Requirements Authoring Write clear business and functional requirements, user stories, acceptance criteria, assumptions, dependencies, open questions, and proposed workarounds. Maintain appropriate separation between business-facing requirements and technical implementation details. Ensure acceptance criteria reflect the agreed solution approach, including configuration changes, operational workarounds, or new functionality. Apply a consistent standard for distinguishing standalone requirements from assumptions, configuration decisions, implementation details, or operational procedures. Maintain traceability from business need through solution decision and development implementation. Cross-Functional Facilitation & Governance Facilitate requirements, solutioning, and review sessions across business, clinical, product, engineering, data, and operational teams. Drive open questions toward resolution and update requirements and documentation to reflect confirmed decisions. Identify ambiguity, conflicting requirements, downstream impacts, and cross-feature dependencies before development begins. Prevent scope drift and ensure implementation-specific requirements do not unintentionally become platform-wide requirements. Support prioritization and decision-making by clearly communicating business impact, implementation complexity, dependencies, and risk. Ticket Creation & Scoping Translate approved requirements into development-ready tickets containing problem statements, user stories, functional scope, acceptance criteria, dependencies, assumptions, and open questions. Partner with engineering and architecture teams to clarify technical scope and implementation approach. Track dependencies across features, integrations, implementations, and shared platform capabilities. Identify common capabilities that can support multiple clients, workflows, or future implementations rather than creating one-off solutions. 8+ years of experience as a Business Analyst, Technical Product Manager, Product Owner, or equivalent role in a software-, data-, or technology-driven environment. Experience working within healthcare technology, healthcare operations, payer/provider systems, pharmacy, claims, revenue cycle, eligibility, or related healthcare domains. "
+  },
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/customer-io-senior-product-manager-workflows",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Senior Product Manager, Workflows",
+   "company": "Customer.io",
+   "location": "North America Only (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/customer-io-senior-product-manager-workflows",
+   "posted": "2026-11-09T01:53:37+00:00",
+   "salary": "",
+   "description": "Headquarters: Hidalgo del Parral, Chihuahua, Mexico URL: https://customer.io About Customer.io Over 9,000 companies \u2014 from scrappy startups to global brands \u2014 use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive. We help teams send smarter, more relevant messages using real-time behavioral data. About the role Hi, my name is Megan Berry, Senior Director of Product at Customer.io , and I'm looking for a Senior Product Manager to help us turn customer signals into products people actually want. Our team is six product managers who partner closely with Design and Engineering to launch first-class products that drive customer and business outcomes. You need to be able to synthesize customer research, market research, analytics and your own taste into a customer-first roadmap and set of releases. You will work with a cross-functional team with a high level of autonomy to validate ideas early and help the team ship excellent work. This role focuses on Workflows. What we value Surfacing customer problems based on qualitative and quantitative data. Driving alignment through effective communication. Performing market research and presenting findings. Using AI to accelerate discovery. Helping our teams ship sooner. What you\u2019ll do Identify and validate customer problems through user research, usage analytics, partner insights, and AI-powered discovery tools. Rapidly prototype and run focused experiments to test hypotheses and de-risk new ideas early in development. Lead cross-functional planning by aligning Engineering, Design, and business stakeholders around clear product goals and trade-offs. Drive feature strategy and influence roadmaps by proposing initiatives rooted in customer impact and market opportunity. Break down complex projects into incremental, testable releases, using component reuse and system thinking to accelerate delivery. Define product success metrics upfront and track adoption, engagement, and retention to inform iterative improvement. Take on Technology Lead responsibilities for specific initiatives when needed, including data analysis, prototyping, coordinating engineering work, and managing delivery risks. Look at product metrics after launch and work with GTM stakeholders to ensure your launches are successful and create the product and business outcomes we want. What we're looking for 7+ years of product management experience, ideally including time in B2B SaaS or platforms that leverage behavioral data for automation or messaging. Strong analytical skills, comfort with metrics dashboards, and experience using data to shape direction and evaluate impact. Proven ability to lead feature development independently, reduce scope, and deliver successful outcomes with tight teams. High product intuition balanced with humility and experimentation. You're comfortable being wrong and eager to learn quickly. Exceptional written communication and decision-framing abilities, especially in remote and async-first environments. Experience using or developing AI-powered tooling in your product workflow. Technical background with demonstrated ability to build basic web applications, write scripts, and work with engineering teams on topics such as data models, APIs, and performance requirements. Track record of serving as a point of contact or DRI for engineering initiatives, with the ability to choose objectives and navigate trade-offs. Experience with products that involve complex workflows or automations is a plus. Compensation & Benefits We believe in transparency. Starting salary for this role is $170k\u2013$200k USD (or equivalent in local currency) depending on experience and subject to market rate adjustment. Zone 1: $204k\u2013$240k USD Zone 2: $187k\u2013$220k USD Zone 3: $170k\u2013$200k USD We know our people are what make us great, and we\u2019re committed to taking great care of them. Our inclusive benefits packag"
+  },
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/firy-head-of-product-beamable",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Head of Product  - Beamable",
+   "company": "FIRY",
+   "location": "USA Only (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/firy-head-of-product-beamable",
+   "posted": "2026-11-09T01:53:31+00:00",
+   "salary": "",
+   "description": "Headquarters: Las Vegas, Nevada, United States URL: https://www.skillz.com About Beamable Beamable is the backend and LiveOps infrastructure platform for game developers, the system that lets studios build, operate, and scale live games without constructing the underlying architecture themselves. Backend services, identity, analytics, meta-game systems, virtual economies, and AI-native tooling: all integrated into a single platform that eliminates the point-solution stitching that has defined game development for too long. Beamable also powers Wingman, an agentic LiveOps product that gives game teams a unified operating system to understand, optimize, and act on live game performance in real time. This is the future of how games are operated. Beamable is part of FIRY , a founder-led global technology portfolio operating at the intersection of gaming, AI-powered performance marketing, and developer infrastructure. Acquired in January 2026, and together with Skillz, our competition platform, and RZR , our AI-driven ad network, Beamable sits at the foundation of a compounding ecosystem that no standalone competitor can replicate. If you want to build the infrastructure that games run on at a company with the vision and resources to back it \u2014 Beamable is the right place to do it. About the Role Beamable is seeking a Head of Product to shape its platform vision and lead its next phase of growth in the game backend market. This is an opportunity to build the product function from the ground up, guide the platform from early access through public release, and advance AI integration to deliver meaningful value for game studios. As the company\u2019s senior product leader and sole product practitioner, you will own product strategy, roadmap, launch milestones, and success metrics, combining strategic direction with hands-on execution. You will work directly with studios and design partners, represent Beamable\u2019s product vision at industry events, and translate customer insights into clear priorities. Success in this role means delivering a successful public launch, developing early-access studios into reference customers, and establishing a product foundation that drives adoption and sustained revenue growth. Responsibilities Product Strategy & Vision Ownership. Set the product vision for Beamable\u2019s platform \u2014 spanning player engagement, developer tools, data enrichment, and player intelligence \u2014 and own the roadmap from early access through public release and beyond. Partner with the CRO on packaging, pricing, and tracking the studio funnel quantitatively. Public Release & Launch Execution. Drive Beamable\u2019s product through its launch milestones: early design partners, public release, and strategic partnerships. Define and own the go/no-go criteria for each milestone, ensuring the product ships when it\u2019s ready to win. Studio Partnership & Customer Discovery. Spend meaningful time every week with studios, design partners, and game developers \u2014 running discovery calls, demos, onboarding sessions, and roadmap reviews. Join sales calls and paid pilots with the CRO and turn each design partner into a reference case. AI Integration & Product Intelligence. Define the guardrails, data policies, and feedback loops that make Beamable\u2019s AI capabilities safe, effective, and trustworthy for game teams. Integrate with best-in-class tools studios already use and shape the intelligent systems that differentiate the platform. Metrics Ownership & Product Function Build-Out. Define success metrics across the studio lifecycle \u2014 time to value, pilot conversion, retention, usage, and revenue per studio \u2014 and do your own analysis in SQL. Establish the product processes Beamable runs on: discovery, specs, prioritization, and launch reviews. Key Competencies Platform Product Strategy. Proven ability to set and execute product vision for a developer-facing platform, owning the strategy across multiple capability areas simultaneously \u2014 not just a feature set. Customer"
+  },
+  {
+   "id": "jsearch:bHFJVmhUUTJfWDVNWTJuRUFBQUFBQT09OkVza0JDb3dCUVVSRVlsZGxXa1V6TUhSRWFGRXljVzFLZGkxUGRteFRXbmh5TkVkRlVWSXRZVGhNVERSU01rWjFObGhqT1VGSVR6TXlaa1pzVjNSRU1GUmFOMVZHYTNNdE16WlFPRXRRVEZWdVJXUXRURXRTWDBoWFdGTkZNVU40VEVoMlJXOUZPVk5UYVhOQllUWXhSVW80Tmw5eVJWUkxOMDFsTTNsM1psVlRUek5yUTNWalJtVkhWbDlDUTJKMFlsWVNGSFJOTjNoaGRGcHBNMDk2VmpkM0xXUm5ZbkJCR2lKQlNFNHdSVGRGY2xOeVlsOVZRM1poWjJGeVNqbGhNbU5xY21RM1F6QmFNRkJSOjA0NThkMmYy",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Security Platform Product Manager; IAM & AI",
+   "company": "Jane",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/info_technology/5610691693/e/",
+   "posted": "2026-11-08T23:00:00+00:00",
+   "salary": "",
+   "description": "Position: Security Platform Product Manager (IAM & AI) Jane, a founder-led SaaS company, is hiring a Product Manager for Security Engineering. You will shape strategy for two areas: our in-house security platform and Jane Account Protection, partnering across teams to roll out ambitious security products. You\u2019ll lead with privacy, identity, and risk in mind, working in a remote-first, international team across Canada, the US, and the UK. Strong collaboration and clear communication are essential. We would love to welcome a new Security Platform Product Manager (IAM & AI) to our team in Canada. The position is based in Canada. This opportunity is part of our work in Management & Operations, IT & Technology. The advertised compensation is 132.. We aim to respond to suitable candidates as soon as possible. Full responsibilities and requirements are described in the listing above."
+  },
+  {
+   "id": "jsearch:cEJLQm9nQmdUS2ZKWllnaEFBQUFBQT09OkVza0JDb3dCUVVSRVlsZGxZVEZZYm5wNFExRjFiM0JuUVMxd09FTTJablpZUldsUmJuSnNSMkpFVkhwWWNtUkNTRTB5VVc5T1F6bGxXWHBKZDNCQ1lrZzVkMUpJYzNGVWJtZHhTRTFXTUVSdmMyeHlkRU16U0ZwUWFtSjFURlZXWHkxVGRsRlNUVWN0ZUVaemJISXlNRVZNU25GeFN6SkZSVFI1WlZwRVZVdGtNM1pCYzBOb1dXUndjQzFWT1hCalVHOFNGSFJOTjNoaGRGcHBNMDk2VmpkM0xXUm5ZbkJCR2lKQlNFNHdSVGRJYUVaU2N6WTJNMkZ2UjBobFVGWnNVMGhvWkVFMGRFdHdiMnRCOjFhZTc4MTA0",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Staff Mobile Product Manager",
+   "company": "Stripe, Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/2362750467965976576",
+   "posted": "2026-11-07T00:00:00+00:00",
+   "salary": "",
+   "description": "Shape Stripe\u2019s mobile app strategy with product leadership, user experience expertise, and mobile development familiarity. This full-time role offers office or remote work. As a Staff Product Manager on Stripe\u2019s Mobile team, you will make the app indispensable for startup founders and business owners. You will understand mobile needs, prioritize the roadmap, and improve user value. The team partners across product, engineering, design, and go-to-market. Key Responsibilities: Identify mobile capabilities that help founders and business owners Articulate strategy and prioritize the mobile product roadmap Deliver detailed, compelling product experiences Guide teams toward stronger mobile use cases Collaborate with go-to-market on app discoverability Requirements: 8+ years of product management or product-focused founder experience Persistence and a whatever-it-takes approach to product success Strong user interface and user experience principles knowledge Technical familiarity with mobile development and cross-platform architectures Ability to collaborate across engineering and design time zones Lead Stripe\u2019s mobile product direction through strategy, user experience, roadmap prioritization, and cross-functional execution. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:b1JZWUk2N0hhR2kwWWpyMkFBQUFBQT09OkVza0JDb3dCUVVSRVlsZGxZbkpGZFdKV1QyRlJiV3RzTkZnNVIxbGZSbEJpYzJsMGRWSnVTMUoxYkVWUU5uVnRWMUl0YUVrM2FGQlNjMk5MWjFwS09IWmxPRzltUmxsa1FrbDJiR3gyY3pNMWVubFhOM0V5VG5sb1VuTkhZbGRrY1VWS2FUSjZSbmxPV0ZwS01EVkxZbEEyYUdReWVIVkRkV3ByZG1KSFZGY3hSRk5pZGxaQmFGbDVkVzlST1haVWMzWVNGSFJOTjNoaGRGcHBNMDk2VmpkM0xXUm5ZbkJCR2lKQlNFNHdSVGRGZG5SME5IbHRWMEpTV1VaRlRXcHVjbFpWWTB0UWJFcG9TMWhuOjhjOTEyZTk4",
+   "source": "jsearch",
+   "publisher": "Jooble",
+   "title": "Senior Product Manager Scrum Master",
+   "company": "Bevertec",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jooble.org/jdp/7652239583825991826",
+   "posted": "2026-11-07T00:00:00+00:00",
+   "salary": "",
+   "description": "Lead product road map development with Azure DevOps expertise as a Senior Product Manager experienced in Scrum Master responsibilities. This Senior Product Manager opportunity requires five-plus years in product management, road map development, and Azure DevOps. Candidates should bring five-plus years as a Scrum Master, basic Microsoft Azure knowledge, and experience in the Canadian public sector. Familiarity with collaboration and backlog management tools is required. Key Responsibilities: \u2022 Develop and manage product road maps \u2022 Apply product management experience to product planning \u2022 Perform Scrum Master responsibilities \u2022 Manage product backlogs using relevant tools \u2022 Use online collaboration tools for product work Requirements: \u2022 Five-plus years in product road map development \u2022 Five-plus years using Azure DevOps \u2022 Five-plus years in product management \u2022 Five-plus years as a Scrum Master \u2022 Canadian public sector experience and Azure knowledge Bring product management, Scrum Master experience, Azure DevOps, and road map development expertise to Bevertec. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:TE9tdHVwSEpPZTJ0R2VrTUFBQUFBQT09OkVza0JDb3dCUVVSRVlsZGxXbTVTZEhZMWJrNWhlVTFQUjFSTFZsWnhhazFpTFhCaVRXMW1hR0o2U25ad01YUTJhV1p2WTFoR1YzaFBkVTlFZVV3M1ptRTJXakJmZEhsdFltWTBPRmhrTFVacFRUWnZZeTB4YkVRM2N6SlVhamRLT1ZwdU4wZEVaM1o0ZGs1M2NqTlRURzlDVlVKNGMyeFBOREprTm1ObE9EUm1YMnRKUWtSclNGTjRNRzlEUldSMVYyOFNGSFJOTjNoaGRGcHBNMDk2VmpkM0xXUm5ZbkJCR2lKQlNFNHdSVGRGWVhSUFZqZHRPV1p2UVc5c1dGazFaM1pqVWpkdGVHTkZZekpSOjNhYzBkZDRh",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Product Manager, Connectivity",
+   "company": "Tailscale",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/info_technology/5607015890/e/",
+   "posted": "2026-11-07T00:00:00+00:00",
+   "salary": "",
+   "description": "Position: Product Manager, Workload Connectivity Frequently cited statistics show that people who identify with historically marginalized groups are likely to apply to jobs only if they meet 100% of the qualifications. We encourage you to help us break that statistic! About Tailscale Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future for the Internet that's easy, sensible, and safe, like it used to be. Founded in 2019 and fully distributed, we're backed by Accel, CRV, Insight, Heavybit, and Uncork Capital. About the Role We're hiring a Product Manager to own Tailscale's Workload Connectivity product area \u2014 making it effortless for applications, services, and infrastructure to securely connect to the resources they depend on. Networks are increasingly made up of machines talking to machines. CI/CD pipelines, Kubernetes workloads, AI agents, and cloud services all need secure connectivity, often across environments and without human intervention. Tailscale provides the building blocks for these connections. Your job is to turn them into a cohesive product experience and a standalone line of business. You\u2019ll own the product strategy across several key areas: \u2022 Kubernetes operator: Making Tailscale a natural part of Kubernetes infrastructure, enabling secure connectivity to and from clusters. \u2022 Ephemeral workloads: Enabling CI/CD runners, containers, and automated jobs to securely connect at scale. \u2022 Agent connectivity: Enabling AI agents to securely connect to the tools, services, and private infrastructure they need to operate. \u2022 Cloud and infrastructure integrations: Making Tailscale easy to deploy and operate within the cloud platforms and infrastructure tools developers already use. \u2022 Workload Connectivity as a business: Defining how machine-to-machine connectivity is packaged, measured, and monetized independently of traditional user-based VPN subscriptions. You\u2019ll work closely with engineering, design, and go-to-market teams to make Tailscale the obvious choice for workload connectivity, from a developer's first integration to production deployments at scale. Key Responsibilities \u2022 Own the vision, strategy, and roadmap for Workload Connectivity, including Kubernetes, ephemera ls workloads, agent connectivity, and cloud integrations. \u2022 Define the end-to-end developer experience for connecting workloads, from authentication and deployment through monitoring and troubleshooting. \u2022 Drive the Kubernetes operator roadmap and establish reference architectures and integrations for common cloud-native connectivity patterns. \u2022 Partner with product, engineering, operations, and go-to-market teams to develop workload connectivity pricing and packaging, driving adoption and revenue growth. \u2022 Define and own success metrics for workload adoption, activation, retention, and revenue, using data to guide product investments. \u2022 Build deep customer insight by working directly with developers, platform engineers, and infrastructure teams. \u2022 Collaborate across product teams on shared foundations, including identity, access controls, networking, and developer tooling. What We Are Looking For \u2022 7+ years in product management, with experience owning developer-facing infrastructure products such as cloud platforms, Kubernetes tooling, CI/CD systems, or developer platforms. \u2022 Strong technical fluency in cloud-native infrastructure, including Kubernetes, containers, networking, infrastructure automation, and workload identity. \u2022 Experience building products for developers and platform engineers, with a strong\u2026"
+  },
+  {
+   "id": "jsearch:U09qRHQ3RWs4d0c5aHYtMUFBQUFBQT09OkVza0JDb3dCUVVSRVlsZGxXa1pVUjFadWJtNVdkMnAxWlhOQ1YxWTFNRlJoUWtaZldYTTBSRUpqVm1oMVNua3dVRXcyWlROSk1reDBVVFJwWlZReFpXTldiRXRMT0VaUVNtNDVZVTl2ZURkUWNrSjZhVGROYTFFM2JXVmZURjlDY0ZOc1UyTkJObE5MZEZFMWJtd3hhbXhGU1RRMVVuTldNVjlFUVc1dFNpMTRVR2hYWDFCc1Z5MHlOM1JoYjBGMFJEVVNGSFJOTjNoaGRGcHBNMDk2VmpkM0xXUm5ZbkJCR2lKQlNFNHdSVGRJWjBKT1JHbHlMVU5JYmtaTVJsa3pOa2MwTW5Vd0xVSjRPVFozOjJlM2FkZDhl",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Disability Insurance Product Manager",
+   "company": "trabajo ca",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/671811535609266176",
+   "posted": "2026-11-07T00:00:00+00:00",
+   "salary": "",
+   "description": "Shape disability product strategy and execution as a hybrid Product Manager with Manulife in Toronto, using portfolio management and business analysis. Reporting to the Director, Disability Products, you will support Short-Term Disability, Long-Term Disability, and Absence Management services. This Product Manager role coordinates cross-functional delivery across Marketing, Sales, Operations, Underwriting, and Finance. You will assess opportunities, develop recommendations, and monitor portfolio performance for Group Benefits priorities. Key Responsibilities: \u2022 Monitor disability portfolio performance, market needs, risks, and opportunities \u2022 Translate priorities into roadmaps, requirements, recommendations, and implementation plans \u2022 Manage initiatives from discovery through implementation and stakeholder communication \u2022 Coordinate product, service, process, and experience enhancements \u2022 Develop evidence-based assessments and business cases Requirements: \u2022 Five or more years managing cross-functional projects \u2022 University degree, preferably in business or health \u2022 Strong communication and relationship management skills \u2022 Ability to translate complex products into compelling value propositions \u2022 Understanding of disability insurance or group benefits preferred Bring portfolio strategy, initiative delivery, and relationship management expertise to Manulife\u2019s disability products team in Toronto."
+  },
+  {
+   "id": "jsearch:aE1meU5EOEJxT3ZjbVk3NkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVFpOUjJ4c1pEUmZZMW8zTFVoR2FVcGZaMUJOZUdOdFMyNVBkbkY1TVhsZk4wZzFUbkpHYTJ0U05YSkRSVTFDZG5RdGVFdFlVblZ5Y25BeU5ESk5aR1Z6U2pkb1QzUk1NRFkzY0VGcGFXeFVVMHBTWVhSTE0xVlZVRXRZWlhGYVdXTnlWWFYwU1VZNGRtOVNWV1pOZFd0RVJYTTJUemx3WDFST2NYWnViMGRpU1RKdVdVOFNGM280TjNoaGRYVlhTVGhZY1cxTVVWQXdjR0UzYTBGbkdpSkJTRTR3UlRkR01FOUxNa0kzVFVobWEwMUhUMkpmUlRablltY3hUWEl6TUZSbjphODg5NTNkYw",
+   "source": "jsearch",
+   "publisher": "Remote Source",
+   "title": "Senior Product Manager: Extensible Compute",
+   "company": "Snowflake",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.remotesource.com/jobs/3CT_uuW7pP4ntvtjH5qta-senior-product-manager-extensible-compute-at-snowflake",
+   "posted": "2026-11-07T00:00:00+00:00",
+   "salary": "",
+   "description": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don\u2019t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset \u2014 who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done. Senior Product Manager: Extensible Compute Location: MPK or Bellevue | Workplace: Hybrid At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don't just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset, rapidly testing emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done. Snowflake is about empowering enterprises to achieve their full potential, and people too. With a culture that's all in on impact, innovation, and collaboration, Snowflake is the sweet spot for building big, moving fast, and taking technology and careers to the next level. We are hiring a Senior Product Manager for our Extensible Compute team, which builds Snowpark Container Services (SPCS). SPCS is the compute platform that runs customer container workloads and Snowflake's own first-party products, including Openflow, Notebooks, Streamlit, and AI agents. You will own the product for that platform: which compute we offer, how reliably and cheaply it runs, and how partner teams and customers get what they need without a one-off every time. AS A SENIOR PRODUCT MANAGER AT SNOWFLAKE, YOU WILL: \u2022 Own the SPCS product roadmap and ship it. That includes the compute instance portfolio across AWS, Azure, and GCP (general-purpose CPU, ARM, and GPU, including new Nvidia generations), and the storage and file system capabilities workloads depend on. \u2022 Turn requests from first-party product partners into platform capabilities. When Openflow, Notebooks, Streamlit, or an agent team needs a new instance, a networking change, or multi-cluster support, you decide what becomes a standard SPCS feature and what stays a one-off. \u2022 Take features from early preview to general availability. You set the launch bar, hold a release when security, reliability, or unit economics are not ready, and work the path through PrPr and PuPr with engineering. Work credibly with senior engineers on architecture, performance, reliability, and cost. \u2022 Own platform health that customers feel: startup time, isolation, storage reliability, and the unit economics of running a workload on SPCS. You partner with Finance on pricing ($/GiB, instance pricing) when the model has to change. \u2022 Be the product point of contact for our infrastructure partners (AWS, Azure, GCP, Nvidia) on the SPCS compute roadmap, and for account teams qualifying strategic customers onto SPCS. \u2022 Use AI as part of how you work: customer and partner synthesis, specs, launch reviews, and the analysis behind a prioritization call. OUR IDEAL SENIOR PRODUCT MANAGER WILL HAVE: \u2022 5+ years of product management experience, including several years on a platform, infrastructure, or developer-facing product, or equivalent experience owning a technical product end to end. \u2022 Hands-on depth in at least one of: cloud infrastructure, container or "
+  },
+  {
+   "id": "jsearch:aW01TTFMTEktcGxTcWZsdkFBQUFBQT09OkVza0JDb3dCUVVSRVlsZGxZbEZ4Y0hKaFlsTm1aVlExVUhKUFdrY3lTRzFWUVVocVJVOVRhQzFVWmpSdlRtSk1TV3d6WWt0VE9XTm5aV1ZhYkROVFR6VlRXR3BYTkZJd1kzaDVZbmgyTkdGemJsaGlPSGN4TjNOdVJYaGhlVlZQVVdWME1uUjZVVFZFZW5OaFZWcHZhMVl5UTE5bFpHVm1SRjlJVldwR1UxZFpiWFp0YVc5UVFVUmhZWHBLTlRWa1RuWVNGSFJOTjNoaGRGcHBNMDk2VmpkM0xXUm5ZbkJCR2lKQlNFNHdSVGRGV1RSR2RrUnRUMnRPTTJsV1FXcExWVUZQWTJwVGNHRjJhRWhCOjY5YzU5NmNj",
+   "source": "jsearch",
+   "publisher": "Jooble",
+   "title": "Data Product manager informatique",
+   "company": "Spotify",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jooble.org/rjdp/-9035623478141866085",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Mission Statement The Platform team creates the technology that enables Spotify to learn quickly and scale easily, enabling rapid growth in our users and our business around the globe. Spanning many disciplines, we work to make the business work; creating the infrastructure, tooling, frameworks, and capabilities needed to welcome a billion customers. About the Team We are looking for a passionate Product Manager to join Spotify\u2019s Data Platform Studio. Data Platform\u2019s mission is to enable the application of data in an intuitive and efficient way\u2014helping Spotify extract value from data at scale. Data Platform is responsible for how data is collected, processed, stored, governed, and made available to the thousands of engineers, data scientists, and analysts who build Spotify\u2019s products. With AI agents increasingly writing data pipelines and powering personalization, this is one of the most consequential infrastructure domains at Spotify. What You'll Do Understand the needs of Spotify\u2019s data community\u2014including engineers, analysts, data scientists, ML engineers, and AI agents\u2014and prioritize the most impactful problems to solve Define and drive the strategy and roadmap for your product area, connecting it to the broader Platform and company strategy Evaluate solutions across build, buy, or partner approaches to improve how Spotify works with data Define success metrics and track adoption, creating a continuous loop of learning and iteration Collaborate closely with engineering, design, and data science to deliver intuitive, high-impact solutions Build strong relationships with internal teams to gather feedback and co-evolve tooling and capabilities Influence stakeholders across the studio and company to align on direction and priorities Stay current with trends in data platforms, analytics, and AI/ML tooling Wo You Are You have 2+ years of product management experience, ideally in data infrastructure, developer tools, or platform products You have a technical background, such as a degree in Computer Science/Engineering or prior hands-on engineering experience You are experienced in working with cross-functional teams across engineering, design, and data disciplines You know how to translate complex technical concepts into clear product direction and strategy You have a strong systems-thinking mindset and can connect workflows, platforms, and business needs You care deeply about the experience of people working with data and strive to make their workflows better You are curious about AI and excited about its impact on data ecosystems You communicate with clarity, bring people together, and build alignment across different audiences Where You'll Be This role is based in London, Stockholm, or Toronto We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home. Our global benefits Extensive learning opportunities, through our dedicated team, GreenHouse. Flexible share incentives letting you choose how you share in our success. Global parental leave, six months off - for all new parents. All The Feels, our employee assistance program and self-care hub. Flexible public holidays, swap days off according to your values and beliefs."
+  },
+  {
+   "id": "jsearch:WGFVTUM4SjdzZmU1bnRvMEFBQUFBQT09OkVza0JDb3dCUVVSRVlsZGxZblp5UTFGalkycHVkbXhLTVhJemIyMW1VRXhZYkhGMlVEZEVNVlJRZEVzdFRsQTBlREpUWlhCME0zWklSelZ6TUhWcFZtaDJWVE5YVERGU2IzVkhTR2RVU1VVMlEyUmZhelZKVGpCbU9FWlVSbGsxTW1KcVdqbDNSMmc1ZGt3eWRVUlhUMlJCWlVsNWFVeE9WWFU0V2xCNFZWVmxjVkJQYlVaelJ6azJOa2MzV1VwMVVYRVNGSFJOTjNoaGRGcHBNMDk2VmpkM0xXUm5ZbkJCR2lKQlNFNHdSVGRJVW5CdmNXSnRPV05PVW5OelRXaEJXbTl2YzBKa2NucE5XVWhCOjM2NjVhMTdm",
+   "source": "jsearch",
+   "publisher": "BeBee",
+   "title": "Senior Data Product Manager, Platforms & Strategy",
+   "company": "Scotiabank",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://bebee.com/ca/jobs/senior-data-product-manager-platforms-strategy-scotiabank-toronto-on--jooble-4409978457056546186",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Scotiabank is seeking a Senior Manager, Data Product Manager in Toronto to steer data product strategy and roadmaps for International Banking. You will define vision, own backlogs, and collaborate with Analytics, Risk, Finance, and country teams to deliver governance-driven data solutions on Harbour (Azure Databricks). You will lead a small team of Data Product Managers and coach them to achieve measurable outcomes."
+  },
+  {
+   "id": "jsearch:ZzJVNGxtb0hkbnJXZFpESEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXWEZ2ZG5aUFZWTnlNR0ozYTFOdVFVZHlSV1EzTm1kb01IaEtZM3AzYVhscmJTMVRkM0pXV2pGYVMySnJaWEJKV0ZKdGVXWnpaSE54UnpndGVrSTNVSFpCTTFoNVoxZHpha2xVZUZSbVdrZHZlVzFXYlVaVmREVklaVGhDTmtWTFdERTFVbU41UzNWU1VEUlhlVE5GTkd0Uk1ESnJjemxsTVMwdFVISm1TMGRYVGpOU1JuUVNGM1pqTjNoaGNYSk5UMXBYY0hCMFVWQjBUbkZEY1VGTkdpSkJTRTR3UlRkRmNETTRNbGxJWDB4clJEZENMVWx5ZEdKNk9HNWpWREpYY25SbjoxNTM0MTgwZQ",
+   "source": "jsearch",
+   "publisher": "Toronto Jobs Expertini",
+   "title": "Sr Product Manager, SaaS / AI (Remote)",
+   "company": "Syndesus, Inc.",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://toronto.ca.expertini.com/job/sr-product-manager-saas-ai-remote-toronto-syndesus-inc-3875-13842575/",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Contact: Feel free to connect with Senior Product Manager We are looking for a Senior Product Manager to own and lead product strategy for a well-established, AI-forward technology company of approximately 1,000 employees . This is a 100% remote opportunity . The ideal candidate has 5+ years of Product Management experience building and launching successful B2B SaaS or cloud software products , with a strong track record of owning products from customer discovery and strategy through development, launch, and iteration . We're particularly interested in candidates who have experience incorporating AI/ML, intelligent automation, or AI-driven features into customer-facing products. You should be highly customer-centric, analytically strong, and comfortable partnering closely with Engineering, Design, Product Marketing, and Go-To-Market teams. This is a hands-on product leadership role for someone who enjoys speaking directly with customers, translating complex workflows into elegant digital experiences, and driving measurable business and customer outcomes. Own the product strategy, roadmap, and execution for one or more core product experiences. Identify opportunities to leverage AI/ML and automation to improve customer experience and operational efficiency. Lead continuous product discovery through customer interviews, user research, product analytics, support insights, and sales win/loss data. Translate complex customer workflows into clear PRDs, user stories, use cases, and product requirements. Partner closely with Engineering and Design to build, launch, measure, and iterate on new features. Collaborate with Product Marketing and GTM teams on positioning, market research, launches, and commercialization. Analyze product usage and business metrics to measure feature success and guide future roadmap decisions. Evaluate customer segments, competitors, industry trends, and pricing and packaging opportunities. Ruthlessly prioritize the product backlog around the highest-impact customer and business outcomes. Use modern generative AI tools to accelerate research synthesis, analysis, documentation, and product decision-making. 5+ years of Product Management experience delivering B2B SaaS or cloud software products. Demonstrated ownership of product strategy and end-to-end product execution. Proven experience leading complex initiatives across Engineering, Design, and Go-To-Market teams. Experience with AI/ML concepts , including customer-facing AI capabilities and/or AI-driven product workflows. Strong experience with customer discovery, user research, and translating customer problems into product solutions. Strong analytical skills, including using product analytics, customer data, and ROI analysis to make prioritization decisions. Experience working within an Agile product development environment. Ability to navigate ambiguity, balance competing priorities, and make strong product and business trade-offs. Comfortable working effectively in a 100% remote environment. Experience developing AI-enabled products, intelligent automation, or AI-driven customer experiences. Strong understanding of emerging AI/ML capabilities and use cases. Experience working closely with technical teams to bring AI-powered functionality from concept to production. Strong market and competitive research capabilities. Experience with product positioning, pricing, packaging, and GTM strategy. Strong written and verbal communication skills. Comfortable engaging directly with customers and translating complex workflows into intuitive product experiences. How The Company Works 100% remote \u2013 collaborate with a distributed team while maintaining significant ownership and autonomy. AI-forward \u2013 actively investing in AI, automation, and new AI-driven product experiences. Established scale \u2013 approximately 1,000 employees , combining meaningful resources with opportunities to build and innovate. Customer-first \u2013 product decisions are grounded in continuous custome"
+  },
+  {
+   "id": "jsearch:NFZoMVo0Q0M1UzdKaC1NSkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVXRuYW5GbFFtbFJZVFZyY1RKS1VuUlpYMEpJUmxBeFdXMVNWVFl4YlV4clV5MXpiM3BrZFVrNFMxWmpRVXAxWTBKWGNEQlVabWxTVGtkamIxcGphVUYxT0dsT2VVTllPVTF4TVdKbGJuRjRkM2xqVlRaNldFWjVaVFZKZDNsWVpWUm9WemhaT1ZkWFdEZElUREpOZGxsV1JtMTBabTFOVnpOMWJXMUZVRGd3ZFZKaGVEUVNGM1pqTjNoaGNYSk5UMXBYY0hCMFVWQjBUbkZEY1VGTkdpSkJTRTR3UlRkSWVGRndUbU5qTldsbmMwRk5NMU5CVFZkb1YzTnVaRlJ2V0c1bjpmZjBhYjY5OA",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Product Manager, iGaming Apps \u2014 Roadmap & Growth",
+   "company": "Betstamp Ventures",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/senior-product-manager-igaming-apps-roadmap-growth--toronto--e79bc82b341a4d3695bfa5e84d69a5196",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Betstamp Ventures is seeking an experienced Product Manager to own the roadmap for our iGaming consumer apps. You will turn a long list of ideas into shipped, measured changes, and own the end-to-end product lifecycle from onboarding to first purchase. You\u2019ll run experiments, write specs for engineers, and rely on dashboards and data to guide decisions. Based in Toronto, you\u2019ll collaborate with a small, fast-moving team at our King St W office most days."
+  },
+  {
+   "id": "jsearch:bWJGUmxUU0FTMVpKcnI4VkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVXc0YjNCSU56Tk5XVXRvVEd0blRFVkJablJJUmxFeldTMHdkVEoyVWpNMlNsUXRibEIxYVVWNU1Wa3dRMkUxYVVSSFZVMU1OakY2YlVsWlUyOXNZVUZsWW1WaVJuRXRZblZGYUU5M1VtMXJNbDlzWDI5V2EzVklhbWxEY0VoVmJsQklXblJaWkRCVlFWSlVkWGRaYkhkU1gwdHhZM0ppTkdwSVJscFdZbWMxVWt4cE0wNFNGM1pqTjNoaGNYSk5UMXBYY0hCMFVWQjBUbkZEY1VGTkdpSkJTRTR3UlRkRlEyMWxNRFV4UkVGMVJ6Uk5VamRoZW5jNFQwb3dVRXQxV0dWMzpiZmRiNGI4Zg",
+   "source": "jsearch",
+   "publisher": "Toronto Jobs Expertini",
+   "title": "Senior Group Product Manager \u2014 FinTech Payments & Platform",
+   "company": "Wave HQ",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://toronto.ca.expertini.com/job/senior-group-product-manager-fintech-payments-platform-toronto-wave-hq-5769-60506/",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "Wave is seeking a Group Product Manager, Financial Services to lead Wave/SMB\u2019s payments capabilities and broader financial services experiences that help small businesses move, manage, and trust their money. This role coordinates Product Managers across payments acceptance and processing, platform modernization, risk and fraud mitigation, and future financial services capabilities, with a focus on reliability and customer trust. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:LWNLUnA4RkpweW1zMVZCYUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbk5oTVZwRlZHaDBZM05yYUdWV05XbDNWRlUzTkRFNFozcE5hV0ZqVnkxdVdERmFRMjFYTjJocmJrUkxTMjVhUjJGV1VsSndSMjV5U0ZCb2FIbGtORXhEWldsUGJqQkpRbHB2WlVjNFVXcFZXVEZmU2taalNGTkdUbTlEZEU1TVYyTTVkVlZoWlZGdU5XZEhNR1ZaWW1kellsbFdWRVkzVmxCWldsSk1SMkZEWDNGV1dUZ1NGM1pqTjNoaGNYSk5UMXBYY0hCMFVWQjBUbkZEY1VGTkdpSkJTRTR3UlRkRlZYcDJaalV4ZEhaMlRUZFZVUzFqTTBVeFpEUnJiMUJEVlhKMzo4YmU2OWQ5OQ",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Fractional Product Lead",
+   "company": "Gofractional",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=642679002377954833",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "",
+   "description": "About the role You'll join Beacon's Portfolio Product team \u2014 a cross-functional group of Product Managers, Engineers, Designers, GTM experts, and Data Scientists working directly with our 40+ portfolio companies and counting (at roughly one new acquisition per week) to drive measurable outcomes through AI and software. At the core, every PM at Beacon owns product outcomes for 2 to 5 portfolio companies at a time, acting as a hands-on, founding product leader embedded in each business. You'll sit close to the GM, the operators, and the customers, figure out where the leverage is, and ship software directly into the business. The best PMs don't just deliver for the companies they're deployed at \u2014 they compress what they learn into reusable playbooks that spread to every other portfolio company in the same vertical. The ultimate objective is to transform our portfolio companies into unicorns! For the right candidates, this role grows beyond individual ownership. As your vertical scales, you may build and lead a team of PMs, take on hiring and coaching responsibilities, and become the person who sets product vision and standards across an entire industry segment \u2014 partnering directly with GMs, founders & operators, and driving planning across the whole portfolio. How much of that path applies to you depends on your background and trajectory, and we'll shape the role around what you bring. This is not a consulting role. We ship software, not slides. The deliverable is a running system. Key Responsibilities \u2022 Own product outcomes for 2 to 5 portfolio companies simultaneously, acting as a fractional/founding product leader embedded in each business \u2022 Lead quarterly and annual planning, helping teams set product visions and translate them into achievable goals \u2022 Build and maintain roadmaps that balance customer needs, business goals, and technical constraints \u2022 Drive sprint planning and execution, improving team velocity and predictability over time \u2022 Develop prioritization frameworks that help CEOs and operators make better product decisions \u2022 Build customer feedback systems that turn qualitative inputs into actionable roadmap decisions \u2022 Coordinate feature launches across engineering, sales, marketing, and support \u2022 Coach developers, designers, and early PMs to think like product managers \u2022 Distill learnings into cross-portfolio playbooks that scale impact beyond your assigned companies \u2022 Partner with GMs, founders, and operators to set product vision and translate it into executable roadmaps \u2022 Contribute to Beacon's broader AI platform by surfacing patterns and opportunities from your companies As your scope grows you may also \u2022 Build and lead a team of PMs, hiring, onboarding, and developing them as your portfolio scales \u2022 Codify cross-portfolio playbooks that turn individual wins into repeatable systems across an entire vertical \u2022 Set the bar for how great product work looks at Beacon \u2014 spec quality, customer discovery, prioritization rigor \u2022 Own product strategy and outcomes across a defined vertical, not just individual companies What We're Looking For \u2022 BA/BS degree; MBA a plus \u2022 4+ years of product management experience, ideally in B2B SaaS (senior candidates typically bring 7+ years, including 2+ years in a formal leadership role or as a co-founder) \u2022 Strong fundamentals: roadmapping, sprint planning, spec writing, prioritization frameworks \u2022 Sharp customer discovery instincts and the ability to identify high-impact opportunities fast \u2022 Comfortable managing multiple companies and stakeholders simultaneously \u2022 Ability to influence founders and executives without direct authority \u2022 For more senior candidates: a proven track record leading and developing other PMs, not just doing great PM work individually \u2022 Strong systems thinking \u2014 you see patterns across companies and know how to turn them into playbooks \u2022 High autonomy, low ego. You figure things out and get them done \u2022 Entrepreneurial mindset and genuine comfort with ambig"
+  },
+  {
+   "id": "jsearch:Q1FtUmlselZ4emluOEVnZ0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZazVUV0VkUVNrTXpXa1JOVURoWVNYa3pjRmhsTkRFd2VrMUJaemh1YzBrdFgxQldiMGx2WHpoSmVrUXRNR0p1WlZSZmNGZGhNR2RDYkMxMFRFUlBaa2hOVlZFMGQxUk1WbDg1YzJ4VVUwaElTVW93TmpFeWVrbEdYM2RCZGtZMGJIcDVZekF6YTFGRGNVMWFkVzUwVXpaTVJVWlpWMmhxVEdOT1lXaHJURkZ5TURWTlRDMFNGM280TjNoaGRYVlhTVGhZY1cxTVVWQXdjR0UzYTBGbkdpSkJTRTR3UlRkRmNXMXpZblpGTkZoelRqVmtOamRPVVdOa1FsSjNkekpMTkRKQjo4NTFjM2U4Zg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Remote Senior Product Manager, Healthcare Ops & Data",
+   "company": "Elevance Health, Inc.",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/us/job/remote-senior-product-manager-healthcare-ops-data--nashville--ec985aa7da0c2a0e5e0ab8c6f52163407",
+   "posted": "2026-11-06T00:00:00+00:00",
+   "salary": "120K\u2013150K a year",
+   "description": "CareBridge Health, a member of the Elevance Health family, seeks a Senior Product Manager to lead strategy, development, and continuous improvement of product capabilities across core service lines. You will partner with Engineering, Clinical, Operations, and client-facing teams to translate complex needs into actionable requirements and guide the product lifecycle from discovery to delivery. The role emphasizes data-driven decision making, stakeholder engagement, and cross-functional"
+  }
+ ]
+}
