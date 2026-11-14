@@ -1,0 +1,532 @@
+{
+ "run_at": "2026-11-14T12:01:46.420010+00:00",
+ "date": "2026-11-14",
+ "runs": [
+  "2026-11-14T120146Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 28,
+  "remoteok": 0,
+  "weworkremotely": 3,
+  "adzuna": 0,
+  "builtin": 4
+ },
+ "new_count": 17,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 20,
+   "kept": 16,
+   "error": null,
+   "rejected_by": {
+    "title": 4
+   },
+   "rejected_samples": [
+    "[title] Senior New Product Introduction Program Manager | 1Password LLC | Toronto, ON, Canada | 2026-11-12T00:00:00+00:00",
+    "[title] Manager - Product Control | RBC | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Associate Manager, New Concepts (Product Development) | HelloFresh | Toronto, ON, Canada | 2026-11-11T00:00:00+00:00",
+    "[title] Product Operations Manager GTA | Indigo Books & Music | Toronto, ON  (+1 other) | 2026-11-12T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "cursor": "EvcGCrcGQUREYldlWmY3X2hHQVJEckZFQ3d5THNTQjQ5WGVpbFBQcWdSMjBtc0xTSzVVSVpuRVUzcEY5ZVJ4ZV9VUkdWbTF4aEdXWk1paG9oWFN0S1lfZGtWNGFvRS1EQVNtLXRHQjB2TzE1bGt0ODZTX29tbHY1U19jVmhfR3lvQkNZdTQ4UWNRSndVemg4MnF4Zmc4dDNnRDc2ZHNqTDByY3hfOHh5QVEzbWtQS0xuV2kySzU1RjhUT1c4ZWxnaWNBTl9yU0htRmVLOXpndEFyc0JOZVlRRHZ2YTFTYy1vVEMwbERVaG4wTnpSZkloT1JwaFh1TVVtYXJ2cHZvbG9sUkZtdml4RXRVa2U5dC1aTGdpTG1UUXd5cTFIeEZFWVR3OFdJcVhVSV9DcnFiU2Y3YUdHQjZSamZESWRXVHBvdGNWa1VYVHktYnJIR2twaWJHRTFha1BpejRJU2xfaHYtZ0xQblNBVGQzNDBiWG5fZU1IdWc2U21fRVhha0YzVDNCN01kWVZ0UHEtRkg5c2wzS3YwbEhsbHpoSTlpT2ltRGo4WE1sZF9IODNlb1ZwZVZNQVlJRDFicW9hS3JtVFhXVjBXT0h6eU1wRUhIV1JvR2FyM1pOb3dWV3pRNzlzV01GLVdlWER4a2ZqYzBodEVoemhUekJPVUpaZk1Ra0xrOUhwZEhLN3NVdTVQVkpoMDFPejViSXdzcWZxU0NYTVlqSk1sUGxveE5rSEpobnIyWU16WVkwYnExT2lFWFJzS0hJQVhzbEhXVElISGlzRVdhQVpnbVBRdGZVM3l5RXZYUW5QdV9OMjBqbEpQUGxLZGJSNTVlT29RQ1F6V1VMS2UwUGEwMHdZeDhraUxXV2J5Nk9DalE4OGpjYk9HcjZYV0FUb1FXSl81RFAxWFhGM21sTERKOGliZWMtZTF5QWtndlhTOUN1bXVmeWxweVZDVGdSVmxZVUhmNHFlbWZCSC03TjItSXF5TGc4OWtSQVZ2cHVvcU4yZDIzTUVGRzRoQ2dlUGthZHk1RTlyNTdTaUhPcmY5Z2tsVHo2U2RZSzhsX3FEbXdBdk02VWJ4Rll4SGJ6VEdRVjhvSWZsURIXc0UzNGF1dTNBNExycHRRUG1KcUd1QW8aIkFITjBFN0Y2T0FvZmJhU1BaRmp5ZnBzZ0pEczdkX0VVYVE",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10,
+    10
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 10,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "location": 5,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[location] Product Manager | Postmedia Solutions | Canada   (+30 others) | 2026-11-14T00:00:00+00:00",
+    "[location] Senior Product Manager | HostPapa | Canada   (+30 others) | 2026-11-13T00:00:00+00:00",
+    "[location] Product Manager, Trakstar and Compensation | Mineral | Canada   (+52 others) | 2026-11-14T03:00:00+00:00",
+    "[location] Product Manager - Network Observability | BlueCat Networks | Fort Albany, ON  (+1 other), Canada | 2026-11-12T00:00:00+00:00",
+    "[aggregator] Senior AI Product Manager - Remote, Global Impact | Jobgether | Toronto, ON, Canada (Remote) | 2026-11-11T00:00:00+00:00",
+    "[location] Digital Product Manager, Agentic AI Platform | Clario | Canada   (+81 others) | 2026-11-11T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 8,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 2
+   },
+   "rejected_samples": [
+    "[aggregator] [Remote] Senior Product Manager, CRM & Engage | remote quest jobs | Anywhere (Remote) | 2026-11-11T00:00:00+00:00",
+    "[aggregator] Senior Product Manager - Remote | remote quest jobs | Anywhere (Remote) | 2026-11-11T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 97,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 91,
+    "location": 4,
+    "too old": 2
+   },
+   "rejected_samples": [
+    "[title] Global Partnerships BD Lead | Fuku | Paris (Remote) | 2026-11-13T08:00:21+00:00",
+    "[title] Scaled Account Manager EMEA | DoiT | Estonia (Remote) | 2026-11-13T08:00:15+00:00",
+    "[title] Software Engineer AI Tooling | Supabase | Remote | 2026-11-13T00:00:15+00:00",
+    "[title] Research Engineer Privacy and Anonymization | Pragmatike | Remote | 2026-11-12T16:00:38+00:00",
+    "[title] Freelance Question Reviewers | AMBOSS | New York (Remote) | 2026-11-12T16:00:32+00:00",
+    "[title] Patient Care Specialist I | Boston Scientific | Remote | 2026-11-11T08:00:08+00:00",
+    "[title] Strategy & Operations Coach APAC | Mento | Remote | 2026-11-11T00:00:15+00:00",
+    "[title] Bilingual Patient Engagement Specialist I English Spanish | Sprinter Health | Menlo Park (Remote) | 2026-11-11T00:00:09+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 27,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "location": 1,
+    "title": 17,
+    "too old": 6
+   },
+   "rejected_samples": [
+    "[location] Senior Product Manager | Patchstack | Europe Only (Remote) | 2026-11-09T01:53:21+00:00",
+    "[title] Product Owner | Zanda Health | Anywhere in the World (Remote) | 2026-11-04T12:59:25+00:00",
+    "[title] Senior Solution Architect | Otter.ai | Anywhere in the World (Remote) | 2026-11-02T07:31:12+00:00",
+    "[too old] Lead Editor Product Manager | Descript | Anywhere in the World (Remote) | 2026-11-02T07:31:04+00:00",
+    "[too old] Principal Product Manager - Identity | ZoomInfo Technologies LLC | Anywhere in the World (Remote) | 2026-11-01T07:31:04+00:00",
+    "[title] Senior AI Engineer - EU | Typeform | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Senior AI Engineer - US | Typeform | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00",
+    "[title] Principal Applied AI Engineer - Entity Agents | ZoomInfo Technologies LLC | Anywhere in the World (Remote) | 2026-10-29T07:30:52+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 5
+  },
+  "builtin job pages": {
+   "returned": 5,
+   "kept": 4,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Director of E-Commerce"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:TjVySmlCZlVqNFU3cUJ0V0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWEpHWkV0NGNGbFplRkJwWDJoaFowZE1ZVE5oZHkxemJVWXpVMjl0UlhKU1JEWm9XQzB3Y1U1QlEzZDZNMGh1V1ZKWVdsOVVTSFJyZWtaVFJ6Wk1kbWhEVEU5eE4yTXdVa2xpTWs1QlZqaHZTVTlYZGxseFdtVTRhV3RXY3pOS1ZFOTRVV1phWTBSSlVucDVaR2hZWkdOc2FXTTFWRVpLZWkxVFMwNW1RMHR1TUZOMmJrb1NGM2hGTXpSaGRUSTBTR1o1VVc1bGMxQndPSHBRZVZFNEdpSkJTRTR3UlRkSE1WbFFjRk0yYkZkUVgzRlhOV3hYU2tsNWJrdEVORVYwTm5WUjo3MmJmYjQ4ZQ",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Senior Product Manager: Developer Experience",
+   "company": "Trase Systems",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.indeed.com/viewjob?jk=3a19e0409689292f",
+   "posted": "2026-11-14T01:00:00+00:00",
+   "salary": "",
+   "description": "About Us Trase is the operating system for high-stakes environments, providing end-to-end solutions for deploying, managing, and optimizing AI within industries where security, governance, and data sovereignty are non-negotiable. Our HIPAA- and SOC 2-compliant platform bridges the \"last mile\" of AI adoption, empowering sectors like healthcare and national security to run trustworthy, predictable AI agents across any model or environment\u2014whether in the cloud, on-prem, or at the edge\u2014with unified policy enforcement, continuous monitoring, and fully immutable audit trails. Trase's suite of products includes Origin, its agentic operating system; Leagues, its marketplace for specialized, configurable, ready-to-deploy agents; and Arena, where developers build, evaluate, and package the agents that run on Origin. The company has repeatedly topped Hugging Face's GAIA Leaderboard for Generalized AI Assistants, placing it firmly at the forefront of AI-agent innovation. The role: Senior Product Manager, Developer Experience You'll own the experience of developers who build, test, and deploy AI agents with Trase. Your job is to help a new developer get to a working agent quickly and give experienced teams tools they can trust in production. As teams move from experimental agent demos to mission-critical production systems, you will define the standard for how serious developers build, evaluate, and ship AI agents. You'll be the product manager for Trase Arena, our SDK and tools for building AI agents. Your scope covers a developer's work from the first build through deployment, observability and improvement on Origin. You'll work directly with developers, engineering, design, and product marketing to build an experience that earns adoption through the product itself. What You Will Do \u2022 Know the developer: Work directly with developers to understand what they're trying to build. Observe where they get stuck, test assumptions, and use what you learn to set priorities. \u2022 Set a high bar for the tools: Own the developer experience across the SDK, APIs, and CLI. Make them consistent, predictable, well documented, and useful for real development work. \u2022 Make the whole journey work: Connect building, testing, evaluation, packaging, and deployment into a coherent experience. Partner with the enterprise platform PM to make the path through production approval clear for builders and operators. \u2022 Own documentation and onboarding: Treat these as core parts of the product. Help developers understand the concepts, complete their first deployment, and solve problems independently. \u2022 Build ecosystem foundations: Prioritize examples, templates, and reference integrations that help developers build useful agents. Shape how developers discover, reuse, and share what others have built. \u2022 Earn developer trust: Establish clear expectations for compatibility, API versioning, and deprecation. Work with engineering to make changes understandable and manageable for developers. \u2022 Drive product-led growth: Reduce friction from first use through repeat adoption. Partner with product marketing on getting-started content and developer adoption, grounding that work in the actual product experience. \u2022 Measure and deliver: Own priorities and follow through from discovery to release. Track monthly active developers, time to first deployment, onboarding time, developer satisfaction, and the number of agents built with Arena and running on Origin. About You \u2022 You've owned and shipped developer products such as SDKs, APIs, CLIs, or development platforms. \u2022 You have strong product taste in developer tooling: You have an opinionated point of view on what makes an API intuitive, an error message actionable, and a CLI joyful to use\u2014and you can defend those opinions with engineers and designers. \u2022 You care about the details developers notice: clear abstractions, useful errors, accurate examples, dependable behavior, and documentation that answers the question. \u2022 You think like an e"
+  },
+  {
+   "id": "jsearch:YW90dF9WVm02c3R1eTJwZ0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVzlrVnpBNFZWcGlkWGRaYVhCdE4zQndZMlF4ZWtkdlZUSnZUV1JwZERGeVdVMDRRVTFOWkVSdlUwMTBkWEJMZGpjelpGRnFlR1p1Tm5CYWEyWTJNVEozUzNkM2JURjVNVkJLUmpBeWFYcHBabVpuUzBKV1EwMUVaa3h3TTA1RmIzUTJZVVJyV2sxeVdIWllSWEJrWWprMFJVWmpZMlpSVDNaalowSTVWR0phVWpsTVRGQVNGM2hGTXpSaGRUSTBTR1o1VVc1bGMxQndPSHBRZVZFNEdpSkJTRTR3UlRkSGNXaG5NRGhRV2xOTFdsQXpWSFl3Y1RWUVFuQjNiRkIwWjE5UjpmYTE1YTAzZg",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Product Manager: Platform & Data Foundation",
+   "company": "Securly",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/us/job/senior-product-manager-platform-data-foundation--san-francisco--ed605b7e12964b6508cf24adc60e3431f",
+   "posted": "2026-11-14T00:00:00+00:00",
+   "salary": "150K\u2013210K a year",
+   "description": "Securly is hiring a Senior Product Manager \u2013 Platform & Data to own the platform underneath safetyOS, aligning core services, data layers, and customer-facing data products for districts across the U.S. You'll collaborate with the CTO, Engineering, Data team, and product leads to define strategy, own SLOs, and ensure high-quality data is available across products while maintaining FERPA and COPPA compliance."
+  },
+  {
+   "id": "jsearch:UW1BUHBuTnVuVXJPNDRNbkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbkZPWVhSd0xVOWtUM1p6YUUxUFNXVkNRMGRtZG5GUFltYzVXRmhRYVRBM1IzcEtkbmRUUTJWd1lXMXZRbU14YmtSaFoyTktibU5zTjNsRlIxRnpaMVE1ZDFKbmNuWmpiRkJ5Vm1ReE1HbGZTMFpzTWxvdFZHWkNiWFF3Y1VsWmNGSkJlREZTYm5ad1l6Tk1XbXhCY21JMGRUZFBVWGxNT1hwV1RrazFXVzFzT1d0dFdFTVNGM05GTXpSaGRYVXpRVFJNY25CMFVWQnRTbkZIZFVGdkdpSkJTRTR3UlRkSFNFcHlURlJsZEcxTk9FZzRXbWN5UkY5VlgzSTFObk40VW1OMzphZTc1MzZlNA",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Senior Product Manager, New Starts",
+   "company": "Jobber",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=de681b23f02d89ed",
+   "posted": "2026-11-13T20:00:00+00:00",
+   "salary": "",
+   "description": "Are you a dynamic product manager with a passion for impacting small businesses? Then Jobber might be the place for you! We\u2019re looking for a Senior Product Manager to join our New Starts team, helping the next generation of home service businesses make it past their toughest years. Jobber exists to help home service businesses be successful, like your local plumbers, painters, and landscapers, to transform the way service is delivered through technology. With Jobber they can quote, schedule, invoice, and collect payments from their customers while providing an easy and professional customer experience. Running a small business today isn\u2019t like it used to be\u2014the way we consume and deliver service is changing rapidly, technology is evolving, and customers expect more. That\u2019s why we put the power and flexibility in their hands to run their businesses how, where, and when they want! Our culture of transparency, inclusivity, collaboration, and innovation has been recognized by Great Place to Work, Canada\u2019s Most Admired Corporate Cultures, and more. Jobber has also been named on the Globe and Mail\u2019s Canada\u2019s Top Growing Companies list, and Deloitte Canada\u2019s Technology Fast 50, Enterprise Fast 15, and Technology Fast 500 lists. With an Executive team that has over thirty years of industry experience of leading the way, we\u2019ve come a long way from our first customer in 2011\u2014but we\u2019ve just scratched the surface of what we want to accomplish for our customers. The team: Every service business starts somewhere: a truck, a trade skill, a handful of first customers, and an owner who has never run a business before. The first years are the hardest, and too many promising businesses don\u2019t make it through them. The New Starts team exists to change those odds. Our mission is to help new service businesses become stable, growing companies. We work across the whole journey: the first trial and the critical early weeks in the product, and the path from \u201cjust getting started\u201d to \u201cgrowing with confidence.\u201d This is an exciting mandate, and it is deliberately different. We are accountable for whether new businesses succeed, not for a single funnel stage or a conversion number. We spend time with new owners, we favour customer-first bets over short-term metric wins, and we work hand in hand with cross-functional teams building Jobber\u2019s AI-powered customer journey. If you want to build something meaningful from a blank page, this is that team. The role: Reporting to the Director of Product Management, the Senior Product Manager will contribute to the product strategy for New Starts and own the roadmap that brings it to life. You will work closely with Engineering, Design, and Go-To-Market stakeholders, alongside fellow Customer Experience Product Managers, to turn that strategy into experiences new owners feel in their first days and in their first year. The Senior Product Manager will: \u2022 Contribute to the vision and strategy for New Starts, defining the outcomes that matter for new businesses and the leading indicators that tell us we\u2019re on track, then own the roadmap that gets us there. \u2022 Lead discovery with new owners. Meet with new service businesses regularly, uncover what makes the difference between stalling and growing, and turn what you learn into clear priorities. \u2022 Lead end-to-end product development across the journey, from free tools that create value to the moments where a new business is ready to grow. \u2022 Build growth loops and run experiments that connect out-of-product and in-product experiences, balancing short-term wins with long-term bets. \u2022 Use AI to make the journey personal, partnering with the teams building Jobber\u2019s AI-powered recommendation engine and customer journey platform to meet each new owner where they are. \u2022 Align and influence across the organization, bringing Engineering, Design, and GTM teams around a shared view of what great looks like for a new business. \u2022 Monitor and report on performance of your initiatives to s"
+  },
+  {
+   "id": "jsearch:QWNtLTc2RkxCVHVGS25vcEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbmxLUVV4c1dsWnVRbVF3WjJOSFdISnNWa2hmTTFjNE9GaHdSR2hhYjJoamIyRnljMGhIV1drMUxXZGhTRXRKVUc1clJtZElVVlJXZDNSeFpEQnFhemcyUjBKaFZqVmhkVmhIWjBaamFXbFBaMEZtYW5GSE1qZFRRbkIyVUhSQmFVUjVWRWhxZUd3dFlqVkdTbDlSY2pWd1dsSjNTbEE0Vm5CS2VsbE9jRzVpUkhndFFUTVNGM05GTXpSaGRYVXpRVFJNY25CMFVWQnRTbkZIZFVGdkdpSkJTRTR3UlRkRlowODVkRkZEYkRWWVZGOUxhR0pwZVVWNWVqQktUblJPTUdabjpkYTAwNTgxNA",
+   "source": "jsearch",
+   "publisher": "LinkedIn",
+   "title": "Senior Product Manager, Rights & Royalties Modernization",
+   "company": "Warner Music Group",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.linkedin.com/jobs/view/senior-product-manager-rights-royalties-modernization-at-warner-music-group-4490771407",
+   "posted": "2026-11-13T19:00:00+00:00",
+   "salary": "",
+   "description": "At Warner Music Group, We\u2019re a Global Collective Of Music Makers And Music Lovers, Tech Innovators And Inspired Entrepreneurs, Game-changing Creatives And Passionate Team Members. Here, We Turn Dreams Into Stardom And Audiences Into Fans. We Are Guided By Three Core Values That Underpin Everything We Do Across All Our Diverse Businesses \u2022 Curiosity : We do our best work when we\u2019re immersing ourselves in culture and breaking through barriers. Curiosity is the driving force behind creativity and ingenuity. It fuels innovation, and innovation is the key to our future. \u2022 Collaboration : Making music and bringing it to the world is all about the power of originality amplified by teamwork. A great idea, like a great song, travels globally. We ignite passions and build connections across our diverse community of artists, songwriters, partners, and fans. \u2022 Commitment : We pursue excellence for our team and our talent. Everything in music starts with a leap into the unknown, and we\u2019re committed to keeping the faith, acting with integrity, and delivering on our promises. Technology is one of the most important parts of our business. Whether it\u2019s supporting our songwriters, ensuring we provide the right royalty data to global partners, or helping our creative teams use the latest AI tools to discover new talent\u2014technology plays an invaluable role in our success. Product Managers help turn vision into reality. Check out first-hand accounts from the WMG engineering, product, design, infrastructure and data teams in our blog ! WMG is home to a wide range of artists, musicians, and songwriters that fuel our success. That is why we are committed to creating a work environment that actively values, appreciates, and respects everyone. We encourage applications from people with a wide variety of backgrounds and experiences. Consider a career at WMG and get the best of both worlds \u2013 an innovative global music company that retains the creative spirit of a nimble independent. Your Role As a Product Manager for Rights & Royalties Modernization at WMG, you will own new platforms that define who owns what, and who is owed what, across one of the largest music catalogs in the world. Every stream, sync deal, and payout depends on accurate rights data and deal performance calculation. In this role, you will use modern, AI-enabled platforms to replace legacy royalty and accounting processes and to improve how we manage our global rights portfolio and pay our artists. You will shape the strategy, roadmap, and organizational change needed for how WMG captures, validates, and activates rights across our recorded music catalog, so music reaches fans and everyone gets paid accurately and on time. What You'll Do \u2022 Product Ownership: Own the roadmap, both tactical and strategic, for your area. Communicate priorities clearly to engineering, business stakeholders, and leadership. \u2022 Cross-Functional Collaboration: Partner with engineering, UX design, finance, accounting, legal, business affairs, and label operations stakeholders to turn complex contractual rules into clear, scalable software. \u2022 Rights & Royalties Data Management: Build new products that capture and maintain ownership splits, territorial rights, terms, and more at a global scale, and then use these contractual terms to automate financial tracking and artist payouts, replacing legacy tools and processes with scalable, auditable systems. \u2022 User Understanding: Develop a deep understanding of your users across business affairs, copyright administration, A&R, and finance, then design tools that remove manual work from their day. \u2022 Data-Driven Decisions: Define and track KPIs around rights (e.g. data accuracy, completeness) and royalties (e.g. time-to-pay, calculation accuracy). Who You Are \u2022 Product Experience: At least 7 years of product management or equivalent experience, including building technical products from idea to launch. \u2022 Music, Rights or Royalties Expertise: You have hands-on experience wit"
+  },
+  {
+   "id": "jsearch:ZnRzQmo2ZzN1ZnU3TUE5MUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbWhTVlZabFRVUTJWVmt3VUVaTFprdGlNM2hJWm1sZlJEbDRXakpWTjFsRFdGRTNSbHB0VTJjd056WndSemgwUjBGeWFXVjFTbVJsWm1oRFFYZDRORVpmTlUxck5GTlpWbmhJT0VrNGVVNUxkM2x5VDFCMVJWQm5ZblpXVTFKV2F6bG1kbGRoYjNGb1Nra3lWRmhFTUhoS1dtRXhYeTFQT0ZoVVdUY3laV1JxVlcxRlFXb1NGM2hGTXpSaGRUSTBTR1o1VVc1bGMxQndPSHBRZVZFNEdpSkJTRTR3UlRkRk9GOW9XWFpQVDFKVFN6TnJaMm8zV1dkVVFuSlVhRnA2TVhObjo3MWU3M2Y5OA",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager, Agent Growth",
+   "company": "Lone Wolf Technologies",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6af765aa081ddfee5008d70a-senior-product-manager-agent-growth",
+   "posted": "2026-11-13T19:00:00+00:00",
+   "salary": "140K\u2013165K a year",
+   "description": "This a Full Remote job, the offer is available from: United States, Minnesota (USA) Lone Wolf builds the software real estate runs on. Brokerages, agents, MLSs, and associations across North America use our products for forms and transaction management (zipForm, Transaction Desk, Transact), e-signature (Authentisign), comparative market analysis (Cloud CMA), listing advertising (Boost), and brokerage back office. A large share of North American real estate agents use Lone Wolf products, and many of them buy on their own with a credit card: an e-signature plan, a forms upgrade, a CMA subscription, an ad for a new listing. You\u2019ll be the owner that runs it as one system, with one dashboard and a steady stream of experiments along the way. You\u2019ll wear two hats: \u2022 Product manager for Brand Management (Boost). Boost automates listing and brand advertising on Facebook, Instagram, and Google for agents and brokerages. You\u2019ll own its roadmap, its metrics, and the priorities of its engineering team. \u2022 Growth lead for every agent-purchased product. You\u2019ll own the path from first touch to purchase to expansion across Boost, Cloud CMA, Authentisign, zipForm and Transaction Desk upgrades, and more. This is your business to run. You\u2019ll report to the Chief Innovation Officer, who sets direction, holds the number with the executive team, clears cross-functional blockers, and makes the calls that need executive weight: major pricing changes, tradeoffs across product pillars, and scale-or-stop decisions. Everything else is yours: the backlog, the experiments, the funnels, the roadmap, and the weekly review. You won\u2019t be executing someone else\u2019s plan. You\u2019ll write it. This is a builder\u2019s role with a wide surface. Most of the funnel runs through teams you won\u2019t manage: marketing\u2019s website and SEO, CX\u2019s in-app messaging and onboarding, other product teams\u2019 engineering time, and sales conversations with brokerages. Your leverage is data, speed, and the ability to bring people with you. Responsibilities: \u2022 Own the agent revenue number. Build the dashboard yourself (SQL, Metabase), run the weekly review, and make it what everyone else looks at. Bring a monthly readout to the executive team alongside the CIO. \u2022 Find and fix funnel leaks in landing pages, pricing pages, checkout, trials, and in-product upgrade prompts. \u2022 Run lifecycle email as a growth channel. Iterable triggers at listing events, onboarding, upgrade, and win-back. Write the copy, set up the tests, and read the results. \u2022 Ship your own variants. Build landing pages and messaging variants yourself with AI tools. Work hand in hand with Marketing\u2019s website lead on lwolf.com agent pages and SEO, where Boost now sits alongside our other agent products. \u2022 Run experiments end to end: hypothesis, instrumentation, launch, readout, and decision, at a high tempo. \u2022 Own agent pricing and packaging: bundles, trials, annual plans, auto-renewal, and cross-product offers. Bring recommendations to the CIO for the big moves. \u2022 Shape how agents buy Transact. As agents move from zipForm and Transaction Desk to Transact, make sure the products they pay for today, like Authentisign and forms upgrades, still have a clear path to purchase. \u2022 Run the Boost roadmap. Balance growth work against reliability and commitments to brokerage and partner customers. Sales owns brokerage Boost deals; you make sure the product and the team behind it support them. \u2022 Test paid acquisition on a small budget, and scale only what pays back. \u2022 Get things done across the business. Win engineering time from other product teams, in-app placements from CX, page changes from Marketing, and agent offers in Sales conversations, without owning any of them. \u2022 Stand up lean product analytics that don\u2019t require hand-instrumenting every event. Requirements: \u2022 A track record of growing a purchase funnel with a product-led mindset. Bring the before-and-after numbers and explain what you personally did to move them. \u2022 Range across disciplines. "
+  },
+  {
+   "id": "jsearch:UE4xTzJmMWxoaUxwV1dtMkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbWR3Y1VFM2FURmtOVTFNUjBwVlJGZFBZMVZ3WWtvMlZuRk5OWHA1YW1rNVJHRnViME4wTFRobFVIYzNUMDVsUWtGcGVVcENjR041YjFSRVVtbERkelp4Y0RKUVZUQktUVk16VlY4eFlWRTBWV1JRUlRsVFgzUmhkemhGV2w5dlFYbGFlbnB0VDBWblIwRTFRamh3VG5CVWFFVkRPV2hZVVY5dWQwbEZhamhCUTE5NmNVRVNGM05GTXpSaGRYVXpRVFJNY25CMFVWQnRTbkZIZFVGdkdpSkJTRTR3UlRkR1JFTllUMHBOYURkbWJWSTNOVVJyYW5aSmFrd3daMmsyWTA5bjowNDdhYWZkMw",
+   "source": "jsearch",
+   "publisher": "SimplyHired",
+   "title": "Staff Product Manager, Self-Hosted and Connected Temporal",
+   "company": "Temporal Technologies",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.simplyhired.ca/job/XTtbYo0aPIN6eVb-1HWDmbe0yRXM34aCVw1uFgIA4rwOf_FrIwNDFA",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Role Summary Temporal is used by a lot of companies in a wide variety of contexts. Many use Temporal Cloud. Many others users don\u2019t yet know about Temporal Cloud, believe self-hosting is cheaper, and/or just don\u2019t yet see a need to move. Still others (often happily using Temporal Cloud at large scale) also operate environments where a managed service isn't an option today and may never be, like: \u2022 AI and application companies embedding Temporal inside software their own customers run in isolated, air-gapped environments, or offering a remote management BYOA posture \u2022 Large enterprises keeping operational control of critical systems in-house by policy \u2022 Companies operating in sovereign clouds and similar contexts where legal or organizational requirements make outside management difficult or impossible This role owns understanding the world of Temporal usage outside Cloud, what the different contexts demand, and where Temporal should (and shouldn't) engage. That includes what we build, what we support, what we charge for, and what we leave alone. You'll shape which offerings we pursue and how they make money or contribute to the larger business. Then you'll take the ones we commit to through launch and adoption. Open source Temporal is central to this. We\u2019re investing heavily in OSS, from performance improvements to easier management to clearer guidance on compatibility and cost. When companies write their apps on Temporal, they\u2019re making a huge bet on us, and that trust is sacred. A large part of this role is improving and shepherding how we keep making OSS better. What You\u2019ll Do \u2022 Map usage outside Temporal Cloud. Build the company's clearest picture of where Temporal runs outside Cloud and why. Separate structural constraints (air gaps, regulation, owning operational risk) from cost, inertia, and/or other factors. Turn that into segments and use cases leadership can make decisions with. \u2022 Decide what we pursue. Recommend which needs deserve new offerings, which Temporal Cloud should cover, and which we deliberately leave alone. Write the case, defend it, and revisit it when the evidence changes. \u2022 Define the line between open source and paid. Set clear guidelines for which improvements and support go into open source Temporal, and where paid offerings take over. Keep the open source experience strong, and make the line easy for users and internal teams to understand. \u2022 Define the business model. Work with leadership, Sales, and Finance on packaging, pricing, and how we sell offerings that run outside our infrastructure. Know what customers will pay for and what it costs us to support it. \u2022 Help Cloud win where it should. Work with other PMs so workloads that can run on Cloud move there more easily, with a clear value and TCO case. \u2022 Lead without authority. Align Engineering, Resident Architects, Dev Success, Security, and go-to-market teams, including when their incentives conflict. \u2022 Own outcomes. Define success in terms of adoption, revenue, and retention. Use the results to steer further investment. What You\u2019ll Bring \u2022 A track record of setting product strategy, not only executing it. You've spotted a new offering or market, made the case for it, and seen it through to revenue. \u2022 Experience with infrastructure or platform products that customers operate themselves: open source, on-prem, or hybrid. \u2022 Commercial judgment. You can connect a customer problem to willingness to pay, pricing, and the cost of delivering and supporting the product. \u2022 Technical depth in distributed systems and operations: Kubernetes, databases, replication, upgrades, and failure recovery. You can go deep with engineers and turn the tradeoffs into product decisions. \u2022 Comfort saying \"not this\" and backing it with evidence. You change course when the facts change. \u2022 Clear writing. You can turn messy evidence from customers and the field into a recommendation leaders can act on. Nice to Haves \u2022 Experience making money from open source or open-core pro"
+  },
+  {
+   "id": "jsearch:TlVpT1NkWmk3ZTRDRzhtc0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVEpEYkV0S05rbzBWMWx6TUdGNVFtNDVSazFrUVc1akxWSTFTVlpZZVZaWVRGSnRibGx5WVZwVVYyNTVjVzVOZFV4aGJHRnpaSGhaWDJKQ1ZIWkVTemhTYVV4dmJsaHhURGRoWkhrMmFFWlJWa013YVZoVlpVVjFZWFpDWmpad2RVWllPRTlKVmpOeFYwRmtiWFZwVm1oMU1HTlFRelp5VEY5QmVrWkhUME5GZWxCVFJtd1NGM05GTXpSaGRYVXpRVFJNY25CMFVWQnRTbkZIZFVGdkdpSkJTRTR3UlRkSU0wSjVibk56WDBaQmIySldWbFp3YzNRMVlYWlNjVzU1VFRGbjoxZjc2OWUzYg",
+   "source": "jsearch",
+   "publisher": "ServiceNow Careers",
+   "title": "Director, Regional Product Management",
+   "company": "ServiceNow",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://careers.servicenow.com/jobs/744000161586219/director-regional-product-management/",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Company Description It all started when engineer Fred Luddy wrote code that automated a tedious task for his coworker, Phyllis. She cried tears of joy. That moment inspired Fred to build a company that could do that for everyone\u2014freeing people from busywork so they could focus on meaningful work. Today, ServiceNow is the AI control tower for business reinvention. Our ServiceNow AI platform brings together any AI, any data, and any workflow\u2014 helping 85% of the Fortune 500\u00ae work smarter, faster, and better. We're building an AI-native culture where technology and talent are unstoppable together. And we're just getting started. Join us to put AI to work for people. Job Description Position overview: A Regional Product Manager (RPM) connects global product strategy to execution in a specific market. Product managers build features and own the core roadmap with engineering teams. An RPM takes that roadmap into one market, adapts it to local customers, regulations, and buying patterns, and owns its commercial success there. At ServiceNow, RPM markets are defined by geography, industry, or customer segment. In this role, you will own one industry or customer segment in the CANADA and LATAM region. You will be the person responsible for how ServiceNow's AI products are positioned, sold, adopted, and improved in that market. This is an individual contributor (IC) role, reporting to the leader of Regional Product Management for the Americas. Key responsibilities: Regional strategy and adaptation \u2022 Translate the global AI product roadmap into a plan for your industry or segment \u2022 Tailor use cases, solution packages, and messaging to the operational problems your customers care about most \u2022 Account for industry regulations and compliance requirements in how solutions are positioned and deployed \u2022 Track AI adoption trends in your market and adjust priorities as they shift Go-to-market and sales enablement \u2022 Partner with sales, marketing, and channel partners to launch AI products into your market \u2022 Run discovery on priority deals and shape buying criteria and deal sizing toward AI early in the sales cycle \u2022 Build discovery guides, use case catalogs, demo stories, and value stories that sellers can reuse \u2022 Make sure AI use cases go live after every win, working with customer success, professional services, and partners on success criteria, go-live dates, and adoption metrics Commercial strategy and financial targets \u2022 Own the commercial strategy for your market, including product mix, packaging, and deal structure, to meet revenue and margin targets \u2022 Set and own quarterly targets for deals in motion, AI attach, and discovery completed before close \u2022 Work with pricing teams on packaging and discount guidance suited to your customers Voice of the customer \u2022 Act as the technical and commercial expert in the field for your market \u2022 Gather customer feedback and turn repeated needs into solution requirements for product teams \u2022 Test emerging AI ideas with customers and bring the ones with traction to the teams that build new products \u2022 Represent ServiceNow with customer executives, at industry events, and in customer advisory sessions Competitive intelligence \u2022 Monitor competitors selling AI into your market, including industry-specific vendors and horizontal AI platforms \u2022 Analyze win/loss data to find patterns in why deals are won, lost, or stalled \u2022 Equip sales teams with positioning and responses to competitor claims Qualifications To excel as a Regional Product Manager (RPM), you need a unique blend of commercial acumen, cross-cultural leadership, and technical credibility. Because you sit between global development teams and local sales teams, your skillset must balance strategic thinking with ground-level execution. Commercial and strategic skills \u2022 You design and run launch plans suited to how your market buys, including the partners, procurement processes, and executives involved \u2022 You can set packaging and discount guidance and judge h"
+  },
+  {
+   "id": "jsearch:NWJ5VVVjaWFqMERuaVNuekFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbEZWTm5Gak9FOWtWbkF3TlVsRVJVNVlWbXRqUlRSU2FGQkdVRk5PWmxaNmRWZ3pRa2g2U0VSWWRHRnhZMU00ZW5sbVoyZHRPRlo2YVhoWVIzWlhXR294U0dsbFNHbHlWVk5ZWlY5aVQwdFhjMGhGWW1aNlZWUnRlamRCYm1sS2NHVkZUMmhCZUdGUFZuaDFhek5mY2w5cGEwNUJZUzFsVmxSV1VURkpMV3B1VWxSM01GY1NGM05GTXpSaGRYVXpRVFJNY25CMFVWQnRTbkZIZFVGdkdpSkJTRTR3UlRkSGJYTktjUzFHVmtGdmFsaEVUWGRWV25SdVprcGZWMnQyUmt0Qjo4ZjJjYWYyYw",
+   "source": "jsearch",
+   "publisher": "BeBee",
+   "title": "Connect Platform Product Manager \u2014 Strategy & Execution (Remote)",
+   "company": "Stripe, Inc.",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://bebee.com/ca/jobs/connect-platform-product-manager-strategy-execution-remote-stripe-inc-toronto-on--jooble--5859723881924978321",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Stripe in Toronto is seeking a Product Manager for Connect to define strategy and oversee execution of high\u2011impact initiatives for modern marketplaces and software platforms. You will collaborate with engineering, design, analytics, marketing, sales and customer\u2011facing teams, and you will engage directly with customers to shape requirements and priorities. The role emphasizes cross\u2011functional leadership, strong product judgment, and the ability to coordinate multiple teams across Stripe's global"
+  },
+  {
+   "id": "jsearch:ZjJTaWlrd1ExLU1RZUVBZUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXa3BIYVc1M1gwdExTM04xZEVabU1YSlROa2syTFdKak5WSkNWWEozU1RKQlVXTkNjVXBuUlhZNVgzZFNiSGM0UmtSamQxbFhXVk5mYmxodGNtcHJMV281YWpWQk16UkZMVFowYjJaRlNISmtZMnRZTXpJMWRVcGZkek5LT1RCWlJHeHpkalZ0WVVWM1dXVTJWVWxWWVZKYU5qY3lOMXBGTWpGVWFsZHJVbTVHVDFOM01uRVNGM05GTXpSaGRYVXpRVFJNY25CMFVWQnRTbkZIZFVGdkdpSkJTRTR3UlRkR1ozQmtZMmx1VGsxd2RuTTFNV2N5WVZOS2JsQlRNWEE0Wm5GMzo1ODk5NTU0Yg",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Principal Cloud Migration Product Manager",
+   "company": "Equinix",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://ca.jobrapido.com/jobpreview/7046890042056245248",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Lead cloud migration strategy and tooling for Equinix EMS Managed Private Cloud, using enterprise infrastructure expertise across local cloud markets. As a Principal Product Manager, Migrations, you will define customer pathways and convert specific requirements into scalable capabilities. You will shape product vision, roadmap decisions, and investment recommendations across a matrixed organization. The work spans migration planning, tooling evaluation, and cross-functional alignment. Key Responsibilities: Own migration strategy and tooling roadmap for EMS Managed Private Cloud Define pathways across workload types, environments, risks, and customer needs Develop roadmaps from discovery through post-migration operations Evaluate self-service, assisted delivery, partner, and internal capabilities Guide proofs of concept and reusable migration capabilities Requirements: 8+ years in technical product management or related disciplines Enterprise infrastructure, cloud platform, virtualization, networking, or storage knowledge Experience translating strategy into actionable product roadmaps Ability to influence senior stakeholders without direct authority Strong technical communication and investment tradeoff skills Bring migration strategy, cloud platform knowledge, and roadmap leadership to Equinix\u2019s managed private cloud products. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:YVVLWHBVVlByTi1OYVVobkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbUZyVERaak5HMWtTSE16VlRCUWJVbFZkRTVyTTJoa2JIQjFWRXhCWDNSRFVrSjFjRjlCVkRBeVZEVmtSa1l6T0doSVdESnpNSGhYWVhKRFpYazRNSGxIUmsxcE1IQktVRk5FYlRoeFYxWjBUM052WDNodFVEQlhkMWxHWjNaUlkyRk5Telp6VUZCck0yTlNVQzFaVTBzdFNsZG1URlpuUm5kMVVITklaMnA2YTBWelVETVNGM05GTXpSaGRYVXpRVFJNY25CMFVWQnRTbkZIZFVGdkdpSkJTRTR3UlRkSVFuVlRRMjFOVm1WVE0xZFRjMjVoY1VGdGJUUjVhRTVmUmkxQjpiYjRkZmIwMQ",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Sr Product Management Manager Product Manager",
+   "company": "GE Vernova",
+   "location": "Markham, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=645906796758507528",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description Summary The Senior Global Product Manager is responsible for the global strategy product roadmap lifecycle management commercialization and business performance of the GridBeats Advanced Automation Applications portfolio within Grid Automation. The role supports electric utilities renewable-energy developers data centers and energy-intensive industrial customers. It combines technical product leadership with market analysis customer engagement commercial strategy and cross-functional execution. Job Description Role summary The Senior Global Product Manager is responsible for the global strategy product roadmap lifecycle management commercialization and business performance of the GridBeats Advanced Automation Applications (AAA) portfolio within GE Vernovas Grid Automation & Software (GA&S) business. These applications monitor protect and control power systems in real time from industrial plants data centers and microgrids to renewable power plants and utility grids. The role supports electric utilities renewable energy developers data center operators and energy-intensive industries such as oil and gas. It combines technical product leadership with market analysis customer engagement commercial strategy and cross-functional execution. Key responsibilities \u2022 Define the global product vision strategy positioning and multi-year roadmap for the AAA portfolio. \u2022 Manage the lifecycle of all portfolio applications: zonal autonomous control (ZAC); microgrid control and energy management systems (EMS); power management systems (PMS) and electrical control systems; power plant control (PPC) for solar wind battery storage and hybrid plants; wide-area monitoring protection and control (WAMPAC); flexible connections (active network management); wildfire mitigation; and other grid resilience applications. \u2022 Gather voice of the customer (VoC) input from utilities industrial customers data center operators renewable developers system integrators and regional commercial teams. \u2022 Translate customer and market needs into product requirements use cases acceptance criteria and development priorities. \u2022 Prioritize product investments and release content based on customer value market opportunity technical feasibility strategic alignment implementation risk and expected financial return. \u2022 Coordinate new product introduction (NPI) activities including product definition development gates validation launch readiness documentation training and post-launch improvements. \u2022 Work with engineering software development systems architecture cybersecurity quality project delivery and service teams to deliver scalable hardware and software solutions. \u2022 Develop value propositions pricing and licensing recommendations business cases revenue forecasts and go-to-market plans. \u2022 Support strategic customer proposals demonstrations discovery workshops and executive-level customer engagements. \u2022 Monitor orders revenue recurring revenue margin pipeline market adoption customer outcomes and overall portfolio performance. \u2022 Coordinate product activities with all regions including regional requirements localization commercial enablement and deployment readiness. \u2022 Ensure the portfolio meets applicable grid code interconnection interoperability cybersecurity and performance requirements. \u2022 Drive integration with GE Vernova GridOS applications (such as ADMS DERMS and WAMS) to deliver solutions from the control room to the grid edge. \u2022 Evaluate partnership and integration opportunities involving grid software distribution utility solutions distributed energy resources (DER) industrial automation energy management and AI-enabled decision support. \u2022 Represent the product portfolio at customer meetings industry events partner discussions and internal business reviews. \u2022 Lead global cross-functional teams through influence providing clear product direction priorities and decisions. The position operates within a global matrix organization and collaborates with en"
+  },
+  {
+   "id": "jsearch:MXNSTHp1Q2NLQUVtcy1ONEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVzQwYWtreFYySktha1k0YVZBMGMyMTJPVEY0ZVVOb1dIbG5ObVZ6VUVkVGRHd3hia0YyTTNoUWJXVnZlRlpqUkVaa2NHUmhObGxyU21wVU1uSXRWSFpIUTFvdGRrMVdjbmxvZHpOV1RsRXRaRlY0YTBSUFRrVlBRekJ0UTFsT1IwZG1MWGRVT0Zsalh6Wk5Va2hGYmxCU2JHUnhSMFU0VmpaSWNVZGxSRXBhUTNGcVRuRVNGM05WTXpSaGIxQTFTRTFJVVd0UVNWQTFVR0pqZVVFd0dpSkJTRTR3UlRkR2MyUnNZbXRSTTI5VFVFSkxYeTFpUm5rdExWRlRla3hLTFdkbjo3ZmJlMjMwYQ",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Technical Product Manager, Applied Science \u2013 AI Products",
+   "company": "Caseware",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=636890680392091733",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Caseware is one of Canadas original Fintech companies having led the global audit and accounting software industry for over 30 years with more than 500000 users across 130 countries and available in 16 different languages. While you might not have heard of us (yet) over 36000 accounting and audit professionals list Caseware as a skill on their LinkedIn profiles! Were looking for a Technical Product Manager to own how Caseware builds evaluates and raises the quality of AI across the platform. You are the product owner of our core AI surfaces: the agents and agent builder practitioners use to do real work the eval builder and eval roadmap that let us measure quality and the agentic memory that lets the platform improve as it is used. You decide what we build in what order and whether it clears the bar before it reaches someones audit file. You are also the closest thing the product has to a practitioner in the room. Acting as an SME proxy you carry the voice of the auditor into every decision: shadowing real workflows validating outputs against what a qualified practitioner would actually sign off on and turning this doesnt feel right into specific actionable failure modes. You partner closely with applied scientists engineering domain experts and external partner firms. You own the product outcome and the quality bar; the applied science team owns the science underneath it. This role demands high agency. Youll operate with real autonomy make decisions without waiting for permission and own the outcome success measured by results not activity. Youre intellectually curious collaborate easily across teams and take real pride in getting it right. This work sits in the financial audit and assurance domain. Independent audit is one of the quiet foundations of the global economy when investors lenders and regulators can trust that financial statements are accurate capital flows and markets function. That trust rests entirely on the quality of the work which is why the bar for AI here is so high. You dont need an accounting background to start though one or any real connection to the profession adds high value. What you do need is genuine curiosity about the complexity of auditing and a deep appreciation for why quality is non-negotiable. Youll build that fluency on the job alongside experienced domain experts and it will sharpen your judgment on what good really means. This a full-time permanent position This a new vacancy This role is hybrid. You willbe requiredto work from our Toronto office 3-days a weeklocatedat351 King Street East Toronto ON What you will be doing: \u2022 Own agents the agent builder the eval builder and agentic memory as products: their roadmap sequencing and the business outcomes they drive using results and practitioner feedback to shape what ships. \u2022 Own the applied-science delivery roadmap and cross-team orchestration for the Caseware AI platform sequence the evaluation agentic-memory and platform workstreams into a single plan and keep delivery moving. \u2022 Own the product acceptance bar for every AI feature decide when an output is good enough to put in front of practitioners and set the eval baseline so every agent and skill is measured against a stated bar. \u2022 Embed with domain experts and partner accounting and audit firms to validate AI outputs against professional standards not just user preferences but what a qualified practitioner would actually sign off on. \u2022 Be the voice of the practitioner as an SME proxy shadow real audit workflows test prototypes in context and translate this doesnt feel right into specific actionable failure modes the team can act on. \u2022 Work daily with engineering to turn precise problem statements into well-scoped requirements with acceptance criteria agreed before development begins. \u2022 Stay ahead of the AI landscape monitor model developments new architectures emerging agent patterns and competitor moves and bring a clear product point of view on what matters for Caseware. \u2022 Define a"
+  },
+  {
+   "id": "jsearch:UnRiT3g0bVJnRzVSNTRoQ0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVEJwV2poeE0wOXlkVnBWVTNkYU0yVjBkMnhuVFhJeVoxRk5Wa3RpTmpCSE5EWmZVWEpEVG1SSFdUSjNabmxLVEV4MlFuYzVZMVJKWjNCVVoyVlNPWGs1Ums1WFJqTTVTM3BKYUdrME5GUjFNMVpPTlZOd1NscEpWVlp1YTJaMGRGaFRYM1UwTkd4SFpYRndTVzh0V0VsamJtaFBWVGx1VTJSb2VUQlZUV3BEU0hvemVFTVNGM2RyTXpSaGIwTlVTWE4xVUhObFRWQTBPRXhrTkVGbkdpSkJTRTR3UlRkSE5FdHhRall0V0RSWGN6SlFNVGhtWTNVdFdYVlNjMEY0U0dSUjowM2RjM2ExZg",
+   "source": "jsearch",
+   "publisher": "Workable Jobs",
+   "title": "Staff Product Consultant (6-month contract)",
+   "company": "Fulfillment IQ",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://apply.workable.com/fiq/j/E46293070B",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Title: Staff Product Consultant (6-Month Contract) Primary Job Location: Hybrid, Toronto / Greater Toronto Area (GTA), Ontario, Canada Engagement Type: Independent contractor, 6 months, with the option to convert to full-time Division: CrossDock Studios Hiring Timeline: Immediate Compensation: Competitive contract rate, shared on the first call Application Deadline: Open until filled. Applications are reviewed on a rolling basis. About Fulfillment IQ (FIQ) Fulfillment IQ is a supply chain engineering and transformation company that helps brands, retailers, and 3PLs design, build, and scale high-performance logistics operations. We work at the intersection of strategy, supply chain, and technology where we solve complex, real-world problems across warehouse design, automation, order management, transportation, and end-to-end supply chain execution. Our teams combine deep domain expertise with strong technical capability, delivering outcomes through consulting, systems implementation, and proprietary platforms that accelerate time-to-value and reduce delivery risk. Role Overview CrossDock Studios is FIQ's product studio. It houses our proprietary software, including Workbench, our warehouse-design platform that lets a solutions engineer draw a warehouse the way an architect draws a building. Product managers, engineers, designers, and scientists work side by side in the studio, and our PMs bring deep, hands-on supply chain expertise. We're looking for a senior product leader to build the studio's product practice and work alongside our PMs as a player-coach. You'll bring a clear, problem-first way of doing product management, help the team apply it to real work, and design the process that carries it across every product the studio houses. This is a 6-month engagement with the option to convert to full-time if it's a fit for both sides. What You'll Do \u2022 Bring a practical product management philosophy and method and help the team put it to work: problem definition (context, objective, scope, KPIs), root-cause analysis, hypothesis testing, and turning recommendations into a sequenced, prioritized plan. \u2022 Work side by side with PMs on live problems across CrossDock Studios products, including Workbench: reviewing problem statements, pressure-testing the \"why,\" and running working sessions. \u2022 Design how product work moves from problem intake to discovery to solution options to engineering handoff, and own its adoption across the studio, including holding the team to the standard. \u2022 Help PMs run discovery directly with prospects, customers and internal stakeholders and build lasting relationships with them. \u2022 Help PMs build value and effort cases with finance, and set up the measures that show whether shipped work delivered its value. \u2022 Bring engineering into problem framing early, so solutions are shaped together rather than handed over. \u2022 Lean on AI tools for execution and spend your judgment on the ambiguous parts. The Honest Version of Hard Parts \u2022 Six months goes fast. You'll need to earn trust quickly, show progress on real work early, and leave behind a practice the team runs without you. \u2022 Our PMs are deep domain experts. Your job is to build on that expertise, not replace it, and to earn credibility through the quality of your thinking. \u2022 The process has to fit how we already work. Engineering ships through Linear, and we are heavily invested in The Linear Method. We are looking for approaches that are complimentary, not contradictory. \u2022 You'll work across more than one product, each at a different stage, and switch context often. \u2022 You\u2019ll need to stay acutely focused on the forest-thinking. You will need to be able to separate the day-to-day of delivering product insight and direction from the strategic delivery of an approach to managing products. \u2022 Our products and teams are early in their inception. You will need to be able to operate in the ambiguous space where a product is only just establishing itself in the mark"
+  },
+  {
+   "id": "jsearch:VGpGRnNOSmhkb09qVDFjOUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZa0pDUjFWUU9EY3RabmR5ZW0xamVVNDBVRjlsUW1aVVNtbG5VV053YnpCd05VZ3hUMDlDTTJWVk1WWldhbDlxWkRodGRsVnlSVWhQTWxaV1lpMXFOazk2TTFwM2JtOHlVMjV2YmxsR1gxTXdNa3RoZEdaUlRVRlJTMjUwUmxORlNIUllTRnBLVFUxQk9FcHNXbkZ2V0VoYVVsWnphbEJDZEZocE9HOXhPWEJMTkhaUmJXUVNGM2hGTXpSaGRUSTBTR1o1VVc1bGMxQndPSHBRZVZFNEdpSkJTRTR3UlRkSFIxTTJWVFZXU1Voa1dqSXdNVjlJTWtoZmFXWnFTVEUxWmxKbjo1MjEzOTU3Mg",
+   "source": "jsearch",
+   "publisher": "Clearance Jobs",
+   "title": "Sr. Product Manager - Outbound, Travel and Expense Management Remote / Telecommute Jobs",
+   "company": "Workday",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.clearancejobs.com/jobs/9310152/sr-product-manager-outbound-travel-and-expense-management",
+   "posted": "2026-11-12T00:00:00+00:00",
+   "salary": "148K\u2013222K a year",
+   "description": "Your work days are brighter here. We\u2019re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we\u2019re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you\u2019ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We\u2019re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you\u2019ll do meaningful work with Workmates who\u2019ve got your back. In return, we\u2019ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you\u2019ve found a match in Workday, and we hope to be a match for you too. About the Team The Workday Spend Management Outbound Product Management team partners with Sales, Product Marketing, Services, and Inbound Product Managers to identify the most important problems to be solved. We engage with customers, prospects, and our go-to-market (GTM) teams to drive the value, awareness, and adoption of our products. About the Role Outbound Product Managers combine a deep understanding of product capabilities, domain knowledge, industry trends, and competitive intelligence to inform our roadmap. They enable our customers, partners, and GTM teams to realize the value delivered. What you will do in this role: \u2022 Be the point-of-contact for the Travel and Expense Management process for GTM teams, Marketing, and Services and support them during the Land-Adopt-Expand-Renew operating cycle. \u2022 Use competitor analysis, industry trends, product analytics, as well as insights from customers and internal customer-facing functions to influence the roadmap. \u2022 Be the voice of our customers and apply your understanding of use cases and success outcomes to influence feature design and implementation strategy. \u2022 Create and publish customer facing content that communicates the \u201cwhat\u201d and \u201cwhy\u201d of our features, connecting product capabilities to value. \u2022 Design and execute feature adoption initiatives to achieve success outcomes and ensure that customers continuously realize value. \u2022 Craft and deliver high-quality presentations to a variety of audiences at conferences, customer visits, and during sales cycles. \u2022 Support industry analyst engagements to help position Workday Travel and Expense Management as an industry leader. About You Basic Qualifications \u2022 8+ years experience in product management, defining, launching, and iterating on impactful SaaS and/or cloud-based enterprise software products, or equivalent experience. \u2022 Direct experience or deep understanding of travel and expense processes \u2022 Excellent verbal and written communication skills and demonstrated ability to lead customer engagements and present to large audiences. Other Qualifications \u2022 Experience building cross-team relationships with effective outcomes. \u2022 Proven understanding of design thinking and product development process. \u2022 Able to make tradeoff decisions, participate in a culture of knowledge sharing and transparency, and appreciate the challenges engineering and product teams face. \u2022 Experience developing or supporting enterprise SaaS products. Workday Pay Transparency Statement The annualized base salary ranges for the primary location and any additional locations are listed below. Workday pay ranges vary based on work location. As a part of the total compensation package, this role may be eligible for the Workday Bonus Plan or a role-specific commission/bonus, as well as annual refresh stock grants. Re"
+  },
+  {
+   "id": "jsearch:MDZKbVNRaTZZVUYzU1hQRkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXV3d5YWpOSGQwaHNNVzh5VW1scVVscHNhRE5VT1VWV1NYRmxUelpWTkdwM0xXTnRTM1Z6UVVRdFZuVnlSMWxqZDBWS2R6SlRMVFEzZERKak1sbGFiREZtWDNjdFZVRlhWbU42WlZaU2RsRTBjbkV5Y25CNVdpMTRkVU5CTmtGdFpEWnBTMVJYZFd4R1pIWjFTRVIwVjFCdVVEbFFhVUpJTWpaNlprbDZYME15Wm5reVdua1NGM05WTXpSaGIxQTFTRTFJVVd0UVNWQTFVR0pqZVVFd0dpSkJTRTR3UlRkSWQwOTZTelY1Um1vNFRFVlFhM1ZDTW0xR1NHMW5iSE5QY0VkUjpjMmJlZjc5MQ",
+   "source": "jsearch",
+   "publisher": "Jobrapido.com",
+   "title": "Director, Software Product Management \u2014 Fintech SaaS, Remote",
+   "company": "Fidelity International",
+   "location": "Toronto, ON, Canada (Remote)",
+   "remote": true,
+   "url": "https://ca.jobrapido.com/jobpreview/6267505760192692224",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Fidelity Canada seeks a Director of Software Product Management for the Investly unit to lead product strategy, execution, and performance of the digital platform. You will oversee Product Management and UX/UI teams, align roadmaps with investor needs, and partner across Engineering, Sales, Marketing and Operations to drive innovation and growth. You will helm multi-year roadmaps, guide product managers, and ensure high-quality experiences. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:eFVtLXRlUEJFMHA4U1J5UEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZblpYWVhaeGJuSlhRV2RuVkVReWRsQkhaM0UwZG10U1RIWnRRelI0TTFZMlVHVkRlVFpEWDJwc1lUZHhUbEJtTUY5bGRWWjRUMEZsY0hGUkxXRlFWMW8zYzIxTVFXNU1WSEJRTVVneldubHdORzlwVmxwTU9VeFZNREJGZVVOc1IycFBTalJxTm5kVkxYZE9lRGxuUVU1YWFIbzRjVFpOY2xrMWVtd3hXVUY0UVRVdFdqVVNGM05WTXpSaGIxQTFTRTFJVVd0UVNWQTFVR0pqZVVFd0dpSkJTRTR3UlRkSWNUWldlblIxWlhCcWJYVlRZM05PV2xveVF6TmZZbWt3U2xCMzpmMTE4OTNhMA",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Product Manager II - Financial Crime Operations",
+   "company": "Ink Foundation",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/finance/5621964249/e/",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Building the Future of Open Finance Payward - the parent company behind Kraken, Ninja Trader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system. Building the Future of Open Finance Payward - the parent company behind Kraken, Ninja Trader, Breakout, xStocks, Payward Services and CF Benchmarks - has spent the last 15 years building one of the most modern and globally accessible financial infrastructure platforms in the industry, built to advance an open, global financial system. The team Founded in 2011, Kraken is one of the world's longest-standing crypto platforms, trusted by over 10 million individuals and institutions across the globe. It offers spot trading, margin, futures, staking, and OTC services, with products built for both individual investors and institutional clients. Kraken's Compliance Operations teams, including the Financial Intelligence Unit (FIU), investigations and enhanced due diligence, are the front line of how Kraken detects and responds to financial crime. The systems they run on sit within Core Services Product, alongside the engineering teams who build them. That covers alert ingestion, case management, investigator tooling and a growing set of automation and AI tools. This role owns the product for that investigation platform. That means how an alert is created, enriched, grouped and suppressed. How it becomes a case. How an investigator reaches and documents a decision. And how every step is evidenced to a regulator or auditor. You'll start with the FIU, where the workflows are most complex and the audit bar is highest, then extend the platform across Compliance Operations. The opportunity \u2022 Own the investigation-platform roadmap end to end. Sequence it and defend it, and re-sequence it when a regulator or the RCO raises a P0. \u2022 Define \"done\" before build starts. Write phased deliverables and acceptance criteria that Compliance signs off, and hold the line when scope moves. \u2022 Get requirements in before engineering starts. Build the intake between Compliance policy, monitoring rules and case management so that changes don't reach investigators before their workflows are ready. \u2022 Understand the process before building. Reconcile policy and SOPs against what investigators actually do and what the system actually does. Know the difference between a process fix and a technical one, and say which requests are in scope for engineering. \u2022 Understand the pipeline well enough to challenge it: ingestion, profile and transaction resolution, suppression and grouping logic, and reconciliation between vendor output and case management. Be able to walk an auditor through it with live examples. \u2022 Make auditability a first-class requirement: audit trail, data lineage, evidence retention, reviewer attribution, change-management controls, and validation of filtering and suppression logic. \u2022 Ship automation and AI into regulated workflows with controls that hold up in Compliance, IT and privacy audits. That means human-in-the-loop design, explainability and ongoing monitoring. \u2022 Run the operating rhythm: a shared forum with engineering and adjacent product managers, a regular stakeholder update, and one delivery status that everyone reads the same way. What You Bring \u2022 4+ years of product management, including 2+ years on financial-crime systems such as transaction monitoring, investigations, case management, KYC/EDD or sanctions screening. \u2022 Working knowledge of how an AML programme is examined, including the questions regulators, internal audit and model validation ask about monitoring, filing and control systems. \u2022 The\u2026"
+  },
+  {
+   "id": "jsearch:Z3dGcmxSQTRqNHViR2tOWUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbTlIWVdWUGRrZHVXSGsxVFVWSU1uTm9kMDFuUkRSYVUwNDVUMkkxUkhseFptRXdTV3hsVmtSU1ZIVTFkalp6Y1hRdFN6UlRVRUUxVjJKU016QjZNR3RLT1dGaldEWTBiM2hCWDA5emQwTjJZMDlvYkVZM1QwbHRlVkZGUW1GVmRXZERkVVl5WW5sSE0wdFJXVFYzWWpCb1Ntb3hOMVp6Wm1oNlIwOXBhbkJ3VDNoclkxWVNGM2RyTXpSaGIwTlVTWE4xVUhObFRWQTBPRXhrTkVGbkdpSkJTRTR3UlRkR09FZE1SSGR5VjNsTFMxVnhTSE40U1RRMFowcFJjemROWjFSMzo0MjE1ZDc5ZA",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Remote Lead, Digital Product Manager \u2013 CIAM",
+   "company": "Allstate Insurance Company of Canada - Permanent",
+   "location": "Canada (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/ca/job/remote-lead-digital-product-manager-ciam--canada--e52ba823cb9c2ef89b7514914d4584a65",
+   "posted": "2026-11-11T00:00:00+00:00",
+   "salary": "",
+   "description": "Allstate Insurance Company of Canada seeks a Lead Digital Product Manager for Customer Identity and Access Management to drive enterprise identity initiatives. You will define strategy, manage roadmaps, and lead a team of Digital Product Managers, partnering with Engineering, Data, UX, and business leaders to deliver measurable outcomes. You will own multi\u2011year product strategy, define KPIs, and ensure delivery health, platform stability, and risk management in alignment with enterprise goals."
+  },
+  {
+   "id": "builtin:12229607",
+   "source": "builtin",
+   "publisher": "Built In",
+   "title": "Group Product Manager",
+   "company": "CIBC",
+   "location": "Toronto, ON",
+   "remote": false,
+   "url": "https://builtintoronto.com/job/group-product-manager/12229607",
+   "posted": null,
+   "salary": "",
+   "description": "Group Product Manager - CIBC | Built In Toronto Toronto Global Tech Hub BuiltIn.com is the global destination for tech professionals. builtin.com Popular Tech Hubs United States Austin Boston Chicago Colorado Los Angeles New York City Seattle San Francisco Australia Sydney Melbourne Canada Calgary Montreal Ottawa Quebec Toronto Vancouver India Bengaluru Chennai Delhi Hyderabad Kolkata Mumbai Pune Ireland Dublin Singapore Singapore United Kingdom London Cambridge Manchester Birmingham Bristol Industries Life Sciences Manufacturing Retail Companies Jobs Articles Can't find your company? Create a company profile. View All Jobs Join Log In For Employers Hire on Built In Post a Job CIBC Jobs Group Product Manager CIBC Group Product Manager Posted Yesterday Be an Early Applicant In-Office Toronto, ON, CAN Senior level In-Office Toronto, ON, CAN Senior level Lead product pricing and revenue enhancement initiatives, manage business metrics, develop pricing strategies, and optimize product profitability. The role coordinates campaign management, frontline empowerment, processes, and systems while partnering with marketing, business lines, vendors, and frontline channels. It requires strategic planning, analytical problem-solving, leadership within a matrix organization, and expertise in creditor insurance products. The summary above was generated by AI We\u2019re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what\u2019s right for our clients. At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and are truly valued for who they are and what they contribute. To learn more about CIBC, please visit CIBC.com What you'll be doing As a member of Product Management, you\u2019ll be responsible for supporting and executing the development of product pricing strategies to maximize client profitability and remain competitive in the marketplace. As a Group Product Manager, you\u2019ll manage and monitor key business metrics to exceed industry growth. Lead all Pricing and Revenue enhancement initiatives including establishing objectives, setting priorities for campaign management, frontline empowerment and continue to evolve the existing processes and systems to optimize the revenue from products. At CIBC we enable the work environment most optimal for you to thrive in your role. You\u2019ll have the flexibility to manage your work activities within a hybrid work arrangement where you\u2019ll spend 1-3 days per week on-site, while other days will be remote. How you'll succeed Product management - Strong knowledge and experience in product management, strategic planning, and project management sufficient to identify, develop, and implement approved initiatives (experience preferably in financial services). Analytical - Understand and interpret complex information, identify patterns and trends in new or strategic areas, and develop recommendations, often with minimal direction in order to respond to urgent business priorities. Leadership - Well-developed management and leadership skills sufficient to achieve results within a matrix organization, including the ability to bring about change at a senior level. Relationship management - Meet business objectives by managing relationships and working effectively with internal and external partners including Frontline Channels, Marketing and other lines of business, partners and vendors. Who you are You can demonstrate experience in business planning, business model development and pricing best-practices (5+ years). You also have in-depth knowledge of creditor insurance products. You have strategic planning skills sufficient to establish and co-ordinate complex assignments and projects which can be ambiguous in nature. Your influence makes a difference. You know that relationships and networks are essential to success. You inspire outcomes by sharing your exp"
+  }
+ ]
+}
