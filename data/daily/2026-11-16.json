@@ -1,0 +1,418 @@
+{
+ "run_at": "2026-11-16T13:30:21.296795+00:00",
+ "date": "2026-11-16",
+ "runs": [
+  "2026-11-16T133021Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 18,
+  "remoteok": 0,
+  "weworkremotely": 0,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 8,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 18,
+   "kept": 11,
+   "error": null,
+   "rejected_by": {
+    "title": 7
+   },
+   "rejected_samples": [
+    "[title] Manager - Product Control | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-14T00:00:00+00:00",
+    "[title] Manager - Product Control | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Senior Manager, Digital Product Strategy \u2014 Hybrid Work | CIBC | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Global Product Strategy Manager | HighlightTA | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Growth-Driven Product Strategy Director | Compunnel Inc. | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Senior Manager, Debit eCommerce | Royal Bank of Canada | Toronto, ON, Canada | 2026-11-13T00:00:00+00:00",
+    "[title] Production Quality Manager | Siemens AG | Vaughan, ON, Canada | 2026-11-14T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "cursor": "EvYGCrcGQUREYldlYXAzZmtCc1pJN1ZoYnQ0ZlFTVUdDbWtobGt5OGsyMlNYQXNPMzJJY1FYdFJ1Sm1hU2l4b29NbFU4Y29hZlNxRk9lVnJjUHBGLW5PVEpUZTZ0Y2h0bWxYRkp4b21sMmpCSVF4ckZTYUhlVFUxUE41bXJ3aVM5TmFmRFdCdHRFNWk0Q3lKUVJPckVPVkRiSUJfbnVISzIxSnBOUDJqRnBrNjQ3TnM3bFB3OFd0M2ZicXhXTGRianFwWXNTcW9YMnB1QmVNcW1Zang1djJYa1poRmd5c3VteGYxeGhSeE1HekcyTmtsdy1zazduMkJDNlJuQ3hfVTkxRllMeW5scmtMQzhhQURRVkFuUnM5M3JGQml4T1FhZzFBYTgyaWNOUlM0V2RpWDhWVk1oUGNXaVpKZk81MTBFVGI2VWtxeGxKRDV1dkRBX19yRDhVQUlTVHlQSjJkRzk2bW1XOGFiLUw4Z014ME12UTl6X2ZsZ3hJMUg4NGFBWmJpUGJXaDhYOXFPX0V5SHpkUUpzbm9SdTBUaDh1RWdfaGM1TFJSWFkzZzM1UkVpTmNoR1BpN2EyOTFPbk9yNl9ONl9zYU96Rm5PMDdkRDRISlRlRFZWNFFoYzE1RUlHWWhhSlhjaS1iSDltVEdmN1FLSHJxbERrc0RMTXZkQmV4S3o1a01QUks2NExlQU9YX05JYjdqYmhueXJYRzdxSE53eHRyMjFzRnJOQ191OTVqd1RQVWtnSUpHV3hUbERxYURIVVJtNG1Sc3dWRXBQMzNzMjlyaTdUVGxpdV9UZ1B3cTBkbGR5SXdKdTI5cFBzOWdwVFlpNFhIb21vOElTbWlELVd6R29hQWlVQUhRREZ4R2VRVDlkb2VScDJiU2toak1GQy1oS2NMRXYyemlFZWprUTZuWEVlMDRzQTc3X1JxdGV4dlhVNC0taWJRbGV5Y1dJSmp5UVh5MUJzVkpPMXVYQ2NSRW1qTHFWajdEMm0yZVR2RFZmNkdFYmZiSzluN1ktcFpjbjR6SUZSMno4VndqaGs0N0RQQ3o5OVNQdktjZ0p4UkV2NVBoN0NKWE5SNmttMi1kWmR3UEtVURIWYlFYN2FwYnVOWmlPcnVFUDBlbjhRQRoiQUhOMEU3RnJIVS1ieHdWTEs1Zll0cGRJbWZsa05IQkw1Zw",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10,
+    8
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 10,
+   "kept": 1,
+   "error": null,
+   "rejected_by": {
+    "location": 8,
+    "title": 1
+   },
+   "rejected_samples": [
+    "[location] Product Manager - Loyalty and Value Proposition | Connect First Credit Union | Calgary, AB, Canada | 2026-11-14T00:00:00+00:00",
+    "[location] Product Manager | Postmedia Solutions | Canada   (+30 others) | 2026-11-13T00:00:00+00:00",
+    "[location] Product Manager, Trakstar and Compensation | Mineral | Canada   (+52 others) | 2026-11-14T00:00:00+00:00",
+    "[location] Senior Product Manager based in Canada/USA (Full-time) | LCA | Montreal, Quebec, Canada | 2026-11-13T00:00:00+00:00",
+    "[location] Group Product Manager - Zero to One Labs | Affirm | Regina, SK, Canada | 2026-11-14T00:00:00+00:00",
+    "[title] Travel Products & Ops Director \u2013 Americas | International SOS group | Canada | 2026-11-13T00:00:00+00:00",
+    "[location] Senior Product Manager, Operations & Commercialization | Serve Robotics |  | 2026-11-14T00:00:00+00:00",
+    "[location] Senior Product Manager, EHS Solutions reputed company Remote, United States + 1 more | Environment | India (Remote) | 2026-11-13T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "aggregator": 4
+   },
+   "rejected_samples": [
+    "[aggregator] Senior Product Manager \u2013 Customer Service & Experience \u2013 Remote (Global) | remote quest jobs | Anywhere (Remote) | 2026-11-14T00:00:00+00:00",
+    "[aggregator] Senior Product Manager I (Remote Eligible) | remote quest jobs | Anywhere (Remote) | 2026-11-15T23:00:00+00:00",
+    "[aggregator] Senior Medicare Advantage Stars Product Manager (Remote) | remote quest jobs | Anywhere (Remote) | 2026-11-14T00:00:00+00:00",
+    "[aggregator] [Remote] Senior Product Manager (Remote from anywhere in CO) | remote quest jobs | Anywhere (Remote) | 2026-11-13T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 97,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 91,
+    "location": 4,
+    "too old": 2
+   },
+   "rejected_samples": [
+    "[title] Global Partnerships BD Lead | Fuku | Paris (Remote) | 2026-11-13T08:00:21+00:00",
+    "[title] Scaled Account Manager EMEA | DoiT | Estonia (Remote) | 2026-11-13T08:00:15+00:00",
+    "[title] Software Engineer AI Tooling | Supabase | Remote | 2026-11-13T00:00:15+00:00",
+    "[title] Research Engineer Privacy and Anonymization | Pragmatike | Remote | 2026-11-12T16:00:38+00:00",
+    "[title] Freelance Question Reviewers | AMBOSS | New York (Remote) | 2026-11-12T16:00:32+00:00",
+    "[title] Patient Care Specialist I | Boston Scientific | Remote | 2026-11-11T08:00:08+00:00",
+    "[title] Strategy & Operations Coach APAC | Mento | Remote | 2026-11-11T00:00:15+00:00",
+    "[title] Bilingual Patient Engagement Specialist I English Spanish | Sprinter Health | Menlo Park (Remote) | 2026-11-11T00:00:09+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 23,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "too old": 8,
+    "location": 1,
+    "title": 14
+   },
+   "rejected_samples": [
+    "[too old] BA/Technical Product Manager | ProArch | USA Only (Remote) | 2026-11-09T09:06:54+00:00",
+    "[too old] Senior Product Manager, Workflows | Customer.io | North America Only (Remote) | 2026-11-09T01:53:37+00:00",
+    "[too old] Head of Product  - Beamable | FIRY | USA Only (Remote) | 2026-11-09T01:53:31+00:00",
+    "[location] Senior Product Manager | Patchstack | Europe Only (Remote) | 2026-11-09T01:53:21+00:00",
+    "[title] Product Owner | Zanda Health | Anywhere in the World (Remote) | 2026-11-04T12:59:25+00:00",
+    "[title] Senior Solution Architect | Otter.ai | Anywhere in the World (Remote) | 2026-11-02T07:31:12+00:00",
+    "[too old] Lead Editor Product Manager | Descript | Anywhere in the World (Remote) | 2026-11-02T07:31:04+00:00",
+    "[too old] Principal Product Manager - Identity | ZoomInfo Technologies LLC | Anywhere in the World (Remote) | 2026-11-01T07:31:04+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 0
+  },
+  "builtin job pages": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": []
+  }
+ },
+ "jobs": [
+  {
+   "id": "jsearch:SnIwQ3NIbE1mMVI1QWlWSEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVUZSWmpsNldXb3pTbmgyYmxad1VIQktNbUl4Wm1adVRtWkJTa05qY1hCWWQxVktTRTltTVRWT1JrRm5VM2xWTjNCaFNVNUtOVmR5ZG00NVNIUm9UMGRyYW5aTGFWWkpjR3BxU1RaSFRuSnNSRmhDYmxsQlpWQm9aMWsyWVZjMGNtVmlZamxzTmkxNGRUWjRTamhDWVVOMFZHcFVTMTlyYzFwMlkzWjRUbEp3WkVGb1pVWVNGMk5SV0RkaGRFeFNUMDlRVmpWT2IxQnpOVWhCZDFGckdpSkJTRTR3UlRkR2FsaEZTSG8zTTJrd05rWnpPRzlyWjBrMVh6bHFaRkZNU0hCQjpkNDdiZmNlZQ",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Principal Product Manager, Enterprise Platform",
+   "company": "Atlassian",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6af951a8081ddfee50115635-principal-product-manager-enterprise-platform",
+   "posted": "2026-11-15T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: Europe, European Union, EMEA, Poland Working at Atlassian Atlassians can choose where they work \u2013 whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. Your Future Org At Atlassian, Product Management is a team sport. We work closely with engineering, design, and go-to-market teams to build products that help millions of people do their best work. We care deeply about solving real customer problems, and we\u2019re energized by the possibilities AI and new technology bring. If you're someone who loves turning insight into impact - and wants to shape the future of modern work - we\u2019d love to meet you. Your Future Team You\u2019ll join a team helping the world\u2019s largest and most complex enterprises thrive on Atlassian Cloud - modernizing business-critical workflows, continuously optimizing their environments, and unlocking cloud-native and AI capabilities. Building on existing foundations, you\u2019ll discover and validate the next high-value platform opportunities, establish an evolving area of product ownership, and partner with engineering and design to turn shared customer needs into scalable products. \u2022 Shape an emerging platform opportunity. Explore how complex enterprises modernize, optimize, and scale on Atlassian Cloud. Establish a product vision and progressively define the scope, priorities, and roadmap for an evolving area of ownership. \u2022 Discover the problems worth solving. Work directly with enterprise customers and customer-facing teams to uncover unmet needs, challenge assumptions, and distinguish recurring platform opportunities from customer-specific requests. \u2022 Turn ambiguity into product direction. Form hypotheses, assess customer and business value, and partner with engineering and design to test potential solutions. Make evidence-based recommendations about where to invest, and where not to. \u2022 Translate insight into scalable capabilities. Develop promising opportunities into reusable platform capabilities, automation, and cloud-native reference patterns that address shared enterprise and industry needs, helping customers continuously improve without depending on bespoke intervention. \u2022 Take validated opportunities from discovery into delivery. Own product decisions, prioritization, and outcomes as the opportunity matures, working with engineering, design, and architecture to launch, learn, and iterate. \u2022 Build alignment. Earn support across product, engineering, and customer-facing teams, clarify boundaries with adjacent products, and establish shared ownership where solutions span teams. \u2022 Define what success looks like. Establish meaningful outcomes as the product direction takes shape, using customer evidence and product adoption to refine the strategy and guide further investment. Minimum Qualifications \u2022 8+ years of product management experience leading complex B2B enterprise platforms, cloud infrastructure, or enterprise SaaS capabilities at scale. \u2022 A track record of navigating ambiguous problem spaces, identifying and validating new product opportunities, and building a focused strategy and roadmap as evidence emerges. \u2022 A strong understanding of enterprise architecture and the technical and organizational challenges of modernizing and continuously optimizing complex enterprise environments on Cloud. \u2022 A track record of turning bespoke customer requirements, field escalations, or professional-services insights into scalable platform capabilities, automation, or reusable frameworks. \u2022 Demonstrated ability to build credibility with senior technology executives and influence decisions in large organizations. \u2022 Experience leading strategy and execution across engineering, architecture, design, customer-facing teams, and partners without relying on formal authority. Preferred Qualifications \u2022 "
+  },
+  {
+   "id": "jsearch:d3p4ZnVzdDdWOV9NUDNsekFBQUFBQT09OkVzc0JDb3dCUVVSRVlsZGxZa3RqUjNneldXNWliMHRrZHpOWUxXa3RhMk56YkU5RlpHMUxNMjl6YTNWSGRXSnRVSGhOWlY5aVRWcERWemhuWDBjNGRXTmpYMGxQVWxGdVJVTjNaemxNUTE5ckxYWXdRbUZHYWpjd2JEaFJiR1JzVkc1MFQxZ3RjRFJEZWxwUVJtVk1OR3RpYVcxc2MyYzVObUozYkVWT09XOXhRVmxHZHpCcWNtaHdXVkZ6WnpaM1RXb1NGbUpSV0RkaGNHSjFUbHBwVDNKMVJWQXdaVzQ0VVVFYUlrRklUakJGTjBWWVgyaFlVek5KVEdkMVVrVTBNVXRITmpCVFFWWTNiRVp3VkZFOjFmOTY5NjVm",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Product Manager - AI-Driven Search & Monetization",
+   "company": "eBay",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/senior-product-manager-ai-driven-search-monetization--toronto--efdd8eb76e2b04c0788bb2484efb13bb8",
+   "posted": "2026-11-14T00:00:00+00:00",
+   "salary": "",
+   "description": "eBay is seeking an experienced Senior Product Manager for its Search Advertising team in Toronto. You will own the product strategy and roadmap to improve the upper funnel experience on search, collaborating with data science, engineering, analytics and marketing to deliver AI-driven features that enhance discovery and monetization. The ideal candidate has 7+ years in product management, deep knowledge of search systems, ranking models, semantic search, and PPC advertising, plus strong"
+  },
+  {
+   "id": "jsearch:bHRfdTZRWE8xVFV5bENNSEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXV1pOV0RCNlEwTk5UMTl6UzBsbVlYVkphM0o2YURaVFZHRllXRWhqTkU0NGNEWTBXbEJ2UmpOZk5sRlBaMUU0YW14RmN6WnFSRTVWWVRoNFdVWTRiRVZEVkRKR1VtZG1VMGMzYVRSdlpYcFdXRzlyYkV0WFJWQmFjbGRVUVZselYwdExkak5VVkROMVMwa3RXblJoVjE4ME5rNDJObVpxTURneGFHVlljR1pJZVdwRlZVRVNGMkozV0RkaGNqSkRSM1pQYldoaVNWQnNUM0p2YzFFNEdpSkJTRTR3UlRkR1YxOWpMVzQ0ZDFNNGVXdEdZM0ZyTTBKa1lYUkxjM0JGUjNSMzphOWI0MGY3OA",
+   "source": "jsearch",
+   "publisher": "JobMESH",
+   "title": "Senior Product Manager - Hybrid: Drive Strategy & Delivery",
+   "company": "Rubicon Path",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://jobmesh.io/job/01a1db30-76db-7636-bc11-2cdbca2dfc39",
+   "posted": "2026-11-14T00:00:00+00:00",
+   "salary": "",
+   "description": "Rubicon Path in Toronto, Canada, is seeking a Senior Product Manager to lead product strategy and roadmap for enterprise IT initiatives. You will articulate the product vision, align stakeholders, and drive backlog prioritization using Agile (Scrum) practices. Responsibilities include defining measurable objectives, coordinating cross-functional teams, and communicating progress to executives. Strong knowledge of Azure, Jira/Azure DevOps, Confluence, and stakeholder management required."
+  },
+  {
+   "id": "jsearch:dDkzRlpnVUd1dEFaTkZDeUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZakZPU0RBMVNYcFBXREl5Ukc5c1JVUkxWRkJXY1dWUk5HRTBSV1JzVFhGcVZIRmZkRGhKV2pKUlNXRTRlbTVpVUV4eE9YUnVTbU5zZVVGaVgxbE1SREZMYms5ZlQwRkVUMGQ1UWxSUE1ISTFNbVZQUTFkTFpHNWZaRVJOT0Mxc1kybGhhSGRHTlhOTk4zWkphak5CTjBwNFFYVk9URVpEV25kM1EyNVZWWFpzYjFJMk1WTVNGMk5SV0RkaGRFeFNUMDlRVmpWT2IxQnpOVWhCZDFGckdpSkJTRTR3UlRkSFRXWXlVbXRVYkVWSVVrNVlZMFF6ZUZwYWVHaEZWMjFuYnpaUjpjYmU0MzZlMg",
+   "source": "jsearch",
+   "publisher": "Remote Rocketship",
+   "title": "Senior/Staff Product Manager \u2013 Automotive FinTech, Digital Retailing",
+   "company": "AutoFi",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.remoterocketship.com/us/company/autofi/jobs/senior-staff-product-manager-automotive-fintech-digital-retailing-united-states-remote/",
+   "posted": "2026-11-14T00:00:00+00:00",
+   "salary": "150K\u2013200K a year",
+   "description": "Job Description: \u2022 Own and drive product vision, strategy, and roadmaps for key areas of AutoFi's automotive retailing and financing platform \u2022 Lead complex, high-impact product initiatives spanning dealerships, lenders, consumers, and technology partners \u2022 Identify market opportunities, emerging technologies, and competitive advantages within automotive FinTech and digital retailing \u2022 Translate business objectives, customer needs, and industry trends into actionable product strategies \u2022 Influence product direction and cross-functional priorities through communication, data, and business judgment \u2022 Provide thought leadership and mentorship across the Product organization as a senior individual contributor \u2022 Leverage automotive domain expertise across desking, indirect auto lending, F&I, leasing, digital retailing, DMS, and third-party integrations \u2022 Understand dealership workflows, lender requirements, compliance considerations, and consumer purchasing experiences \u2022 Partner with dealership customers, lenders, and internal stakeholders to identify friction points and develop scalable solutions \u2022 Use AI tools daily to improve productivity, accelerate product development, and support research, analysis, requirements development, data analysis, and prototyping \u2022 Identify opportunities to embed AI, automation, and intelligent decision-making into AutoFi's products \u2022 Collaborate with Engineering and Design on AI-powered features \u2022 Lead end-to-end product development from discovery and business case development through launch and iteration \u2022 Work with Engineering, Design, Sales, Customer Success, and executive leadership to deliver high-quality solutions \u2022 Develop product requirements, user stories, workflows, and acceptance criteria \u2022 Make tradeoffs between speed, quality, technical complexity, and business impact \u2022 Define and monitor KPIs including adoption, conversion, transaction completion, revenue impact, and customer satisfaction \u2022 Use data, customer feedback, and experimentation to optimize product performance Requirements: \u2022 6+ years of Product Management experience \u2022 Significant experience building and scaling B2B SaaS, FinTech, eCommerce, Digital Retailing or automotive technology products \u2022 Direct automotive software experience is highly preferred, with expertise in Desking, Lending, F&I, Leasing, Digital Retailing, or automotive eCommerce \u2022 Proven track record of owning complex products and delivering measurable business outcomes \u2022 Strong understanding of dealership operations, automotive financing workflows, and the broader automotive technology ecosystem \u2022 Demonstrated daily use of AI tools in professional workflows, with specific examples of how AI improves productivity, decision-making, and execution \u2022 Experience working closely with software engineering teams to deliver technically complex products and integrations \u2022 Strong analytical skills and ability to use data to inform product decisions and prioritization \u2022 Excellent communication, stakeholder management, and cross-functional leadership skills \u2022 Ability to operate independently, navigate ambiguity, and influence without direct authority \u2022 Startup mentality: resourceful, adaptable, action-oriented, and comfortable moving quickly with limited structure or resources \u2022 Experience building, launching, or scaling an AI-powered product or feature is nice to have \u2022 Experience with AI/ML capabilities, large language models (LLMs), generative AI, or intelligent automation is nice to have \u2022 Experience working at an automotive technology provider, dealership software company, lending platform, or automotive FinTech startup is nice to have \u2022 Knowledge of automotive lender integrations, credit decisioning, loan origination systems, and financing compliance is nice to have \u2022 Familiarity with automotive software ecosystems, including DMS, CRM, desking, and digital retailing platforms is nice to have \u2022 Experience scaling products in a high-growth startup or entrepreneurial env"
+  },
+  {
+   "id": "jsearch:YVhsXzYzT2lDMjdxUFhpbkFBQUFBQT09OkVzc0JDb3dCUVVSRVlsZGxXaTFGTlRCVWRtVlpNRnBKUldkT1QzSkZhaTFHYjJwaFEwUTVVM28xYlcxSFQwVkZjakJIVUVoblpEQk9UazEwZG1kcGIwdDZUbUZUUzIxUmNIcGlSemszVFZwT04yNU1kVEpWUkZKZmMzUk9OMHRDYVVSU1UwaG1TRVI1YkZoSlpYVldjRUpWYW14Nlh6SjZaSHBSYmpkV1JqVm9WazlLV1dkbWFWaHFkRjlpYjJwbk0xWVNGbUpSV0RkaGNHSjFUbHBwVDNKMVJWQXdaVzQ0VVVFYUlrRklUakJGTjBaMFREaHFUa3hyYldwdlp6Tk5PWFpuWmxKNmFEY3dlbVl0UW1jOmQyOWI4NzQw",
+   "source": "jsearch",
+   "publisher": "Ladders",
+   "title": "Product Manager, Consumer Bank Network",
+   "company": "Stripe",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.theladders.com/job/product-manager-consumer-bank-network-stripe-toronto-on_89861381",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "About the team The Consumer Bank Network team helps people do more with their bank accounts. We build consumer experiences for connecting financial accounts and making payments across Stripe, spanning Financial Connections and Link. We make these experiences simple, secure, and trustworthy. The team owns the user experience for one of the highest-traffic products at Stripe. Our work spans onboarding, authentication, checkout, and returning user experiences. We combine product design, experimentation, and personalization to reduce friction, improve conversion, and help consumers discover and adopt payment methods that meet their needs. For businesses, this means easier customer onboarding and better payment experiences. This is both an application and platform team: in addition to the thousands of merchants integrating the Financial Connections UX, more than a dozen teams across Stripe also rely on Financial Connections to serve their users. Link is used by more than 300 million consumers. You'll build consumer experiences within that ecosystem, where small improvements in conversion can help more people connect accounts, make purchases, and get paid. What you'll do You'll own the strategy and roadmap for consumer growth, conversion, and payment method adoption across Financial Connections and Link. You'll work across the consumer journey, from connecting a financial account to completing a purchase, setting up a subscription, managing your finances with your agent of choice, or receiving a payout. This role combines a high bar for consumer product craft with a disciplined approach to growth. You'll turn user research and funnel analysis into ideas, work closely with Engineering, Design, and Data Science to test them, and scale what works. You'll shape both the everyday details of the experience and larger changes to how people discover and use financial products. Responsibilities \u2022 Set the product strategy and priorities for consumer conversion, growth, and payment method adoption across Financial Connections and Link. \u2022 Build a steady pipeline of experiments, from targeted UX improvements to new growth opportunities. Define hypotheses, success measures, and guardrails, then use results to decide what to ship, change, or stop. \u2022 Partner closely with Design and User Research to understand consumer behavior and create clear, intuitive experiences across consent, authentication, bank selection, and error recovery. \u2022 Partner with Engineering and Data Science to build personalized consumer experiences using machine learning and adaptive experimentation, improving conversion and payment method adoption while balancing user value, business outcomes, and consumer trust. \u2022 Own measurement of conversion, activation, and payment method adoption. Understand differences across consumer cohorts and use cases, and distinguish product impact from changes in traffic mix. \u2022 Work with Engineering to improve reliability and experience quality, resolve friction, and make it easier to deliver and evaluate product changes. \u2022 Lead work across Link, Payments, Financial Connections, and cross-functional teams such as Partnerships, Risk, and Legal. Address important merchant needs while keeping the team focused on its highest-impact opportunities. \u2022 Be the face of the product for Stripe's users and external partners, showcasing and building demos and prototypes in collaboration with Engineering, Design, and Go-to-Market teams. Who you are We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements \u2022 A track record of growing consumer products, with direct ownership of measurable improvements in activation, conversion, adoption, or repeat use. \u2022 Experience leading an experimentation program, including forming hypotheses, interpreting results, and adapting your approach when the evid"
+  },
+  {
+   "id": "jsearch:eWctZlJIY0d1MGVBVEFPQ0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXa3RZYnpGMVUyZFZNWHBhWWpSSlN6bEJWWEpRUXpaUWFUUkRXRVpwWTFSdE9FWjBUMGRXWlU5VWEycE5kek5yUW1oRWJscDRTRkZMUkc1eE1HODJZMDFtVFVobFNtZFBNelZXVm1oalRHaFBOVVZoWlV4ZmRETXdaRXhYTmpGc1dHMUxXakp3VUZoUVZVbEJVVFZSU0ZvNE16WllTVmd6YldWSUxYaHhSbEpMVkdGVlYwWVNGMkozV0RkaGNqSkRSM1pQYldoaVNWQnNUM0p2YzFFNEdpSkJTRTR3UlRkSGIxVXlTWFJwTld0RlJUZHNUekJmWm10Zk16VmFNa0pEVFZGbjpmZTM2YjMyYQ",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Product Lead, Legal Services Technology",
+   "company": "Connect Legal Partners",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.jobleads.com/ca/job/product-lead-legal-services-technology--toronto--e6bf9a8a9b37f0a41f8522f1cbebfe958",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "Own product decisions that help individuals navigate legal services and get the support they need. The role Lead product direction for client portals and digital legal services. You will decide priorities, test ideas and work with engineering colleagues to deliver improvements to the client experience. The work includes applying AI to practical tasks, using data to understand engagement and reducing avoidable manual handling as clients progress through their legal matters. What you will need At least three years of product experience, including product leadership and a record of delivering a roadmap. A background in consumer digital products or B2B SaaS is important. You should be able to connect user needs to product decisions, assess experiments and work closely with technical colleagues. What is on offer \u2022 A full time hybrid role in Toronto. \u2022 Annual base pay is CA$180,000 to CA$220,000, with a separate target performance bonus. \u2022 Advertised total target cash is CA$224,000 to CA$264,000 and depends on agreed outcomes."
+  },
+  {
+   "id": "jsearch:cDNIQVVMX1RoNkVhMElScEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVmxqVFVwdk1teGlVVFJaTmtwT1RqUlRVMmh3TnkxVFNWTkZOWGd5T0VwUmRUTnVWRWhwYXkxTlVISkdkeTFHYjFkbVJXbGpNRTVXUWxsclVIZHNWVUp5YnpkTVZFTkdabmQ2TjFaQk1FOUdabkpEWDBaUU1rRTJPUzFJWWpCSFFrdERlRXRmUlUwNFpHOVhURVkzU0dwMVowOWpiemRLUlhOZk5YbE9PSFU1YkdWV2QxY1NGMk5SV0RkaGRFeFNUMDlRVmpWT2IxQnpOVWhCZDFGckdpSkJTRTR3UlRkSFVuZHVVMmM1WW13eU9GWkxaVk01TUc0eGJYcE5MVUo1Um5CUjo4Y2Y0Y2NiYw",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Senior Product Manager, Attorney Experience (Remote - PST/MST)",
+   "company": "Rocket Lawyer",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.indeed.com/viewjob?jk=f123e78f907cccd3",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "138K\u2013203K a year",
+   "description": "About Rocket Lawyer Founded in 2008, we believe everyone deserves to be legally protected. In one seamless experience that combines trusted legal AI and the right attorney for each legal matter, Rocket Lawyer members have always-on access to affordable legal guidance and services they need. To date we've helped over 30 million consumers and small businesses get the legal help they need and are now expanding the team in order to bring affordable legal protection to even more. About your role Have a passion for helping people through technology - especially AI? Join Rocket Lawyer as we disrupt the legal industry and advance our mission to make the law affordable and simple. You'll work at the forefront of agentic AI product development, building and launching cutting-edge products for attorneys. Sound exciting? We'd love for you to join us! Your role will be to own the end-to-end delivery of our Legal Platform, the product that enables attorneys in Rocket Lawyer's network to deliver legal services through our on-demand marketplace. Today, much of the legal work between attorneys and customers happens off platform - phone calls, emails, and file sharing. Your job will be to bring that experience on-platform through streamlined web conferencing, privileged workspaces, and secure collaboration tools for documents and messaging. Creating a delightful experience for both attorneys and customers is essential. Attorneys already love Rocket Lawyer because it enables them to practice their craft on their own terms - without business development, invoicing, nor collections. Now we're equipping them with cutting edge legal technology and AI powered tools that enable them to do their job more efficiently than ever. How you will make a difference day to day Product Strategy and Vision \u2022 Drive Product strategy and execution for our Legal Platform. \u2022 Develop a deep understand of the needs of our network attorneys through quantitative and qualitative research. \u2022 Passionately represent the voice of the customer (attorneys) while building products aligned with our product vision. \u2022 Lead the ideation, development, and launch of products for our customers. Data Driven Product Development: \u2022 Define and analyze metrics to measure business impacts \u2022 Prioritize features using data-driven analysis, business insights, and sound judgment. \u2022 Develop and deliver a roadmap for our Legal Platform product capabilities. \u2022 Understand and report on the direct revenue implications of product decisions. Design and Engineering Team Collaboration \u2022 Collaborate with a cross-functional team of Design, User Experience, Engineering, QA, and Content to bring product experiments to market. \u2022 Develop a deep understanding of the marketplace and competitive environment. What you'll need \u2022 8-10 years of software Product Development experience, ideally with B2B or B2C SaaS products. \u2022 At least 4 years in SaaS (Productivity, Project Management, Collaboration, Workflow) specific product management. \u2022 Ability to combine strong product sense with business acumen to deliver positive outcomes for both customers and the business. \u2022 Passionate about our mission. \u2022 Demonstrated ability to think critically and problem-solve. \u2022 Excellent communication skills. \u2022 An ownership mentality. \u2022 Ability to engage in respectful debate and arrive at \"win-win\" decisions. \u2022 A bias for action. \u2022 Excitement to celebrate and win as a team. \u2022 Self-aware and a growth mindset. A bonus if you have \u2022 Experience building or launching products that leverage agentic AI systems. \u2022 Experience in the legal technology industry. Benefits & Perks \u2022 Comprehensive health plans (including Medical, Dental and Vision insurance for full-time employees) \u2022 Unlimited PTO \u2022 Competitive salary packages \u2022 Life insurance \u2022 Disability benefits \u2022 Supplemental Optional Life Insurance Benefits \u2022 FSA Options Optional \u2022 HSA with Company Match \u2022 401k program with Company Match \u2022 Wellhub & ClassPass fitness platforms \u2022 Comprehensive Pet I"
+  },
+  {
+   "id": "jsearch:NDhCMnhrOFIxVzZNV3ZnWUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXbkZ5VmxkQmJ6RnhUMWxvVUVWZmQzTjJSek4xVkZWZmJrMUZkemxTVG1OWFJIZFJhVXhKT1hSdk4wWlRkSEJyVnpaVVZGZE9WV2hhWlRsTFZHcE5kV0pHWm1kdmQzZG9SRVF4V0ZOYVRXbHBkSHB5YkVOMldHeEZSV05WVjB0SFRFWlpSMEZvVG05cVVrNWhkWGxXYkdoSGFEWm1la3RDZHpGR1luVlNWbll4TmpaYWNEWVNGMk5SV0RkaGRFeFNUMDlRVmpWT2IxQnpOVWhCZDFGckdpSkJTRTR3UlRkRmEyWkljblJHTWw5cmFGaHRkMFJIT1ZKdWRrZERhMEZzV1Vobjo4N2NhMmUwMQ",
+   "source": "jsearch",
+   "publisher": "Avantor Careers",
+   "title": "Senior Director, Digital Product Management",
+   "company": "Avantor",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://careers.avantorsciences.com/senior-director-digital-product-management/job/R-176300",
+   "posted": "2026-11-13T00:00:00+00:00",
+   "salary": "",
+   "description": "The Opportunity: The Senior Director, Digital Product Management is accountable for how product management is performed across VWR\u2019s digital organization, including the vision, standards, operating model, governance, and talent systems that enable a scalable, high-performing discipline. This leader oversees the practice and its leaders rather than a single product area, translating enterprise and digital strategy into a multi-year direction for product management while shaping portfolio investment, capacity, and delivery priorities. As the organization matures, the role may extend into adjacent experience disciplines, including UX / Design, to ensure a coherent, customer-centered approach to end-to-end digital product delivery. How you will thrive and create an impact \u2022 Own and evolve the vision, philosophy, and operating model for the Product Management practice, including how digital products are discovered, prioritized, delivered, and measured. \u2022 Set and steward product standards, methodologies, governance, and tooling; improve consistency and quality across teams as the organization scales. \u2022 Translate enterprise and digital strategy into a multi-year direction for the product discipline, aligning practice investment, organizational capacity, and priorities to business needs. \u2022 Represent product management at the executive level and partner with Engineering, Data, Commercial, and business leaders to shape digital strategy, portfolio investment, and roadmaps. \u2022 Lead the discipline\u2019s contribution to measurable commercial, customer, and operational outcomes; establish performance measures and communicate trade-offs to executive leadership. \u2022 Own the talent and capability architecture for product management, including job families, leveling frameworks, career paths, hiring standards, talent calibration, succession planning, and leadership development. \u2022 Lead and develop Directors of Product Management and, as scope expands, UX / Design leaders; build a strong leadership bench and set clear cultural, performance, and ethical expectations. \u2022 Build, structure, and resource the product and experience organization in partnership with the Chief Digital Officer and the HR team. \u2022 Extend practice leadership across UX / Design and cross-functional delivery to enable an integrated, end-to-end approach to digital product development. \u2022 Advance product and UX maturity by benchmarking against industry practices, implementing modern operating models, including AI-enabled ways of working, and leading the organizational change required for adoption. \u2022 Champion customer-centricity, outcome orientation, and data-informed decision-making across the discipline. What we're looking for \u2022 Bachelor\u2019s degree required; MBA or other advanced degree preferred. \u2022 12\u201315+ years of progressive product management experience, including substantial experience leading product leaders and managing managers or directors. \u2022 Demonstrated success building, scaling, and maturing a product practice or organization, including its operating model, standards, governance, and talent frameworks. \u2022 Experience leading complex, cross-functional digital initiatives and influencing senior executives. \u2022 Proven ability to connect product practice maturity and investment to measurable business and customer outcomes. \u2022 Experience leading or closely partnering with UX / Design and other experience disciplines; comfort operating across a combined product and experience remit preferred. \u2022 B2B, eCommerce, and/or distribution industry experience preferred. \u2022 Experience implementing modern product operating models and AI-enabled ways of working preferred. \u2022 Experience designing job architectures, leveling frameworks, and career paths for a professional discipline preferred, in partnership with HR. Knowledge, Skills, and Abilities \u2022 Enterprise-level product management expertise, including product discovery, prioritization, delivery, measurement, governance, and portfolio planning. \u2022 Strate"
+  }
+ ]
+}
