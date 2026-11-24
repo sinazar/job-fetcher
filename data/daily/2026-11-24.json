@@ -1,0 +1,509 @@
+{
+ "run_at": "2026-11-24T15:41:45.595196+00:00",
+ "date": "2026-11-24",
+ "runs": [
+  "2026-11-24T154145Z"
+ ],
+ "source_counts_after_filters": {
+  "jsearch": 24,
+  "remoteok": 6,
+  "weworkremotely": 20,
+  "adzuna": 0,
+  "builtin": 0
+ },
+ "new_count": 15,
+ "diagnostics": {
+  "jsearch: product manager in Toronto, ON (ca)": {
+   "returned": 20,
+   "kept": 12,
+   "error": null,
+   "rejected_by": {
+    "title": 7,
+    "aggregator": 1
+   },
+   "rejected_samples": [
+    "[title] Product Growth Manager | Manulife | Toronto, ON, Canada | 2026-11-23T23:00:00+00:00",
+    "[title] Manager, Product Strategy & Operations | eBay | Toronto, ON, Canada | 2026-11-21T00:00:00+00:00",
+    "[title] Product Owner, Travel Platforms | Air Canada | Toronto, ON, Canada | 2026-11-23T23:00:00+00:00",
+    "[title] Product Marketing Manager (Real Estate Fintech) | Talencore | Toronto, ON  (+1 other) | 2026-11-22T00:00:00+00:00",
+    "[aggregator] Director of Product, Shopper | Jobgether | Toronto, ON, Canada | 2026-11-21T00:00:00+00:00",
+    "[title] Intern Product Management, Winter 2027 | EQ Bank | Toronto, ON  (+1 other) | 2026-11-22T00:00:00+00:00",
+    "[title] Manager, Product Transitions & Process Optimization | Connor, Clark & Lunn Financial Group (CC&L) | Toronto, ON, Canada | 2026-11-21T00:00:00+00:00",
+    "[title] Senior Renewals Manager Req# 25056 | Dayforce | Toronto, ON  (+1 other) | 2026-11-21T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "product manager in Toronto, ON",
+     "cursor": "EvcGCrcGQUREYldlYm03MzBMR0Rja1lKaFh4OUl6R2lYc19iQmk3SzQ5TzB3SHhDMGFfTzBSUjhSc2RHS3NBUXZhbGtkV3V2eHVNZHFHR3c1SEVodkxLamhLdjgyQmcwUTBlcVNrSW1IbDVLWWN4RlFXblRMOEx6VEhMb2MzaVUzdnR1bWZidkZadXRFeGpiZjNqajYtanZGZjhtcHJ2ZDROVGg0c0hwOTFtUlV1QVRGUXRZNjBLTGszWEJqWkdsMnN3aFFhTG52V3RTWHprR2xnYVpRcWJ4N0NlaDlER29laVJhZ2V4WkNjOGxONnFLempPbmxsZS1Qa29tODVFQm9tWkZ5R3NoVkN1UjlHV2VDS3pzVDM3R1JIRXVjVXl4Zmd6emhhX2hXRjRvRUFZS3FGLVIySW0xOFVYTllxbENJd3E1N2NBUWpUME9rcWlPR3N0TVJVVnRUNkU1Mmk3djMtNU9NNlJTZndaUjlYT1NvSzV2R2Z4NDlRU3BSbFR0UndLY3JEbXo5MzNPRElYbVhGeUtMZ2JtcEUwQlplMnFEMWI5SzVBQWhJX1dRRVY0TnBETnJWdHU2WEZKenUyX3c5TzNzMkpHX3ZTdTRMZklmTkFQWkNDZ21rQUd0X2ZmUG8yUG9rQzkxdFpVb3hrLUpWYUxxZVN4SkJDeThoa191dUZOUXdtaHhBdThxTDRhRDVXTk1wZ2RxUkVRRi16WEVQSmtHY191aGV6c2ZNQzhzVkNXVnRSLWdjMlhZandqSkwwajRwRWtwb19lNXBBdzd0eWR3aVlJeldlclVzeFlfZ2p5WXBqTngtV1FwUVBOQzJ4MW5zMFFjREJvVi1ETnpaYTdFc3RJTHJWSGdWdkpKb3I4aUhYLWxaZzhiYTRybzg1dDQ5eXJWRHF6Nko4TFNGRWVnWG1PQ2RrblRRaUo5RXdIVEo0MjVTSlB3Z0xYWXkwZjk2ZzR4YWF6Nk05Zm5JS0VPY0lvd21Pb2Ztbmhpcld4MkRsMks2VXdEUExGOTd0bEFBYXRXTFhjemJqWWlTdDYwTlVhRWNUQ3FnTU9YcVV3MHZBV0lRVEhOS0tscVhsWUpLeEpneUVOWRIXU2JBRmE2QzdOdEhUNU5vUHRZT2d5UXcaIkFITjBFN0dqckctV2xqa09tRWRrZ0ducmtxVjBfZHQxc2c",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10,
+    10
+   ]
+  },
+  "jsearch: remote product manager Canada (ca)": {
+   "returned": 10,
+   "kept": 3,
+   "error": null,
+   "rejected_by": {
+    "location": 2,
+    "title": 5
+   },
+   "rejected_samples": [
+    "[location] Senior Product Manager \u2013 Medical Inquiry | Veeva Systems |  | 2026-11-22T00:00:00+00:00",
+    "[title] Senior Product / Project Manager | Space Dinosaurs |  | 2026-11-22T00:00:00+00:00",
+    "[location] Senior Product Manager, Demand Planning | Kinaxis | Qu\u00e9bec City, Quebec, Canada | 2026-11-22T00:00:00+00:00",
+    "[title] Remote Support Manager | Vision33 | Burlington, ON  (+1 other) (Remote) | 2026-11-22T00:00:00+00:00",
+    "[title] Product Owner [E-commerce Team], Remote Job | Sweed | (Remote) | 2026-11-23T00:00:00+00:00",
+    "[title] Remote Support Manager | Vision33 | Halifax, NS, Canada (Remote) | 2026-11-22T00:00:00+00:00",
+    "[title] Remote Territory Manager, Metals Canada | Steinert | Truro, NS  (+1 other), Canada (Remote) | 2026-11-22T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "remote product manager Canada",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "ca",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "jsearch: senior product manager (us, remote)": {
+   "returned": 10,
+   "kept": 9,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Senior PM, GridBeats DvM \u2014 Remote | CP1367 GE Grid Solutions, LLC | Anywhere (Remote) | 2026-11-22T00:00:00+00:00"
+   ],
+   "response_shape": {
+    "top_keys": [
+     "status",
+     "request_id",
+     "parameters",
+     "data"
+    ],
+    "data_keys": [
+     "jobs",
+     "cursor"
+    ],
+    "parameters": {
+     "query": "senior product manager",
+     "num_pages": 1,
+     "date_posted": "3days",
+     "work_from_home": true,
+     "employment_types": [
+      "FULLTIME"
+     ],
+     "country": "us",
+     "language": "en"
+    },
+    "job_keys": [
+     "job_id",
+     "job_title",
+     "employer_name",
+     "employer_logo",
+     "employer_website",
+     "job_publisher",
+     "job_employment_type",
+     "job_employment_types",
+     "job_apply_link",
+     "job_apply_is_direct",
+     "apply_options",
+     "job_description",
+     "job_is_remote",
+     "job_posted_at",
+     "job_posted_at_timestamp",
+     "job_posted_at_datetime_utc",
+     "job_location",
+     "job_city",
+     "job_state",
+     "job_country",
+     "job_latitude",
+     "job_longitude",
+     "job_benefits",
+     "job_benefits_strings",
+     "job_google_link",
+     "job_salary",
+     "job_salary_string",
+     "job_min_salary",
+     "job_max_salary",
+     "job_salary_period",
+     "job_highlights",
+     "job_onet_soc",
+     "job_onet_job_zone",
+     "employer_reviews",
+     "job_uid"
+    ]
+   },
+   "pages": [
+    10
+   ]
+  },
+  "remoteok": {
+   "returned": 100,
+   "kept": 6,
+   "error": null,
+   "rejected_by": {
+    "title": 94
+   },
+   "rejected_samples": [
+    "[title] Senior Software Engineer, Agentic AI | Clover Health | US Only (Remote) | 2026-11-23T09:40:04+00:00",
+    "[title] Senior Software Developer, Agentic AI - Canada | Clover Health | Canada Only (Remote) | 2026-11-23T09:20:04+00:00",
+    "[title] Threat Research Engineer, Security Factory: Threat Research | GitLab | EMEA (Remote) | 2026-11-23T00:20:04+00:00",
+    "[title] Staff Backend Engineer, Performance Enablement | GitLab | Europe (Remote) | 2026-11-23T00:00:08+00:00",
+    "[title] Renewals Manager - LATAM | GitLab | Latin America (Remote) | 2026-11-23T00:00:05+00:00",
+    "[title] Manager, Technical Accounting and Equity Reporting | \u00c5\u008cURA | US Only (Remote) | 2026-11-22T02:00:04+00:00",
+    "[title] Senior SRE, Site Experience | Reddit | US Only (Remote) | 2026-11-22T01:40:06+00:00",
+    "[title] Senior Staff SRE, Site Experience | Reddit | US Only (Remote) | 2026-11-22T01:40:05+00:00"
+   ]
+  },
+  "weworkremotely": {
+   "returned": 63,
+   "kept": 20,
+   "error": null,
+   "rejected_by": {
+    "title": 38,
+    "location": 2,
+    "too old": 3
+   },
+   "rejected_samples": [
+    "[title] Senior QA Engineer - Europe | Storyblok | Anywhere in the World (Remote) | 2026-11-24T06:02:42+00:00",
+    "[title] Senior Customer Engineer - LATAM (Spanish Speaking) | Mixpanel | Anywhere in the World (Remote) | 2026-11-23T18:32:35+00:00",
+    "[title] Solutions Engineer, Okta(Enterprise) | Okta | Anywhere in the World (Remote) | 2026-11-23T18:31:56+00:00",
+    "[title] Director, Strategic AI Partnerships | Dropbox | Anywhere in the World (Remote) | 2026-11-23T18:31:38+00:00",
+    "[title] General Application for Product, Engineering and Technology | Talkspace | Anywhere in the World (Remote) | 2026-11-23T18:31:31+00:00",
+    "[title] Manager II, Engineering- Analytics Engineering, Core Data Science | Pinterest | Anywhere in the World (Remote) | 2026-11-23T18:31:10+00:00",
+    "[title] Professional Services, Program Manager | GitLab | Canada Only (Remote) | 2026-11-23T17:01:48+00:00",
+    "[title] Senior Manager, Commercial Learning and Development | Elation Health | Anywhere in the World (Remote) | 2026-11-23T06:01:51+00:00"
+   ]
+  },
+  "builtin search 1": {
+   "returned": 0,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {},
+   "rejected_samples": [],
+   "http_status": 200,
+   "links_found": 1
+  },
+  "builtin job pages": {
+   "returned": 1,
+   "kept": 0,
+   "error": null,
+   "rejected_by": {
+    "title": 1
+   },
+   "rejected_samples": [
+    "[title] Senior Manager, Gaming Products and Market Development"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/mercury-head-of-product-personal-banking",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Head of Product - Personal Banking",
+   "company": "Mercury",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/mercury-head-of-product-personal-banking",
+   "posted": "2026-11-24T06:01:59+00:00",
+   "salary": "",
+   "description": "Headquarters: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States In 1967, John Shepherd-Barron reached his bank minutes after closing and could not get at his own money. In the bath that evening, he thought of a chocolate bar dispenser and swapped the chocolate for cash. On 27 June, outside a Barclays branch on Enfield High Street, an actor named Reg Varney drew \u00a310 from the world's first cash machine. It took a four-digit code (originally six, until his wife told him nobody remembers six). The bank's hours had stopped being the customer's problem. Nearly sixty years later, the bar has moved, but the test hasn't: a personal financial product is judged on whether it fits the life of the person using it. People do not read documentation, forgive a confusing screen, or care how the ledger works. They want one place that makes sense of everything \u2014 spending, saving, planning, investing \u2014 and that anticipates rather than reports: where they stand, what deserves attention, what to do next. Mercury is building personal banking* to that standard. Personal Banking is how Mercury earns a place in someone's financial life. We're looking for a Head of Product to own it end-to-end: setting product strategy, leading a team of product managers, driving growth and engagement, and owning business performance. *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC. Key responsibilities: Build a personal banking experience so good that people tell their friends and colleagues about it Own the metrics, product strategy and the propositions we take to our customers, covering personal money management, banking, savings, investments, money movement, and in the future, lending Set the craft bar: sweat the details \u2014 copy, latency, empty states \u2014 that decide whether a consumer product feels inevitable rather than adequate Drive the use of AI in products where it makes the experience meaningfully better Build and scale the org: recruit and lead a high-performing PM team, instill strong build discipline, develop future leaders, and set a cadence and culture that drives pace and quality Grow the business: own acquisition, activation, retention, and the loops that compound, including how personal banking connects to the businesses Mercury already serves Make reliability and trust product features: own uptime, correctness, latency, and support outcomes, and be measured on them Align the ecosystem: bring product, engineering, design, data, risk, compliance, legal, marketing, support, and partners behind one cohesive strategy Some things that might make you successful in a role like this: A consumer product leader with taste: you have built products millions of people chose to use, and can point to the decisions that made them work You have shipped AI-led products to real consumers and have opinions about what AI makes possible and where it fails An exceptionally high bar for craft, and a customer-centered, data-driven, and experimentation-oriented approach 10+ years building consumer products, including time owning a product's growth and economics, not only its roadmap 5+ years leading product managers: hiring, coaching, org design, and performance management Experience launching and scaling 0-1 products, alongside operating a large product with real customers on it Exceptional cross-functional leadership across engineering, design, data, risk, compliance, and partners Nice to have: banking, payments, or fintech experience. We can teach you the rails; we cannot teach product judgment Sound judgment in a regulated environment: you balance a delightful experience with the controls a banking product requires, and know which corners are never worth cutting Mercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, co"
+  },
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/mercury-head-of-product-business-banking",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Head of Product - Business Banking",
+   "company": "Mercury",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/mercury-head-of-product-business-banking",
+   "posted": "2026-11-24T06:01:59+00:00",
+   "salary": "",
+   "description": "Headquarters: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States In 1851, a New York bookkeeper named George D. Lyman observed the same absurd ritual each afternoon: porters carried bags of coins and bundles of checks bank to bank down Wall Street, settling by hand, a fortune exposed to error and theft. Lyman's fix: send everything through one central office and settle the net. On October 11, 1853, in the basement of 14 Wall Street, 52 banks cleared $22.6 million in a single sitting. Money between banks had stopped being an event and became seamless infrastructure. A century and a half later, the hard part is unchanged: moving money once is easy; making it work every time, for hundreds of thousands of businesses, across every rail, is hard. The bank account is where a company's financial life happens - payroll clears or it doesn't; a wire lands or a deal slips; the month closes clean, or someone loses a weekend to it. Mercury is building a business banking* product at a scale better than anything else in the market. Business Banking is the heart of Mercury. We're looking for a Head of Product to own it end-to-end: setting product strategy, leading a team of product managers, driving deposit and payment growth, and owning business performance. *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC. Key responsibilities: Own the P&L, strategy, and product offering: accounts, user experience, payments, new rails, and agents Build AI - and data-driven user experiences at scale better than the alternatives Build and scale the org: recruit and lead a high-performing PM team, instill strong build discipline, develop future leaders, and set an operating cadence and culture that drives pace and quality Deepen the core account and take new products 0-1 to scale: optimize what businesses run on, and invest in new rails, capabilities, and agents so customers can focus on building their companies Make reliability and trust product features: own uptime, correctness, latency, and support outcomes, and be measured on them Align the banking ecosystem: bring product, engineering, design, data, risk, compliance, legal, marketing, sales, support, and partners behind one cohesive strategy Some things that might make you successful in a role like this: A leader with great product chops, commercial instinct to grow the business, and discipline to run it safely A high bar for craft \u2013 leading a creative, customer-centered, data-driven and experimentation-oriented approach Enthusiasm for building AI- and agent-powered products that drive spectacular customer experiences Exceptional cross-functional leadership across engineering, design, risk, compliance, finance, and partners 10+ years' experience, ideally in banking, payments, platforms, or financial products 5+ years leading product managers: hiring, coaching, org design, and performance management Command of how business banking works: account opening and KYB, deposits and liquidity, payment rails (ACH, wire, check, international, FedNow, RTP) Experience launching and scaling 0-1 financial products, ideally in fintech or another high-growth environment, alongside operating a large product with real customers on it Sound judgment in a regulated, risk-sensitive environment: balance a delightful experience with the controls a banking product requires, and know which corners are never worth cutting Mercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants "
+  },
+  {
+   "id": "jsearch:VHpPelFwbmdFTmUtUjlXR0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVkZJVDB4VWMwSklZbUZJTXpSMFlWYzNTVWRGVFZGQ1JTMWhkVzFEY0Vwb2RrMVljalI0U0dab01WWjVSak4yVVZadE9HWkJOMll3VFRKZlkwRlZTRUZZWVhOME0zQnJiV0UyTW10TVNWVjVkRW80WkRrelpGWlFkMGhYY1V0VU9XMVNSemRWUWtNeVpIRmZZMnhWVDFCWVQyUldXbmxVTkRaQ09HOVZTRUoyTjA1SFVqUVNGMU5pUVVaaE5rTTNUblJJVkRWT2IxQjBXVTluZVZGM0dpSkJTRTR3UlRkSWEwSk9iMU56VjBRNU5WVTNZVFkyTnpoV1NWTkJZbUl5ZFRkQjplYTQyYzRmYQ",
+   "source": "jsearch",
+   "publisher": "Learn4Good",
+   "title": "Senior Customer Experience Product Manager",
+   "company": "Skillhub Solutions Inc.",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://www.learn4good.com/jobs/toronto/canada/business/5663400733/e/",
+   "posted": "2026-11-23T23:00:00+00:00",
+   "salary": "",
+   "description": "Lead customer experience product strategy at Jobber using customer research and data across support, onboarding, and AI-powered tools. Candidates may work remotely in Canada. As Senior Product Manager, you will guide key Customer Experience roadmap areas from discovery through delivery. Your work spans customer support channels, AI agents, proactive coaching, and omnichannel communications. You will help improve customer outcomes and trust for small home service businesses. Key Responsibilities: \u2022 Lead customer experience initiatives from discovery through delivery \u2022 Engage customers and teams to understand needs and pain points \u2022 Use data to identify opportunities and measure results \u2022 Connect support and communications into coherent customer journeys \u2022 Shape AI automation, human support, quality, and trust Requirements: \u2022 Senior Product Manager experience in SaaS or technology \u2022 Experience owning onboarding, adoption, retention, or support products \u2022 Strong research, analytical, systems-thinking, communication, and execution skills \u2022 Experience aligning technical and business stakeholders through influence \u2022 Commitment to customer trust and long-term customer value Bring customer-focused product leadership, analytical thinking, and AI experience to Jobber\u2019s Customer Experience roadmap."
+  },
+  {
+   "id": "jsearch:OXE5ZDdNS0Q0M0xUWUZpLUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVFpzUTNkaVlrRmxkVzF4TW5WcGMzaHRUeTB0YkZvd1kzWlJVMVZoWHpkcFEyUTBNV1ZmZWpGMGNrMWljblI2V1dWWFQwMTBVbFZmT1VjemREVjBZMmxSYTJkcFUzQkxTakZrZVVwT1RFRTRVbVpDVTJKZmFqZDNlbkYxY25SMVdtRmxZMnN6U0dVelNsRXdaMEpETTJ4ZmJsSldOazlJVG5wYVYwMU1kMG80YUcxNFpuZ1NGMVZpUVVaaE5sTjVTM1I1ZHpCUVJWQnRZa3QzTkVGWkdpSkJTRTR3UlRkRlJUTmpUbDl1Y0VJd2NtaE5lRFJrUVhwVVJFUmFRMjFzWnpGUjowMWFjMjhjMw",
+   "source": "jsearch",
+   "publisher": "Recruit.net",
+   "title": "Senior Product Manager, Customer Experience Retail, food and customer service : Jobber \u00b7 Remote (Alberta) \u00b7 $120,120\u2013$223,080 a year Open until filled",
+   "company": "Alberta",
+   "location": "Canada (Remote)",
+   "remote": true,
+   "url": "https://www.recruit.net/job/product-manager-customer-experience-retail-jobs/5F4692F42FAC540F",
+   "posted": "2026-11-23T23:00:00+00:00",
+   "salary": "",
+   "description": "We're looking for a Senior Product Manager to join our Customer Experience (CX) team and help shape how home service businesses get support, hear from us, and succeed with Jobber. Jobber exists to help people in small businesses be successful. We work with small home service businesses, like your local plumbers, electricians, painters, and landscapers, to transform the way service is delivered through technology. With Jobber, they can quote, schedule, invoice, and collect payments from their customers while providing an easy and professional customer experience. Running a small business today isn't like it used to be\u2014the way we consume and deliver service is changing rapidly, technology is evolving, and customers expect more. That's why we put the power and flexibility in their hands to run their businesses how, where, and when they want! Our culture of transparency, inclusivity, collaboration, and innovation has been recognized by Great Place to Work, Canada's Most Admired Corporate Cultures, and more. Jobber has also been named on the Globe and Mail's Canada's Top Growing Companies list, and Deloitte Canada's Technology Fast 50, Enterprise Fast 15, and Technology Fast 500 lists. We've come a long way from our first customer in 2011\u2014and we've just scratched the surface of what we want to accomplish for our customers. The team Customer Experience (CX) 's mission is to set service providers up to succeed with Jobber every day. We own our in-product support experience, sign-up and onboarding, and cart and checkout, along with the customer profiles, industry success playbooks, and AI-powered tools that help each provider reach the next growth milestone that matters to their business. CX also owns customer trust at Jobber: how we earn it, and how we measure it. CX is a horizontal team, which means our work touches every part of Jobber. We partner with product, design and engineering teams throughout the company, and with leaders across Customer Success, Support, Marketing, Sales, and Revenue Operations, to set goals and track progress. The role Reporting to the VP, Customer Experience Innovation, you will lead product strategy and execution for key areas of the CX roadmap. You'll work alongside our CX leadership team across Product, Engineering, and Design to set direction, define what success looks like, and deliver results. This is an opportunity to take on some of Jobber's most important customer problems, with a clear mandate to rethink how we support, coach, and communicate with our customers using AI. Your work will span our customer channels and the AI agents behind them, proactive coaching built on customer profiles and industry success playbooks, and omni-channel communications in and out of the product. The areas you own may shift as our priorities do. #J-18808-Ljbffr"
+  },
+  {
+   "id": "jsearch:WjFqS0lIUVoxUm5mODJrcEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZVTlDTUVOWGRtVklXV051VDBOMFVsaGxSbFJ2WDFSME9GcEhVMWh5U0ZSTk16UkhjazVQWjJ0ZllXbE9hSE5JZFROM01UUjJaRzlOTm1KaGNIZGtXbXhhTTNWNE9XRTVTVkpGTlhaVmJWZzNNMUJ2ZUVWTU5XMVBTa3QyV0hVMFoxSldPVVZ4Wm1kNmJUZzBZVk5xTVhadVkwcGxNVGR1YWpsWU1Gb3pWVU0zTTBoT1VqWVNGMU5pUVVaaE5rTTNUblJJVkRWT2IxQjBXVTluZVZGM0dpSkJTRTR3UlRkSE0zTlNhak5qTUZkS1pXZG1aRmxXTWtKM01rRmtNSHBaV1ZwUjoxMTg2ODAxMg",
+   "source": "jsearch",
+   "publisher": "Equinix Careers",
+   "title": "Network Infrastructure Product Manager",
+   "company": "Equinix",
+   "location": "Toronto, ON, Canada",
+   "remote": false,
+   "url": "https://careers.equinix.com/ja/jobs/network-infrastructure-product-manager-toronto-ontario-canada",
+   "posted": "2026-11-23T19:00:00+00:00",
+   "salary": "",
+   "description": "Who are we? Equinix is the world\u2019s digital infrastructure company\u00ae, shortening the path to connectivity to enable the innovations that enrich our work, life and planet. A place where bold ideas are welcomed, human connection is valued, and everyone has the opportunity to shape their future. A career at Equinix means being at the center of shaping what comes next and amplifying customer value through innovation and impact. You\u2019ll work across teams, influence key decisions, and help shape the path forward. You\u2019ll find belonging, purpose, and a team that welcomes you\u2014because when you feel valued, you\u2019re empowered to do your best work. Job Summary Designs, develops and manages the lifecycle of a product or group of products from concept to launch to end of life. Translates market opportunities and customer demand into viable products and services that differentiate Equinix in the market. Sets the vision and strategy for their product ensuring it is competitively positioned and customer-centric. Manages the product roadmap including features, upgrades and maintenance of the product or product line. Works cross functionally with user experience, engineering, operations, solution architects, marketing and others to design, build and launch new products and/or product features. Responsibilities \u2022 Translate product strategy into roadmap initiatives, epics, features, and user stories \u2022 Own and prioritize the product backlog, ensuring requirements, user stories, and acceptance criteria are clearly defined and aligned with business priorities \u2022 Partner with Engineering, Network Architecture, Solutions Architecture, and Operations teams to gather requirements, validate solutions, and prioritize investments \u2022 Lead cross-functional execution through sprint planning, backlog refinement, release planning, and delivery activities to ensure successful and timely outcomes \u2022 Define and track product success metrics to inform prioritization and continuous improvement \u2022 Communicate roadmap priorities, product updates, dependencies, and key decisions across stakeholder groups \u2022 Monitor industry trends, emerging networking technologies, and digital infrastructure developments to inform roadmap planning \u2022 Support executive reviews, strategic planning activities, and business presentations \u2022 Provide internal customer and partner briefings and serve as an advocate for Equinix network-as-a-service Qualifications \u2022 3-5 years of experience in product management, network engineering, cloud infrastructure, or related technical disciplines \u2022 Experience working with Agile methodologies and software development lifecycles \u2022 Ability to translate complex technical concepts into clear requirements, user stories, and product deliverables \u2022 Strong analytical, stakeholder management, and cross-functional collaboration skills, with the ability to manage competing priorities \u2022 Understanding of networking fundamentals, including TCP/IP, routing, switching, BGP, VLANs, and cloud networking concepts \u2022 Knowledge of data center networking, interconnection, and Network-as-a-Service (NaaS) solutions \u2022 Familiarity with one or more cloud platforms, including AWS, Microsoft Azure, or Google Cloud \u2022 Understanding of observability, monitoring, telemetry, and operational analytics concepts \u2022 Exposure to software-defined networking (SDN), network automation, APIs, distributed systems, and cloud-native networking platforms \u2022 Bachelor's degree in Computer Science, Engineering, Information Systems, Business, or a related field Preferred Qualifications \u2022 Experience working with networking, cloud infrastructure, or digital platform products \u2022 Exposure to advanced networking technologies, including MPLS, IS-IS, VXLAN, SD-WAN, network virtualization, and software-defined networking (SDN) \u2022 Exposure to network management and telemetry protocols, including SNMP, gNMI, and gRPC \u2022 Master's degree in Computer Science, Engineering, Information Systems, Business, or a related field The targeted pa"
+  },
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/oportun-senior-product-manager-r14206",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Senior Product Manager (R14206)",
+   "company": "Oportun",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/oportun-senior-product-manager-r14206",
+   "posted": "2026-11-23T18:32:28+00:00",
+   "salary": "",
+   "description": "Headquarters: Remote - India Who We Are Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $22.7 billion in responsible and affordable credit, saved its members more than $2.5 billion in interest and fees, and helped its members set aside an average of more than $1,800 annually. Location Note We\u2019re excited to consider talent currently based in India, as well as candidates who are open to relocating to India for this opportunity. Please note that, as this is a \"Remote\u2013India\" position, the role must be performed from within India. The Opportunity Oportun is seeking a talented, customer-focused, and analytical Senior Product Manager to join the Servicing & Payments team. You will help create a trusted post-disbursement experience that strengthens members' confidence in Oportun, supports their financial health, and encourages continued engagement and repeat member behavior. You will define product strategy, set measurable objectives and key results, create outcome-oriented roadmaps, and partner with engineering, design, data, operations, risk, compliance, and other teams to deliver reliable, scalable solutions. You will help make repayment easy, intelligent, successful, and accurately reflected for lending members. At Oportun, we move fast and we hold each other to a high bar. If you care about doing your best work while actually moving the needle for real people, you'll fit right in. What You'll Do Your day-to-day You'll define and execute product strategy and roadmaps that improve repayment outcomes, member trust, and repeat engagement. You'll own initiatives end to end - from discovery and requirements through delivery, measurement, and iteration. You'll create simple, transparent, and reliable servicing and payment experiences across self-service and assisted channels. You'll use member insights, data, and experimentation to improve payer rate, payment success, DQ prevention, and lending-member NPS. You'll lead cross-functional delivery with engineering, design, data, operations, risk, compliance, legal, and finance. You'll communicate product strategy, trade-offs, progress, and measurable business impact to senior stakeholders. You'll bring ideas for how we can do things better - proactively, not just when asked. You'll look for ways to use AI tools thoughtfully - to work smarter, reduce manual work, and make better decisions faster. Who You Are The right fit looks like this You're customer-focused and analytical, with a track record of navigating complex problems and turning member needs and data into practical product decisions. You're collaborative, communicate clearly, and build consensus across a wide range of cross-functional partners. You're comfortable navigating complexity and don't wait for perfect information to move forward. You communicate clearly, give direct feedback, and expect the same in return. What You Bring Skills & experience You'll have 5+ years of product management experience in high-growth environments. You've demonstrated experience partnering with business executives and cross-functional teams across compliance, risk, operations, fraud, technology, business intelligence, finance, training, legal, and cybersecurity. You bring strong analytical problem-solving skills, including experience with data-informed decision making, testing and experimentation, metric definition, and data analysis. You've demonstrated a track record of shipping and iterating on impactful products while building consensus across a broad group of cross-functional partners. You bring strong product execution skills and the ability to help teams push through obstacles and blockers to deliver value for members. You communicate clearly and concisely and have strong docum"
+  },
+  {
+   "id": "wwr:https://weworkremotely.com/remote-jobs/metamask-senior-product-manager-universal-kyc-metamask-passport",
+   "source": "weworkremotely",
+   "publisher": "weworkremotely",
+   "title": "Senior Product Manager \u2013 Universal KYC (MetaMask Passport)",
+   "company": "MetaMask",
+   "location": "Anywhere in the World (Remote)",
+   "remote": true,
+   "url": "https://weworkremotely.com/remote-jobs/metamask-senior-product-manager-universal-kyc-metamask-passport",
+   "posted": "2026-11-23T18:32:25+00:00",
+   "salary": "",
+   "description": "Headquarters: EMEA - Remote, UNITED STATES - Remote Please note that we are unable to consider applications from candidates based in France, Italy, or Germany for this role. Money is moving onto the internet, and the shift has a name: Open Money. This is money that is open, portable, agentic, and owned by you. MetaMask spent the last ten years building it; with 100M+ downloads, users in ~190 countries, and trillions in cumulative transaction volume, it's the most trusted self-custodial financial platform on the internet. Now we're building the operating system for your money: one place to hold, move, grow, and use anything you own. Join a remote-first, global team rebuilding how money works: a problem that touches everyone, every day. About MetaMask MetaMask is building a future where users can unlock the full product stack through a single, seamless identity experience, enabling access to all features with trust, safety, and minimal friction. Today, identity verification is fragmented across several product and onboarding experiences. Users are repeatedly asked to verify themselves across different services, creating unnecessary friction, inconsistent outcomes, and degraded trust. Universal KYC (UKYC) is a new initiative to solve this problem by creating a single, reusable identity layer across MetaMask. At the centre of this is MetaMask Passport , a product designed to enable users to verify once and unlock multiple experiences across the MetaMask ecosystem. This role sits at the intersection of platform and product experience . You will define the primitives, standards, and user journeys that make identity verification seamless, privacy-conscious, and globally compliant. What you\u2019ll do You will own the vision and roadmap for Universal KYC and MetaMask Passport, defining how a reusable identity layer unlocks the broader MetaMask product stack. You will build the underlying identity platform, creating scalable verification primitives and standards that can be adopted across products. In parallel, you will design a seamless, low-friction KYC experience that reduces time-to-first-transaction while maintaining compliance integrity. You will drive adoption across MetaMask by partnering closely with internal teams to integrate a consistent identity layer, while balancing privacy, trust, and global regulatory requirements. Throughout, you will lead execution end-to-end, aligning cross-functional teams and delivering measurable outcomes. What we are looking for: Proven experience building or scaling identity verification (IDV), KYC, or onboarding products Strong background in fintech , ideally with exposure to Web3 Hands-on experience working with identity verification providers (IDV vendors) such as Sumsub, Veriff, Onfido, Persona, or Stripe Identity Familiarity with compliance workflows , including KYC, KYB, and customer due diligence (CDD) processes Track record of delivering platform products adopted across multiple teams Ability to operate across both technical systems and user experience What Success looks like: Increased KYC completion rates and reduced onboarding friction Reduced time-to-first-transaction across KYC-gated flows Increased reuse of verified identity across products Improved transaction success rate through consistent verification outcomes Strong user trust with minimal friction and compliant execution Attributes that will make you stand out First-principles thinker with strong product judgment Deep user empathy with a focus on reducing friction and cognitive load Strong understanding of trust, privacy, and compliance trade-offs Clear, structured communicator who drives alignment and momentum High ownership and ability to operate in ambiguity Why This Role Matters Universal KYC is a foundational unlock for MetaMask, enabling users to move from fragmented, repetitive identity verification to a seamless, reusable experience across the entire product stack. It establishes a scalable, privacy-conscious identity lay"
+  },
+  {
+   "id": "jsearch:eGNoTXBZVkpTSGRyMzBBbkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXblJ3UWkxeWMyOXVjREp1Y0hOblNrcGxXV3BQUVdKSWNtSjViRlJETm5sWVJVaFFiVXRKU25ReVFUQnBPRGRDYW1WWk9XUTBWamd0WVdsSlNFWnJiMFZNVG5OVUxXaHllR2cwTkRaZlVGTkZlalZNWkdScGVWRndOM1JSV1VGd2Fra3dNbGxNYWtWcWVEZ3lUVWxZTVdVMGRYSTNkVTk0WjIxTGJHUlpTMjVZT1U5Sk1YUVNGMU5pUVVaaE5rTTNUblJJVkRWT2IxQjBXVTluZVZGM0dpSkJTRTR3UlRkSVIwbzFURkYxU1VwTlpEbEpkR0kwWjFGcGJVMTRaM2hLT1d4bjo3NDJiYzI2ZA",
+   "source": "jsearch",
+   "publisher": "Indeed",
+   "title": "Product Manager-Communications & Security",
+   "company": "Mircom Group of Companies",
+   "location": "Vaughan, ON, Canada",
+   "remote": false,
+   "url": "https://ca.indeed.com/viewjob?jk=6d44432a03a50413",
+   "posted": "2026-11-23T00:00:00+00:00",
+   "salary": "",
+   "description": "Product Manager-Communications & Security Vaughan, ON Founded in 1991, the Mircom Group of Companies is North America's largest independent designer, manufacturer and distributor of intelligent building and life safety solutions. Reaching customers in over 100 countries worldwide, our portfolio includes: fire detection & alarm, communications & security, mass notification, nurse call, and building automation & smart technologies. Mircom's mission is to save lives and protect property by providing a line-up of innovative and advanced solutions which are scalable to satisfy diverse user demands, from small buildings to the largest complexes. Our unwavering commitment to North American manufacturing enables us to offer the highest quality and best competitive value across our vast range of products and solutions. Summary: With a global mandate, the Product Manager - Communications & Security is a subject matter expert who reports to the Director of Product Management. This role owns and drives the strategy, roadmap, lifecycle and commercial performance of Mircom's Communications & Security product portfolio. The Product Manager works closely with Engineering, Sales, Marketing, Operations, customers and technology partners to identify market needs, define product requirements, support new product introductions and strengthen Mircom's position in the security and communications markets. The role is accountable for both the technical and commercial success of the portfolio, including product positioning, competitive analysis, pricing, forecasting, revenue and margin performance, launches, training, lifecycle management and portfolio rationalization. This is a full-time role based out of head office in Vaughan, ON. Key Responsibilities: \u2022 Own the product strategy, vision, roadmap and lifecycle for Mircom's Communications & Security portfolio, including product enhancements, new development, rationalization and end-of-life planning. \u2022 Own portfolio performance and scorecards, including revenue, gross margin, growth trends, pricing, forecast accuracy, inventory, product mix, quality, key wins and losses, and SWOT analysis. \u2022 Develop a strong understanding of security and communications applications, system architectures, customer requirements, channel needs and competitive solutions. \u2022 Identify portfolio gaps and develop business cases for new products, partnerships, integrations and product enhancements. \u2022 Lead New Product Introduction activities from product definition through launch, including positioning, pricing, forecasting, training, sales enablement and launch readiness. \u2022 Work with Engineering and external technology partners to define requirements for hardware, software, firmware, connected systems and integrations. \u2022 Gather and prioritize requirements from customers, prospective customers, Sales, Professional Services and internal subject matter experts, translating insights into product decisions. \u2022 Make recommendations to the executive team regarding product investment, pricing, market positioning, promotion and portfolio priorities. \u2022 Monitor competitor offerings, market trends and emerging technologies, and convert findings into actionable product and commercial recommendations. \u2022 Develop application-focused positioning, competitive tools, product documentation and training that clearly communicate Mircom's value proposition. \u2022 Support Sales on strategic opportunities, specifications, bids, quotations, customer presentations and product conversions requiring portfolio or application expertise. \u2022 Manage third-party and partner products, including product selection, commercial positioning, forecasting, supply continuity and lifecycle decisions. \u2022 Perform system inquiries, data mining and product analysis using D365, Power BI and other business systems. \u2022 Respond to customer and internal inquiries related to approvals, variations, pricing, cost, model numbers, product availability and application requirements. \u2022 Represent P"
+  },
+  {
+   "id": "jsearch:azc1N252SW5SQ3YtNlpYQ0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbTF0UjNKcU9VbE1NRXc1VVc5Q1dYUlViM1ZYUldjMVNXTmxjSE0yV0dVdExVRm5ZVzQwUjFoeGJYWmFOVlpvVEVOaFZVbDBWVmt6UkVOM2NXMVhiMlJLWlZOMFIzaGtZMmN4U1dOU0xVMHdaR2Q1YVZKcVdrbE1RbXR4TldKNlVreHBWRFJtYkVsTlptRldiVmhyTVdab2IxQk5UV1prT1hKUWVrTldjMWR4V1ZFMVYzb1NGMVpNUVVaaE9ETndSemxsY2pCUVJWQm9PVWg0YjBGM0dpSkJTRTR3UlRkR2NYaHdVbDlEV0VaV2JuTmFXVUUxWW5ZMExYbDNZbEpSZW1KUjo5N2QwNWFiZA",
+   "source": "jsearch",
+   "publisher": "Jobgether",
+   "title": "Senior Product Manager - Autopilot Growth",
+   "company": "Pennylane",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://jobgether.com/offer/6b045c3f1870ab7f4cbab84f-senior-product-manager---autopilot-growth",
+   "posted": "2026-11-23T00:00:00+00:00",
+   "salary": "",
+   "description": "This a Full Remote job, the offer is available from: Europe, European Union, EMEA, Spain, Germany, France Are you looking to have an impact on the daily life of millions of entrepreneurs in France (and tomorrow in Europe)? Are you looking for a work environment that values trust, proactivity, and autonomy? Are our Product Principles aligned with your vision? Then Pennylane is the right place for you ! Our vision We aim to become the most beloved financial Operating System of French SMEs and Accounting Firms (and soon, European ones). We help entrepreneurs rid themselves of time-consuming tasks related to accounting and finance while providing them with access to key financial information to assist in making the best decisions for their business. About us Pennylane is one of the fastest growing Fintechs in France (and soon to be in Europe!) In almost 7 years of existence, we\u2019ve managed to : \ud83d\udcbb Make ourselves known as a groundbreaking accounting and financial software for small businesses and their accountants \ud83d\udcb0 Raise a total of \u20ac225 millions, including from Sequoia, the famous fund from the Silicon Valley who invested early in companies like Google, Facebook, Airbnb, Stripe, Paypal and much more... \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Grow from 7 cofounders to 1300+ happy Pennylaners : we\u2019re now recognized as one of the greatest places to work in France (and also remotely), with a 4.6/5 rating on Glassdoor. \ud83c\udf0d Build an international environment with more than 25 nationalities, with a strong remote-friendly culture, where 30% of the employees are already working from all parts of Europe \ud83e\udd1d Earn the trust of thousands of customers and accounting firms and obtain outstanding ratings \ud83d\ude80 Already more than 750,000 small and medium-sized enterprises (SMEs) and over 4,500 accounting firms use Pennylane in France! WHY this position is of utmost importance to reach our mission Autopilot is Pennylane\u2019s AI add-on for accounting firms, designed to automate bookkeeping and move accountants from execution to supervision\u2014with a clear ambition: a 1-click VAT return. The value is already there, but adoption remains limited. Firms need to see the time saved, understand what Autopilot does and feel in control before switching it on for their clients. In 2027, Autopilot will become a paid add-on in France and Germany. The challenge is no longer only to build a powerful product, but to activate it at scale, prove its value and turn adoption into revenue. As the first PM of the new Autopilot Growth squad, you will play a central role in making that happen. You will help hundreds of thousands of companies adopt Autopilot, connect firms to the value it already delivers and shape Pennylane\u2019s AI monetization strategy. HOW you will contribute to the company as a Product Manager As a Senior Product Manager, you will join a 100+ person Product organization, working with 300+ engineers to make Autopilot the default way firms run their bookkeeping. You will: \u2022 Understand what drives adoption. Talk to firm owners and accountants, analyse product data with SQL, Amplitude and Metabase, and identify where firms hesitate to activate Autopilot. \u2022 Turn insights into measurable growth. Define clear hypotheses, metrics and stop criteria, then run B2B experiments through holdouts, cohort analysis and staged rollouts. \u2022 Own the growth strategy. Set your OKRs, shape the roadmap and focus the squad on the initiatives that drive activation, trust, usage and revenue. \u2022 Build with a cross-functional squad. Partner closely with a Product Designer, Engineering Manager and product-focused engineers, starting with MVPs and iterating based on what you learn. \u2022 Work across the ecosystem. Collaborate with the squads building Bookkeeping and Autopilot, as well as Data, Product Marketing, Pricing, Sales, Customer Success and Account Management. \u2022 Scale adoption beyond the product. Design in-product and lifecycle experiences that help firms self-serve, while providing commercial teams with the signals they need to su"
+  },
+  {
+   "id": "jsearch:S3RQWkJ2NDRjN1h3MkRpc0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZWGhQVkhKTE5IbGxWRXB6U25sak5EUmxhRGszT1VveWFIZFZMVmszUzBSNmFVRkNValpQWkhSc01HUmZURFk1VmpKSWVWZE5jekZxYjNwblVXaE5SSEJ6TXpFeGVWRjVjWEZtU0dSNmEyUnZabFIyVms5b1FUQXplalkyVFVkSFNWQnJkRGxzTkVWUVYya3dRV2hxYm0xaFpUUlhOR3RNWDNKM05URnpkVFpQWW0xc2JIVVNGMU5pUVVaaE5rTTNUblJJVkRWT2IxQjBXVTluZVZGM0dpSkJTRTR3UlRkSWN6UkdkblkwZW1obVYwRndjVzVJY1d0cVFYWjNTMXBOVFRobjpiOTdkYjBiOQ",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Product Manager Banking & Financial Services",
+   "company": "Astra North Infoteck Inc.",
+   "location": "Toronto, ON  (+1 other)",
+   "remote": false,
+   "url": "https://ca.talent.com/view?id=643707413662343143",
+   "posted": "2026-11-22T00:00:00+00:00",
+   "salary": "",
+   "description": "Product Manager Location: Toronto ON Hybrid (Minimum 2 Days WFO) WHAT IS THE OPPORTUNITY The Product Management function includes the following responsibilities: \u2022 Develops manages and owns products and programs that support corporate-defined strategies and initiatives and contribute to the organizations competitive edge in the marketplace. \u2022 Creates new products to increase market share. \u2022 Develops and enhances strategic products to meet profitability goals. \u2022 Provides direction and support relative to product design enhancement research pricing/fees/profitability implementation analysis reporting and performance. Product Management is an ongoing cycle. It begins with analysis of needs and opportunities leading to product development. Once the product is developed colleagues must be trained policies and procedures developed pricing and positioning established and marketing materials created. Subsequently product tracking occurs followed by analysis and recommendations to enhance the product to provide better service to clients or to be more competitive in the marketplace. Product Management coordinates and manages the formulation and implementation of all activities for a specific product or product line from conception to marketplace; performs economic and market research and analysis; provides product documentation and training; and serves as a technical advisor on matters concerning the designated product and/or product line. WHAT WILL YOU DO \u2022 Manage assigned products/product lines. \u2022 Identify evaluate and implement measures to improve product performance profitability competitiveness and accountability. \u2022 Identify evaluate and implement opportunities/needs for product enhancement and development. These opportunities may be identified through: \u2022 Regular market and competitor analysis. \u2022 Solutions developed as a result of client needs. \u2022 Suggestions from business units or product review committees. \u2022 Initiatives that meet specific organizational goals or target new client segments. \u2022 Prepare reports and analyses on assigned products/product lines and present them to management regularly. Reports may focus on market or competitive issues economic and risk factors pricing product strategy profitability etc. \u2022 Keep up to date on competition regulation marketplace and internal and external issues related to assigned products. \u2022 Develop information materials on product features benefits requirements pricing and services and prepare and execute training seminars as needed. \u2022 Review product pricing annually for all assigned products. Make recommendations and implement changes including disclosure training and colleague communication. \u2022 Monitor development activities relating to product objectives budget quality standards and schedule. \u2022 Recommend and implement programs to minimize costs ensure optimum output and maintain quality. Advise on technical problems priorities and methods. \u2022 Participate in product evaluation and provide recommendations for changes and revisions as required. \u2022 Serve as a product expert providing guidance on sales product positioning and operational support for technical product issues. \u2022 Manage the Product Management portion of acquisition conversions including product mapping order checks product analysis/comparisons package support and related activities. \u2022 Represent the organization by participating in civic and community affairs business and industry-related organizations and other professional activities as appropriate. \u2022 Foster and maintain good relationships with colleagues to ensure integrated processes and expected customer service levels. Act as a business partner by managing expectations and providing guidance regarding assigned products. \u2022 Maintain current awareness and understanding of applicable laws regulations internal policies and procedures and comply fully with them. WHAT DO YOU NEED TO SUCCEED Required Qualifications \u2022 Minimum 3 years of product management experience. \u2022 Minimum 3 years"
+  },
+  {
+   "id": "jsearch:cWJ3WUxDVWFtYWxOekIzdkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZbUkxYzFac01ubDRTVU5uTTFCMmRGTnpXbk0zUTJOSFIyRkhPV05hWVVKWVNrMXBPRWxrUzJsNlkxTkZORmM0UkcwMlEwcFdPRzlmVWtsS2VqWkNiall6V1dSRllYUjBlVzl5ZG1KR2RtSklTazk1YTFaRlprUlROVzFyYmxabk9VdFJkMUZIUlhNM09GbDNWVzFtYVdaSmNUTm9SMUpxYlVodU9WWmxZbE5PTnprMlltMFNGMVpNUVVaaE9ETndSemxsY2pCUVJWQm9PVWg0YjBGM0dpSkJTRTR3UlRkRkxVZE9URXN3Y0d0eGRsODBVMXA0YlhVMU5HeEdTalJHUkhoMzowYzJjZWFjNw",
+   "source": "jsearch",
+   "publisher": "JobLeads",
+   "title": "Senior Product Manager",
+   "company": "Strategic Advantage",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.jobleads.com/us/job/senior-product-manager--springfield--e3e9813d2660d5cfe9bb8288591a0b2f0",
+   "posted": "2026-11-22T00:00:00+00:00",
+   "salary": "90K\u2013134K a year",
+   "description": "A Senior Product Manager here translates Strategic Advantage's ambitions in MA into milestones a team can actually hit by Friday. If 6 years of Pricing Strategy sits behind you, Strategic Advantage offers $90,000 - $134,000, a remote setup, and a ladder worth climbing. Key Responsibilities \u2022 Translate Strategic Advantage goals into quarterly roadmaps the business team can actually ship \u2022 Streamline operational workflows to reduce cost and improve efficiency \u2022 Lead due diligence on acquisition and investment opportunities \u2022 Trace a complaint pattern back to the process that breeds it \u2022 Facilitate cross-departmental projects from kickoff through delivery \u2022 Keep Springfield expansion on schedule when half the plan changes weekly What You'll Bring \u2022 Hands-on business experience that holds up to follow-up questions \u2022 Collaboration fundamentals plus the Networking polish clients notice \u2022 8+ years putting Collaboration to work in a business setting \u2022 8+ years of Cross-functional Leadership reps, not just Cross-functional Leadership exposure \u2022 A portfolio or work samples that demonstrate your business expertise \u2022 Strong rapport-building skills and a genuinely positive presence At Strategic Advantage, a quick-to-ship Springfield-based studio, the whole mission boils down to making Networking feel effortless for everyone downstream. Our team in MA keeps a running list of what we'd do differently, and we actually act on it. Expect $90,000 - $134,000, yes, but also expect the kind of benefits and remote flexibility that make Mondays in Springfield feel lighter. Updated on the spot, the Strategic Advantage hiring team is reviewing in real time."
+  },
+  {
+   "id": "jsearch:eHBQaUxWaVZLT3NHNWk1LUFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVTFZTUVFeGNrOU5NMjh5VldOclZXaE9UV3B6U0ZCbFR6aFNWWHBVZW1RNGVXMVNkMHRFYkZNMFYxbDRXamg0VlVwTmJGY3pSM0JKWkdKME1HZG5ZVkozY0VwVVJteGxaSHBpWHpGbWRrNXRZM0paWVdKek0waHpUR2RJYURJMWVXeHRhVkZrWm1keGRtSTFkVVJ1VFhCa1RGQXpNRmM1YW10d2ExbHJORXh6WTFwelJtVVNGMVpNUVVaaE9ETndSemxsY2pCUVJWQm9PVWg0YjBGM0dpSkJTRTR3UlRkRllsUkNXRGRvVWw5eGJFZEdUbGszU25RMlpGSlpSM3AyUm5kMzphMzY1YWVjNQ",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "D-SNP Sr. Product Manager - Remote",
+   "company": "divvyDOSE",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.talent.com/view?id=647364357864958753",
+   "posted": "2026-11-22T00:00:00+00:00",
+   "salary": "113K\u2013193K a year",
+   "description": "Sr Product Manager, D-SNP At UnitedHealthcare, we're simplifying the health care experience, creating healthier communities and removing barriers to quality care. The work you do here impacts the lives of millions of people for the better. Come build the health care system of tomorrow, making it more responsive, affordable and optimized. Ready to make a difference? Join us to start Caring. Connecting. Growing together. The Sr Product Manager, D-SNP serves as the national subject matter expert on D-SNP requirements, SMAC obligations, and Medicare-Medicaid integration standards. He/She leads the end-to-end SMAC draft review process across the enterprise's state contracts, working closely with functional partners to interpret regulatory and contractual requirements and translate them into clear product, operational, technology, and compliance requirements. The Sr Product Manager partners with Compliance, Legal, Government Affairs, Operations, Technology, clinical teams, and market leaders to support consistent execution and maintain visibility into SMAC obligations and risks across the organization. The Sr Product Manager should be comfortable interpreting regulatory guidance, applying structured review and documentation practices, and coordinating across multiple teams to keep work moving. You'll enjoy the flexibility to work remotely from anywhere within the U.S. as you take on some tough challenges. For all hires in the Minneapolis or Washington, D.C. area, you will be required to work in the office a minimum of four days per week. Primary Responsibilities: \u2022 Serve as the national product subject matter expert for D-SNP requirements, SMAC obligations, and Medicare-Medicaid integration standards \u2022 Lead the end-to-end SMAC draft review process across 42 state contracts, coordinating functional review, resolving issues, documenting decisions, and supporting readiness for signature \u2022 Interpret federal regulations, state contract provisions, and regulatory guidance; translate them into actionable product, operational, technology, and compliance requirements \u2022 Establish consistent review standards, decision frameworks, documentation practices, and governance processes for SMAC requirements \u2022 Partner with Compliance, Legal, Government Affairs, Operations, Technology, clinical teams, and market leaders to assess impacts, assign ownership, and support implementation of SMAC \u2022 Maintain an enterprise view of SMAC obligations, implementation status, risks, dependencies, and emerging requirements \u2022 Support ongoing compliance monitoring, issue remediation, audit readiness, and corrective action activities related to D-SNP and SMAC requirements \u2022 Support the business management and continuous improvement of AI-enabled solutions for SMAC contract analysis, obligation identification, workflow management, and compliance monitoring \u2022 Develop D-SNP education, reference materials, and presentations for stakeholders outside the product organization \u2022 Provide clear recommendations to leaders and escalate material risks, unresolved decisions, or implementation barriers \u2022 Ensure product decisions reflect member needs, organizational strategy, operational feasibility, and applicable federal and state expectations You'll be rewarded and recognized for your performance in an environment that will challenge you and give you clear direction on what it takes to succeed in your role as well as provide development for other roles you may be interested in. Required Qualifications: \u2022 Bachelor's degree or equivalent professional experience \u2022 5+ years of experience in Medicare Advantage, Medicaid managed care, D-SNP product management, health plan compliance, regulatory affairs, or a related field \u2022 Experience interpreting complex regulatory or contractual requirements and converting them into executable business requirements \u2022 Demonstrated knowledge of D-SNP requirements, SMACs, and Medicare-Medicaid program integration \u2022 Proven ability to support and help lead "
+  },
+  {
+   "id": "jsearch:UV9ZWTdUMy1kUVZlM1ZBdkFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxZakF5T0RaR2NFZGlPV0Z5VW10Q2NYVjBaRzlyVGkwd1pYVjFjalpWUlZka2FEUjRNakZEZGw5eGJFcERhMUptZURCS2FGaGZORE51WVVoNk5tVmFhVWhQU0ZkdGJISkxVbm96VUdOd2FVTm1TMUJCYVV0VVoyMHRlVVpWZDNob2VXTjBUWE5KYUZvMFpXaHdiMmhZTXpaak5uWmZOV0ZYUm5WVGNFVjRXVGt5ZUU1MFgxTVNGMVpNUVVaaE9ETndSemxsY2pCUVJWQm9PVWg0YjBGM0dpSkJTRTR3UlRkSFZtRnFiR0ZQVnpCb1NVOTBWM2hWTWw5T1JrMXFWR0puYnpkMzoyNjcwODRlNQ",
+   "source": "jsearch",
+   "publisher": "Remote Rocketship",
+   "title": "Senior Product Manager \u2013 Medical Inquiry",
+   "company": "Veeva Systems",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.remoterocketship.com/ca/company/veeva-systems/jobs/senior-product-manager-medical-inquiry-canada-remote/",
+   "posted": "2026-11-22T00:00:00+00:00",
+   "salary": "",
+   "description": "Job Description: \u2022 Design, prototype, define, configure Veeva MedInquiry and rapidly validate solutions \u2022 Design, implement, and iterate product capabilities \u2022 Author and design high-quality specifications and communicate actionable requirements to engineering \u2022 Create and manage the roadmap for the product area \u2022 Monitor Medical Information software and Life Sciences industry trends and distill them into product requirements \u2022 Collaborate with Engineering, QA, Product Management, customers, sales, and consulting \u2022 Build solutions that harmonize across Veeva applications \u2022 Build, launch, and grow capabilities for Veeva MedInquiry \u2022 Construct product definitions, solution maps, roadmaps, and detailed product specifications Requirements: \u2022 8+ years of progressive experience in product management \u2022 Experience with case management and customer service intake channels \u2022 Exceptional verbal and written communication skills \u2022 Demonstrated expertise in design, product development, and strategic planning \u2022 Experience in researching and understanding customer and market requirements to develop short and long-term product roadmaps and plans \u2022 Experience writing detailed user stories and managing a story backlog \u2022 Ability to understand and communicate architectural requirements, preferences, and limitations \u2022 Track record of effectively collaborating with engineering/QA to define, design and deliver the product \u2022 Experience with data modeling (ERDs) and Lucidchart \u2022 Ability to work independently in a fast-paced environment and comfortable with ambiguity \u2022 Bachelor\u2019s degree in engineering, computer science, or a related discipline \u2022 Must be based in a region in the Eastern Standard Time zone \u2022 Qualified candidates must be legally authorized to work in the USA or Canada Benefits: \u2022 Medical, dental, vision, and basic life insurance \u2022 PTO and company-paid holidays \u2022 Retirement programs \u2022 1% charitable giving program \u2022 Work from home or in the office flexibility"
+  },
+  {
+   "id": "jsearch:Z3NMaHR1NHhoZXZpR2NxT0FBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVTgyWVU4MkxXZHpaR3hvZW5GYVdrUk9UWFJKZGtZMlZXczNVVGcwYjBwRU1WaElYMDFaY1U5b2IyeFhWVXRJUW1OemMxVnRlblpyTUUxMVVUTTBVazA0YkU5eFlsRkVRbmhTTURaVVl6UjNPRTkzTkRKSGVGSkRjMFJHTFhneVZXMXpSemROV0dwdVdGZzRVM0ZPWkZwSmNIaFZibWN0YlROUWVFNTFSR1Z1UlRSYVJrd1NGMVpNUVVaaE9ETndSemxsY2pCUVJWQm9PVWg0YjBGM0dpSkJTRTR3UlRkSVVYaDFPVFZHVDI5WE5XcGxPVXhyWnpOUVozZEVjRkp2U0hoQjo2MGYwMjM1Yw",
+   "source": "jsearch",
+   "publisher": "Talent.com",
+   "title": "Remote Senior Product Manager, Verified Audience",
+   "company": "Prove",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.talent.com/view?id=647261771915986292",
+   "posted": "2026-11-22T00:00:00+00:00",
+   "salary": "",
+   "description": "About Prove As the world moves to a mobile-first economy, businesses need to modernize how they acquire, engage with and enable consumers. Prove\u2019s phone-centric identity tokenization and passive cryptographic authentication solutions reduce friction, enhance security and privacy across all digital channels, and accelerate revenues while reducing operating expenses and fraud losses. Over 1,000 enterprise customers use Prove\u2019s platform to process 20 billion customer requests annually across industries, including banking, lending, healthcare, gaming, crypto, e-commerce, marketplaces, and payments. For the latest updates from Prove, follow us on LinkedIn. Prove is driving the future of digital identity. We are looking for Provers who know how to make an impact. We\u2019re talking self-starting professionals who thrive in a fast-paced environment, process information quickly, and make intelligent decisions. The work is challenging and requires not only smart but natural curiosity and tenacity. Teamwork is also important to us \u2013 we work together and play together. Prove has big plans, and we\u2019re excited about the future. If this sounds like the place for you \u2013 come join our team! Senior Product Manager, Verified Audience Department: Product Reports To: General Manager, Grow Products Location: New York, NY (hybrid; open to remote in the US) About the Role As the Senior Product Manager for Verified Audience, you will own one of Prove's newest product lines, from early revenue to scale. Verified Audience lets lenders and merchants recognize a real, verified consumer the moment they arrive on a website, without asking them to log in or fill out a form, and make them a personalized offer in real time. The first use case is firm offers of credit: a consumer browsing a credit card page sees that they are pre-approved, instead of a generic \"Apply now\" button. The product sits where identity, credit and marketing meet. It is delivered with a major credit bureau partner and is bought from customers' marketing and acquisition budgets rather than their fraud or identity budgets. You will define the roadmap, run the product side of our partnerships, and prove to customers that the product drives measurable conversion lift. You will work closely with Engineering, Data Science, Legal, Compliance, Privacy, Business Development, Sales and Marketing, and with Prove's executive team, since Verified Audience is a company-level priority. Key Responsibilities \u2022 Own the Verified Audience strategy, roadmap and requirements end to end, from matching an anonymous visitor to a verified identity through to the real-time offer the consumer sees. \u2022 Run the product side of our credit bureau partnership and other data and channel partners, including joint requirements, integration plans, launch readiness and performance reviews. \u2022 Move early customers from beta to production, and define the metrics that show the product's value, such as pre-approval rate, conversion lift and revenue per verified visitor. \u2022 Set pricing and packaging with Finance and Sales for a product sold into marketing and acquisition budgets. \u2022 Expand the product beyond credit cards into personal lending, buy now pay later and merchant financing, and evaluate adjacent channels such as programmatic audiences and identity graph partners. \u2022 Partner with Legal, Compliance, Privacy and Information Security so the product meets FCRA, GLBA, mobile carrier and consumer privacy requirements. \u2022 Create the product documentation that doesn't exist yet: architecture, data flows, partner and carrier approval requirements, and customer-facing integration guides. \u2022 Work with Engineering and Data Science to manage the backlog, write clear requirements, and deliver on time. \u2022 Communicate strategy and progress to executives, and set realistic expectations with internal stakeholders and partners. Qualifications and Experience \u2022 6+ years of product management, including at least 2 years owning a B2B or B2B2C product from"
+  },
+  {
+   "id": "jsearch:Z0xTbm1SR0JjRWFhRnBpVEFBQUFBQT09OkVzd0JDb3dCUVVSRVlsZGxXVzVmVm1KemJFRjZVa294YmpCSU9HWXlRbkJZZFZWNFVHOUxlUzFTVUZaeFNGcEZTSE5DYUdwV1FtOUlaa3MxUTJ3MGVuTmlUREUzTVZvMWEzSlBhMGxUYjNsbVpuWXpNME5PVGpKcmFtMXhkbFpTUkVkbWEwWlZURTEwV1c1NllXSm9YMHh3V25Sa01uTkpRVFV0YkRsSVdVWkRSbWN4ZWtkWmVVTkVZamhPTTJwU2QzUVNGMVpNUVVaaE9ETndSemxsY2pCUVJWQm9PVWg0YjBGM0dpSkJTRTR3UlRkSGNITkVjbEExYldabFIzUTJjMVJ6ZFhkT1VURllXVkJHVlhGUjphMmM3MDlkMQ",
+   "source": "jsearch",
+   "publisher": "ZipRecruiter",
+   "title": "Senior Product Manager, AI & Agents",
+   "company": "Cloaked",
+   "location": "Anywhere (Remote)",
+   "remote": true,
+   "url": "https://www.ziprecruiter.com/c/cloaked/Job/Senior-Product-Manager,-AI-&-Agents/-in-New-York,NY?jid=daf87d06ec86e8b3",
+   "posted": "2026-11-21T00:00:00+00:00",
+   "salary": "200K\u2013250K a year",
+   "description": "About Cloaked Cloaked is a privacy startup dedicated to rebuilding consumer trust in how personal data is used. Nearly a million paying members use Cloaked to take back control of their data, their identity, and who can reach them. That covers masked emails, phone numbers, and payment cards, data removal from broker sites, and an AI voice agent that screens calls before they ring through. We've protected tens of millions of identities, screened hundreds of millions of calls, and removed billions of records from data brokers. Backed by a $375M Series B. About the Role This role is a Senior Product Manager on the Agents and Automation team. Our members trust us with high-stakes tasks involving their most sensitive information. We build personalized AI that connects to their inbox, their incoming calls, and the apps they use, spots what needs attention, and handles it in the background: removing their data, screening spam, and acting on their behalf, all while ensuring they stay in control the whole way. You'll own the systems and experiences behind that work: what it can do, how well it does it, how it knows what to do, all the surfaces it protects, and how members come to trust it enough to let us do more. We're looking for people who find problems and solve them. You'll find where things break for members, own each problem until it's fixed, and make sure it stays fixed. What will you do? \u2022 Find the problems yourself: talk to members, dig into reports, chat transcripts, and data to see where the AI falls short \u2022 Own each outcome to the finish: prove it's fixed and leave monitors so we know if it breaks. Don't stop at filing a ticket \u2022 Lead engineers and designers through the work and clear their blockers \u2022 Own how Cloaked's AI acts for members: what they can ask it to do, the work it takes on, how it feels to use, and how members see what was done, with proof, so they trust it with more \u2022 Build evaluations that ensure the quality, safety, and consistency of what our systems do for members \u2022 Decide which jobs we take on next, and which we don't, with a sharp point of view on how they get done and where they go wrong \u2022 Measure it like a product: task success, how often a person steps in, repeat use, cost per run, and the effect on retention and revenue per member. Then push those numbers and make the case for where we invest next \u2022 Prototype new flows yourself with AI tools before asking for engineering time \u2022 Communicate progress, challenges, and timelines to internal and external stakeholders What skills and experiences will help you? \u2022 5+ years in product, with consumer products you owned end to end \u2022 You've shipped AI or automation features to real users and dealt with what happens when they fail \u2022 You can make something technical feel simple for consumers \u2022 You understand how AI agents use tools and act for people, and you know how to judge when an AI product is good enough to ship \u2022 You can name metrics you moved, how you moved them, and the data that proved it \u2022 Data skills: comfortable with SQL, and able to identify, interpret, visualize, and improve metrics that drive business goals \u2022 You're technical. You can read code and hold your own in a design review \u2022 You build with AI tools like Claude Code, Codex, or Cursor, and you can show us something you built \u2022 Plus points for privacy, security, identity, or AI safety and governance \u2022 Plus points for eval experience, especially for multi-step agent behavior and non-deterministic outcomes outside of simple LLM outputs \u2022 Plus points for using agents in your free time What do we like? \u2022 A get-it-done mindset. You don't wait to be asked to solve problems. We are driven to create solutions and resolve problems in a fast-paced environment \u2022 Comfort working with various teams across the org to determine the best solution \u2022 Passion for security and internet ethics with a commitment to service leadership \u2022 Startup or growth-stage company experience \u2022 Interest in data and analytics \u2022"
+  }
+ ]
+}
